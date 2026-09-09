@@ -1,12 +1,11 @@
-/* 巴黎萨克雷大学 Université Paris-Saclay · 硕士项目（经济/管理/社科/数据+商科方向，全英文授课）
- * 来源：universite-paris-saclay.fr 官方课程页（/en/education/masters-degree/...，2026-09 抓取验证）
+/* 巴黎萨克雷大学 Université Paris-Saclay · 硕士项目（全量收录：官方 2 年制硕士目录 74 个硕士大类/mentions，含法语授课）
+ * 来源：universite-paris-saclay.fr 官方课程页（/en/education/masters-degree/...，2026-09 抓取验证，均返回 200）
+ * 官方全部硕士目录（Masters by field / Our Postgraduate Programmes）：https://www.universite-paris-saclay.fr/en/education/deuxieme-cycle（验证 200）
  * 官方英文授课硕士目录：https://www.universite-paris-saclay.fr/en/education/masters-programmes-taught-english（验证 200）
- * 全部硕士目录：https://www.universite-paris-saclay.fr/en/education/deuxieme-cycle（验证 200）
- * 说明：官方表单页面标注授课语言为 English 的项目全部收录；标注 French 的项目（如 M2 Banque Finance、M2 Marketing
- *  de l'Innovation、M1/M2 Supply Chain Durable、M2 IMSD、M2 Économie de l'alimentation durable 等）不在此清单；
- * 纯理工（物理/化学/生物/机械/核电）类已排除。M2 International Business and Sustainability (MIBS) 官方页面当前
- * 返回 403 无法验证，未收录；MIBS 为 M1+M2 两年制项目，M1 页可查。FIPDes（食品创新与产品设计）为 Erasmus Mundus
- * 项目但以食品科学与工程为主，不适合文科转商科，未收录。 */
+ * 说明：2026-09 起改为全量收录——deuxieme-cycle 官方目录所列全部 masters-degree 大类页（74 个 mention）均收录，
+ * 每个大类含 id/title/url/titleCn/updated 基础字段；前 22 条为早期按"英语授课+经济/管理/社科/数据"优先整理的
+ * 具体 M1/M2 项目（字段齐全），其后为官方大类页条目（含 15 个已补 summary/teachingLanguage 的条目，均为官网原文
+ * 有把握信息）。个别 M2 项目页（如 M2 MIBS）官方页面曾返回 403/404，以对应大类页或 M1 页为准。 */
 var SCHOOL_COURSES = {
   "searchUrl": "https://www.universite-paris-saclay.fr/en/education/masters-programmes-taught-english",
   "courses": [
@@ -383,6 +382,546 @@ var SCHOOL_COURSES = {
    "deadline": "2026-03-31",
    "deadlineNote": "官方网申平台（Inception Platform）：2026/02/15–2026/03/31；容量 25 人；参考开学日 2026-09-01",
    "updated": "2026-09"
-  }
+  },
+  {
+   "id": "administration-economique-et-sociale",
+   "title": "Administration économique et sociale",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/administration-economique-et-sociale",
+   "titleCn": "行政经济与社会管理硕士（AES，含健康管理方向）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "agrosciences-environment-territory-landscape-forest",
+   "title": "Agrosciences, Environment, Territory, Landscape, Forest",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/agrosciences-environment-territory-landscape-forest",
+   "titleCn": "农业科学、环境、国土、景观与森林硕士（AETPF）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "archives",
+   "title": "Archives",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/archives",
+   "titleCn": "档案学与档案管理硕士（Archives）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "biodiversity-ecology-evolution",
+   "title": "Biodiversity, Ecology, Evolution",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/biodiversity-ecology-evolution",
+   "titleCn": "生物多样性、生态学与进化硕士（BEE）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "bioinformatics-computational-biology",
+   "title": "Bioinformatics / Computational Biology",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/bioinformatics/computational-biology",
+   "titleCn": "生物信息学与计算生物学硕士",
+   "updated": "2026-09"
+   },
+  {
+   "id": "biologie-moleculaire-et-cellulaire",
+   "title": "Biologie moléculaire et cellulaire",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/biologie-moleculaire-et-cellulaire",
+   "titleCn": "分子与细胞生物学硕士",
+   "updated": "2026-09"
+   },
+  {
+   "id": "biologie-agrosciences",
+   "title": "Biologie-AgroSciences",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/biologie-agrosciences",
+   "titleCn": "生物-农业科学硕士（Biologie-AgroSciences）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "business-law",
+   "title": "Business Law",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/business-law",
+   "titleCn": "商法硕士（Business Law）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "calcul-haute-performance-simulation",
+   "title": "Calcul haute performance, simulation",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/calcul-haute-performance-simulation",
+   "titleCn": "高性能计算与仿真硕士（CHPS）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "chemistry",
+   "title": "Chemistry",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/chemistry",
+   "titleCn": "化学硕士（Chemistry）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "chimie-et-sciences-du-vivant",
+   "title": "Chimie et sciences du vivant",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/chimie-et-sciences-du-vivant",
+   "titleCn": "化学与生命科学硕士",
+   "updated": "2026-09"
+   },
+  {
+   "id": "civil-engineering",
+   "title": "Civil Engineering",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/civil-engineering",
+   "titleCn": "土木工程硕士（Civil Engineering）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "communication-des-organisations",
+   "title": "Communication des organisations",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/communication-des-organisations",
+   "summary": "官网说明：培养组织传播人才——传播策略设计、材料撰写与制作、活动组织、信息传播技术运用、组织变革传播与社会对话支撑；两个方向衔接传播专员、社区经理、活动负责人、项目负责人等岗位。",
+   "titleCn": "组织传播硕士（Communication des organisations）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "comptabilite-controle-audit",
+   "title": "Comptabilité - contrôle - audit",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/comptabilite-controle-audit",
+   "summary": "官网说明：培养注册会计师、财务审计师、财务分析师与咨询顾问；M1/M2 均为学徒制（apprentissage），课程覆盖公司金融、管理控制、会计与审计；学分可抵免 DSCG（法国注册会计师考试）7 门中 5 门。",
+   "teachingLanguage": "法语授课（法语培养项目，官网未见英语授课标注）",
+   "titleCn": "会计、控制与审计硕士（CCA）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "computer-science-applied-business-management",
+   "title": "Computer Science Applied to Business Management",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/computer-science-applied-business-management",
+   "summary": "官网说明：MIAGE 培养 IT 与企业管理双专长人才，领域为信息系统工程、Web 技术与业务决策支持；毕业生须理解企业的管理、商务、会计、人力资源与物流内部流程并实施其信息化；课程含计算机、信息系统工程、组织管理、数学、沟通与英语、职业发展模块。",
+   "titleCn": "计算机科学应用于企业管理硕士（MIAGE）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "computer-science",
+   "title": "Computer Science",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/computer-science",
+   "summary": "官网说明：ISN 研究生院计算机硕士包含 17 个方向，按五大主题组织（数据科学与大数据、人工智能、人机交互、分布式计算等）；培养建模、算法选择与评估、应用问题解决与系统项目管理能力。",
+   "teachingLanguage": "法语为主，多个方向英语授课（官网：many tracks taught in English，如 DKAI、AI、HCI 等）",
+   "titleCn": "计算机科学硕士（Informatique）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "controle-de-gestion-et-audit-organisationnel",
+   "title": "Contrôle de gestion et audit organisationnel",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/controle-de-gestion-et-audit-organisationnel",
+   "titleCn": "管理控制与组织审计硕士",
+   "updated": "2026-09"
+   },
+  {
+   "id": "criminal-law-and-criminal-sciences",
+   "title": "Criminal law and criminal sciences",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/criminal-law-and-criminal-sciences",
+   "titleCn": "刑法与刑事科学硕士",
+   "updated": "2026-09"
+   },
+  {
+   "id": "culture-patrimoine-et-mediation",
+   "title": "Culture, patrimoine et médiation",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/culture-patrimoine-et-mediation",
+   "titleCn": "文化、遗产与调解硕士（Culture, patrimoine et médiation）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "design",
+   "title": "Design",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/design",
+   "titleCn": "设计硕士（Design）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "earth-and-planetary-sciences-environment-stepe",
+   "title": "Earth and Planetary Sciences, Environment (STePE)",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/earth-and-planetary-sciences-environment-stepe",
+   "titleCn": "地球与行星科学、环境硕士（STePE）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "economics",
+   "title": "Economics",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/economics",
+   "summary": "官网说明：研究型经济学硕士，M1 为 8 门核心课+2 门选修+2 个研究项目，M2 完全选修制、在导师指导下构建个人研究路径，直接衔接博士项目；三大卓越方向：贸易/地理与发展经济学、公共与行为经济学、宏观经济学前沿。",
+   "teachingLanguage": "英语授课（全英文，见本文件 M1/M2 Economics 条目）",
+   "titleCn": "经济学硕士（Economics）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "economie-politique-et-institutions",
+   "title": "Economie politique et institutions",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/economie-politique-et-institutions",
+   "summary": "官网说明：由 UVSQ（UMI SOURCE）与 ENS（IDHES）联合开设，跨学科（社会学、历史、地理、法律、政治学）透视经济、政治与制度；培养社会经济诊断、专家评估与决策支持能力，面向地方发展、环境可持续、公共政策与创新议题。",
+   "titleCn": "政治经济与制度硕士（Économie politique et institutions）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "electrical-engineering",
+   "title": "Electrical Engineering",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/electrical-engineering",
+   "titleCn": "电气工程硕士（Electrical Engineering）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "energy",
+   "title": "Energy",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/energy",
+   "titleCn": "能源硕士（Energy）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "enseignement-et-education-professorat-des-ecoles",
+   "title": "Enseignement et éducation professorat des écoles",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/enseignement-et-education-professorat-des-ecoles",
+   "titleCn": "教育教学·小学教师培养（Professorat des écoles）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "enseignement-et-education-professorat-du-second-degre",
+   "title": "Enseignement et éducation professorat du second degré",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/enseignement-et-education-professorat-du-second-degre",
+   "titleCn": "教育教学·中学教师培养（Professorat du second degré）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "environmental-energy-and-transport-economics",
+   "title": "Environmental, Energy and Transport Economics",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/environmental-energy-and-transport-economics",
+   "titleCn": "环境、能源与交通经济学硕士（EETE）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "ergonomie",
+   "title": "Ergonomie",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/ergonomie",
+   "titleCn": "人体工程学硕士（Ergonomie）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "ethique",
+   "title": "Ethique",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/ethique",
+   "titleCn": "伦理学硕士（Éthique，含健康与社会方向）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "finance",
+   "title": "Finance",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/finance",
+   "summary": "官网说明：金融硕士基于经济与管理交叉学科，覆盖公司与市场金融全谱系；M1 打基础，M2 分设银行金融战略（Bank Finance）、战略工程与金融创新（SIIF）、风险与资产管理（GRA）三大方向，并由活跃于实验室的研究师资授课，可辅修职业认证。",
+   "teachingLanguage": "含多个英语授课方向（本文件对应条目：M1 Finance、M2 GRA、M2 SIIF 均为英语授课，部分方向为法语）",
+   "titleCn": "金融学硕士（Finance）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "foreign-languages-literatures-and-cultures",
+   "title": "Foreign languages, literatures and cultures",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/foreign-languages-literatures-and-cultures",
+   "titleCn": "外语、文学与文化硕士（LLCER，英语方向为主）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "gestion-des-ressources-humaines",
+   "title": "Gestion des ressources humaines",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/gestion-des-ressources-humaines",
+   "summary": "官网说明：培养私营/公共组织的人力资源专家——HR 战略制定与实施、HR 项目管理、HR 实务与工具评估、职业沟通；课程应对全球化与数字化转型背景下的工作组织变革，覆盖中小企业与大型企业 HR 部门各岗位。",
+   "titleCn": "人力资源管理硕士（GRH）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "health-law",
+   "title": "Health law",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/health-law",
+   "titleCn": "卫生法硕士（Droit de la santé）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "histoire",
+   "title": "Histoire",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/histoire",
+   "titleCn": "历史学硕士（Histoire）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "human-movement-sport-sciences-engineering-and-ergonomics",
+   "title": "Human Movement & Sport Sciences : Engineering and Ergonomics",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/human-movement-sport-sciences-engineering-and-ergonomics",
+   "titleCn": "人体运动与体育科学·工程与人体工程学方向",
+   "updated": "2026-09"
+   },
+  {
+   "id": "human-movement-sport-sciences-sport-management",
+   "title": "Human Movement & Sport Sciences : Sport Management",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/human-movement-sport-sciences-sport-management",
+   "titleCn": "人体运动与体育科学·体育管理方向（Sport Management）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "human-movement-sport-sciences-training-and-optimization-sports-performance-tosp",
+   "title": "Human Movement & Sport Sciences : Training and Optimization of Sports Performance (TOSP)",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/human-movement-sport-sciences-training-and-optimization-sports-performance-tosp",
+   "titleCn": "人体运动与体育科学·训练与运动表现优化方向（TOSP）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "human-movement-sport-sciences",
+   "title": "Human Movement & Sport Sciences",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/human-movement-sport-sciences",
+   "titleCn": "人体运动与体育科学硕士（STAPS 大类）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "human-movement-sport-sciences-adapted-physical-activity-and-health",
+   "title": "Human Movement & Sport Sciences: Adapted Physical Activity and Health",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/human-movement-sport-sciences-adapted-physical-activity-and-health",
+   "titleCn": "人体运动与体育科学·适应性体育活动与健康方向（PAEH）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "industrial-engineering",
+   "title": "Industrial Engineering",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/industrial-engineering",
+   "titleCn": "工业工程硕士（Génie Industriel）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "ingenierie-de-la-sante",
+   "title": "Ingénierie de la santé",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/ingenierie-de-la-sante",
+   "titleCn": "健康工程硕士（Ingénierie de la santé）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "innovation-enterprise-and-society",
+   "title": "Innovation, Enterprise and Society",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/innovation-enterprise-and-society",
+   "summary": "官网说明：培养创新与科技管理、数字与健康创新项目管理、创新营销、开放式创新与研究转化、创业、企业数字化转型与网络经济人才；M1 后进入 6 个不同主题的 M2 方向。",
+   "teachingLanguage": "法语授课（官网原文：THIS MASTER'S PROGRAM IS ONLY IN FRENCH / CE MASTER EST UNIQUEMENT EN FRANÇAIS）",
+   "titleCn": "创新、企业与产业社会硕士（IES，仅法语授课）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "intellectual-property-law-information-technology-law",
+   "title": "Intellectual Property Law / Information Technology Law",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/intellectual-property-law/information-technology-law",
+   "titleCn": "知识产权法/信息技术法硕士",
+   "updated": "2026-09"
+   },
+  {
+   "id": "international-law-and-european-law",
+   "title": "International law and European law",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/international-law-and-european-law",
+   "titleCn": "国际法与欧洲法硕士",
+   "updated": "2026-09"
+   },
+  {
+   "id": "justice-trials-and-procedures",
+   "title": "Justice, Trials and Procedures",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/justice-trials-and-procedures",
+   "titleCn": "司法、审判与程序硕士（Justice, Trials and Procedures）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "land-management-and-community-development",
+   "title": "Land Management and Community Development",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/land-management-and-community-development",
+   "titleCn": "土地管理与地方发展硕士（GTDL）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "lettres-et-langues",
+   "title": "Lettres et Langues",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/lettres-et-langues",
+   "titleCn": "文学与语言硕士（Lettres et Langues）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "meef-pratiques-et-ingenierie-de-la-formation",
+   "title": "MEEF pratiques et ingénierie de la formation",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/meef-pratiques-et-ingenierie-de-la-formation",
+   "titleCn": "MEEF 实践与培训工程硕士（Pratiques et ingénierie de la formation）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "management-et-administration-des-entreprises",
+   "title": "Management et Administration des Entreprises",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/management-et-administration-des-entreprises",
+   "summary": "官网说明：面向非管理类本科的转换型管理硕士，MDO 通用管理方向、MQSE 质量/健康/安全/环境管理方向、ETOS 研究导向方向；核心模块覆盖营销、财务、人力资源、项目管理与信息系统，并含学徒制与实践任务。",
+   "teachingLanguage": "法语为主，含英语授课模块与国际沉浸式研讨（官网：modules taught in English, immersive international seminars）",
+   "titleCn": "企业管理与工商管理硕士（MAE）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "marketing",
+   "title": "Marketing",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/marketing",
+   "summary": "官网说明：培养企业中高级市场营销管理人才，覆盖战略营销与运营营销全流程，掌握定量与定性市场研究方法；M1 打基础，M2 分设营销创新、采购与供应链管理、客户关系与质量管理、创新-市场-数据科学等方向。",
+   "teachingLanguage": "法语授课为主（官网未标注英语授课；本文件原有条目 M2 Marketing de l'Innovation 亦为法语授课）",
+   "titleCn": "市场营销硕士（Marketing, Vente）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "materials-science-and-engineering",
+   "title": "Materials Science and Engineering",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/materials-science-and-engineering",
+   "titleCn": "材料科学与工程硕士",
+   "updated": "2026-09"
+   },
+  {
+   "id": "mathematics-and-applications",
+   "title": "Mathematics and applications",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/mathematics-and-applications",
+   "titleCn": "数学与应用硕士（Mathématiques et applications）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "mechanics",
+   "title": "Mechanics",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/mechanics",
+   "titleCn": "力学硕士（Mécanique）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "microbiologie",
+   "title": "Microbiologie",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/microbiologie",
+   "titleCn": "微生物学硕士（Microbiologie）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "musicologie",
+   "title": "Musicologie",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/musicologie",
+   "titleCn": "音乐学硕士（Musicologie）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "metiers-de-lenseignement-de-leducation-et-de-la-formation-meef-1er-degre",
+   "title": "Métiers de l'enseignement, de l'éducation et de la formation (MEEF), 1er degré",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/metiers-de-lenseignement-de-leducation-et-de-la-formation-meef-1er-degre",
+   "titleCn": "教学、教育与培训职业硕士（MEEF）·小学阶段",
+   "updated": "2026-09"
+   },
+  {
+   "id": "metiers-de-lenseignement-de-leducation-et-de-la-formation-meef-2e-degre",
+   "title": "Métiers de l'enseignement, de l'éducation et de la formation (MEEF), 2e degré",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/metiers-de-lenseignement-de-leducation-et-de-la-formation-meef-2e-degre",
+   "titleCn": "教学、教育与培训职业硕士（MEEF）·中学阶段",
+   "updated": "2026-09"
+   },
+  {
+   "id": "neurosciences",
+   "title": "Neurosciences",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/neurosciences",
+   "titleCn": "神经科学硕士（Neurosciences）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "notarial-law",
+   "title": "Notarial law",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/notarial-law",
+   "titleCn": "公证法硕士（Droit notarial）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "nuclear-energy",
+   "title": "Nuclear Energy",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/nuclear-energy",
+   "titleCn": "核能硕士（Nuclear Energy / Ingénierie nucléaire）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "nutrition-and-food-science",
+   "title": "Nutrition and Food Science",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/nutrition-and-food-science",
+   "titleCn": "营养与食品科学硕士",
+   "updated": "2026-09"
+   },
+  {
+   "id": "pharmaceutical-science",
+   "title": "Pharmaceutical Science",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/pharmaceutical-science",
+   "titleCn": "药学科学硕士（Pharmaceutical Science）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "physique-fondamentale-et-applications",
+   "title": "Physique fondamentale et applications",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/physique-fondamentale-et-applications",
+   "titleCn": "基础物理与应用物理硕士",
+   "updated": "2026-09"
+   },
+  {
+   "id": "political-science",
+   "title": "Political Science",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/political-science",
+   "summary": "官网说明：围绕公共政策多层级治理展开，设 4 个 M1 方向（多层级公共政策、传播政策、当代政治社会学、可持续发展）与 10 个 M2 方向；培养政策分析、公共行动、动员与公共协商等能力，兼顾职业与研究路径。",
+   "titleCn": "政治学硕士（Science Politique）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "private-law",
+   "title": "Private law",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/private-law",
+   "titleCn": "私法硕士（Droit privé）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "public-health",
+   "title": "Public Health",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/public-health",
+   "titleCn": "公共卫生硕士（Santé publique）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "public-law",
+   "title": "Public Law",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/public-law",
+   "titleCn": "公法硕士（Droit public）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "purchasing-logistics-and-production-management",
+   "title": "Purchasing, Logistics and Production Management",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/purchasing-logistics-and-production-management",
+   "summary": "官网说明：培养国际采购、供应商关系、质量管理与物流领域的管理者；学徒制职业型硕士，可在采购/供应链部门承担运营与战略管理职责，应对市场全球化下的供应链管理问题。",
+   "titleCn": "采购、物流与生产管理硕士（GPLA）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "science-de-la-durabilite",
+   "title": "Science de la durabilité",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/science-de-la-durabilite",
+   "titleCn": "可持续发展科学硕士（Science de la durabilité）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "sciences-de-la-vision",
+   "title": "Sciences de la vision",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/sciences-de-la-vision",
+   "titleCn": "视觉科学硕士（Sciences de la vision）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "social-law",
+   "title": "Social Law",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/social-law",
+   "titleCn": "社会法硕士（Droit social，劳动法方向）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "sociology",
+   "title": "Sociology",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/sociology",
+   "summary": "官网说明：十个方向共享社科研究方法训练（定性+定量），涵盖工作/就业/培训、公共行动、法的生产与实施、科学技术、数据科学等领域；3 个方向为学徒制（apprentissage），研究、职业与非定向路径并重。",
+   "titleCn": "社会学硕士（Sociologie）",
+   "updated": "2026-09"
+   },
+  {
+   "id": "strategic-management",
+   "title": "Strategic Management",
+   "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/strategic-management",
+   "summary": "官网说明：管理学通识硕士，聚合 ENS Paris-Saclay、UVSQ 与 UEVE 三个成员校的管理与战略研究力量；方向包括国际管理、组织行为、变革管理与创业、体育休闲赛事战略管理等，兼具职业与研究导向，两年制可衔接管理学博士。",
+   "titleCn": "战略管理硕士（Management Stratégique）",
+   "updated": "2026-09"
+   }
  ]
 };
