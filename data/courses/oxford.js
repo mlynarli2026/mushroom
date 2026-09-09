@@ -11,7 +11,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class undergraduate degree）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class undergraduate degree with honours in law. Entrance is very competitive. In the absence of an undergraduate degree in law, candidates may be admitted with a postgraduate （0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic strongly preferred)；CV/résumé；Personal statement (a maximum of 300 words)；Written work (one essay, a maximum of 2,000 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "BCL是面向普通法背景优秀法学毕业生的世界知名授课型法学硕士，学术标准远高于本科法学学位，只招收一等学位获得者。课程可选四门full options（含论文选项）或搭配half-options，以seminar和tutorial授课为主，期末多为限时考试。毕业生多进入律师执业，或继续攻读MPhil/DPhil走学术道路。",
+      "summary": "面向普通法背景优秀法学毕业生的世界知名授课型法学硕士，学术标准远高于本科法学学位，只招收一等学位获得者。以seminar和tutorial授课，可选full options（含论文选项）或搭配half-options，期末多为限时考试；毕业生多进入律师执业或继续攻读MPhil/DPhil。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "10个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -41,7 +41,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class undergraduate degree）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class undergraduate degree with honours in law. Entrance is very competitive. In the absence of an undergraduate degree in law, candidates may be admitted with a postgraduate （0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic strongly preferred)；CV/résumé；Personal statement (a maximum of 300 words)；Written work (one essay, a maximum of 2,000 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "MJur是面向大陆法系背景优秀法学毕业生的世界知名授课型法学硕士，学术标准高于本科法学学位，只招收一等学位获得者。课程以seminar和tutorial授课，含full/half options和论文选项（一对一导师指导），期末多为限时考试。毕业生多进入律师执业或政府法律服务，不少人也继续攻读MPhil/DPhil。",
+      "summary": "面向大陆法系背景优秀法学毕业生的世界知名授课型法学硕士，学术标准高于本科法学学位，只招收一等学位获得者。以seminar和tutorial授课，含full/half options和论文选项（一对一导师指导），期末多为限时考试；毕业生多进入律师执业或政府法律服务。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "10个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -57,7 +57,7 @@ var SCHOOL_COURSES = {
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic and/or professional)；CV/résumé；Statement of purpose (a maximum of 800 words)；Written work (two essays, one of a maximum of 1,500 words and one of a maximum of 400 words)；申请费 £75",
       "deadline": "单轮截止：Wednesday, 2 December, 2026（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
       "background": "对任何专业背景开放（官网：任意学科本科均可申请，见成绩要求）",
-      "summary": "一年制公共政策硕士（MPP），是为有志于公共服务的现任与未来领导者打造的课程。三个学期内通过讲座、seminar、案例研究和workshop授课，还有政策报告实践（placement），由顶尖学者和实务专家共同教学。考核含考试、开卷评估、论文和课堂实操测试，毕业生可在政府、非政府组织或私营部门工作。",
+      "summary": "一年制公共政策硕士（MPP），为有志于公共服务的现任与未来领导者打造。三个学期通过讲座、seminar、案例研究和workshop授课，另有政策报告实践（placement），由顶尖学者和实务专家共同教学；毕业生可在政府、非政府组织或私营部门工作。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -162,7 +162,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any discipline. There is no requirement on subject area and students from a wide range of disciplinary （0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, all of which must be academic)；Personal statement (a maximum of 1,000 words)；Written work (one essay, a maximum of 2,500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "比较社会政策MPhil，聚焦OECD国家的福利制度，涉及健康、教育、劳动力与家庭政策，重点是比较视野的社会政策研究方法。核心课程通过讲座、seminar、小型工作研讨和个别tutorial授课，定性与定量研究技能结合电脑实验室每周训练。毕业生多进入政府、非政府组织和国际机构，或继续读博走学术道路。",
+      "summary": "比较社会政策MPhil，聚焦OECD国家福利制度，涉及健康、教育、劳动力与家庭政策，重点是比较视野的研究方法。核心课程经讲座、seminar、小型工作研讨和个别tutorial授课，定性与定量研究技能结合电脑实验室每周训练；毕业生多进入政府、NGO和国际机构，或继续读博。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "21个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -177,7 +177,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any subject.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Statement of purpose (a maximum of 1,500 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "分轮（staged）申请：Tuesday, 5 January, 2027（Oxford奖学金截止）；Tuesday, 2 March, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "楔形文字研究MPhil，研究古代美索不达米亚的语言、文化与历史，无论有无基础都可申请（其他专业背景可从头学起）。以语言课、讲座、seminar和tutorial授课，重点学阿卡德语和苏美尔语语法、词汇与原文。第一年末有资格考，还需法语、德语阅读能力。毕业生多继续研究或进入商业、公务员等领域。",
+      "summary": "楔形文字研究MPhil，研究古代美索不达米亚的语言、文化与历史，其他专业背景可从头学起。以语言课、讲座、seminar和tutorial授课，重点学阿卡德语和苏美尔语语法、词汇与原文，还需法语、德语阅读能力；毕业生多继续研究或进入商业、公务员等领域。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "21个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：需掌握阿卡德语/苏美尔语，并建议会法语或德语阅读文献（原文：knowledge of Akkadian and Sumerian grammar；knowledge of French and German as much of the secondary literature on the subject is written…）"
@@ -192,7 +192,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a social science subject. As one of the purposes of the course is to provide a basic education in the s（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, at least two must be academic)；Statement of purpose (a minimum of 500 words to a maximum of 750 words)；Written work (two essays, a new piece of work 1,000-1,500 words, and an academic essay/writing sample a maximum of 2,000 words)；申请费 £75",
       "deadline": "单轮截止：Wednesday, 2 December, 2026（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "两年制发展研究MPhil，跨学科介绍全球南方的发展进程，覆盖发展理论、研究方法及政治、制度、历史、社会政策、经济与可持续发展等主题。课程由基础课、研究方法、核心课、论文和两门选修构成，以讲座、课堂和workshop教学，小班5-30人。毕业生进入联合国、政府、外交、NGO、媒体、企业等领域，也有人继续读博。",
+      "summary": "两年制发展研究MPhil，跨学科介绍全球南方的发展进程，覆盖发展理论、研究方法及政治、制度、历史、社会政策、经济与可持续发展等主题。课程由基础课、研究方法、核心课、论文和两门选修构成，以讲座、课堂和workshop教学；毕业生进入联合国、政府、NGO等领域，也有人读博。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "21个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -327,7 +327,7 @@ var SCHOOL_COURSES = {
       "gpa": "相应成绩要求（见官网原文）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: an undergraduate degree with a minimum of 68% overall (equivalent to a high upper second class degree) and 68% for the dissertation , in a relevant discipline in the humanities or soc（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Proposed field and title of research project；Proposed supervisor；Statement of purpose and research proposal: (a minimum of 500 to a maximum of 1,000 words in total)；Written work (an academic writing sample of no more than 4,000 words in total length)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "历史MPhil（近代早期史1500-1700方向），研究近代早期英国、欧洲与世界史的最新进展，从宗教改革、反宗教改革到启蒙运动，也涵盖文艺复兴与巴洛克的视觉物质文化、国家成长与战争等议题。课程含两门核心课、研究masterclass、两门选修和原创研究项目，配技能训练，可独立成学位或作读博跳板。",
+      "summary": "历史MPhil（近代早期史1500-1700方向），研究近代早期英国、欧洲与世界史的最新进展，从宗教改革到启蒙运动，涵盖文艺复兴与巴洛克的视觉物质文化、国家成长与战争等议题。含两门核心课、研究masterclass、两门选修和原创研究项目，可独立成学位或作读博跳板。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "21个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：拉丁语对阅读原始文献至关重要（原文：knowledge of Latin is essential to work on primary sources；Courses in Latin and other medieval languages are also available）"
@@ -372,7 +372,7 @@ var SCHOOL_COURSES = {
       "gpa": "相应成绩要求（见官网原文）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: an undergraduate degree with a minimum of 68% overall (equivalent to a high upper second class degree) and 68% for the dissertation , in a relevant discipline in the humanities or soc（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Proposed field and title of research project；Proposed supervisor；Statement of purpose and research proposal (a minimum of 500 to a maximum of 1,000 words in total)；Written work (an academic writing sample of no more than 4,000 words in total length)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "历史MPhil（现代英国史1850至今方向），研究19-20世纪英国的政治与思想史，尤其关注政治文化及该时期的社会、文化史。课程含两门核心课、研究masterclass、两门选修和原创研究项目，配有档案与技能训练。牛津现代英国史团队在女性史、建筑史、儿童史方面有优势，并依托博德利图书馆等丰富馆藏。",
+      "summary": "历史MPhil（现代英国史1850至今方向），研究19-20世纪英国的政治与思想史，尤其关注政治文化与当时的社会文化史。含两门核心课、研究masterclass、两门选修和原创研究项目，配档案与技能训练；牛津该领域在女性史、建筑史、儿童史方面有优势，依托博德利图书馆等馆藏。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "21个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：可选拉丁语及其他中世纪语言课程（原文：Courses in Latin and other medieval languages are also available）"
@@ -537,7 +537,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any subject.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Statement of purpose (a maximum of 1,500 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "分轮（staged）申请：Tuesday, 5 January, 2027（Oxford奖学金截止）；Tuesday, 2 March, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "希腊罗马时期犹太研究MPhil，研究公元前300年至公元638年（第二圣殿与塔木德时期）犹太人的历史、宗教与文化。课程教原始资料研读和史学、批判方法，要求入学时已具希伯来语和古希腊语工作知识（不设基础语言课）。教学以讲座、seminar和一对一tutorial（每课约8次）为主，毕业写论文。",
+      "summary": "希腊罗马时期犹太研究MPhil，研究公元前300年至公元638年（第二圣殿与塔木德时期）犹太人的历史、宗教与文化。课程教原始资料研读和史学、批判方法，要求入学时已具希伯来语和古希腊语知识；以讲座、seminar和一对一tutorial为主，毕业写论文。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "21个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：需希伯来语及古希腊语知识（原文：working knowledge of the relevant languages (mainly Hebrew and ancient Greek) before starting the course）"
@@ -567,7 +567,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class undergraduate degree）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: an undergraduate degree with a minimum of 68% overall (equivalent to a high upper second class degree) and 68% for the dissertation in a relevant discipline in the humanities or socia（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Proposed field and title of research project；Proposed supervisor；Statement of purpose and research proposal (a minimum of 500 to a maximum of 1,000 words in total)；Written work (an academic writing sample of no more than 4,000 words in total length)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "两年制晚期古代与拜占庭研究MPhil，研究公元250-750年古代世界的转型（罗马帝国、萨珊王朝、伊斯兰的兴起）及拜占庭约330-1453年的千年历史。可专研不同时期、区域和文献，语言涵盖希腊语、拉丁语、叙利亚语、阿拉伯语、科普特语、波斯语等，路径包括历史、考古、视觉研究等。可独立成学位，也是博士研究的第一步。",
+      "summary": "两年制晚期古代与拜占庭研究MPhil，研究公元250-750年古代世界的转型（罗马帝国、萨珊王朝、伊斯兰兴起）及拜占庭约330-1453年的千年历史。语言涵盖希腊语、拉丁语、叙利亚语、阿拉伯语等，路径包括历史、考古、视觉研究；可独立成学位，也是博士研究的第一步。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "21个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -597,7 +597,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class undergraduate degree）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class undergraduate degree with honours in law. Exceptionally, students with first class honours in other subjects will be considered if the subject is relevant to the propose（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, of which at least two must be academic)；CV/résumé；Research proposal (a minimum of 600 to a maximum of 1,000 words)；Written work (one essay, a maximum of 2,000 words)；申请费 £20",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "一年制法学研究型硕士（MPhil in Law），以法律研究方法训练和自主研究为主。Michaelmas学期有七次两小时必修seminar，Hilary学期还须参加八小时可选seminar（含犯罪学、社会法律研究中心等），并出席课程会议；最终提交25000-30000词论文并做口头陈述。毕业生多进入律师执业或担任政府、NGO、公司法律顾问，也有人续读DPhil。",
+      "summary": "一年制法学研究型硕士（MPhil in Law），以法律研究方法训练和自主研究为主。必修seminar加可选seminar（含犯罪学、社会法律研究等），最终提交25000-30000词论文并做口头陈述；毕业生多进入律师执业或担任政府、NGO、公司法律顾问，也有人续读DPhil。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -627,7 +627,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any discipline . Under the UK system, applicants should have a minimum of 65% in at least one prior deg（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Statement of purpose (a minimum of 1000 words, up to a maximum of 1,500 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "两年制医学人类学MPhil，用生物与社会人类学双重视角研究健康与疾病，特别强调研究方法。第一年与医学人类学MSc同课，四篇论文以讲座、tutorial和seminar授课，暑假做文献梳理和论文提纲，比MSc更能深入人类学研究的理论与实践。可作独立学位，也是读博的更深准备，未来可走向临床医学、国际健康等方向。",
+      "summary": "两年制医学人类学MPhil，用生物与社会人类学双重视角研究健康与疾病，特别强调研究方法。第一年与医学人类学MSc同课，以讲座、tutorial和seminar授课，暑假做文献梳理和论文提纲，比MSc更能深入理论与实践；可作独立学位，也是读博的更深准备。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "21个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -1017,7 +1017,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或二等一级荣誉学位（upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or upper second-class undergraduate degree with honours in archaeology or a related subject (typically history, historic environment, geography, environmental science, b（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, of which at least two must be academic)；Personal statement (a maximum of 500 words)；Written work (two written submissions, a minimum of 2,000 words to a maximum of 2,500 words each)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该兼职（part-time）课程专为在职学生设计，欢迎有个人或职业兴趣者申请。课程用跨时期方法研究人类过去对景观的影响，涵盖数字测绘、地球物理、LIDAR 遥感、田野踏查等方法，教学兼顾学术学习与田野实践，以英国考古为侧重但不限于此。毕业生多继续读博，或进入 Historic England 等遗产机构。",
+      "summary": "该兼职（part-time）课程专为在职学生设计，欢迎有个人或职业兴趣者申请。用跨时期方法研究人类过去对景观的影响，涵盖数字测绘、地球物理、LIDAR遥感、田野踏查等方法，兼顾学术学习与田野实践，以英国考古为侧重但不限于此；毕业生多继续读博或进入遗产机构。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "2年（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -1062,7 +1062,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in archaeology or a related subject such as (but not limited to) anthropology, history, classics, history （0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Personal statement (a maximum of 500 words)；Written work (two essays of a maximum of 2,500 words each)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该课程面向想用科学方法研究考古的考古学毕业生，以及想了解考古问题的理科背景学生，也是博士研究的预科。课程依托考古研究实验室，设材料分析与技术变迁、分子生物考古学、科学测年三大板块，外加五个月研究项目；考核含作业、考试、presentation、viva 与论文。毕业生多进入商业考古与遗产行业。",
+      "summary": "面向想用科学方法研究考古的考古学毕业生，以及想了解考古问题的理科背景学生，也是博士研究预科。依托考古研究实验室，设材料分析与技术变迁、分子生物考古学、科学测年三大板块，外加五个月研究项目；毕业生多进入商业考古与遗产行业。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -1138,7 +1138,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any science discipline. Successful completion of a professional training course or professional work ex（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, at least two of which must be academic)；Personal statement (a maximum of 500 words)；申请费 £75",
       "deadline": "单轮截止：Tuesday, 1 December, 2026（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "该一年制课程培养转化医学（从细胞到患者）研究技能，内容覆盖分子生物学、脑成像、行为研究与流行病学，由精神病学系等牛津神经科学团队和 NIHR 临床研究设施共同授课。六个核心模块采用讲座、研讨与小班教学，含两次 12 周项目、两篇 dissertation 与海报报告。毕业生多进入药企、医学院或继续读博。",
+      "summary": "一年制课程培养转化医学（从细胞到患者）研究技能，覆盖分子生物学、脑成像、行为研究与流行病学，由精神病学系等牛津神经科学团队和NIHR临床研究设施共同授课。六个核心模块采用讲座、研讨与小班教学，含项目、论文与海报报告；毕业生多进入药企或继续读博。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "1年（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -1153,7 +1153,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a subject related to biology, biomedical science or a medical degree. However, entrance is very competi（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, of which at least two must be academic)；Statement of purpose (a maximum of 500 words)；申请费 £75",
       "deadline": "单轮截止：Tuesday, 1 December, 2026（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "该一年制住校课程提供人类生殖生物学、胚胎学、不育症与辅助生殖技术（ART）的高级理论与实操训练，包括配子显微操作等核心实验室技能，与 TFP Oxford Fertility 同址上课。十个模块分两学期覆盖基础与临床内容，第三学期开展实验室或桌面研究项目；毕业生多从事临床胚胎学或进入生殖医学研究与产业。",
+      "summary": "一年制住校课程提供人类生殖生物学、胚胎学、不育症与辅助生殖技术（ART）的高级理论与实操训练，包括配子显微操作等核心实验室技能，与TFP Oxford Fertility同址上课。十个模块分两学期覆盖基础与临床内容，第三学期开展研究项目；毕业生多从事临床胚胎学或进入生殖医学研究与产业。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -1198,7 +1198,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a relevant subject ; and a PGDip in Cognitive Behavioural Therapy , completed successfully at the Unive（be qualified members of one of the main National Health Service professions, eg clinical psychologists, psychiatrists, nurses, general practitioners, occupational therapists, or other recognised professions, eg social worker; OR hold the equivalent of a core profession as defined by BABCPs Knowledge, Skills and Attitudes criteria .）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, at least one professional and one academic)；Personal statement and research proposal (statement of a maximum of 1,500 words and a proposal of a maximum of 1,500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该两年研究型课程是 CBT 研究生文凭的延伸，指导你在自己的临床环境中设计并完成独立研究项目，打牢发表学术论文的基础。教学以 tutorial 为主，先三天集中授课，之后一年数次一到两天的辅导，并有一对一督导；论文由可投期刊的研究论文与反思性批判组成。毕业生可获得 OCTC 后续督导并冲刺 BACP 认证。",
+      "summary": "该两年研究型课程是CBT研究生文凭的延伸，指导你在自己的临床环境中设计并完成独立研究项目，打牢发表学术论文的基础。教学以tutorial为主，先三天集中授课，之后一年数次辅导，并有一对一督导；论文由可投期刊的研究论文与反思性批判组成。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "2年（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -1213,7 +1213,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any discipline. There is no requirement on subject area and students from a wide range of disciplinary （0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, all of which must be academic)；Personal statement (a maximum of 1,000 words)；Written work (one essay, a maximum of 2,500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该课程以比较视角分析 OECD 国家尤其发达福利国家的社会政策，覆盖收入支持、健康、劳动力市场等领域，并训练比较研究设计与定量定性方法。核心课由讲座、研讨、小组与个人 tutorial 组合讲授，研究方法含上机实操；另有两门专业选修。毕业生多做学术研究，或进入 OECD、世界银行、WHO 等国际组织。",
+      "summary": "以比较视角分析OECD国家尤其发达福利国家的社会政策，覆盖收入支持、健康、劳动力市场等领域，并训练比较研究设计与定量定性方法。核心课由讲座、研讨、小组与个人tutorial组合讲授，另有两门专业选修；毕业生多做学术研究，或进入OECD、世界银行、WHO等国际组织。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -2026,7 +2026,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：Degree-level qualifications As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any discipline; and a master's degree in public policy, normally with disti",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, two of which must be academic with the final reference being either academic or professional)；CV/résumé；Statement of purpose and research proposal (statement of up to a maximum of 800 words and proposal of up to a maximum of 1,500 words)；Written work (one essay, a maximum of 1,500 words)；申请费 £75",
       "deadline": "分轮（staged）申请：Wednesday, 2 December, 2026（Oxford奖学金截止）；Tuesday, 2 March, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "一年制面授硕士，训练学生理解研究证据与意识形态、制度等因素如何影响公共政策，并学会向政策制定者与公众传播研究结果。前两学期学基础模块和研究设计与方法，第三学期选一个专题；教学含讲座、seminar、tutorial 和工作坊。考核含论文、研究计划、笔试与口头报告；毕业生多进入政府、国际组织和非营利机构。",
+      "summary": "一年制面授硕士，训练学生理解研究证据与意识形态、制度等因素如何影响公共政策，并学会向政策制定者与公众传播研究结果。前两学期学基础模块和研究设计与方法，第三学期选专题；教学含讲座、seminar、tutorial和工作坊，毕业生多进入政府、国际组织和非营利机构。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -2071,7 +2071,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a social science subject. It is also possible for students who have not specialised in a social science（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Personal statement (a minimum of 500 words to a maximum of 1,000 words)；Written work (two essays: a new piece of work of 1,000-1,500 words; an academic essay/writing sample of a maximum of 2,000 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "跨学科硕士，在冲突、压迫、自然灾害、环境变化与发展背景下研究强迫移民和难民问题，涵盖人类学、政治与法律等视角。前两学期学核心课程与强迫移民研究方法，第三学期写论文；小班教学（5-25人）并配有定期一对一导师指导。毕业生多进入 UNHCR、国际移民组织、UNDP 等机构，或继续攻读博士与法学院。",
+      "summary": "跨学科硕士，研究冲突、压迫、自然灾害、环境变化与发展背景下的强迫移民和难民问题，涵盖人类学、政治与法律等视角。前两学期学核心课程与研究方法，第三学期写论文；小班教学（5-25人）配定期一对一导师指导，毕业生多进入UNHCR、国际移民组织等机构。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -2086,7 +2086,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a field related genetics, biology with genetics, biomedical science, molecular cell biology or medicine（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, of which at least two must be academic)；Personal statement (a maximum of 500 words)；申请费 £75",
       "deadline": "单轮截止：Tuesday, 1 December, 2026（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "一年制授课硕士（2026年秋新开），面向研究生、科学家与临床医生，讲授生殖、妊娠与生殖遗传学的理论与实践，包括产前及植入前遗传学检测和患者咨询。两个学期各完成五个必修模块，由 Nuffield 妇女与生殖健康系资深教师主讲；共六项考核，含考试、论文与学术海报。课程注重实验室与分析技能及法律、伦理意识。",
+      "summary": "一年制授课硕士（2026年秋新开），面向研究生、科学家与临床医生，讲授生殖、妊娠与生殖遗传学的理论与实践，包括产前及植入前遗传学检测和患者咨询。两个学期各完成五个必修模块，Nuffield资深教师主讲，共六项考核；注重实验室与分析技能及法律、伦理意识。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "11个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -2101,7 +2101,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours. The qualification above should be achieved in one of the following subject areas or disciplines: politics（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Statement of purpose (a maximum of 1,500 words)；Written work (one essay of a maximum of 2,000 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "九个月全日制硕士，从历史、经济、政治、国际关系和社会学等角度研究俄罗斯、东欧与欧亚。三门核心课程加区域研究方法课，以讲座和课堂为主，需提交书面作业并作课堂报告，可参加设于 St Antony's College 的周一研讨会。考核含两门笔试、扩展论文、方法学要求与论文；毕业生多继续深造或进入国际组织、媒体、商业与金融领域。",
+      "summary": "九个月全日制硕士，从历史、经济、政治、国际关系和社会学等角度研究俄罗斯、东欧与欧亚。三门核心课程加区域研究方法课，以讲座和课堂为主，可参加设于St Antony's College的周一研讨会；毕业生多继续深造或进入国际组织、媒体、商业与金融领域。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -2161,7 +2161,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours.（Prior training in statistics or quantitative research methods is not a requirement.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Personal statement (a maximum of 750 words)；Written work (one essay, a maximum of 2,500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "授课硕士，用评估及定量、定性、系统综述等高级方法研究社会政策与干预的效果，主题覆盖儿童家庭服务、教育、心理健康、药物滥用与减贫等。课程含研究方法课、专业选修和论文，前两学期以课堂学习为主并辅以 tutorial；适合有评估、公共卫生或政策咨询背景者。毕业生多进入世界银行、J-PAL、世卫组织或智库。",
+      "summary": "授课硕士，用评估及定量、定性、系统综述等高级方法研究社会政策与干预的效果，主题覆盖儿童家庭服务、教育、心理健康、药物滥用与减贫等。含研究方法课、专业选修和论文；对本科专业背景无硬性要求，欢迎跨学科背景申请者，毕业生多进入世界银行、J-PAL、世卫组织或智库。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -2267,7 +2267,7 @@ var SCHOOL_COURSES = {
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, of which at least two should be academic)；Personal statement (a maximum of 1,000 words)；Written work (one sample of written work of a maximum of 2,000 words)；申请费 £75",
       "deadline": "分轮（staged）申请：Friday, 13 November, 2026（早申，更早获决定）；Tuesday, 26 January, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
       "background": "对任何专业背景开放（官网：任意学科本科均可申请，见成绩要求）",
-      "summary": "授课硕士，从金融、经济与企业视角，结合环境、系统与数据科学，研究零碳与可持续发展转型。教学含讲座、seminar、工作坊、实地考察，选修课为小班 tutorial 式讨论；师资来自 Smith 学院等院系，并有企业客座讲师。考核为笔试或课程作业加独立论文，旨在培养公共与私营部门的可持续发展决策者。",
+      "summary": "授课硕士，从金融、经济与企业视角，结合环境、系统与数据科学，研究零碳与可持续发展转型。教学含讲座、seminar、工作坊、实地考察，选修课为小班tutorial式讨论；师资来自Smith学院等院系并有企业客座讲师，培养公共与私营部门的可持续发展决策者。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -2282,7 +2282,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a social science or science subject.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, of which at least two must be academic)；Statement of purpose (a minimum of 500 words to a maximum of 1,000 words)；Written work (two essays, a maximum of 3,000 words each)；申请费 £75",
       "deadline": "分轮（staged）申请：Friday, 13 November, 2026（早申，更早获决定）；Wednesday, 27 January, 2027（Oxford奖学金截止）；Tuesday, 2 March, 2027（Expected to be the final application deadline）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "两年制硕士，批判性探讨全球南北城市可持续城市发展的理论、实践与政策。课程由七个一周面授单元和一个线上单元组成，六个在牛津、一个在伦敦 The King's Foundation（获 RICS 认证）；教学有讲座、seminar、现场考察与小组项目。学员多为城市领域在职专业人士，校友网络活跃。",
+      "summary": "两年制硕士，批判性探讨全球南北城市可持续城市发展的理论、实践与政策。课程由七个一周面授单元和一个线上单元组成，六个在牛津、一个在伦敦The King's Foundation（获RICS认证）；教学有讲座、seminar、现场考察与小组项目，学员多为城市领域在职专业人士。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "2年（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -2793,7 +2793,7 @@ var SCHOOL_COURSES = {
       "gpa": "相应成绩要求（见官网原文）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: an undergraduate degree with a minimum of 68% overall (equivalent to a high upper second class degree) and 68% for the dissertation , in a relevant discipline in the humanities or soc（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Proposed field and title of research project；Proposed supervisor；Statement of purpose and research proposal (a minimum of 500 to a maximum of 1,000 words in total)；Written work (an academic writing sample of no more than 4,000 words in total length)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "现代英国史方向（1850年至今），围绕十九、二十世纪英国政治与思想史、广义政治文化以及社会文化史展开。牛津该领域在女性史、建筑史和童年史方面尤为突出，依托 Bodleian 图书馆与约翰·约翰逊印刷品收藏、保守党档案等特藏。课程含必修核心课、两门选修和原创研究项目；约四分之一毕业生继续读博。",
+      "summary": "现代英国史方向（1850年至今），围绕十九、二十世纪英国政治与思想史、广义政治文化以及社会文化史展开。牛津该领域在女性史、建筑史和童年史方面尤为突出，依托Bodleian图书馆等特藏。课程含必修核心课、两门选修和原创研究项目；约四分之一毕业生继续读博。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制） / 21个月（兼职制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：可选拉丁语及其他中世纪语言课程（原文：Courses in Latin and other medieval languages are also available）"
@@ -2898,7 +2898,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any subject. Previous knowledge of Jewish studies is not a requirement for admission.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Statement of purpose (a maximum of 1,500 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "分轮（staged）申请：Tuesday, 5 January, 2027（Oxford奖学金截止）；Tuesday, 2 March, 2027（Expected to be the final application deadline）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "授课硕士，研究从古代到现代的犹太历史与文化，并学习现代希伯来语、圣经希伯来语或意第绪语。语言学习贯穿三个学期，另有论文方向（每学期一门选修、一万五千字论文）或非论文方向（每学期两门选修）；教学以小班、seminar、tutorial 为主。毕业生多在商业、金融、法律、公务员等领域就业或继续研究。",
+      "summary": "授课硕士，研究从古代到现代的犹太历史与文化，并学习现代希伯来语、圣经希伯来语或意第绪语。语言学习贯穿三个学期，另有论文方向（每学期一门选修、一万五千字论文）或非论文方向（每学期两门选修）；教学以小班、seminar、tutorial为主，毕业生多在商业、金融、法律等领域就业。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：需学习现代/圣经希伯来语或意第绪语（原文：study of Modern or Biblical Hebrew or Yiddish）"
@@ -2913,7 +2913,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any subject. Previous knowledge of Jewish studies is not a requirement for admission.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Statement of purpose (a maximum of 1,500 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "分轮（staged）申请：Tuesday, 5 January, 2027（Oxford奖学金截止）；Tuesday, 2 March, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "该方向研究公元前300年至公元200年（第二圣殿与早期拉比犹太教时期）的犹太历史、宗教与文化，要求入学前具备希伯来语和希腊语基础，不设语言补习。课程涵盖犹太历史与制度及三个专业领域，研读死海古卷、约瑟夫斯等原典；教学为讲座、seminar 与一对一 tutorial。四门课各以两篇3000字论文考核。",
+      "summary": "该方向研究公元前300年至公元200年（第二圣殿与早期拉比犹太教时期）的犹太历史、宗教与文化，要求入学前具备希伯来语和希腊语基础，不设语言补习。课程涵盖犹太历史与制度及三个专业领域，研读死海古卷、约瑟夫斯等原典；教学为讲座、seminar与一对一tutorial。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：需希伯来语及希腊语知识（原文：working knowledge of the relevant languages (Hebrew and Greek) before starting the course）"
@@ -2928,7 +2928,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any subject.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Statement of purpose (a maximum of 1,000 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "单轮截止：Tuesday, 5 January, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "以现代韩语基础（并涉及古典汉语或现代日语）为起点，训练学生用现代韩语做研究：研读韩国各时期经典文本，或研究当代韩国语言学与古韩语、中古韩语。教学主要在 tutorial 中进行，辅以韩国与东亚历史的公共讲座。第三学期考论文、指定文本、语言与方法论四门；毕业生多继续读博或进入商业、金融、法律等领域。",
+      "summary": "以现代韩语基础（并涉及古典汉语或现代日语）为起点，训练学生用现代韩语做研究：研读韩国各时期经典文本，或研究当代韩国语言学与古韩语、中古韩语。教学主要在tutorial中进行，辅以韩国与东亚历史公共讲座；毕业生多继续读博或进入商业、金融、法律等领域。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：需现代韩语及古典中文或现代日语能力（原文：knowledge of modern Korean and classical Chinese or modern Japanese）"
@@ -2943,7 +2943,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class undergraduate degree）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: an undergraduate degree with a minimum of 68% overall (equivalent to a high upper second class degree) and 68% for the dissertation in a relevant discipline in the humanities or socia（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Proposed field and title of research project；Proposed supervisor；Statement of purpose and research proposal (a minimum of 500 to a maximum of 1,000 words in total)；Written work (an academic writing sample of no more than 4,000 words in total length)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "一年制硕士，探索古代世界的转型：晚期古代（约250-750年）与拜占庭（约330-1453年），可专注其一，并学习希腊语、拉丁语、叙利亚语、阿拉伯语等语言，或从历史、考古与视觉文化路径切入。前两学期修所选时期的史学课程，并学考古与视觉文化、宗教课程。考核为两篇自选主题论文；约四分之一毕业生继续读博。",
+      "summary": "一年制硕士，探索古代世界的转型：晚期古代（约250-750年）与拜占庭（约330-1453年），可专注其一，并学习希腊语、拉丁语、叙利亚语、阿拉伯语等语言，或从历史、考古与视觉文化路径切入。考核为两篇自选主题论文；约四分之一毕业生继续读博。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3003,7 +3003,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a relevant discipline in the humanities.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, generally academic)；Statement of purpose and Research proposal (500 to a maximum of 1,000 words)；Written work (two essays of a maximum of 2,000 words each or one essay of a maximum of 4,000 words)；申请费 £75",
       "deadline": "单轮截止：Tuesday, 5 January, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "跨学科授课硕士，由历史、英语、中世纪现代语言、音乐、神学等院系联合支持，注重语言训练、古文字学与手稿学（palaeography、codicology）及研究方法，可学习一门新的中世纪语言。课程为研究方法核心课加两门选修，至少三分之一时间在跨学科导师指导下独立研究。考核为两篇选修论文与论文；约四分之一毕业生继续读博。",
+      "summary": "跨学科授课硕士，由历史、英语、中世纪现代语言、音乐、神学等院系联合支持，注重语言训练、古文字学与手稿学及研究方法，可学习一门新的中世纪语言。课程为研究方法核心课加两门选修，至少三分之一时间在跨学科导师指导下独立研究；约四分之一毕业生继续读博。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：参与系包括中世纪拉丁语与现代语言（原文：…history (Medieval Latin), medieval and modern languages…）"
@@ -3033,7 +3033,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in the relevant modern language for your proposed study, or a similar course of academic study with substa（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, of which at least two must be academic)；Statement of purpose (a maximum of 700 words)；Written work (two essays of a maximum of 2,000 words each)；Certificate of language proficiency；申请费 £75",
       "deadline": "分轮（staged）申请：Tuesday, 5 January, 2027（Oxford奖学金截止）；Tuesday, 2 March, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "面向外语水平高且本科修读过文学的学生，可在一两种语言文学语境中做高级研究，或走学院专门的比较路径。学院为全球最大的现代语言中心之一，研究从中世纪文学、早期现代文化到当代文学、电影与文化史。课程以自主学习为主，含两个专业选题、理论或方法论部分和毕业论文；毕业生多继续读博，其余进入教学、出版等领域。",
+      "summary": "面向外语水平高且本科修读过文学的学生，可在一两种语言文学语境中做高级研究，或走学院专门的比较路径。学院为全球最大的现代语言中心之一，研究从中世纪文学到当代文学、电影与文化史。课程以自主学习为主，含两个专业选题、理论或方法论部分和毕业论文；毕业生多继续读博。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：须精通所研究中某一门语言（法语、德语、意大利语、现代希腊语、葡萄牙语、俄语、斯拉夫语等，原文：proficiency in French, German, Italian, Modern Greek, Portuguese, Russian, Slavic languages…）"
@@ -3123,7 +3123,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any subject. However, in the absence of an appropriate undergraduate degree, sufficient relevant profes（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, of which at least one, but ideally two, should be academic)；CV/résumé；Personal statement (a maximum of 1,000 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该课程由实践伦理研究所与继续教育部联办，以伦理学与哲学为核心、跨学科性强，训练学生用严谨的哲学分析解决真实伦理问题。采用约25小时驻校密集授课加在线学习，完成六个教学模块（含五个自选）和一篇学位论文，模块以论文考核。面向哲学、医学健康、科技、法律与公共政策等多类背景申请者，毕业后多从事公共政策、临床伦理等工作。",
+      "summary": "该课程由实践伦理研究所与继续教育部联办，以伦理学与哲学为核心、跨学科性强，训练学生用严谨的哲学分析解决真实伦理问题。采用约25小时驻校密集授课加在线学习，完成六个教学模块（含五个自选）和一篇学位论文；面向哲学、医学健康、科技、法律与公共政策等多类背景申请者。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "2-3年（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3138,7 +3138,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours as a minimum, in any subject. It is necessary to have successfully completed the PG Diploma in Psychodynam（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic and/or professional)；Personal statement (a maximum of 500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该课程衔接本校PGDip，提供心理动力学高级临床工作与研究法训练，并开展有督导的原创研究。通过每周研讨、辅导课、持续临床实习（至少200临床小时）与个人治疗教学，以不超过1.5万字的论文加答辩考核。课程获UPCA认证，修满课程与临床时数可申请成为心理治疗咨询师。注意：本期暂停招生，预计下个申请周期重开。",
+      "summary": "该课程衔接本校PGDip，提供心理动力学高级临床工作与研究法训练，并开展有督导的原创研究。通过每周研讨、辅导课、持续临床实习（至少200临床小时）与个人治疗教学，以不超过1.5万字的论文加答辩考核，课程获UPCA认证。注意：本期暂停招生，预计下个申请周期重开。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3153,7 +3153,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a relevant course of academic study. Degree-level competence in at least one Slavonic language is a req（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, of which at least two must be academic)；Statement of purpose (a maximum of 700 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "分轮（staged）申请：Tuesday, 5 January, 2027（Oxford奖学金截止）；Tuesday, 2 March, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "该课程深入研究斯拉夫语言、文学、文化与历史，可按兴趣定制并服务高级研究；要求申请者本科阶段有良好的俄语或其他斯拉夫语基础。因人数少，采用一对一或双人tutorial加每周语言课。考核为四篇试卷，含斯拉夫语文本翻译和文学、历史方向论文。毕业生多继续读博，也有进入教育、新闻、法律、出版与公务员领域。",
+      "summary": "该课程深入研究斯拉夫语言、文学、文化与历史，可按兴趣定制并服务高级研究；要求申请者本科阶段有良好的俄语或其他斯拉夫语基础。因人数少，采用一对一或双人tutorial加每周语言课。考核为四篇试卷，含斯拉夫语文本翻译和文学、历史方向论文；毕业生多继续读博。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：入学要求至少一门斯拉夫语能力（原文：competence in at least one Slavonic language is a requirement for admission）"
@@ -3183,7 +3183,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any subject.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Statement of purpose (a maximum of 1,500 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "分轮（staged）申请：Tuesday, 5 January, 2027（Oxford奖学金截止）；Tuesday, 2 March, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "该课程训练阅读与诠释多种体裁、各类书体的叙利亚文文献，掌握叙利亚文学与历史及关键研究工具，既可作为独立学历也可作博士准备。教学含每周约6小时文本课、研讨课和文学背景讲座，学生自选三个专业题材。期末四场笔试：一场叙利亚教会历史、文学与文化论文题，加三场所选题材文本的英译。毕业生多进入法律、金融、公务员、新闻等行业或继续深造。",
+      "summary": "该课程训练阅读与诠释多种体裁、各类书体的叙利亚文文献，掌握叙利亚文学与历史及关键研究工具，既可作为独立学历也可作博士准备。教学含每周约6小时文本课、研讨课和文学背景讲座，学生自选三个专业题材；毕业生多进入法律、金融、公务员、新闻等行业或继续深造。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：需叙利亚语知识（原文：knowledge of the Syriac language）"
@@ -3198,7 +3198,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in cognate humanities subjects such as history (history of art, visual and material culture; modern social（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Personal statement (a maximum of 500 words)；Written work (one essay of a maximum of 2,000 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该两年制非全日制硕士聚焦1851年以来世界范围的设计史，涵盖平面设计、装饰艺术、工业设计、时尚、展示设计、室内与建成环境等主题。教学结合面授与线上：三次驻校参观牛津博物馆、图书馆及周边收藏，辅以同步线上研讨、工作坊与个人tutorial；考核为分析性论文与学位论文。毕业生多进入博物馆与遗产行业、创意产业或继续读博。注意：本期暂停招生。",
+      "summary": "该两年制非全日制硕士聚焦1851年以来世界范围的设计史，涵盖平面设计、装饰艺术、工业设计、时尚、展示设计、室内与建成环境等主题。教学结合面授与线上：三次驻校参观牛津博物馆、图书馆，辅以同步线上研讨、工作坊与个人tutorial；毕业生多进入博物馆与遗产行业或继续读博。注意：本期暂停招生。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "21个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3213,7 +3213,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class (67% or above) undergraduate degree with honours in theology, religious studies or another closely related field. Applicants with a degree i（Greek or Latin is required for patristic theology.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic essential)；Statement of purpose；Written work (two essays of up to 2,000 words each or one essay of up to 4,000 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该全日制授课硕士在所选神学领域强化深造并接受研究方法训练，可选圣经研究（旧约、新约、释经）、基督教教义（教父神学或现代神学）、教会史、基督教伦理、科学与宗教等方向。教学以核心课堂或导师制小班加导师指导进行；考核为两篇短文、一次笔试和三一学期学位论文，可能加口试。毕业生多继续读博，或从事法律、教育、公务员等职业。",
+      "summary": "该全日制授课硕士在所选神学领域强化深造并接受研究方法训练，可选圣经研究（旧约、新约、释经）、基督教教义、教会史、基督教伦理、科学与宗教等方向。教学以核心课堂或导师制小班加导师指导进行；考核为两篇短文、一次笔试和学位论文，毕业生多继续读博或从事法律、教育等职业。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：需圣经希伯来语/新约希腊语训练（原文：training in Old Testament studies and Biblical Hebrew…New Testament Greek）"
@@ -3228,7 +3228,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in Chinese studies.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Personal statement and research proposal (statement of a maximum of 500 words and proposal of a maximum of 1,000 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "单轮截止：Tuesday, 5 January, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "该课程培养前近代与早期近代中国研究所需技能，采用个人或小班教学，与牛津中国中心的研究者紧密合作。学生选中国哲学、文化或历史方向的课题，通过每周两小时阅读原始中文文献的班级课、四次论文辅导tutorial及语言训练完成学习；以考试、论文和基于原始资料的学位论文评估。课程主要为博士研究做准备，毕业生多从事学术、教育与博物馆工作。",
+      "summary": "该课程培养前近代与早期近代中国研究所需技能，采用个人或小班教学，与牛津中国中心的研究者紧密合作。学生选中国哲学、文化或历史方向的课题，通过每周两小时阅读原始中文文献的班级课、论文辅导tutorial及语言训练完成学习；课程主要为博士研究做准备。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3243,7 +3243,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any subject. Whilst there is no restriction on the subject of the first degree, applicants should be ab（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Statement of purpose (a maximum of 700 words)；Written work (two essays of a maximum of 2,000 words each or one essay of a maximum of 4,000 words)；申请费 £75",
       "deadline": "单轮截止：Wednesday, 2 December, 2026（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "该九个月跨学科硕士为女性、性别与性少数研究提供批判与研究工具，系统介绍女权理论（含酷儿与跨性别理论），考察女性对文化历史的贡献及“女性”范畴在哲学、文学、社会文化、历史思想中的含义。教学为个别导师指导加多学科专家讲座与课程，另选两门选修并完成学位论文。毕业生多继续读博，也有从事教育、新闻、NGO与公务员工作。",
+      "summary": "该九个月跨学科硕士为女性、性别与性少数研究提供批判与研究工具，系统介绍女权理论（含酷儿与跨性别理论），考察女性对文化历史的贡献及“女性”范畴在哲学、文学、社会文化、历史思想中的含义。教学为个别导师指导加多学科专家讲座，另选两门选修并完成学位论文。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3273,7 +3273,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a relevant field of study. Entrance is very competitive and most successful applicants have a high firs（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, of which at least two must be academic)；Statement of purpose (a maximum of 700 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "分轮（staged）申请：Tuesday, 5 January, 2027（Oxford奖学金截止）；Tuesday, 2 March, 2027（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "该课程围绕前现代与现代意第绪语社会的语言、文学与社会文化史展开，含现代意第绪语文学、意第绪语语言史两门必修、一门选修及学位论文。采用个性化小班教学，必修科目各六次tutorial，为有意攻读DPhil/PhD的学生提供入门。考核含必修科目考试、选修长论文及学位论文。毕业生多继续读博，或进入教育、新闻、法律、出版与公务员领域。",
+      "summary": "该课程围绕前现代与现代意第绪语社会的语言、文学与社会文化史展开，含现代意第绪语文学、意第绪语语言史两门必修、一门选修及学位论文。采用个性化小班教学，必修科目各六次tutorial，为有意攻读DPhil/PhD的学生提供入门；毕业生多继续读博或进入教育、新闻、法律等领域。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（全日制）",
       "teachingLanguage": "英语授课；⚠️ 特殊情况：入学要求意第绪语能力（原文：competence in Yiddish (spoken or written) is a requirement for admission）"
@@ -3303,7 +3303,7 @@ var SCHOOL_COURSES = {
       "gpa": "良好学位：英国本科2:2或以上（a 2:2 or above），相关学科；官网原文：Applications are welcomed from candidates who have not studied Biology, Chemistry or Physics but have completed a degree in a related area, such as Earth Sciences, Engineering, Environmental Science, ",
       "requirements": "通过英国政府GOV.UK（DfE）网站提交申请；须提供优秀学术或工作推荐信，并展现对学校工作的投入（志愿/教学经验）",
       "deadline": "官网页面未显示具体截止日期；申请通过GOV.UK通道提交（2026-27申请已关闭，2027-28信息预计2026年9月16日更新）",
-      "summary": "该一年制课程由牛津教育系与37余所合作中学联办，培养中学阶段生物教师，采用“牛津实习计划”：九月先到小学体验三天，之后大部分时间固定在一所公立中学实习，穿插大学学习周。课程涵盖备课、教学评估、课堂与行为管理等核心技能；考核为学校与大学联合的持续评估、无笔试。大多数毕业生直接入职公立中学（2023-24届约九成已获聘或求职中）。",
+      "summary": "该一年制课程由牛津教育系与37余所合作中学联办，培养中学阶段生物教师，采用“牛津实习计划”：九月先到小学体验三天，之后大部分时间固定在一所公立中学实习，穿插大学学习周。考核为学校与大学联合的持续评估、无笔试；大多数毕业生直接入职公立中学。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3318,7 +3318,7 @@ var SCHOOL_COURSES = {
       "gpa": "良好学位：英国本科2:2或以上（a 2:2 or above），相关学科；官网原文：Applications are welcomed from candidates who have not studied Biology, Chemistry or Physics but have completed a degree in a related area, such as Earth Sciences, Engineering, Environmental Science, ",
       "requirements": "通过英国政府GOV.UK（DfE）网站提交申请；须提供优秀学术或工作推荐信，并展现对学校工作的投入（志愿/教学经验）",
       "deadline": "官网页面未显示具体截止日期；申请通过GOV.UK通道提交（2026-27申请已关闭，2027-28信息预计2026年9月16日更新）",
-      "summary": "该一年制课程培养中学阶段化学教师，由牛津教育系与37余所合作中学联办，采用“牛津实习计划”，学生大部分时间固定在一所公立中学实习并穿插大学学习周。课程含科目工作与专业发展项目两部分，覆盖备课、教学评估、课堂与行为管理等核心技能；考核为学校与大学联合的持续评估、无笔试。大多数毕业生入职公立中学（2023-24届约九成已获聘或求职中）。",
+      "summary": "该一年制课程培养中学阶段化学教师，由牛津教育系与37余所合作中学联办，采用“牛津实习计划”，学生大部分时间固定在一所公立中学实习并穿插大学学习周。课程含科目工作与专业发展项目两部分，考核为持续评估、无笔试；大多数毕业生入职公立中学。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3333,7 +3333,7 @@ var SCHOOL_COURSES = {
       "gpa": "良好学位：英国本科2:2或以上（a 2:2 or above），相关学科；官网原文：The department looks for applicants with a good degree in English or a degree in another subject that involves textual study together with further degree-level work (through the Open University, for e",
       "requirements": "通过英国政府GOV.UK（DfE）网站提交申请；须提供优秀学术或工作推荐信，并展现对学校工作的投入（志愿/教学经验）",
       "deadline": "官网页面未显示具体截止日期；申请通过GOV.UK通道提交（2026-27申请已关闭，2027-28信息预计2026年9月16日更新）",
-      "summary": "该一年制课程培养中学阶段英语教师，由牛津教育系与37余所中学联办，采用“牛津实习计划”：九月先到小学体验三天，之后大部分时间固定在一所公立中学实习，秋季学期为大学两天加学校三天的联合周。课程涵盖备课、教学评估、课堂与行为管理等核心技能；考核为联合持续评估、无笔试。大多数毕业生直接入职公立中学。",
+      "summary": "该一年制课程培养中学阶段英语教师，由牛津教育系与37余所中学联办，采用“牛津实习计划”：九月先到小学体验三天，之后大部分时间固定在一所公立中学实习，秋季学期为大学两天加学校三天的联合周。考核为联合持续评估、无笔试；大多数毕业生直接入职公立中学。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（全日制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3438,7 +3438,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any subject. Applications are also considered from those who do not have previous higher education. Voc（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Personal statement (a maximum of 1,000 words)；Written work (one essay of a maximum of 2,000 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该一年制非全日制课程以英国自盎格鲁-撒克逊时期至今的建筑史为主题，含三个教学单元与一篇学位论文，与牛津布鲁克斯大学的历史保护硕士课程联办。教学以在牛津的讲座为主，tutorial按需提供，单元考核含论文和对选定建筑的实地调查记录（workbook），最后完成学位论文。毕业生有进入保护与遗产机构工作，或继续攻读更高学位。",
+      "summary": "该一年制非全日制课程以英国自盎格鲁-撒克逊时期至今的建筑史为主题，含三个教学单元与一篇学位论文，与牛津布鲁克斯大学的历史保护硕士课程联办。教学以在牛津的讲座为主，tutorial按需提供，单元考核含论文和对选定建筑的实地调查记录；毕业生多进入保护与遗产机构。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "11个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3453,7 +3453,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a relevant subject.（be qualified members of one of the main National Health Service professions, eg clinical psychologists, psychiatrists, nurses, general practitioners, occupational therapists, or other recognised professions, eg social worker; or hold the equivalent of a core profession as defined by BABCPs Knowledge, Skills and Attitudes criteria .）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, at least one professional and one academic)；Personal statement (a maximum of 500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该证书课程为执业者提供认知行为疗法（CBT）的循证治疗技能，面向常见心理障碍。课程十月开课，前两周集中授课五天，之后两个学期每周一天（两成在牛津面授、其余线上），配每周两小时小组督导，学员须有成人治疗场所供接案。考核含课堂参与、口头案例陈述与书面案例报告；依托牛津30余年领先的CBT训练体系，结业后可通过OCTC争取协会认证。",
+      "summary": "该证书课程为执业者提供认知行为疗法（CBT）的循证治疗技能，面向常见心理障碍。课程十月开课，前两周集中授课五天，之后两个学期每周一天（两成在牛津面授、其余线上），配每周两小时小组督导，学员须有成人治疗场所供接案；结业后可通过OCTC争取协会认证。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3483,7 +3483,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a relevant subject; and a PGCert in Cognitive Behavioural Therapy completed successfully at the Univers（be qualified members of one of the main National Health Service professions, eg clinical psychologists, psychiatrists, nurses, general practitioners, occupational therapists, or other recognised professions, eg social worker; OR hold the equivalent of a core profession as defined by BABCPs Knowledge, Skills and Attitudes criteria .）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, at least one professional and one academic)；Personal statement (a maximum of 500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该非全日制课程提供强化CBT的专门训练，专攻心理创伤与人格发展；要求申请者已完成或正在完成牛津PGCert in CBT或同等高强度CBT培训。11月至次年7月设五个四天教学模块和12次专家小组督导，须对至少四名有明显创伤史或人格发展问题的患者开展CBT实践。考核含口头案例陈述、临床录音、临床评估报告与案例报告。",
+      "summary": "该非全日制课程提供强化CBT的专门训练，专攻心理创伤与人格发展；要求申请者已完成或正在完成牛津PGCert in CBT或同等强度CBT培训。11月至次年7月设五个四天教学模块和12次专家小组督导，须对至少四名有创伤史或人格发展问题的患者开展CBT实践。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "11个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3498,7 +3498,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a relevant subject; and a PGCert in Cognitive Behavioural Therapy completed successfully at the Univers（be qualified members of one of the main National Health Service professions, eg clinical psychologists, psychiatrists, nurses, general practitioners, occupational therapists, or other recognised professions, eg social worker; OR hold the equivalent of a core profession as defined by BABCPs Knowledge, Skills and Attitudes criteria .）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, at least one professional and one academic)；Personal statement (a maximum of 500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该非全日制课程为经验型CBT专业人员提供强化认知行为疗法训练，专门针对精神病与双相障碍，学习相关认知行为模型与证据基础，并按NICE指南等框架提供个体化干预；要求申请者已完成或正在完成牛津PGCert in CBT或同等培训。教学10月至次年6月，主要在每周四进行，配6-7小时周自学；考核含两份临床录音、一份案例报告和一次口头案例陈述。",
+      "summary": "该非全日制课程为经验型CBT专业人员提供强化认知行为疗法训练，专门针对精神病与双相障碍；要求申请者已完成或正在完成牛津PGCert in CBT或同等培训。教学10月至次年6月，主要在每周四进行，配6-7小时周自学；考核含两份临床录音、一份案例报告和一次口头案例陈述。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "11个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3513,7 +3513,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in an appropriate discipline; or an equivalent professional qualification in a profession allied to medici（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic and/or professional)；Statement of purpose (a maximum of 500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该非全日制证书课程面向有潜力成为独立研究者的医学与牙科受训人员，可在职完成，通常一至两年。课程含三个计分模块（两门必修加一门选修），讲授定性与定量研究设计、数据分析、循证医疗实践与临床研究原理；多采用八或十五周学习周期，线上或混合授课（部分含五天牛津面授），每模块末在线提交论文考核。多数毕业生继续攻读PGDip、硕士等课程。",
+      "summary": "该非全日制证书课程面向有潜力成为独立研究者的医学与牙科受训人员，可在职完成，通常一至两年。课程含三个计分模块（两门必修加一门选修），讲授定性与定量研究设计、数据分析、循证医疗实践与临床研究原理；多采用八或十五周学习周期，线上或混合授课。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "1-2年（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3528,7 +3528,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any discipline. This might include candidates who have studied history in the past and wish to update a（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic preferred)；Personal statement (a maximum of 500 words)；Written work (one essay of a maximum of 2,000 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该证书课程既可独立就读，也可作为历史研究硕士（MSt）第一年。课程含五个周末教学单元和三个在线模块，形式包括展示、导师引导讨论与学员报告，第五个“专题”周末与论文导师一对一tutorial。考核为四篇论文、两次史料练习与一篇学位论文。顺利完成者可申请牛津继续教育部或他校硕士课程，但不保证自动录取。",
+      "summary": "该证书课程既可独立就读，也可作为历史研究硕士（MSt）第一年。课程含五个周末教学单元和三个在线模块，形式包括展示、导师引导讨论与学员报告；考核为四篇论文、两次史料练习与一篇学位论文。顺利完成者可申请牛津继续教育部或他校硕士课程，但不保证自动录取。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3543,7 +3543,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a mathematical or physical sciences discipline, eg mathematics, materials science, physics, chemistry, （evidence of a demonstrated interest in nanotechnology evidence of their motivation and ability to complete the course a clear and well-argued understanding of the benefits of the course to the applicant's current employment situation and future prospects.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic and/or professional)；Personal statement (a maximum of 500 words)；申请费 £75",
       "deadline": "分轮（staged）申请：Friday, 13 November, 2026（早申，更早获决定）；Wednesday, 27 January, 2027（Oxford奖学金截止）；Tuesday, 2 March, 2027（Expected to be the final application deadline）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "该十个月证书课程以线上为主，面向不同背景的在职专业人士，提供纳米科技基础、技术进展与应用入门，由牛津继续教育部与工程科学系及Begbroke科学园联办。三个模块各七至十周，讲授常用分析、定量与实验方法，配每周实时在线tutorial，另须参加牛津住宿周末。部分毕业生继续读博或纳米医学与健康等硕士课程。",
+      "summary": "该十个月证书课程以线上为主，面向不同背景的在职专业人士，提供纳米科技基础、技术进展与应用入门，由牛津继续教育部与工程科学系及Begbroke科学园联办。三个模块各七至十周，配每周实时在线tutorial，另须参加牛津住宿周末；部分毕业生继续读博。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "10个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3558,7 +3558,7 @@ var SCHOOL_COURSES = {
       "gpa": "见官网原文。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: an appropriate medical qualification equivalent to MBBS (Bachelor of Medicine/Bachelor of Surgery) All applicants should preferably also hold a specialist qualification equivalent to （a demonstrated interest in paediatric infectious diseases, evidenced by prior experience, interest and work; a senior supporter from their home institution or country who is a member of the European Society for Paediatric Infectious Disease or a national paediatric infectious disease body such as the British Paediatric Allergy Infection and Immunity Group.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic and/or professional)；Statement of purpose (a minimum of 500 words to a maximum of 1,000 words；申请费 £75",
       "deadline": "单轮截止：Tuesday, 1 December, 2026（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "该一年制非全日制课程主要在线授课，围绕儿童感染综合征、诊断、治疗与病毒性感染，并将儿科感染置于病原学、群体生物学与流行病学背景中。课程含三个模块，通过虚拟学习环境在线讨论学习（每模块约八至十一周），须赴牛津参加年度儿童感染与免疫会议；考核为两份4000字书面作业。适合普通儿科受训医生或有意专攻儿科感染病者。",
+      "summary": "该一年制非全日制课程主要在线授课，围绕儿童感染综合征、诊断、治疗与病毒性感染，并将儿科感染置于病原学、群体生物学与流行病学背景中。课程含三个模块，在线讨论学习（每模块约八至十一周），须赴牛津参加年度儿童感染与免疫会议；适合普通儿科受训医生或有意专攻儿科感染病者。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3588,7 +3588,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any subject.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic and/or professional)；Personal statement (a maximum of 500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该一年制非全日制课程每周一晚在牛津继续教育部上课，提供心理动力学理论与实务基础训练，含理论实践工作坊、体验小组、每学期两次tutorial和两个周六工作坊，建议每周至少十小时自学。课程属获UPCA认证的牛津心理动力学研究硕士项目，可独立就读，也可衔接PG Diploma；考核为四份书面作业加导师报告，约半数毕业生继续攻读PG Diploma。",
+      "summary": "该一年制非全日制课程每周一晚在牛津继续教育部上课，提供心理动力学理论与实务基础训练，含理论实践工作坊、体验小组、每学期两次tutorial和两个周六工作坊。课程属获UPCA认证的牛津心理动力学研究硕士项目，可独立就读，也可衔接PG Diploma；约半数毕业生继续攻读PG Diploma。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "9个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3648,7 +3648,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in a relevant subject（be qualified members of one of the main National Health Service professions, eg clinical psychologists, psychiatrists, nurses, general practitioners, occupational therapists, or other recognised professions, eg social worker; or hold the equivalent of a core profession as defined by BABCPs Knowledge, Skills and Attitudes criteria .）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, at least one professional and one academic)；Statement of purpose (a maximum of 500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该一年制课程提供成为合格CBT治疗师所需的核心能力训练：先学习处理常见心理健康问题的核心技能，再进阶到共病、慢性化等复杂情况。教学强调观摩CBT实况、角色扮演等体验式学习与临床实践；考核为两场20分钟案例陈述、三份临床录音、两份4000字案例报告和一份培训档案。结业后可通过OCTC争取协会认证。",
+      "summary": "该一年制课程提供成为合格CBT治疗师所需的核心能力训练：先学习处理常见心理健康问题的核心技能，再进阶到共病、慢性化等复杂情况。教学强调观摩CBT实况、角色扮演等体验式学习与临床实践；结业后可通过OCTC争取协会认证。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3678,7 +3678,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any discipline, though qualifications in a related discipline such as education will be an advantage.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, at least one of which should be academic and one professional)；Personal statement (a maximum of 750 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该研究生文凭课程面向与幼儿工作的教育专业人士，以儿童发展与早期教育研究证据为基础，覆盖游戏本位儿童中心方法、社会情感发展与幸福，及语言读写、推理、执行功能等认知发展领域。授课以线上为主，含一周住宿面授，三个计分模块加一篇1万至1.5万字独立研究论文。学员多为在职教师，在需要早期教育专长的国际学校等领域更具优势。",
+      "summary": "该研究生文凭课程面向与幼儿工作的教育专业人士，以儿童发展与早期教育研究证据为基础，覆盖游戏本位儿童中心方法、社会情感发展与幸福，及语言读写、推理、执行功能等认知发展领域。授课以线上为主，含一周住宿面授，三个计分模块加一篇独立研究论文；学员多为在职教师。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3693,7 +3693,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any discipline, though qualifications in a related discipline such as education or languages and lingui（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, at least one of which should be academic and one professional)；Personal statement (a maximum of 750 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该研究生文凭课程面向与多语言学习者打交道的教育工作者，以英语作为附加语言（EAL）研究证据为基础，覆盖EAL学习者与相关理论、学校层面EAL政策、课堂支持实践、EAL研究方法四个主题。授课以线上为主，含一周住宿面授，三个计分模块加一篇1万至1.5万字独立研究论文。学员多为在职教师，该资格有助职业发展。",
+      "summary": "该研究生文凭课程面向与多语言学习者打交道的教育工作者，以英语作为附加语言（EAL）研究证据为基础，覆盖EAL学习者与相关理论、学校层面EAL政策、课堂支持实践、EAL研究方法四个主题。授课以线上为主，含一周住宿面授，三个计分模块加一篇独立研究论文；该资格有助职业发展。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3708,7 +3708,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours is normally required in a relevant discipline. The above qualification should be achieved in one of the fo（nursing pharmacy laboratory community health worker work in policy regulatory agency department of health work in the pharma industry Your evidence of learning may be demonstrated by compiling a portfolio of some of the examples listed below: Completion of The Global Health Network's Professional Development Scheme; Reflective accounts of your experience and the learning gained through that experience; Statements detailing any formal education or relevant training acquired; and/or Provision of certificates, transcripts, statements from employers, etc.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic or professional)；Personal statement (a maximum of 1,000 words)；申请费 £75",
       "deadline": "单轮截止：Tuesday, 1 December, 2026（2027-28入学最终截止）；以上为2027-28入学安排（2026-27申请已关闭）",
-      "summary": "该在线研究生文凭课程共四个学期（每学期八周教学），隶属牛津热带医学与全球健康中心，依次讲授研究设计、数据管理与分析、质量体系与研究实施。课程结合预录互动讲座、讨论论坛与实时网络课堂，配真实案例与应用任务，训练设计并实施高质量、安全、符合伦理的全球健康研究，尤其针对低资源环境。每学期末考核一次，各占25%。",
+      "summary": "该在线研究生文凭课程共四个学期（每学期八周教学），隶属牛津热带医学与全球健康中心，依次讲授研究设计、数据管理与分析、质量体系与研究实施。课程结合预录互动讲座、讨论论坛与实时网络课堂，训练设计并实施高质量、安全、符合伦理的全球健康研究，尤其针对低资源环境。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "14个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3723,7 +3723,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in an appropriate discipline; or an equivalent professional qualification in a profession allied to medici（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic and/or professional)；Statement of purpose (a maximum of 500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该非全日制研究生文凭课程面向医学与牙科受训人员，可在职完成，通常一至三年，在健康研究证书基础上进一步强化定性与定量研究设计、数据分析、批判性评价与循证医疗实践。课程含两门必修加四门选修，多为八或十五周学习周期，线上或混合授课（部分含五天牛津面授），每模块末在线提交论文。学员多为医疗行业在职者。",
+      "summary": "该非全日制研究生文凭课程面向医学与牙科受训人员，可在职完成，通常一至三年，在健康研究证书基础上进一步强化定性与定量研究设计、数据分析、批判性评价与循证医疗实践。课程含两门必修加四门选修，线上或混合授课（部分含五天牛津面授）。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "1-3年（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3738,7 +3738,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any discipline.（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, academic and/or professional)；CV/résumé；Personal statement (a maximum of 500 words)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该一年制非全日制职业课程面向准备进入知识产权（IP）法律实务的人士，由资深执业律师与学者授课，涵盖专利、商标、不正当竞争之假冒、商业秘密、外观设计、版权与精神权利及诉讼与非诉讼程序。九月在牛津学院参加两周住宿项目，10月至6月在伦敦律所参加周末工作坊；考核为五份实操书面作业加两场笔试。学员多为律所或大律师行实习生与新晋律师。",
+      "summary": "该一年制非全日制职业课程面向准备进入知识产权（IP）法律实务的人士，由资深执业律师与学者授课，涵盖专利、商标、商业秘密、外观设计、版权与精神权利及诉讼与非诉讼程序。九月在牛津学院参加两周住宿项目，10月至6月在伦敦律所参加周末工作坊；学员多为律所实习生与新晋律师。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "10个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"
@@ -3753,7 +3753,7 @@ var SCHOOL_COURSES = {
       "gpa": "一等荣誉学位（first-class）或强二等一级荣誉学位（strong upper second-class）。官网要求原文：As a minimum, applicants should hold or be predicted to achieve the following UK qualifications or their equivalent: a first-class or strong upper second-class undergraduate degree with honours in any discipline, though qualifications in a related discipline such as education or languages and lingui（0713) 7.）",
       "requirements": "官方成绩单（official transcript(s)）；Referees (three overall, of which at least two must be academic)；Personal statement (a maximum of 750 words)；Written work (two essays of a maximum of 2,000 words each)；申请费 £75",
       "deadline": "官网页面当前未显示具体截止日期；页面说明该课程使用1月截止档（January deadline，用于奖学金评审），2026-27申请已关闭；2027-28具体截止日期预计2026年9月16日官网更新后公布",
-      "summary": "该非全日制在线研究生文凭课程面向在职教师，回应全球对合格中文（普通话）教师的需求，以研究为本的教法为核心，涵盖学龄学习者中文习得理论、循证教学实践、课堂行动研究及文化因素、教学领导力等主题。课程通过Canvas平台授课（共48学时），另有一周住宿导入；前两模块以2500字论文考核，第三模块为1万至1.5万字研究报告。",
+      "summary": "该非全日制在线研究生文凭课程面向在职教师，回应全球对合格中文（普通话）教师的需求，以研究为本的教法为核心，涵盖学龄学习者中文习得理论、循证教学实践、课堂行动研究及文化因素、教学领导力等主题。课程通过Canvas平台授课（共48学时），另有一周住宿导入。",
       "applicationOpen": "2026年9月16日（针对2027年入学；官网提示大部分课程于此日开放）",
       "duration": "12个月（兼职制）",
       "teachingLanguage": "英语（全英文授课）"

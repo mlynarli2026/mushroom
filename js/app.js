@@ -1,9 +1,21 @@
 /* ==========================================================
-   留学选校助手 - 公共逻辑（首页 / 学校页 / 课程页共用）
+   心之菌子孵化教程 - 公共逻辑（首页 / 学校页 / 课程页共用）
    数据说明：数据全部放在 data/ 下的 .js 文件里（纯文本），
    这样用浏览器直接双击打开 index.html 也能正常运行，
    不需要启动任何服务器。
    ========================================================== */
+
+
+/* 把课程名拆成英文主名 + 中文名（titleCn 优先，其次从 title 内嵌中文提取） */
+var CJK_RE = /[\u4e00-\u9fff\uff08\uff09\u3001\uff0c\uff1a\uff1b\u3002\uff01\uff1f\u00b7\u2026\u2014]+/g;
+function splitTitle(c) {
+  var t = c.title || "";
+  var m = t.match(CJK_RE);
+  var cn = c.titleCn || (m ? m.join("") : "");
+  var en = t;
+  if (cn) en = t.replace(CJK_RE, "").replace(/\s+/g, " ").trim();
+  return { en: en, cn: cn };
+}
 
 /* ---------- 小工具 ---------- */
 function qs(key) {
@@ -39,7 +51,8 @@ function loadJs(src) {
    3. 多个词用空格分开时，所有词都要在课程名里出现。 */
 function courseMatches(course, query) {
   if (!query) return true;
-  var hay = (course.title || "").toLowerCase() + " " + (course.keywords || "").toLowerCase();
+  var sp = splitTitle(course);
+  var hay = (sp.en + " " + sp.cn + " " + (course.keywords || "")).toLowerCase();
   var tokens = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   return tokens.every(function (t) { return hay.indexOf(t) !== -1; });
 }
@@ -53,7 +66,7 @@ function bySchool(id) {
 function groupAlpha(courses) {
   var groups = {};
   courses.forEach(function (c) {
-    var ch = (c.title || "").trim().charAt(0).toUpperCase();
+    var ch = splitTitle(c).en.trim().charAt(0).toUpperCase();
     var letter = /[A-Z]/.test(ch) ? ch : "#";
     if (!groups[letter]) groups[letter] = [];
     groups[letter].push(c);
@@ -205,8 +218,11 @@ function initSchool() {
         return '<div class="group-title">' + esc(g.letter) + '</div>' +
           '<ul class="course-list">' +
           g.items.map(function (c) {
+            var sp = splitTitle(c);
             return '<li><a href="course.html?id=' + encodeURIComponent(id) +
-              '&c=' + encodeURIComponent(c.id) + '">' + esc(c.title) +
+              '&c=' + encodeURIComponent(c.id) + '">' +
+              '<span class="t-en">' + esc(sp.en) + '</span>' +
+              (sp.cn ? '<span class="t-cn">' + esc(sp.cn) + '</span>' : '') +
               (c.tuition ? '<span class="tag">' + esc(String(c.tuition).split('（')[0].trim()) + '</span>' : "") +
               '</a></li>';
           }).join("") +
@@ -263,7 +279,8 @@ function initCourse() {
     wrap.innerHTML =
       '<p class="crumb"><a href="index.html">← 返回全部学校</a> ｜ ' +
       '<a href="school.html?id=' + encodeURIComponent(id) + '">← 返回 ' + esc(school.nameCn) + '</a></p>' +
-      '<h1 class="course-title">' + esc(course.title) + '</h1>' +
+      '<h1 class="course-title">' + esc(splitTitle(course).en) +
+      (titleCnShort(course) ? '<span class="cn-title">（' + esc(titleCnShort(course)) + '）</span>' : '') + '</h1>' +
       '<p class="meta" style="color:#555;font-size:14px;margin-bottom:18px;">' +
       esc(school.nameCn) + ' · ' + esc(school.nameEn) + ' · QS 2027 第 ' + esc(school.rank) + ' 名 · ' +
       (course.award ? esc(course.award) : "硕士课程") + '</p>' +
@@ -330,7 +347,8 @@ function initGlobalSearch() {
     Object.keys(all).forEach(function (id) {
       var entry = all[id];
       entry.courses.forEach(function (c) {
-        var hay = (c.title || "").toLowerCase();
+        var sp = splitTitle(c);
+        var hay = (sp.en + " " + sp.cn).toLowerCase();
         var ok = tokens.every(function (t) { return hay.indexOf(t) !== -1; });
         if (ok) hits.push({ school: entry.school, course: c });
       });
@@ -340,8 +358,10 @@ function initGlobalSearch() {
       [...new Set(hits.map(function (h) { return h.school ? h.school.nameCn : ""; }))].join("、") + "）";
     results.innerHTML = hits.slice(0, 60).map(function (h) {
       var s = h.school || {};
+      var sp2 = splitTitle(h.course);
       return '<div class="hit-row"><a href="course.html?id=' + encodeURIComponent(s.id) +
-        '&c=' + encodeURIComponent(h.course.id) + '">' + esc(h.course.title) +
+        '&c=' + encodeURIComponent(h.course.id) + '">' + esc(sp2.en) +
+        (sp2.cn ? ' <span class="t-cn">' + esc(sp2.cn) + '</span>' : '') +
         '<span class="tag">' + esc(s.nameCn) + '（QS ' + esc(s.rank) + '）</span></a></div>';
     }).join("");
   }
@@ -351,6 +371,23 @@ function initGlobalSearch() {
   });
 }
 
+
+
+/* 课程页标题的中文名：去掉与英文重复的学位后缀（如（M.Sc）） */
+function titleCnShort(c) {
+  var sp = splitTitle(c);
+  var cn = sp.cn;
+  if (!cn) return "";
+  var m = cn.match(/（([^）]+)）$/);
+  if (m) {
+    var enTail = ((sp.en.match(/\(([^)]+)\)$/) || [])[1] || "").toLowerCase();
+    var cnTail = m[1].toLowerCase();
+    if (enTail && (cnTail === enTail || cnTail.indexOf(enTail) === 0 || enTail.indexOf(cnTail) === 0)) {
+      cn = cn.slice(0, -m[0].length);
+    }
+  }
+  return cn;
+}
 
 /* 申请时间：开放 + 截止 两行显示 */
 function composeApplyTime(course) {

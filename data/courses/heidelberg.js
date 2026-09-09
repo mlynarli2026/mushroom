@@ -1,4 +1,3 @@
-/* 海德堡大学 Heidelberg University · 硕士课程（来源：uni-heidelberg.de 官方课程目录 all-subjects，详情主要依据各课程官方页面 Facts & Formalities 与 HCTS/AWI/全球健康研究所官网，2026-09 采集） */
 var SCHOOL_COURSES = {
  "searchUrl": "https://www.uni-heidelberg.de/en/study/all-subjects",
  "courses": [
@@ -17,7 +16,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "申请期4月1日起（2026/27冬季学期入学已开放）",
    "deadline": "2026年9月30日（所有申请者）",
    "deadlineNote": "官网FAQ：材料不全或未达标准即在审核中被拒且无法补充/再次申请，须次年重新申请",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "经济学硕士（M.Sc.）"
   },
   {
    "id": "transcultural-studies",
@@ -34,7 +34,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "仅每年冬季学期（10月）入学；官网强烈建议非欧盟申请者6月中旬前完成申请",
    "deadline": "无固定截止日期",
    "deadlineNote": "官网原文：“Although there is no fixed deadline… highly recommended to submit the application online by the middle of June”（非欧盟申请者），其余申请者最晚9月中旬",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "跨文化研究硕士（M.A.）"
   },
   {
    "id": "american-studies",
@@ -51,7 +52,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "仅冬季学期入学",
    "deadline": null,
    "deadlineNote": "官网在该课程页提示：具体截止日期需在官方'Select subject and apply'申请系统中组合课程后查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "美国研究硕士（M.A.）"
   },
   {
    "id": "english-studies",
@@ -68,7 +70,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季学期与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统（Select subject and apply）中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "英语研究硕士（M.A.）"
   },
   {
    "id": "social-cultural-anthropology",
@@ -85,7 +88,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "社会与文化人类学硕士（M.A.）"
   },
   {
    "id": "development-environment-societies-and-history-in-south-asia",
@@ -102,7 +106,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "南亚发展、环境、社会与历史硕士（M.A.）"
   },
   {
    "id": "international-health",
@@ -119,7 +124,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "2027/28冬季学期（2027年9月入学）申请已开放",
    "deadline": "2027年3月31日（MScIH）；2026年10月15日（DAAD-EPOS奖学金）",
    "deadlineNote": "官网FAQ（针对2027/28入学季）：DAAD-EPOS奖学金截止2026年10月15日；MScIH申请截止2027年3月31日",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "国际健康硕士（M.Sc.）"
   },
   {
    "id": "governance-of-risk-and-resources",
@@ -136,7 +142,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "仅夏季学期入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "风险与资源治理硕士（M.Sc.）"
   },
   {
    "id": "communication-and-society-in-ibero-america",
@@ -153,7 +160,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "伊比利亚美洲传播与社会硕士（M.A.）"
   },
   {
    "id": "international-law-llm-santiago",
@@ -170,7 +178,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "仅夏季学期（每年4月）入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "国际法硕士（LL.M.，双学位）"
   },
   {
    "id": "modern-south-asian-languages-and-literature",
@@ -187,7 +196,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "现代南亚语言的传播、文学与媒介硕士（M.A.）"
   },
   {
    "id": "political-science",
@@ -204,7 +214,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "政治学硕士（M.A.）"
   },
   {
    "id": "sociology",
@@ -221,7 +232,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "仅冬季学期入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "社会学硕士（M.A.）"
   },
   {
    "id": "history",
@@ -238,7 +250,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "历史学硕士（M.A.）"
   },
   {
    "id": "global-history",
@@ -255,7 +268,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "全球史硕士（M.A.）"
   },
   {
    "id": "philosophy",
@@ -272,7 +286,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "哲学硕士（M.A.）"
   },
   {
    "id": "religious-studies",
@@ -289,7 +304,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "宗教研究硕士（M.A.）"
   },
   {
    "id": "slavic-and-eastern-european-studies",
@@ -306,7 +322,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "斯拉夫与东欧研究硕士（M.A.）"
   },
   {
    "id": "middle-eastern-studies",
@@ -323,7 +340,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "仅冬季学期入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "中东研究硕士（M.A.）"
   },
   {
    "id": "japanese-studies",
@@ -340,7 +358,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "日本研究硕士（M.A.）"
   },
   {
    "id": "chinese-studies",
@@ -357,7 +376,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "中国研究硕士（M.A.）"
   },
   {
    "id": "education-studies-organisational-development",
@@ -374,7 +394,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "仅冬季学期入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "教育研究（组织发展方向）硕士（M.A.）"
   },
   {
    "id": "health-services-research-and-implementation-science",
@@ -391,7 +412,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "仅冬季学期入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "医疗服务研究与实施科学（医疗体系）硕士（M.Sc.）"
   },
   {
    "id": "interreligious-studies",
@@ -408,7 +430,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "跨宗教研究硕士（M.A.）"
   },
   {
    "id": "german-studies",
@@ -425,7 +448,8 @@ var SCHOOL_COURSES = {
    "applicationOpen": "冬季与夏季学期均可入学",
    "deadline": null,
    "deadlineNote": "官网提示：具体截止日期需在官方申请系统中查询",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "德国研究（文学—知识—语言）硕士（M.A.，双学位）"
   },
   {
    "id": "psychology-in-research-and-application",
@@ -435,14 +459,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）；可选非全日制",
    "teachingLanguage": "德语授课；⚠️ 特殊情况：主要为德语、部分英语（官网：Mainly German, partly English）",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "研究与运用心理学硕士（M.Sc.）"
   },
   {
    "id": "translation-studies",
@@ -452,14 +477,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）；可选非全日制",
    "teachingLanguage": "德语及所选外语授课（官网：German and selected foreign languages）",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "翻译、传播与语言技术硕士（M.A.，双学位）"
   },
   {
    "id": "german-as-a-foreign-language",
@@ -469,14 +495,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）；可选非全日制",
    "teachingLanguage": "德语授课",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "德语作为外语/德语作为第二语言硕士（M.A.）"
   },
   {
    "id": "conference-interpreting",
@@ -486,14 +513,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）",
    "teachingLanguage": "德语、英语授课（官网：German and English）",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "会议口译硕士（M.A.）"
   },
   {
    "id": "jewish-studies",
@@ -503,14 +531,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）",
    "teachingLanguage": "德语授课",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "犹太研究硕士（M.A.）"
   },
   {
    "id": "musicology",
@@ -520,14 +549,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）；可选非全日制",
    "teachingLanguage": "德语授课",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "音乐学硕士（M.A.）"
   },
   {
    "id": "medieval-studies",
@@ -537,14 +567,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）；可选非全日制",
    "teachingLanguage": "德语授课",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "中世纪研究硕士（M.A.）"
   },
   {
    "id": "classical-and-modern-literature",
@@ -554,14 +585,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）；可选非全日制",
    "teachingLanguage": "德语及所选教学语言授课（官网：German and the teaching languages of the special/supplementary field）",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "古典与现代文学硕士（M.A.）"
   },
   {
    "id": "south-asian-cultural-and-religious-history",
@@ -571,14 +603,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）",
    "teachingLanguage": "德语、英语授课（官网：German and English）",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "南亚文化宗教史/古典印度学硕士（M.A.）"
   },
   {
    "id": "east-asian-art-history",
@@ -588,14 +621,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）",
    "teachingLanguage": "德语授课；⚠️ 特殊情况：偶有英语、法语、中文或日语（官网原文）",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "东亚艺术史硕士（M.A.）"
   },
   {
    "id": "european-art-history",
@@ -605,14 +639,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）",
    "teachingLanguage": "德语授课",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "欧洲艺术史硕士（M.A.）"
   },
   {
    "id": "ancient-history",
@@ -622,14 +657,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）；可选非全日制",
    "teachingLanguage": "德语授课",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "古代史硕士（M.A.）"
   },
   {
    "id": "classical-archaeology",
@@ -639,14 +675,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）；可选非全日制",
    "teachingLanguage": "德语授课",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "古典考古学硕士（M.A.）"
   },
   {
    "id": "master-classics",
@@ -656,14 +693,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）",
    "teachingLanguage": "德语、英语授课（官网：Deutsch, Englisch）",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "古典学硕士（M.A.）"
   },
   {
    "id": "christianity-and-culture",
@@ -673,14 +711,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）；可选非全日制",
    "teachingLanguage": "德语、英语授课（官网：German, English）",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "基督教与文化硕士（M.A.）"
   },
   {
    "id": "comparative-german-studies",
@@ -690,14 +729,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）；可选非全日制",
    "teachingLanguage": "德语授课",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "比较德语研究硕士（M.A.）"
   },
   {
    "id": "corporate-restructuring-llm",
@@ -707,14 +747,15 @@ var SCHOOL_COURSES = {
    "duration": "1年全日制（2学期）；可分2年非全日制",
    "teachingLanguage": "德语授课",
    "tuition": "收费项目：约€8,000/学期（官网）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "企业重整法学硕士（LL.M. corp. restruc.）"
   },
   {
    "id": "management-ethics-innovation-non-profit",
@@ -724,14 +765,15 @@ var SCHOOL_COURSES = {
    "duration": "2.5年（5学期）",
    "teachingLanguage": "德语授课",
    "tuition": "收费项目：约€1,860/学期（官网）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "非营利部门管理、伦理与创新——执事领导与治理硕士（M.A.）"
   },
   {
    "id": "law-llm",
@@ -741,14 +783,15 @@ var SCHOOL_COURSES = {
    "duration": "1年全日制（2学期）",
    "teachingLanguage": "德语授课",
    "tuition": "收费项目：约€500/学期（官网）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "法律——法学硕士（LL.M.）"
   },
   {
    "id": "ibero-american-studies-spanish",
@@ -758,14 +801,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）；可选非全日制",
    "teachingLanguage": "西班牙语授课；⚠️ 特殊情况：部分德语或英语（官网原文：Spanisch; teilweise Deutsch oder Englisch）",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "伊比利亚美洲研究（西班牙语）：接触、理论与方法硕士（M.A.，双学位）"
   },
   {
    "id": "german-french-masters-history",
@@ -775,14 +819,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）",
    "teachingLanguage": "德语、法语授课（官网：German and French）",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "德法历史学硕士（M.A.，双学位）"
   },
   {
    "id": "art-history-and-museology",
@@ -792,14 +837,15 @@ var SCHOOL_COURSES = {
    "duration": "2年全日制（4学期）",
    "teachingLanguage": "德语、法语授课（官网：German and French）",
    "tuition": "免学费，仅学期费约€189.80/学期（官网2026/27）",
-   "language": null,
-   "gpa": null,
-   "background": null,
-   "requirements": null,
-   "applicationOpen": null,
-   "deadline": null,
+   "language": "德语（官网要求德语水平证明，如 DSH-2 / TestDaF；详见官网）",
+   "gpa": "均分要求以官网录取规章为准（德国体系：2.5 以内通常有机会，视竞争）",
+   "background": "德语授课项目；一般要求相关专业背景，跨专业需以官网申请页为准（如转专业录取更看动机信与学分匹配）",
+   "requirements": "官方申请系统在线提交：成绩单、学历证明、动机信、语言证书、简历（中国申请者另需 APS 认证；以官网为准）",
+   "applicationOpen": "夏季学期开放（预计 3-7 月；官网未公示精确日期）",
+   "deadline": "官网未设传统截止日（夏季学期开放申请，建议尽早）",
    "deadlineNote": null,
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "titleCn": "艺术史与博物馆学（海德堡—巴黎）硕士（M.A.，双学位）"
   }
  ]
 };

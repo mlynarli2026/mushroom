@@ -1,9 +1,11 @@
+/* 都柏林圣三一大学 Trinity College Dublin · 硕士课程数据（整理自 tcd.ie 官网） */
 var SCHOOL_COURSES = {
  "searchUrl": "https://www.tcd.ie/courses/search/?keywords=&type=postgraduate",
  "courses": [
   {
    "id": "accounting-and-analytics-mscpgraddip",
    "title": "Accounting and Analytics (M.Sc./P.Grad.Dip.)",
+   "summary": "该课程为一年全日制硕士，学习财务报告、税务、审计、财务管理与数据分析等科目。末学期30学分的会计分析实践研究项目由德勤讲师授课，融入人工智能、大数据与流程自动化，以高管报告代替传统论文。适合希望在会计、数据分析与金融科技交叉领域发展的学生。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/accounting-and-analytics-mscpgraddip/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -12,11 +14,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月14日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "会计与分析硕士/研究生文凭（M.Sc./P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "addiction-recovery-mscpgraddip",
    "title": "Addiction Recovery (M.Sc./P.Grad.Dip)",
+   "summary": "该课程为爱尔兰首创、国际上无先例的成瘾康复硕士，融合公共卫生、精神病学、心理学与神经科学。面向承担成瘾服务实施责任的健康与社会护理从业者，由临床一线专家授课，并强调工作场所行动学习。学生需修读12个教学模块并完成论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/addiction-recovery-mscpgraddip/",
    "tuition": "欧盟生 €9,410/年；非欧盟生（中国学生适用）€18,840/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -25,11 +32,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "成瘾康复硕士/研究生文凭（M.Sc./P.Grad.Dip）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向the course毕业生）"
   },
   {
    "id": "advanced-ageing-and-frailty-studies-pgradcert",
    "title": "Advanced Ageing and Frailty Studies (P.Grad.Cert)",
+   "summary": "该在线研究生证书课程由圣三一医学老年病学学科开设，讲解衰老生物学、衰弱的发生机制及老年衰弱患者的临床评估与管理。共30学分，主要面向医生、护理、辅助健康及社会照护专业人员，以在线直播讲座和辅导课形式授课，并培养把研究成果转化为临床实践的能力。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/advanced-ageing-and-frailty-studies-pgradcert/",
    "tuition": "欧盟生 €4,190/年；非欧盟生（中国学生适用）€8,390/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -38,11 +50,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "高级老龄化与衰弱研究研究生证书（P.Grad.Cert）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向this postgraduate certificate毕业生）"
   },
   {
    "id": "advanced-practice-midwifery",
    "title": "Advanced Practice (Midwifery)",
+   "summary": "该课程面向经验丰富的注册助产士，培养其成为高级助产执业者，涵盖以人为中心照护、专业伦理、协作与领导力。采用混合式教学，并须完成500小时高级临床实践与处方实践。毕业时提交论文，可申请爱尔兰护理与助产委员会助产士处方者注册。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/advanced-practice-midwifery/",
    "tuition": "欧盟生 €5,794/年；非欧盟生（中国学生适用）€11,794/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -51,11 +68,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "高级实践（助产）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向this course毕业生）"
   },
   {
    "id": "advanced-practice-nursing-msc",
    "title": "Advanced Practice (Nursing) M.Sc.",
+   "summary": "该课程面向合格且经验丰富的注册护士，培养其成为高级执业护士，涵盖以人为中心照护、专业伦理、协作与领导力。采用混合式教学，并须完成500小时高级临床实践。毕业时提交论文，可申请爱尔兰护理与助产委员会的注册护士处方者登记。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/advanced-practice-nursing-msc/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -64,37 +86,52 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "高级实践（护理）硕士（M.Sc.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向the course毕业生）"
   },
   {
    "id": "advanced-radiation-therapy-practice---clinical-practice-online-pgrad-certificate-pgrad-diploma",
    "title": "Advanced Radiation Therapy Practice - Clinical Practice (Online P.Grad. Certificate/ P.Grad. Diploma)",
+   "summary": "该在线课程临床实践方向面向放疗专业人士，提升癌症患者高级放疗管理的循证知识与技能。全程线上授课无须到校，考核以书面与实践作业、项目及案例研究等贴近临床的形式进行。证书30学分、文凭60学分，完成后可选读硕士论文方向。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/advanced-radiation-therapy-practice---clinical-practice-online-pgrad-certificate-pgrad-diploma/",
    "tuition": "欧盟生 €2,600/年；非欧盟生（中国学生适用）€5,760/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applications must: | Hold an Honours Bachelor's degree in Radiation Therapy, Medical Physics, Medicine or a related discipline; or otherwise satisfy the selection panel that they have the ability to complete and benefit from the course.\tPossess evidence of sufficient, relevant professional experience.\tHave access to radiation therapy planning software for the duration of the course.\tHave a fluent command of the English language. Students whose first language is not English must meet the university's English language requirements. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this cou",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年在线学习",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "高级放射治疗实践 - 临床实践（在线 P.Grad. Certificate/ P.Grad. Diploma）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向the course毕业生）"
   },
   {
    "id": "advanced-radiation-therapy-practice---treatment-planning-online-pgrad-certificate-pgrad-diploma",
    "title": "Advanced Radiation Therapy Practice - Treatment Planning (Online P.Grad. Certificate/ P.Grad. Diploma)",
+   "summary": "该在线课程治疗计划方向面向放疗专业人士，提升放射治疗计划的循证知识与技能，支持职业向先进技术、治疗计划或研究方向发展。全程线上授课无须到校，考核以书面与实践作业、项目及案例研究为主。证书30学分、文凭60学分，完成后可选读硕士论文方向。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/advanced-radiation-therapy-practice---treatment-planning-online-pgrad-certificate-pgrad-diploma/",
    "tuition": "欧盟生 €2,600/年；非欧盟生（中国学生适用）€5,760/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applications will be accepted from those who: | Hold an honours primary degree in Radiation Therapy, Medical Physics, Medicine or a related discipline; or otherwise satisfy the selection panel that they have the ability to complete and benefit from the course.Evidence of relevant professional experience.Have access to radiation therapy planning software for the duration of the course.Have a fluent command of the English language. Students whose first language is not English must meet the University's English language requirements. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this co",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年在线学习",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "高级放射治疗实践 - 治疗计划（在线 P.Grad. Certificate/ P.Grad. Diploma）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向the course毕业生）"
   },
   {
    "id": "ageing-health-amp-wellbeing-in-intellectual-disability-msc",
    "title": "Ageing Health & Wellbeing in Intellectual Disability (M.Sc.)",
+   "summary": "该跨学科课程面向护理、医学、作业治疗、社会工作、物理治疗等智力障碍服务专业人士，学习智力障碍老年人的身体健康、政策与复杂照护需求。课程依托该校智力障碍与老龄化研究中心的世界领先IDS-TILDA纵向研究，由权威专家授课。专业模块线上授课，硕士须完成论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/ageing-health-amp-wellbeing-in-intellectual-disability-msc/",
    "tuition": "欧盟生 €11,480/年；非欧盟生（中国学生适用）€22,950/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -103,11 +140,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "智力障碍者的老龄健康与福祉硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "applied-behaviour-analysis-msc",
    "title": "Applied Behaviour Analysis (M.Sc.)",
+   "summary": "该全日制硕士面向心理学或相关人类服务专业本科毕业生，讲授应用行为分析理论与伦理实践，以讲座、研讨和小组活动结合理论与实践。课程经ABAI认证，满足报考BCBA认证行为分析师的315小时课程要求。两年制共修八个模块并完成研究论文及督导下的实地实践。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/applied-behaviour-analysis-msc/",
    "tuition": "欧盟生 €10,500/年；非欧盟生（中国学生适用）€17,310/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -116,24 +158,34 @@ var SCHOOL_COURSES = {
    "deadline": "2026年4月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "应用行为分析硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "applied-building-repair-and-conservation-pgraddip",
    "title": "Applied Building Repair and Conservation (P.Grad.Dip.)",
+   "summary": "该一年制在职文凭面向希望进入建筑保护与遗产管理领域的人士，适合建筑、测量、工程、历史、考古、规划等背景的毕业生及从业者，学习传统与现代建筑的失效机理与修复方法。获爱尔兰工程师协会认可，并经皇家建筑师协会（RIAI）保护认证体系认定。共45学分，以考试与保护研究项目考核，须现场出勤。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/applied-building-repair-and-conservation-pgraddip/",
-   "tuition": null,
+   "tuition": "欧盟生 €7,890/年；非欧盟生（中国学生适用）€17,610/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants will normally be required to hold an Honours Bachelor degree in civil engineering or related discipline. | Applicants must provide at least two professional references. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "应用建筑修复与保护研究生文凭（P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "applied-clinical-neuropsychology-msc",
    "title": "Applied Clinical Neuropsychology (M.Sc.)",
+   "summary": "该课程为爱尔兰首创，面向心理学毕业生，由圣三一医学院神经病学学术单元教授，融合神经病学、神经心理学与神经科学。学员学习脑行为关系的研究方法、神经系统疾病的临床表现与神经心理特征及神经康复，可在教学医院临床见习。含30学分研究项目，毕业生可从事心理学助理与研究工作。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/applied-clinical-neuropsychology-msc/",
    "tuition": "欧盟生 €10,230/年；非欧盟生（中国学生适用）€20,480/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -142,11 +194,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年3月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "应用临床神经心理学硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "applied-intercultural-communications-mphil",
    "title": "Applied Intercultural Communications (M.Phil)",
+   "summary": "该硕士面向希望在多元文化环境提升沟通能力的企业与个人，通过国际案例、学生主导案例与实践活动讲授跨文化沟通理论，并融入平等、多样与包容（EEDI）视角和数字素养。支持全日制、在职及线上线下灵活学制，毕业生可胜任传播、协调、国际关系、领导力及EEDI相关岗位，最后须完成论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/applied-intercultural-communications-mphil/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€19,590/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -155,24 +212,34 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月21日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "应用跨文化沟通硕士（M.Phil）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "applied-linguistics-mphil--pgraddip",
    "title": "Applied Linguistics (M.Phil. / P.Grad.Dip.)",
+   "summary": "该硕士聚焦第二语言与外语教育，涵盖第二语言习得与第二语言教学两大方向，并借鉴教育心理学与认知心理学等学科。无需语言学背景，但通常需具备语言教学经验，课程与欧洲语言共同参考框架（CEFR）制定密切相关。全日制一年或在职两年，修读核心与选修模块后完成15000字论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/applied-linguistics-mphil--pgraddip/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€21,550/年（2026/27）",
    "language": "雅思 7.0（各单项≥6.5）/ 托福 iBT 100（各单项≥23）/ PTE 75 · Band C（更高要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should have a good honours degree (at least an upper second or equivalent; GPA of at least 3.2). Previous knowledge of applied linguistics is not a requirement. Normally only graduates with language teaching experience are admitted to the course in Applied Linguistics. | Applicants must provide a Personal Statement explaining their motivation in applying for their chosen course(s). | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band C (Higher Entry) English language requirements. For more details of qualifications that meet Band C, see the E",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "应用语言学硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：接受任何专业背景）"
   },
   {
    "id": "applied-psychology-msc",
    "title": "Applied Psychology (M.Sc.)",
+   "summary": "该一年制硕士为计划深造更专业心理学课程或从事需要心理学专长工作的人提供预备训练，围绕分析、干预与评估三大主题展开。核心模块包括应用心理学哲学与专业问题、研究方法与统计，另修四门健康、组织或临床心理领域选修课，并完成实证调查论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/applied-psychology-msc/",
    "tuition": "欧盟生 €10,094/年；非欧盟生（中国学生适用）€23,100/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -181,24 +248,34 @@ var SCHOOL_COURSES = {
    "deadline": "2026年3月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "应用心理学硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "applied-social-data-science-msc",
    "title": "Applied Social Data Science (M.Sc.)",
+   "summary": "该一年制硕士由爱尔兰排名最高的政治学系开设，教授量化社会科学研究方法与统计学、机器学习等前沿技术，涵盖R、Python编程、统计建模、量化文本分析与预测。教学以每周研讨课加辅导课进行，需完成暑期研究论文。毕业生在IT、咨询、金融服务、政府与非营利部门等领域竞争力强。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/applied-social-data-science-msc/",
    "tuition": "欧盟生 €18,838/年；非欧盟生（中国学生适用）€24,078/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Admission to the course is competitive. Applicants will be expected to hold an upper second class honours (2:1) degree or higher from an established university. A background in a social science discipline or computer science, statistics, or other related discipline will be an advantage but is not required. Applications are expected from candidates who wish to acquire practical knowledge in using cutting-edge statistical methods to answer social scientific questions.\tGPA scores of at least 3.3 out of 4, or equivalent, will be expected from international applicants. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the Engli",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "应用社会数据科学硕士（M.Sc.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向the course毕业生）"
   },
   {
    "id": "applied-social-research-msc",
    "title": "Applied Social Research (M.Sc.)",
+   "summary": "该硕士面向社会科学毕业生，培养设计与开展定量和定性社会研究的能力，并以讲座、工作坊与实践作业相结合的方式授课。课程多学科且职业导向，全日制一年或在职两年，含八周工作实习（在职者可在现岗位完成），并需提交两万字研究论文，也可为博士研究奠定基础。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/applied-social-research-msc/",
    "tuition": "欧盟生 €12,095/年；非欧盟生（中国学生适用）€25,848/年（2026/27）",
    "language": "雅思 7.0（各单项≥6.5）/ 托福 iBT 100（各单项≥23）/ PTE 75 · Band C（更高要求）",
@@ -207,11 +284,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "应用社会研究硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "biodiversity-and-conservation-msc--pgraddip",
    "title": "Biodiversity and Conservation (M.Sc. / P.Grad.Dip.)",
+   "summary": "该课程面向希望投身生物多样性保护事业、继续深造或已在保护生物学领域任职的专业人士，讲授生物多样性、保护生物学与环境影响评估等理论，并通过实验、实地与讨论式教学。亮点是在南非举办的春季驻地野外课程。攻读硕士须完成约四个月的个人研究项目，文凭路径则无须研究项目。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/biodiversity-and-conservation-msc--pgraddip/",
    "tuition": "欧盟生 €9,170/年；非欧盟生（中国学生适用）€22,520/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -220,37 +302,52 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "生物多样性与保护硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "biomedical-engineering-msc--pgraddip",
    "title": "Biomedical Engineering (M.Sc. / P.Grad.Dip.)",
+   "summary": "该硕士面向工程或相关学科背景学生，涉猎心脏治疗新材料、下一代医疗器械设计、计算机建模与组织再生等前沿。课程由国际专家按行业需求授课，设综合、医疗器械设计、神经工程与组织工程四方向，综合方向适合无先修背景者。90学分含40学分研究论文，曾获爱尔兰工程师协会卓越教育奖。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/biomedical-engineering-msc--pgraddip/",
    "tuition": "欧盟生 €12,630/年；非欧盟生（中国学生适用）€28,440/年（2026/27）",
-   "language": null,
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Applicants must hold a minimum of an upper second-class honours degree (2.1) or higher in Engineering, Biomedical Technology, or a cognate discipline. | Shortlisted candidates will be invited for an online interview with the Course Director. Outcomes of the interviews will be made known to candidates shortly after the interviews. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年3月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "生物医学工程硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "biomedical-sciences-intercalated-msc--pgraddip",
    "title": "Biomedical Sciences (Intercalated) (M.Sc. / P.Grad.Dip.)",
+   "summary": "该一年制衔接课程面向圣三一医学院学生，包括完成180 ECTS本科医学课程者与有理科本科学位的毕业生医学学生，培养生物医学研究人才。学生从分子医学、神经科学、转化肿瘤学、医疗感染与免疫学中择一方向，学习疾病分子机制、治疗策略与实验技术。毕业生可进入国际实验室、政府机构与企业。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/biomedical-sciences-intercalated-msc--pgraddip/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€21,150/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Admission is restricted to undergraduate students in Year 3 (and occasionally Year 4) in Trinity's School of Medicine. At this point, students will have qualified for a B.A. which is normally awarded when the students are conferred with their final M.B. The intercalated Master's will also be conferred then. | The course is coordinated through the Department of Clinical Medicine, Trinity, St James's Hospital Dublin. All references provided must be from Trinity academics. | Students will be required to undergo Garda Vetting, you can learn more here. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Appl",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "生物医学科学（衔接课程）硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "business-analytics-and-ai-for-management-msc",
    "title": "Business Analytics and AI for Management (M.Sc.)",
+   "summary": "该硕士结合技术能力、商业洞察与问题求解方法，学习以R、SQL、Python处理大型数据集支持战略决策，并掌握机器学习与RAG等前沿方法。提供校园全日制（一年）、校园非全日制与线上（两年）三种模式，线上与非全日制不适用爱尔兰学生签证。90学分包括八个教学模块与个人论文或企业咨询项目。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/business-analytics-and-ai-for-management-msc/",
    "tuition": "欧盟生 €8,000/年；非欧盟生（中国学生适用）€8,000/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -259,11 +356,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制（可选2年兼读制 2年在线学习）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "面向管理的商业分析与人工智能硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "cancer-survivorship-msc--pgraddip--pgradcert",
    "title": "Cancer Survivorship (M.Sc. / P.Grad.Dip. / P.Grad.Cert)",
+   "summary": "该课程为爱尔兰首创、国际无同类，提供基于证据的癌症幸存者照护知识与技能。面向医学、护理及辅助医疗等广泛背景、参与肿瘤患者照护的卫生专业人员，由跨学科团队（含学者、临床医生与服务使用者）授课。设证书、文凭与硕士三级，可全日制一年或在职两年，硕士含十个教学模块与论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/cancer-survivorship-msc--pgraddip--pgradcert/",
    "tuition": "欧盟生 €8,660/年；非欧盟生（中国学生适用）€17,320/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -272,50 +374,70 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "癌症生存者照护硕士/研究生文凭/研究生证书（M.Sc. / P.Grad.Dip. / P.Grad.Cert）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "child-protection-and-welfare-msc--pgraddip",
    "title": "Child Protection and Welfare (M.Sc. / P.Grad.Dip.)",
+   "summary": "该跨学科课程面向从事儿童保护与福利工作的实务人员和管理者（如社工、护理、心理、教育、司法等领域），强调多学科协作与循证实践。研究生文凭为期一学年，每月在校一周；成绩达标的结业者可继续在线攻读硕士第二年。模块含儿童保护实务与视角、儿童法、儿童发展、家庭干预与研究方法等。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/child-protection-and-welfare-msc--pgraddip/",
    "tuition": "欧盟生 €7,951/年；非欧盟生（中国学生适用）€16,987/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "For Diploma applicants only: Applicants must have a degree or equivalent professional qualification. In addition, a minimum of three years’ professional experience working with some aspect of child protection and welfare is required. Applicants may be shortlisted for interview. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "儿童保护与福祉硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "childrens-literature-mphil--pgraddip",
    "title": "Childrens Literature (M.Phil. / P.Grad.Dip.)",
+   "summary": "该硕士从绘本讲到青少年小说，探索多种体裁、读者群、出版趋势与批评模式，特别关注多元与包容议题，研读四百年前至今的英语儿童文学。以小型研讨班授课，修读核心模块与专业选修模块，完成15000至16000字论文。课程向不同学科背景学生开放，毕业生多进入编辑、出版、艺术管理、教学与图书馆领域。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/childrens-literature-mphil--pgraddip/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€18,720/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should have a good honours degree (at least an upper second or a GPA of at least 3.3). A sample of the candidate’s own critical writing (3,000-5,000 words) is also required. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年4月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "儿童文学硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "childrens-nursing-hdip",
    "title": "Childrens Nursing (H.Dip.)",
+   "summary": "该高级文凭由护理与助产学院联合爱尔兰儿童健康机构（CHI）开设，包含12周理论与40周临床实践，覆盖内外科、高依赖、专科与社区护理环节。申请者须已在爱尔兰护理与助产委员会注册（RGN、RNID或RPN），具至少六个月注册后全职临床经验，并应先经CHI获得名额。考核含学术作业、OSCE与考试。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/childrens-nursing-hdip/",
-   "tuition": null,
+   "tuition": "欧盟生 €11,004/年；非欧盟生（中国学生适用）€11,004/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Programme applicants must satisfy the following criteria: | Applicants are required to posses a minimum 2.1 Honours degree in nursing or a related discipline.Be selected at interview by the Children’s Health Ireland (CHI) committee.Be on at least one of the following divisions of the register as held by The Nursing and Midwifery Board of Ireland: General Nursing, Psychiatric Nursing and Intellectual Disability Nursing.Be on the active register as held by The Nursing and Midwifery Board of Ireland.Have at least six months of full-time, post-registration clinical nursing experience.Have relevant academic undergraduate qualifications which satisfy admission requirements. | Students will be requ",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "儿童护理高级文凭（H.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "chinese-studies-mphil--pgraddip",
    "title": "Chinese Studies (M.Phil. / P.Grad.Dip.)",
+   "summary": "该跨学科硕士整合历史、语言学、政治、文化研究与翻译研究，聚焦当代中国与近百年历史，涵盖政治经济、现代史、社会、流行文化与汉语等。面向背景广泛的申请者，不要求任何中国研究或中文基础，人文社科背景有助但非必需，由教授与业界嘉宾授课。共90学分，含六门教学模块与30学分论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/chinese-studies-mphil--pgraddip/",
    "tuition": "欧盟生 €6,700/年；非欧盟生（中国学生适用）€12,460/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -324,24 +446,34 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "中国研究硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "christian-theology-mphil--pgraddip",
    "title": "Christian Theology (M.Phil. / P.Grad.Dip.)",
+   "summary": "该硕士面向神学或相关学科毕业生，研习当代基督教神学核心议题，结合历史研究与当代神学探究，论文获一对一学术指导。适合宗教教育教师、牧师与事工人员深造，也为后续研究做好准备。全日制一年或在职两年，亦可按证书至文凭至硕士阶梯修读，完成三核心三选修模块及1.5万至2万字论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/christian-theology-mphil--pgraddip/",
    "tuition": "欧盟生 €10,160/年；非欧盟生（中国学生适用）€18,850/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should normally have an upper second-class Honours Bachelor's degree, or 3.2 GPA (or above). Applicants not meeting these requirements may be considered at the discretion of the Dean of Graduate Studies. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "基督教神学硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "classics-mphil--pgraddip",
    "title": "Classics (M.Phil. / P.Grad.Dip.)",
+   "summary": "该硕士既适合古典语言背景者，也适合非语言学科毕业生，设全年开展的古典学：研究与方法模块。学生修读核心模块与四个选修（或两个再加初级拉丁语或希腊语），并完成1.5万字论文。毕业生可进入博物馆遗产、图书馆档案、公共政策、考古、法律、教学与媒体等领域。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/classics-mphil--pgraddip/",
    "tuition": "欧盟生 €8,000/年；非欧盟生（中国学生适用）€16,500/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -350,11 +482,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年4月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "古典学硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "climate-adaptation-engineering-msc--pgraddip",
    "title": "Climate Adaptation Engineering (M.Sc. / P.Grad.Dip.)",
+   "summary": "该一年制工程主导硕士讲授气候适应工程实践，结合工程与应用科学，并纳入GIS分析与机器学习等数据科学内容。课程呼应联合国可持续发展目标，特色是产业合作研究项目，由业界与学术导师共同指导，行业专家参与授课。90学分、全日制一年，毕业生可进入能源、地方政府、环保咨询与建筑领域。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/climate-adaptation-engineering-msc--pgraddip/",
    "tuition": "欧盟生 €9,910/年；非欧盟生（中国学生适用）€27,780/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -363,24 +500,34 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "气候适应工程硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "climate-entrepreneurship-p-grad-cert",
    "title": "Climate Entrepreneurship (P. Grad. Cert.)",
+   "summary": "该证书课程教授创意开发、创新思维与问题解决方法，培养学员识别气候行动机遇、推出新方案应对气候变化的创业能力。学员与创业者、学者、商界领袖及行业导师互动，通过同伴学习体验创意从开发到落地全过程。三个模块共30学分，涉及系统创新、气候适应与减缓的创业机会及气候企业发展。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/climate-entrepreneurship-p-grad-cert/",
-   "tuition": null,
+   "tuition": "欧盟生 €3,750/年；非欧盟生（中国学生适用）€3,750/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Funding eligibility is as outlined in the Springboard+ website. | Applicants must be in possession of a level 8 honours degree (or equivalent), in any discipline from a recognised institution and supply an academic reference as one of the two references required. Those with demonstrated entrepreneurship aspirations will be prioritised. | Applicants who do not meet the entry requirements may still be considered if they can demonstrate their suitability for the course based on recognition of prior learning (RPL) under Trinity’s RPL policy and procedures. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language.",
    "deadline": "2026年11月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "气候创业研究生证书（P.Grad. Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "clinical-chemistry-msc--pgraddip",
    "title": "Clinical Chemistry (M.Sc. / P.Grad.Dip.)",
+   "summary": "该在职硕士由国内外医学科学专家讲授，依托爱尔兰唯一的临床生化学部与全国最大临床生化检验机构。主要面向有实验室或临床医学知识的检验师、临床生化学家或医生，须在课程期间任职或实习于临床实验室。两年制周五授课，每模块经笔试、OSPE与实践作业考核，并完成本实验室研究论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/clinical-chemistry-msc--pgraddip/",
    "tuition": "欧盟生 €7,950/年；非欧盟生（中国学生适用）€16,670/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -389,63 +536,88 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "临床化学硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "clinical-exercise-online-certificate",
    "title": "Clinical Exercise (Online Certificate)",
+   "summary": "面向临床健康专业人员的在线一年制课程，学习如何科学评估活动与体能并开具运动处方，使运动成为患者治疗的一部分；结合运动与疾病防治研究、病例情景和小组讨论，掌握运动在抑郁、焦虑、认知障碍、风湿性疾病等病症中的应用，毕业需完成在线考试与指定作业。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/clinical-exercise-online-certificate/",
-   "tuition": null,
+   "tuition": "欧盟生 €5,890/年；非欧盟生（中国学生适用）€5,890/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "The programme is open to applicants with an NFQ Level-8 qualification or equivalent professional degree at 2.1 level (or equivalent) in the field of medicine, nursing, dietetics and nutrition, medicine, physiotherapy, occupational therapy or physiology. Graduates from other degree courses will be assessed on an individual basis. | Applicants who do not fit these criteria, but who have clinical experience will be assessed on an individual basis by the Dean of Graduate Studies. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) Englis",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年在线学习",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "临床运动（在线证书）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "clinical-exercise-online-diploma-ft",
    "title": "Clinical Exercise (Online Diploma FT)",
+   "summary": "面向医学、护理、营养与膳食、物理治疗、职业治疗及生理学毕业生的全日制课程，在证书基础上进阶学习文献批判性评价、临床研究与数据分析，并掌握运动处方结果测量的实践技能；以线上授课为主，另需赴都柏林圣三一学院运动实验室完成一周实践课与实操考试。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/clinical-exercise-online-diploma-ft/",
-   "tuition": null,
+   "tuition": "欧盟生 €5,890/年；非欧盟生（中国学生适用）€5,890/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "The programme is open to applicants with an NFQ Level-8 qualification or equivalent professional degree at 2.1 level (or equivalent) in the field of medicine, nursing, dietetics and nutrition, medicine, physiotherapy, occupational therapy or physiology. Graduates from other degree courses will be assessed on an individual basis. | Applicants who do not fit these criteria, but who have clinical experience will be assessed on an individual basis by the Dean of Graduate Studies. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) Englis",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "临床运动（在线文凭·全日制）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "clinical-health-sciences-education-msc--pgraddip",
    "title": "Clinical Health Sciences Education (M.Sc. / P.Grad.Dip.)",
+   "summary": "面向卫生科学从业者、护士及助产士，培养教学、评估、课程设计与研究能力，基于跨学科理念训练教学实践；采用讲座、讨论与自主学习相结合的混合式教学，需完成课堂与临床教学实践，硕士阶段撰写论文，护士及助产士毕业生可申请注册为NMBI导师。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/clinical-health-sciences-education-msc--pgraddip/",
    "tuition": "欧盟生 €8,650/年；非欧盟生（中国学生适用）€18,010/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Places on this course are limited and offers are based on a first come basis. Offers that are made are based on suitably qualified applicants providing all the required documentation. All conditions must be met before an offer can be made. | Applicants must hold the following: | Registration as a health services professional with the appropriate body and working in a relevant area. For nursing and midwifery applicants, this would mean active registration with the Nursing and Midwifery Board of Ireland.An Honours Bachelor's degree in a relevant discipline or equivalent professional and academic qualifications.A minimum of three years full-time recent clinical experience practice or equivalent",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "临床健康科学教育硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "clinical-psychology-dclinpsych",
    "title": "Clinical Psychology (D.Clin.Psych.)",
+   "summary": "三年制临床心理学职业博士课程，旨在培养能独立服务于爱尔兰健康系统的临床心理学家，强调理论与实践的衔接以及研究、学术与临床经验的整合训练；课程持有PSI认证，学术授课外需完成六段各约五个月的临床实习，并提交考试、持续临床评估和研究作品集。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/clinical-psychology-dclinpsych/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "At the point of application, the following are required -   ⦁    Eligibility to work in the Republic of Ireland and proof of this must be supplied, if not an EU citizen, by closing date for application.  ⦁    Usually at least an upper-second class Honors Bachelor degree in psychology which confers eligibility for graduate membership of the Psychological Society of Ireland will be required. In cases of candidates who hold a 2:2 in their named psychology qualification, applications will be deemed acceptable if the candidate has obtained a 2:1 in a taught master’s degree in psychology.  This master’s should only be available to graduates whose primary degree is in psychology and at least 60% of",
    "deadline": "2025年11月17日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "3年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "临床心理学博士（D.Clin.Psych.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "clinical-speech-and-language-studies-msc",
    "title": "Clinical Speech and Language Studies (M.Sc.)",
+   "summary": "面向已具言语与语言治疗师资格者的进阶课程，可在吞咽障碍或嗓音两个专科方向深造，掌握循证实践与定性和定量研究方法，需完成至少八十小时专科临床工作并提交论文。课程为在职治疗师提供专科资质，并非初始执业资格，无言语语言治疗学历者不建议申请。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/clinical-speech-and-language-studies-msc/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€21,550/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -454,37 +626,52 @@ var SCHOOL_COURSES = {
    "deadline": "2026年4月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "临床言语与语言研究硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "clinical-supervision-msc--pgraddip",
    "title": "Clinical Supervision (M.Sc. / P.Grad.Dip.)",
+   "summary": "面向心理治疗师、咨询师、心理学家及心理健康专业人士的兼读制课程，要求心理学或相关领域荣誉学位及研究生经验，培养反思性实践能力并训练成为临床督导；含受督导的专业临床实践与实证研究论文，采用讲座、体验式工作坊、讨论、督导及书面作业等方式学习。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/clinical-supervision-msc--pgraddip/",
    "tuition": null,
-   "language": null,
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Entry Requirements | Applicants will normally be required to hold an honours (2.1) degree in psychology or a cognate discipline.\t\t\tPost qualification and/or training/experience in supervision\t\t\tDemonstration of commitment to ongoing professional development (e.g., workshops, seminars)\t\t\tPractising and a full member of a recognised professional body (e.g., the Psychological Society of Ireland, the Irish Council for Psychotherapy, the Irish Association for Counselling and Psychotherapy or professional equivalent.\t\t\tHave access to a supervisee base for professional clinical practice\t\t\tHold professional indemnity insurance for supervision\t\t\tFormal application to include an updated CV, 2 referenc",
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "临床督导硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "community-health-msc--pgraddip--pgradcert",
    "title": "Community Health (M.Sc. / P.Grad.Dip. / P.Grad.Cert.)",
+   "summary": "面向社区健康与初级保健专业人员及社会照护、心理健康、智力障碍等领域背景人士，学习公共卫生核心原则并应用于社区医疗实践；采用混合式教学，考核含书面考试、作业与小组展示，硕士需完成论文，毕业生多进入非政府组织、政策及研究机构。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/community-health-msc--pgraddip--pgradcert/",
    "tuition": "欧盟生 €11,480/年；非欧盟生（中国学生适用）€22,950/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Applicants will be required to: | Hold a minimum 2.1 grade (second class honours) in a relevant primary degree in the applicant’s field of practice.\tWhere applicable, hold current registration with the relevant professions’ regulatory body.\tOr otherwise satisfy the course committee they have the ability to complete and benefit from the course. | SPECIAL INSTRUCTION FOR NON-EU STUDENTS: When asked to submit ABA PIN please insert ‘0000’ to bypass this question. This instruction also applies to all applicants who are not currently qualified as a nurse or midwife in Ireland. | Students will also be required to undergo Garda Vetting, to learn more please visit: www.tcd.ie/students/orientation/pos",
-   "deadline": null,
+   "deadline": "官网未标注具体截止（滚动审理，建议尽早申请）",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "社区健康硕士/研究生文凭/研究生证书（M.Sc. / P.Grad.Dip. / P.Grad.Cert.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "comparative-literature-mphil",
    "title": "Comparative Literature (M.Phil.)",
+   "summary": "跨学科研究领域，通过文化理论研读世界文学并比较文学与其他学科的关系，探索文学、文化与历史之间的联结；由理论核心模块与选修模块组成，硕士须在导师指导下完成1.5万至2万字论文，毕业生多进入出版、编辑、项目管理、文化推广、研究及学术领域。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/comparative-literature-mphil/",
    "tuition": "欧盟生 €9,800/年；非欧盟生（中国学生适用）€19,020/年（2026/27）",
    "language": "雅思 7.0（各单项≥6.5）/ 托福 iBT 100（各单项≥23）/ PTE 75 · Band C（更高要求）",
@@ -493,37 +680,52 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "比较文学硕士（M.Phil.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "comparative-social-change-msc",
    "title": "Comparative Social Change (M.Sc.)",
+   "summary": "由都柏林圣三一学院与都柏林大学联合开设，研究当代社会变迁的动因及各国形态，涵盖欧盟、北美、亚洲四小龙与金砖国家经验，训练跨国比较研究与政策分析能力；含田野调查实践，完成核心、选修模块与两万字论文，适合社会科学背景、有志从事研究或政策的学生。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/comparative-social-change-msc/",
    "tuition": "欧盟生 €0/年；非欧盟生（中国学生适用）€0/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "比较社会变迁硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "computational-engineering-mscpgraddippgradcert",
    "title": "Computational Engineering (M.Sc./P.Grad.Dip./P.Grad.Cert)",
+   "summary": "面向电子电气、计算机工程等相关专业毕业生，掌握计算技术在现代产品与系统中的应用，覆盖图形引擎、自动控制、金融预测、流体力学与电力分布；为电子信息工程硕士分支，含60学分授课与30学分项目，核心模块含计算方法与深度学习导论，可全职或兼职完成。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/computational-engineering-mscpgraddippgradcert/",
-   "tuition": null,
+   "tuition": "欧盟生 €6,420/年；非欧盟生（中国学生适用）€18,520/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Admission is typically restricted to graduates who have achieved an upper second-class Honours degree (2.1), or higher, in Engineering, Science, Computing, Statistics, Mathematics or a related discipline. Well-qualified candidates or industry professionals from other disciplines who have sufficient knowledge of computational aspects of engineering and science may also be considered. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English L",
    "deadline": "2026年7月17日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "3年全日制（可选3年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "计算工程硕士/研究生文凭/研究生证书（M.Sc./P.Grad.Dip./P.Grad.Cert）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "computer-science---augmented-and-virtual-reality--mscpgraddip",
    "title": "Computer Science - Augmented and Virtual Reality  (M.Sc./P.Grad.Dip)",
+   "summary": "面向计算机或相关专业毕业生的硕士，也欢迎具编程经验的理科、数学、工程背景申请者（需证明编程能力），学习3D计算机图形学、计算机视觉与机器学习，服务游戏、元宇宙及新媒体产业；含两个12周学期及全职研究论文阶段，修满60学分可获研究生文凭。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/computer-science---augmented-and-virtual-reality--mscpgraddip/",
    "tuition": "欧盟生 €8,840/年；非欧盟生（中国学生适用）€27,790/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -532,11 +734,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "计算机科学 - 增强现实与虚拟现实硕士/研究生文凭（M.Sc./P.Grad.Dip）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "computer-science---data-science--mscpgraddip",
    "title": "Computer Science - Data Science  (M.Sc./P.Grad.Dip)",
+   "summary": "面向计算机或相近专业背景毕业生，具备良好编程能力的工程、数学、统计专业申请者亦可申请。课程融合统计学、云计算与安全技术，学习数据存储管理、规模化可视化分析与决策应用，并完成占课程三分之一的研究论文；都柏林科技巨头聚集，毕业生就业广泛。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/computer-science---data-science--mscpgraddip/",
    "tuition": "欧盟生 €8,840/年；非欧盟生（中国学生适用）€27,790/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -545,11 +752,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年1月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "计算机科学 - 数据科学硕士/研究生文凭（M.Sc./P.Grad.Dip）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向this strand毕业生）"
   },
   {
    "id": "computer-science---future-networked-systems--mscpgraddip",
    "title": "Computer Science - Future Networked Systems  (M.Sc./P.Grad.Dip)",
+   "summary": "面向计算机或相近专业背景毕业生，工程、数学、统计专业者若具备良好编程能力亦可申请。课程探索物联网、智慧城市等大型网络与分布式系统，涉及实时性、安全、隐私与规模挑战，授课后完成占课程三分之一的研究论文，毕业生从事计算机网络与软件工程等工作。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/computer-science---future-networked-systems--mscpgraddip/",
    "tuition": "欧盟生 €8,840/年；非欧盟生（中国学生适用）€27,790/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -558,11 +770,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "计算机科学 - 未来网络系统硕士/研究生文凭（M.Sc./P.Grad.Dip）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "computer-science---intelligent-systems--mscpgraddip",
    "title": "Computer Science - Intelligent Systems  (M.Sc./P.Grad.Dip)",
+   "summary": "面向计算机或相近专业背景毕业生，工程、数学、统计专业者若具备良好编程能力亦可申请。课程聚焦智能交互式网络应用与系统，涵盖人工智能、自然语言处理、数据分析与知识工程，与ADAPT数字内容技术研究中心联系，授课后完成占课程三分之一的研究论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/computer-science---intelligent-systems--mscpgraddip/",
    "tuition": "欧盟生 €8,840/年；非欧盟生（中国学生适用）€27,790/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -571,50 +788,70 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "计算机科学 - 智能系统硕士/研究生文凭（M.Sc./P.Grad.Dip）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "conflict-resolution-and-reconciliation-mphil--pgraddip",
    "title": "Conflict Resolution and Reconciliation (M.Phil. / P.Grad.Dip.)",
+   "summary": "该课程设在贝尔法斯特，是圣三一唯一在此授课的项目，以跨学科视角研究暴力冲突后的政治与社会和解。适合已在冲突解决领域工作的专业人士，也面向新入行者，通过实习与研习班获得实践技能，并完成15000到20000字的研究论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/conflict-resolution-and-reconciliation-mphil--pgraddip/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€18,720/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should normally have an Honours degree at second-class level or GPA 3.2 or above. Students not meeting these criteria may be considered at the discretion of the Dean of Graduate Studies. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "冲突解决与和解硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "construction-law-and-contract-administration-pgraddip",
    "title": "Construction Law and Contract Administration (P.Grad.Dip.)",
+   "summary": "面向土木工程师及建筑师、工料测量师、律师等专业人士，学习建设工程法律框架、合同管理与争议解决实务。课程获爱尔兰工程师学会认可，学员可获伦敦特许仲裁员学会会员级别豁免；授课辅以工作坊，考试与课程作业各占评估三分之一。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/construction-law-and-contract-administration-pgraddip/",
-   "tuition": null,
+   "tuition": "欧盟生 €9,380/年；非欧盟生（中国学生适用）€20,960/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants must have an NFQ Level-8 Honours degree in Engineering or related subject, or a suitable professional qualification (such as a B.Sc. Surveying) will be considered if the candidate is working in an engineering environment). | Places on this Diploma course are limited, and applications are assessed based on academic qualifications, together with the number of years of relevant experience post graduation, plus professional references. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more ",
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "建设工程法与合同管理研究生文凭（P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "contextual-theologies-and-interfaith-relations-mphil--pgraddip",
    "title": "Contextual Theologies and Interfaith Relations (M.Phil. / P.Grad.Dip.)",
+   "summary": "跨学科课程，探讨神学反思的情境性与多元性及其对宗教间与宗教内部关系的影响，面向希望以宗教间关系视角探索神学议题者。课程涵盖解放神学、普世对话与诸宗教神学，含六门授课模块与论文，并安排参访都柏林宗教场所及赴贝尔法斯特、日内瓦世界基督教协进会。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/contextual-theologies-and-interfaith-relations-mphil--pgraddip/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€18,720/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should normally have an Honours degree at second-class level, or GPA 3.2 (or above). Students not meeting these criteria may be considered at the discretion of the Dean of Graduate Studies under exceptional circumstances. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "情境神学与跨宗教关系硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "counselling-psychology-dcounspsych",
    "title": "Counselling Psychology (D.Couns.Psych.)",
+   "summary": "该三年制课程获爱尔兰心理学会认证，面向心理学学位或相关文凭并具专业经验者，以科学家—实践者模式培养研究导向的咨询实践。内容含咨询技能、督导与反思实践，三年内须完成至少三次实习并撰写研究论文，毕业生可开展心理健康评估与个体、家庭及群体治疗。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/counselling-psychology-dcounspsych/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -623,37 +860,52 @@ var SCHOOL_COURSES = {
    "deadline": "2026年1月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "3年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "咨询心理学博士（D.Couns.Psych.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向this course毕业生）"
   },
   {
    "id": "creative-and-cultural-entrepreneurship-p-grad-cert",
    "title": "Creative and Cultural Entrepreneurship (P. Grad. Cert.)",
+   "summary": "该兼职研究生证书课程获Springboard+资助，面向希望将创意才能转化为可持续事业的人士。课程注重实践，教授如何开发、管理与经营创意和文化事业，使文化贡献实现经济可行与可持续发展，毕业生可从事政府及社区层面的艺术节目策划与文化管理工作。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/creative-and-cultural-entrepreneurship-p-grad-cert/",
-   "tuition": null,
+   "tuition": "欧盟生 €3,125/年；非欧盟生（中国学生适用）€4,800/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Funding eligibility is as outlined at: www.springboardcourses.ie/eligibility | The postgraduate certificate course will be open to graduates with a Level-8 Honours degree (or equivalent) in any discipline from a recognised third level institution. Those with demonstrated entrepreneurship aspirations will be prioritised. As part of the entrance criteria, all applicants will be required to submit a one-page personal statement outlining their motivation to undertake the course. | Applicants who do not meet the entry requirements may still be considered if they can demonstrate their suitability for the course based on recognition of prior learning (RPL) under Trinity’s RPL policy and procedures.",
    "deadline": "2026年8月17日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "创意与文化创业研究生证书（P.Grad. Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "creative-writing-mphil",
    "title": "Creative Writing (M.Phil.)",
+   "summary": "该课程是爱尔兰大学首个创意写作硕士项目，设在奥斯卡·王尔德爱尔兰写作中心，师资来自爱尔兰当代知名作家。面向认真投入写作的实践者或准作家，以每周工作坊、讲座及个别指导授课，期末提交15000至16000字作品集，毕业生多从事新闻、出版等工作。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/creative-writing-mphil/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€18,720/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants are expected to hold a university degree or equivalent qualification (at least an upper second or equivalent, GPA of at least 3.3). In addition, applicants must submit a portfolio of selected recent creative work.  The portfolio of sample work should include no more than 3000 words of prose (short stories, excerpt/s from a novel or drama) or 6-8 poems; genres may be combined but this is not a requirement. | Candidates are encouraged to submit applications as soon as possible. Shortly after we receive your application you will receive an AAS designation. This means that the application is awaiting assessment. The Creative Writing applications, EU and non-EU, are reviewed by a panel",
    "deadline": "2026年3月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "创意写作硕士（M.Phil.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "dementia-msc--pgraddip",
    "title": "Dementia (M.Sc. / P.Grad.Dip.)",
+   "summary": "面向近两年在临床实践中提供过痴呆照护的专业人士，包括护理、医学、作业治疗、社会工作、物理治疗及院牧等背景，课程与国家主要利益相关方合作开发。采用讲座、小组讨论与自主学习相结合的混合式教学，评估以书面与实践作业为主，硕士生须完成相关研究论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/dementia-msc--pgraddip/",
    "tuition": "欧盟生 €8,910/年；非欧盟生（中国学生适用）€17,840/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -662,50 +914,70 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "痴呆症硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "dental-surgery-dchdent",
    "title": "Dental Surgery (D.Ch.Dent.)",
+   "summary": "该专业博士项目设特殊护理牙科、牙周、修复、口腔外科、正畸、儿童牙科及口腔公共卫生七个方向，三年全日制，部分方向可五年非全日制。申请者须持两年以上初级牙科资格，各方向结合临床教学并完成研究论文，部分获爱尔兰牙科委员会培训认可。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/dental-surgery-dchdent/",
    "tuition": null,
-   "language": null,
-   "gpa": null,
+   "language": "英语水平证明要求以官网为准（TCD 常见为雅思 6.5 或托福 90，视课程为 Band B/C）",
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants will be considered only if they have held a primary dental qualification for at least two years. The MFD/MJDF or equivalent is mandatory, unless applying for the Dental Public Health programme which requires a Master in Public Health or Dental Public Health. Normally, up to 12 months should have been spent working in hospital practice.  Good communication skills in English are essential. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. For candidates who are not native English speakers and have not completed a degree through the medium of English, in line with Irish Dental Council regulati",
    "deadline": "Applications for the Orthodontics strand will open from 1st – 30th November, while applications for the Dental Public Health and Prosthodontics programme will remain open until 31st January. Other D.Ch.Dent courses have no planned intake for the 2026/27 academic year.",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "5年全日制（可选5年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "牙科手术博士（D.Ch.Dent.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "development-practice-mscpgraddip",
    "title": "Development Practice (M.Sc./P.Grad.Dip.)",
+   "summary": "面向工程、国际关系、计算机、自然科学、法律、政治学等多元背景的毕业生及初、中年发展从业者。课程以健康、自然科学、社会科学与管理科学为四大支柱，含13门核心模块、研究方法训练及国际发展机构的实习，最终完成论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/development-practice-mscpgraddip/",
    "tuition": "欧盟生 €4,100/年；非欧盟生（中国学生适用）€9,670/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants must have achieved a first or upper second-class Honours degree (Grade point average 3.2 and above) awarded by a reputable university or third-level institution, or a recognised awarding body (such as the NCEA). | In exceptional cases applicants with a lower grade in their primary degree will be considered if they have demonstrated outstanding achievement in their practical work in the field of international development through their work for government or inter or non-governmental organizations. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to mee",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "发展实践硕士/研究生文凭（M.Sc./P.Grad.Dip.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向this course毕业生）"
   },
   {
    "id": "diagnostic-radiography-msc",
    "title": "Diagnostic Radiography (M.Sc.)",
+   "summary": "面向拥有理学或医疗健康相关本科学位的毕业生，培养能安全独立执业的诊断放射技师。该两年制强化项目获爱尔兰医疗保健专业人员监管机构CORU认可，采用教学与临床实习交替的模式，评估含笔试、OSCE、临床考核与研究论文，共13门必修模块。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/diagnostic-radiography-msc/",
    "tuition": "欧盟生 €9,860/年；非欧盟生（中国学生适用）€19,740/年（2026/27）",
-   "language": null,
+   "language": "英语水平证明要求以官网为准（TCD 常见为雅思 6.5 或托福 90，视课程为 Band B/C）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Prospective students will be graduates with a science or healthcare related undergraduate degree (at minimum 2.1 level). Graduates from other disciplines may also be considered. | Other applications may be considered in exceptional circumstances based on workplace experience. | Shortlisted applicants will be invited for interview, which will be adjudged based on: | Personal motivation.Communication skills.Academic achievements (including qualifications and research to date).Technical knowledge of diagnostic radiography. | Students will be required to undergo Garda Vetting, you can learn more here. | English Language Requirements | All applicants to Trinity are required to provide official ev",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "诊断放射学硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "digital-arts-and-intermedia-practices-mphil",
    "title": "Digital Arts and Intermedia Practices (M.Phil.)",
+   "summary": "面向实践或理论背景各异、希望跨艺术学科发展的学生，无需特定技术基础。课程通过艺术研究与创作探索AR/VR、人工智能、交互设计、游戏设计及沉浸式环境等技术，含核心模块、选修与独立研究项目，合作伙伴包括道格拉斯·海德美术馆和埃森哲创新研究中心。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/digital-arts-and-intermedia-practices-mphil/",
    "tuition": "欧盟生 €10,028/年；非欧盟生（中国学生适用）€21,418/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -714,24 +986,34 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "数字艺术与跨媒介实践硕士（M.Phil.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "digital-humanities-and-culture-mphil",
    "title": "Digital Humanities and Culture (M.Phil.)",
+   "summary": "课程并重技术与人文学科，学生可运用数据挖掘与可视化深化人文研究，探索博物馆、图书馆和档案馆的文化虚拟传播，或推动人性化的技术设计。面向人文学科、文化机构及计算机背景等多元申请者，修读四门核心模块、2至3门选修及15000至20000字论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/digital-humanities-and-culture-mphil/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€19,590/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "• Applicants must: | Have a good Honours degree (at least an upper second, GPA of at least 3.3) in any of the disciplines of the humanities, library, or computer science.Applicants must evidence their motivation and preparation to join the course through their academic writing sample (no more than 2,500 words) and completed personal statement (which must be submitted on the course template, found here. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band ",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "数字人文与文化硕士（M.Phil.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "digital-marketing-strategy-msc",
    "title": "Digital Marketing Strategy (M.Sc)",
+   "summary": "专为非商科背景、对数字营销充满热情并希望开启职业生涯的学生设计，学习数字设计、用户体验及数字战略规划与实施。课程与业界合作紧密，谷歌、脸书、微软等企业高管参与授课，学生可参访企业并掌握谷歌广告、分析等平台工具，最终完成论文或企业项目。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/digital-marketing-strategy-msc/",
    "tuition": "欧盟生 €16,575/年；非欧盟生（中国学生适用）€24,000/年（2026/27）",
    "language": "雅思 7.0（各单项≥6.5）/ 托福 iBT 100（各单项≥23）/ PTE 75 · Band C（更高要求）",
@@ -740,37 +1022,52 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "数字营销战略硕士（M.Sc）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：可为无商科背景者，如\"designed for students from anon-business background\"）"
   },
   {
    "id": "diversity-and-inclusion-in-further-education-amp-training-pgradcert",
    "title": "Diversity and Inclusion in Further Education & Training (P.Grad.Cert)",
+   "summary": "面向继续教育培训领域的教师、培训师、行政人员等从业者，通过理论、实践与反思提升多元包容教育能力。课程由圣三一教育学院与都柏林市ETB合作创办，以面对面与线上结合方式讲授平等、多样性与包容，并融入通用学习设计原则，支持多样化教育需求的学习者。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/diversity-and-inclusion-in-further-education-amp-training-pgradcert/",
    "tuition": "欧盟生 €5,220/年；非欧盟生（中国学生适用）€7,320/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "For the coming academic year, applications are open to practitioners working across the FET sector, including staff employed by Education and Training Boards (ETBs), as well as those working in private and community education providers. Applicants seeking employer sponsorship must have approval from their relevant organisation (e.g. an ETB or other employing body) at the time of application. Applicants should not apply unless this approval has been secured. For clarification regarding sponsorship or eligibility, applicants are advised to contact their Professional Learning and Development Coordinator or line manager. Applications are also open to those who wish to self-fund. | English Langua",
-   "deadline": null,
+   "deadline": "官网未标注具体截止（滚动审理，建议尽早申请）",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "继续教育与培训中的多元与包容研究生证书（P.Grad.Cert）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "divinity-bd",
    "title": "Divinity (B.D.)",
+   "summary": "该学位面向拥有神学学位、神学证明书或神学专业文凭的申请者，旨在培养有志进入神职或灵性领导岗位者。学生须在五年内独立备考并完成八门试卷考试及四万字论文，宗教学院可提供建议与书目，毕业生多从事宗教教育、辅导、牧职与写作。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/divinity-bd/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants must: | Hold a degree in Theology from Trinity College Dublin, or other university approved by the University Council; OR\tHold a degree in any subject from Trinity College Dublin or other university approved by the University Council and a Divinity Testimonium or a Professional Diploma in Theology from Trinity College Dublin; OR\tHold a degree in any subject from Trinity College Dublin or other university approved by the University Council and pass a qualifying examination. Details of the qualifying examination may be obtained directly from the School of Religion. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "5年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "神学（B.D.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "early-modern-history-mphil--pgraddip",
    "title": "Early Modern History (M.Phil. / P.Grad.Dip.)",
+   "summary": "面向历史学、人文及社会科学专业毕业生，研究近代早期爱尔兰、英国与欧洲大陆的政治、社会、文化与宗教史，并提供严谨的研究方法训练。课程依托圣三一图书馆的丰富馆藏，设核心课程与两门专题课程，须基于原始资料完成一万五千字论文，亦为攻读博士打好基础。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/early-modern-history-mphil--pgraddip/",
    "tuition": "欧盟生 €8,000/年；非欧盟生（中国学生适用）€16,500/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -779,11 +1076,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年4月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "近代早期史硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "economic-policy-msc",
    "title": "Economic Policy (M.Sc.)",
+   "summary": "该两年制非全日制课程面向无经济学背景的毕业生，培养参与循证政策制定的能力，由圣三一经济系与经济与社会研究所联合授课。内容含三个教学学期、辅导课与研究研讨班，涉及宏观微观政策、定量方法与政策评估等，最后完成一万至一万五千字的政策研究论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/economic-policy-msc/",
    "tuition": "欧盟生 €15,000/年；非欧盟生（中国学生适用）€15,000/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -792,24 +1094,34 @@ var SCHOOL_COURSES = {
    "deadline": "2027年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "经济政策硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "economics-msc--pgraddip",
    "title": "Economics (M.Sc. / P.Grad.Dip.)",
+   "summary": "该课程面向经济学及相关专业毕业生，培养经济研究专业技能，采用主动学习与问题导向教学。设普通与国际发展两个方向，修读12门授课模块并完成研究型毕业论文，入学前先修数学与统计预备课。毕业生可在公共、私营及非营利部门任经济学家。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/economics-msc--pgraddip/",
    "tuition": "欧盟生 €12,280/年；非欧盟生（中国学生适用）€19,680/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Candidates should normally hold at least an upper second-class Honours degree that has a significant quantitative component, most commonly Single or Joint Honours degrees in Economics. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "经济学硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "electronic-information-engineering-msc--pgraddip--pgradcert",
    "title": "Electronic Information Engineering (M.Sc. / P.Grad.Dip / P.Grad.Cert.)",
+   "summary": "该课程面向电子与电气工程、计算机工程或相关专业毕业生，学习信息生成、分析与应用的理论与技能，培养现代计算产品与系统的设计能力。含60学分授课与30学分项目报告，可选信号处理、网络、微电子等方向。适合通信、软件工程、信号处理领域或在职提升者。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/electronic-information-engineering-msc--pgraddip--pgradcert/",
    "tuition": "欧盟生 €9,910/年；非欧盟生（中国学生适用）€27,780/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -818,11 +1130,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月17日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "电子信息工程硕士/研究生文凭/研究生证书（M.Sc. / P.Grad.Dip / P.Grad.Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "energy-science-msc--pgraddip",
    "title": "Energy Science (M.Sc. / P.Grad.Dip)",
+   "summary": "该课程由化学、自然科学、物理与工程学院联合授课，涵盖常规与可持续能源技术、能源经济与政策、电力系统及环境影响等主题。含六门10学分授课模块与30学分研究项目，可结合学术指导或行业项目。毕业生可就业于发电、电子、汽车、航空、建筑与油气等行业。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/energy-science-msc--pgraddip/",
    "tuition": "欧盟生 €9,200/年；非欧盟生（中国学生适用）€27,240/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -831,11 +1148,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "能源科学硕士/研究生文凭（M.Sc. / P.Grad.Dip）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "engineering-environmental--structural-and-geotechnical--transport-sustainable-energy",
    "title": "Engineering (Environmental / Structural and Geotechnical / Transport/ Sustainable Energy)",
+   "summary": "该课程面向工程或相关学科学士背景的学生，设环境工程、结构与岩土、交通、可持续能源工程四个方向，共修12门模块并完成研究项目与论文。课程获爱尔兰工程师学会认证（欧洲工程教育认证网络成员、华盛顿协议签署方），学历获含中国在内的多国认可。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/engineering-environmental--structural-and-geotechnical--transport-sustainable-energy/",
    "tuition": "欧盟生 €9,910/年；非欧盟生（中国学生适用）€27,780/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -844,24 +1166,34 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "工程学（环境 / 结构与岩土 / 交通 / 可持续能源）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "english-language-teaching-mphil--pgraddip",
    "title": "English Language Teaching (M.Phil. / P.Grad.Dip.)",
+   "summary": "该课程面向英语作为外语或第二语言的新老教师，兼顾理论与实践，探讨英语教学（含TESOL）的当前议题。修读四门核心模块与两门选修课，并完成1.5万字学位论文；无教学经验者可选修课堂教学实践模块。申请者须至少掌握一门母语之外的语言。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/english-language-teaching-mphil--pgraddip/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€21,550/年（2026/27）",
    "language": "雅思 7.0（各单项≥6.5）/ 托福 iBT 100（各单项≥23）/ PTE 75 · Band C（更高要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should have a good honours degree (at least an upper second or equivalent; GPA of at least 3.2).  Experience of English language teaching is desirable but not essential. Preference is given to applicants with relevant teaching experience. | Applicants must provide a Personal Statement explaining their motivation in applying for their chosen course(s). | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band C (Higher Entry) English language requirements. For more details of qualifications that meet Band C, see the English Language Requirements pa",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "英语教学硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "entrepreneurship-and-innovation-msc",
    "title": "Entrepreneurship and Innovation (M.Sc.)",
+   "summary": "该课程专为具有强烈创业意愿的非商科背景学生设计，聚焦科技与国际创业，培养创办新企业、为初创融资及扩张现有企业的实践技能。课程90学分，含60学分授课与30学分毕业论文或公司项目。2023年Eduniversal排名列爱尔兰第一、世界第七。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/entrepreneurship-and-innovation-msc/",
    "tuition": "欧盟生 €16,575/年；非欧盟生（中国学生适用）€24,000/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -870,11 +1202,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "创业与创新硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "entrepreneurship-of-smart-medicines-msc",
    "title": "Entrepreneurship of Smart Medicines (M.Sc.)",
+   "summary": "该课程面向创业者和生物医药行业人士，为无生物背景者提供药物发现与制药开发知识，为生物背景者补充商业知识，打通生物与商业桥梁。课程共90学分，含12门授课模块与30学分研究项目，约半数模块线上远程授课，其余以1-2天集训营形式进行。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/entrepreneurship-of-smart-medicines-msc/",
    "tuition": "欧盟生 €12,170/年；非欧盟生（中国学生适用）€25,540/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -883,11 +1220,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "智能药物创业硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "environmental-history-mphil--pgraddip",
    "title": "Environmental History (M.Phil. / P.Grad.Dip.)",
+   "summary": "该课程面向对人与自然历史互动感兴趣的申请者，人文或自然科学背景均可申请。依托圣三一环境人文中心，学习环境史研究方法与GIS。毕业可写1.5万字论文，或以延伸论文加数据库、地图等数字成果结业；毕业生可在博物馆、档案、出版与公共政策领域发展。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/environmental-history-mphil--pgraddip/",
    "tuition": "欧盟生 €9,600/年；非欧盟生（中国学生适用）€17,830/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -896,11 +1238,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年4月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "环境史硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "environmental-sciences-msc--pgraddip",
    "title": "Environmental Sciences (M.Sc. / P.Grad.Dip.)",
+   "summary": "该课程为爱尔兰同类首个，面向环境科学相关背景的新毕业生及行政科研人士，也欢迎其他背景申请者。一年全日制，含授课与五个月研究项目，教学采用讲座、研讨、实验室与田野考察。毕业生可就职于政府机构、环保企业与咨询公司，任环境顾问、数据分析员等。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/environmental-sciences-msc--pgraddip/",
    "tuition": "欧盟生 €9,170/年；非欧盟生（中国学生适用）€22,520/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -909,11 +1256,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "环境科学硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "finance-msc",
    "title": "Finance (M.Sc.)",
+   "summary": "该课程面向希望提升金融分析、量化与技术技能的学生，由资深教师与金融专家授课，教学使用彭博终端训练、金融模拟与案例研究。圣三一商学院与特许另类投资分析师协会合作，获特许金融分析师协会附属资格。课程90学分，含60学分授课与30学分论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/finance-msc/",
    "tuition": "欧盟生 €19,600/年；非欧盟生（中国学生适用）€27,300/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -922,11 +1274,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年5月20日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "金融学硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "financial-risk-management-msc",
    "title": "Financial Risk Management (M.Sc.)",
+   "summary": "该课程面向具有量化背景的学生，学习信用、市场与运营风险三大风险管理支柱及金融风险防范工具，由全球行业专业人士授课。课程获GARP认可并提供彭博训练与案例研究，与PRMIA合作，可为FRM考试做准备。毕业生多进入金融服务、咨询与科技行业。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/financial-risk-management-msc/",
    "tuition": "欧盟生 €19,600/年；非欧盟生（中国学生适用）€27,300/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -935,37 +1292,52 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "金融风险管理硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "fire-safety-practice-pgraddip",
    "title": "Fire Safety Practice (P.Grad.Dip.)",
+   "summary": "该课程面向工程、建筑或相关专业本科毕业生及消防设计在职专业人士，学习建筑防火、消防安全工程、法规与立法框架等。课程得到首席消防官协会支持，获英国消防工程师学会认可，授课者含政府与行业专家，共45学分，周末授课。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/fire-safety-practice-pgraddip/",
-   "tuition": null,
+   "tuition": "欧盟生 €7,890/年；非欧盟生（中国学生适用）€17,610/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants must have an Honours degree in Civil Engineering or Architecture. Other suitably qualified construction professionals may also be admitted. | A candidate may also be interviewed to establish his or her suitability for the course. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "消防安全实践研究生文凭（P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "french-for-teachers-pgradcert",
    "title": "French for Teachers (P.Grad.Cert.)",
+   "summary": "该课程面向爱尔兰在册、法语达欧框A2及以上但尚无法语任教资格的中学教师，提升法语水平、文化理解与教学专长。第一年为研究生证书、第二年为研究生文凭，采用线上、面授与文化沉浸结合。完成两年课程并赴法语国家沉浸四周后，可注册教授法语至会考水平。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/french-for-teachers-pgradcert/",
    "tuition": null,
-   "language": null,
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "The course is designed for qualified, registered post-primary school teachers in Ireland who are not qualified or registered to teach French as a subject. Admission to the programme is competitive. Applicants must provide: | Evidence of at least 2.1  Bachelor (Honours) degree from an Irish university or equivalent result from a university in another country and meet other Trinity postgraduate admissions requirements: Postgraduate - Study - Trinity College Dublin.Academic transcripts for each year of third level study and all third level qualifications awarded. Please note that where the statement of examination results is in a language other than English, applicants should submit a certified",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "教师法语研究生证书（P.Grad.Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "genomic-medicine-msc",
    "title": "Genomic Medicine (M.Sc.)",
+   "summary": "该课程面向基础科研人员、临床医生及生命科学与制药行业从业者，学习基因组数据的产生、评估与应用，涵盖分析、技术与生物医学层面，包括精准医学、人群基因组学等方向。全日制一年或兼读两年，含60学分授课与自主学习及30学分原创研究项目。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/genomic-medicine-msc/",
    "tuition": "欧盟生 €9,790/年；非欧盟生（中国学生适用）€20,540/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -974,37 +1346,52 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "基因组医学硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "gerontological-nursing-msc--pgraddip",
    "title": "Gerontological Nursing (M.Sc. / P.Grad.Dip.)",
+   "summary": "该课程面向临床护理人员，学习老年护理的理论与实践，提供以证据为基础的老年照护并关注个体化老化体验。学制两年兼读，含三个专业模块、一个临床实践模块及研究与管理和学位论文；第一年结束后可先取得研究生文凭，五年内可返回完成硕士。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/gerontological-nursing-msc--pgraddip/",
    "tuition": "欧盟生 €7,250/年；非欧盟生（中国学生适用）€17,050/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "✅ 2nd class honours (2:1) degree minimum in nursing or a related discipline. In exceptional circumstances clinical experience and continuing professional development may be taken into consideration. ✅ Registered as a Nurse (RGN/RNID/RCN) on the professional register maintained by the NMBI. An up-to-date NMBI professional registration certificate is required. ✅ 2 years (minimum) post-registration clinical experience. ✅ 1 year (minimum) experience in OPC (older persons care). ✅ You must be engaged in specific practice settings relevant to gerontological nursing for the duration of the programme of study.  ✅ Written commitment from your line manager that they will support you in your applicatio",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "老年护理学硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "global-challenges-for-sustainability-charm-eu--msc",
    "title": "Global Challenges for Sustainability (Charm EU)  (M.Sc.)",
+   "summary": "由CHARMEU九所欧洲高校联合授予的跨学科硕士课程，面向各学科背景、志在可持续政策或社会创新的毕业生。以挑战驱动教学，分预备、灵活、体验（可实习）与毕业项目四阶段，覆盖食物、水、生命健康、能源与可持续城市路径，共120学分。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/global-challenges-for-sustainability-charm-eu--msc/",
    "tuition": "欧盟生 €2,500/年；非欧盟生（中国学生适用）€12,000/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants must hold at least a Bachelors degree or equivalent (EQF level 6 or higher). | C1 English language certification is necessary for admission to the programme. Students with B2 English certification will be considered in conjunction with other admission criteria but must attain C1 level before enrolment. | Download the list of accepted English certificates. | The Admissions Regulations for 5th edition, commencing in September 2025, are available on this page Academic Rules and Regulations Admissions- 5th Edition (2025-2027). | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this",
    "deadline": "To find out when applications close please go to: How to apply - CHARM-EU",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "可持续发展的全球挑战（Charm EU）硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "global-health-msc",
    "title": "Global Health (M.Sc.)",
+   "summary": "面向任何学科毕业生的多学科硕士课程，采用生物社会模型研究全球健康，突出发展中国家健康议题与全球化影响，并论及冲突、难民、移民等情境下的健康不平等。课程为期一年，含授课与30学分研究论文；毕业生多进入全球健康研究、政策与实践领导岗位。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/global-health-msc/",
    "tuition": "欧盟生 €11,830/年；非欧盟生（中国学生适用）€22,950/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -1013,11 +1400,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "全球健康硕士（M.Sc.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：接受任何专业背景）"
   },
   {
    "id": "global-mental-health-msc",
    "title": "Global Mental Health (M.Sc.)",
+   "summary": "面向任何学科背景毕业生的全日制硕士课程，依托圣三一全球健康中心，探讨精神健康不平等、文化情境与循证干预及人道环境下的服务体系，与国际非政府人道组织合作开展心理健康与社会心理支持实务训练；毕业生多从事全球心理健康研究、项目管理与政策工作。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/global-mental-health-msc/",
    "tuition": "欧盟生 €11,834/年；非欧盟生（中国学生适用）€22,950/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -1026,11 +1418,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "全球心理健康硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "health-policy-and-management-msc",
    "title": "Health Policy and Management (M.Sc.)",
+   "summary": "面向医护人员及健康与社会科学应届毕业生的跨学科课程，学习卫生系统改革、循证政策与实践、人口健康管理、整合照护与知识转化，注重课堂参与和同伴学习。须完成12000字研究论文，可全日制一年或两年在职修读；毕业生多任卫生政策与管理中高层岗位。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/health-policy-and-management-msc/",
    "tuition": "欧盟生 €11,480/年；非欧盟生（中国学生适用）€22,960/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -1039,11 +1436,16 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "健康政策与管理硕士（M.Sc.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "healthcare-infection-msc",
    "title": "Healthcare Infection (M.Sc.)",
+   "summary": "面向护士、医生、药剂师、微生物学家、生物医学科学家及公共卫生人员的硕士课程，也面向生物医学与健康科学应届毕业生，由临床微生物学系与圣詹姆斯医院、塔拉特大学医院及卫生服务执行局合作开设，采用互动讲座与实验室演示教学；硕士须完成实验研究项目。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/healthcare-infection-msc/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€21,150/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -1052,37 +1454,52 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "医疗感染硕士（M.Sc.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "healthcare-innovation-p-grad-cert",
    "title": "Healthcare Innovation (P. Grad. Cert.)",
+   "summary": "与圣三一医学院及健康创新中心合作开设的混合式证书课程，面向各行业医疗从业者，教授创意开发、创造性问题解决与创新评估，培养批判性思维、同理心与协作能力。课程含三个授课模块，以书面与实践作业持续考核，学员可与业界及学界导师互动。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/healthcare-innovation-p-grad-cert/",
-   "tuition": null,
+   "tuition": "欧盟生 €3,800/年；非欧盟生（中国学生适用）€3,800/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Funding eligibility is as outlined in the Springboard+ website. | Applicants must be in possession of a level 8 honours degree (or equivalent) with grade 2.1 or higher, in any discipline from a recognised institution. Those with demonstrated entrepreneurship aspirations will be prioritised. | Applicants who do not meet the entry requirements may still be considered if they can demonstrate their suitability for the course based on recognition of prior learning (RPL) under Trinity’s RPL policy and procedures. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to mee",
    "deadline": "2026年11月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "医疗创新研究生证书（P.Grad. Cert.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "healthcare-innovation-pgraddip",
    "title": "Healthcare Innovation (P.Grad.Dip)",
+   "summary": "面向中高层专业人士的一年制研究生文凭，由健康创新中心与圣三一医学院合作开设，约每六周集中面授两天，支持在职学习。课程含八个模块、方法论工作坊与田野项目，涵盖设计思维、精益流程创新、健康经济学与新创企业动态；毕业生可推动组织创新变革。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/healthcare-innovation-pgraddip/",
-   "tuition": null,
+   "tuition": "欧盟生 €3,800/年；非欧盟生（中国学生适用）€3,800/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Applicants are expected to hold an undergraduate Bachelor's degree with an upper second-class (2.1) grade or higher. Experience of working in the healthcare sector is required. | Applicants whose first language is not English and who have not been educated through the English language must present a relevant qualification. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "医疗创新研究生文凭（P.Grad.Dip）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "high-performance-computing-msc--pgraddip",
    "title": "High Performance Computing (M.Sc. / P.Grad.Dip.)",
+   "summary": "面向数学、物理、工程、化学或金融数学等理工科毕业生的硕士课程，不要求编程经验，但需数学基础。数学学院联合Research IT开设，讲授并行编程、计算机体系结构与随机建模；须完成60学分课程与30学分项目，毕业生可从事技术计算建模或读博。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/high-performance-computing-msc--pgraddip/",
    "tuition": "欧盟生 €8,950/年；非欧盟生（中国学生适用）€23,710/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -1091,24 +1508,34 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "高性能计算硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "history-of-art-and-architecture-mphil--pgraddip",
    "title": "History of Art and Architecture (M.Phil. / P.Grad.Dip.)",
+   "summary": "面向艺术史及相关学科毕业生，也欢迎其他背景但对爱尔兰艺术与建筑有兴趣的申请者。课程以校园及国家美术馆、切斯特·比蒂图书馆等馆藏为基础直接研读作品，学习研究方法并选修专题，完成15000字研究论文；毕业生可进入画廊、博物馆、遗产、出版等领域。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/history-of-art-and-architecture-mphil--pgraddip/",
    "tuition": "欧盟生 €8,000/年；非欧盟生（中国学生适用）€16,500/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should normally have at least an upper second class (2:1) Honours Bachelors degree or equivalent (for example, GPA of 3.3) in a relevant area. An undergraduate degree in art history is preferable but not essential. Since places on the course are limited, applicants may be interviewed or asked to submit a writing sample for assessment. In your application, we are interested to hear about why you want to study for this degree in Ireland, so read the course details carefully and reflect this in your submission. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are req",
    "deadline": "2026年6月15日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "艺术史与建筑史硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "hospital-pharmacy-msc",
    "title": "Hospital Pharmacy (M.Sc.)",
+   "summary": "爱尔兰历史最悠久、唯一涵盖临床与非临床的医院药学硕士课程，曾获2019年度GradIreland健康科学组年度课程奖。两年制混合教学，以实践性学习与专科轮转为核心，覆盖临床药学、调剂、无菌配制与药品管理等；学生需完成研究项目并撰写投稿论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/hospital-pharmacy-msc/",
    "tuition": "欧盟生 €5,410/年；非欧盟生（中国学生适用）€0/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
@@ -1117,72 +1544,101 @@ var SCHOOL_COURSES = {
    "deadline": "2027年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "医院药学硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "human-resource-management-msc",
    "title": "Human Resource Management (M.Sc.)",
+   "summary": "面向所有本科专业学生的人力资源管理硕士课程，获CIPD与人力资源认证学会认证，并以研究与实践为导向，行业资深从业者授课，学生通过与各类企业互动学习真实组织实践，并完成研究项目；毕业生可进入金融服务、制药、教育、政府等领域的HR岗位。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/human-resource-management-msc/",
    "tuition": "欧盟生 €16,575/年；非欧盟生（中国学生适用）€24,000/年（2026/27）",
-   "language": null,
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Applicants are required to posses a minimum 2.1 Honours degree or international equivalent. They should also have two academic referees (applicants with work experience can instead provide one academic and one professional referee). | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "人力资源管理硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "identities-and-cultures-of-europe-mphil",
    "title": "Identities and Cultures of Europe (M.Phil.)",
+   "summary": "围绕欧洲及相关文化中的身份问题展开的硕士课程，聚焦媒体、文学、电影、移民与创伤、集体记忆与意识形态等表征，培养跨文化与跨学科能力。课程含核心模块与选修、布鲁塞尔实地考察、可选实习及研究论文；毕业生多进入文化政策、博物馆策展、外交与国际组织。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/identities-and-cultures-of-europe-mphil/",
    "tuition": "欧盟生 €9,800/年；非欧盟生（中国学生适用）€19,020/年（2026/27）",
-   "language": null,
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Entry Requirements | A minimum 2.1 (upper-second class) Honours Bachelors degree from an Irish university or its international equivalent in a relevant subject (Trinity uses ECCTIS for grade equivalency). Relevant subjects include but are not limited to the following: Anthropology, Languages, Literature, History, Cultural Studies, Comparative Literature, Human Geography, Sociology, Religious Studies, Gender Studies, Textual and Visual Studies, Visual Arts, Art History, Economics, Political Science. We also welcome students from non-Humanities backgrounds with a keen interest in questions of identity. Proficiency in English. For candidates who are not native English speakers and have not comp",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "3年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "欧洲的身份与文化硕士（M.Phil.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "immunology-msc",
    "title": "Immunology (M.Sc.)",
+   "summary": "面向科学、医学、牙科、兽医等专业毕业生的硕士课程，提供细胞与分子免疫学的学术、实验与研究训练，聚焦炎症调节失控在病毒、细菌、寄生虫感染及肿瘤、自身免疫与过敏疾病中的作用。学生须完成12周研究项目并提交论文；毕业生多进入学术研究与医药行业。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/immunology-msc/",
-   "tuition": null,
+   "tuition": "欧盟生 €7,410/年；非欧盟生（中国学生适用）€16,960/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Applicants will normally be required to hold at least upper second-class Honours degree (2.1) or higher in Medicine, Veterinary Science, Molecular Biology, Genetics, Immunology, Biochemistry or a related subject. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "免疫学硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "immunotherapeutics-msc",
    "title": "Immunotherapeutics (M.Sc)",
+   "summary": "面向科学、医学、牙科、兽医及工程毕业生的硕士课程，由免疫学专家与业界嘉宾授课，学习癌症、自身免疫、感染与神经退行性疾病中的免疫系统及DNA/RNA疫苗、抗体、CAR-T细胞疗法等前沿技术，兼授创业与创新技能；学生须完成六个月行业实习与论文。",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/immunotherapeutics-msc/",
    "tuition": "欧盟生 €11,980/年；非欧盟生（中国学生适用）€23,990/年（2026/27）",
-   "language": null,
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Applicants will normally be required to hold at least upper second-class Honours degree (2.1) or higher in Medicine, Veterinary Science, Molecular Biology, Genetics, Immunology, Biochemistry or a related subject. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年4月3日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "免疫治疗学硕士（M.Sc）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "innovation-and-enterprise-development-p-grad-cert",
    "title": "Innovation and Enterprise Development (P. Grad. Cert.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/innovation-and-enterprise-development-p-grad-cert/",
-   "tuition": null,
+   "tuition": "欧盟生 €3,000/年；非欧盟生（中国学生适用）€4,800/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Funding eligibility is as outlined in the Springboard+ website. | The postgraduate certificate course will be open to graduates with a level 8 honours degree (or equivalent) in any discipline from a recognised third level institution. Those with demonstrated entrepreneurship aspirations will be prioritised. As part of the entrance criteria, all applicants will be required to submit a 1-page personal statement outlining their motivation to undertake the course. | Applicants who do not meet the entry requirements may still be considered if they can demonstrate their suitability for the course based on recognition of prior learning (RPL) under Trinity’s RPL policy and procedures. | English Lang",
    "deadline": "2026年8月17日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该证书为Springboard+资助的兼职课程，面向希望成为工作创造者而非求职者的人，学习创意开发、创新问题解决与机会识别沟通。课程采用体验式行动学习，以大师课、互动工作坊和项目形式，与企业家和行业导师互动，部分课程在圣三一商学院授课。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "创新与企业发展研究生证书（P.Grad. Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "intellectual-property-and-information-technology-law-llm",
@@ -1190,25 +1646,35 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/intellectual-property-and-information-technology-law-llm/",
    "tuition": "欧盟生 €11,540/年；非欧盟生（中国学生适用）€22,430/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applications are invited from well-qualified graduates who hold a very good Honours Bachelors degree in law or in a law-based interdisciplinary programme. Applications may also be considered from exceptional graduates in disciplines relevant to the LL.M degree they are applying for where:  a substantial component of their undergraduate degree(s) is in Law; or applicants have significant professional experience in Law. | The criteria above is the starting point for applications and does not guarantee admission. Admission to Trinity's LL.M. programmes is at the absolute discretion of the School of Law, which will decide on admissions with regard to a range of academic criteria, including the q",
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该全日制法律硕士面向软件开发者、IT从业者、发明家和创业者，研习欧洲及国际层面的知识产权与信息技术法律，涵盖数据保护、网络安全、版权、商标等。课程由全职学者与执业律师授课，完成六门模块和研究论文，可申请欧洲知识产权局或欧洲专利局的带薪实习。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "知识产权与信息技术法硕士（LL.M.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "interactive-digital-media-msc",
    "title": "Interactive Digital Media (M.Sc.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/interactive-digital-media-msc/",
    "tuition": "欧盟生 €8,840/年；非欧盟生（中国学生适用）€27,790/年（2026/27）",
-   "language": null,
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "A 2.1 (60-69%) grade or higher from a reputable university is required, although exceptions can be made on the basis of considerable professional and/or creative experience. We require a portfolio showcasing relevant digital media, interactive projects, or creative technology work to strengthen applications. This should demonstrate proficiency in digital tools and creativity and provide a foundation for advanced study in interactive media. Students are accepted from a wide range of disciplines, ranging from Computer Science and Engineering to the Arts, Humanities and Design. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency i",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该一年制硕士欢迎技术背景申请者，也适合非计算机背景毕业生，学习数字媒体应用开发的理论与技术，强调原理而非软件操作。学生修读数字媒体编程、音视频与传感器技术等模块，完成12000字研究论文及团队毕业项目；课程自1996年开设，毕业生逾四百人。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "交互式数字媒体硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "international-and-comparative-law-llm",
@@ -1216,12 +1682,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/international-and-comparative-law-llm/",
    "tuition": "欧盟生 €11,540/年；非欧盟生（中国学生适用）€22,430/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applications are invited from well-qualified graduates who hold a very good Honours Bachelor degree in law or in a law-based interdisciplinary programme. Applications may also be considered from exceptional graduates in disciplines relevant to the LL.M degree they are applying for if: a substantial component of their undergraduate degree(s) is in Law; or they have significant professional legal experience. | Fulfilment of the above criteria does not guarantee admission. Admission to Trinity's LL.M. programmes is at the absolute discretion of the School of Law, which will decide on admissions based on a range of academic criteria, including the quality of the individual application and the ob",
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该全日制法律硕士专为希望深化国际法的法学生设计，面向关注国际争端、人权、气候变化与新科技规制等议题者，由专家学者和执业人士授课。第一学期必修国际法基础，可选国际争端解决、人道法、经济法、难民法、航空法等模块，全年还需完成30学分研究论文。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "国际法与比较法硕士（LL.M.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "international-and-european-business-law-llm",
@@ -1229,12 +1700,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/international-and-european-business-law-llm/",
    "tuition": "欧盟生 €11,540/年；非欧盟生（中国学生适用）€22,430/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applications are invited from well-qualified graduates who hold a very good Honours Bachelors degree in law or in a law-based interdisciplinary programme. Applications may also be considered from exceptional graduates in disciplines relevant to the LL.M degree they are applying for where:  a substantial component of their undergraduate degree(s) is in Law; or applicants have significant professional experience in Law. | The criteria above is the starting point for applications and does not guarantee admission. Admission to Trinity's LL.M. programmes is at the absolute discretion of the School of Law, which will decide on admissions with regard to a range of academic criteria, including the q",
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该全日制法律硕士面向希望专攻国际与欧洲商法的毕业生，研究国际商业、商业与金融服务法律问题，可选金融服务、并购、投资监管、可持续金融及商业与人权等方向。课程采用研究导向教学，由全职学者与实务律师授课，完成六门模块并撰写研究论文。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "国际与欧洲商法硕士（LL.M.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "international-history-mphil--pgraddip",
@@ -1247,7 +1723,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年4月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该研究型硕士鼓励具备历史学背景者申请，研究超越民族国家边界的历史，涵盖跨国史、比较史与全球史，可专攻欧洲、爱尔兰、中国、美国和环境史等方向，主题包括帝国、全球化与战争冲突。学生修读核心课、三门选修并学习外语，最后完成研究论文。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "国际史硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "international-management-msc",
@@ -1260,20 +1741,30 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月14日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士专为持有商科或相关专业本科学位、希望从事国际化职业的早期职场人士设计，学习全球化商业运营知识及跨文化沟通与谈判能力。课程共90学分，含60学分授课模块和30学分国际咨询项目，毕业生多就职于谷歌、德勤、毕马威、埃森哲等企业。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "国际管理硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "international-peace-studies-mphilpeace-studies--pgraddip",
    "title": "International Peace Studies (M.Phil.(Peace Studies) / P.Grad.Dip.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/international-peace-studies-mphilpeace-studies--pgraddip/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€18,720/年（2026/27）",
-   "language": null,
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Applicants should normally have an Honours degree at second-class (2.1) level or GPA 3.2 (or above). Students not meeting these criteria may be considered at the discretion of the Dean of Graduate Studies in exceptional circumstances. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该跨学科硕士研究战争与武装冲突的成因后果，探索可持续和平之道，融合政治学、国际关系、哲学、社会学、伦理学和冲突解决视角。学生修读必修模块与四门选修，可经实习模块及贝尔法斯特、日内瓦实地考察接触实务，毕业需完成15000至20000字论文。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "国际和平研究硕士/研究生文凭（M.Phil.(Peace Studies) / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "international-politics-msc--pgraddip",
@@ -1281,25 +1772,35 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/international-politics-msc--pgraddip/",
    "tuition": "欧盟生 €13,916/年；非欧盟生（中国学生适用）€23,044/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Candidates should normally have achieved an upper second-class Honours degree or higher from an established university. A background in a social science is advantageous but not a necessity. Applications are expected from candidates with a Single or Joint Honours degree in Political Science, Economics, European Studies, History, Sociology, Business or Law. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page he",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士强调研究方法与技能，在理论指导下研究国际政治，主题涵盖冲突与安全、政治体制、政策制定、经济不平等与欧盟政治。教学以每周研讨课为主，学生修读四门必修和四门选修并完成一万字论文，适合志向政策研究、公务员、国际组织与媒体的学生。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "国际政治硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "irish-for-teachers-pgradcert",
    "title": "Irish for Teachers (P.Grad.Cert.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/irish-for-teachers-pgradcert/",
-   "tuition": null,
-   "language": null,
-   "gpa": null,
+   "tuition": "欧盟生 €3,390/年；非欧盟生（中国学生适用）No NEU Intake/年（2026/27）",
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Le cur isteach ar an gcúrsa, beidh fianaise ag teastáil go bhfuil iarrthóirí ag Leibhéal B1 den Teastas Eorpach sa Ghaeilge (TEG). Tá leibhéil éagsúla TEG bunaithe go ginearálta ar An Fráma Tagartha Comónta Eorpach do na Teangacha: Foghlaim, Teagasc agus Measúnú (Comhairle na hEorpa, 2001). | Is féidir fianaise a fháil ó do Ollscoil má tá cáilíocht éigin agat cheana sa Ghaeilge, nó is féidir cur isteach ar scrúdú le TEG (coinnigh súil ar na dátaí ar a suíomh féin). Cuirfidh muid féin scrúdú iontrála ar fáil freisin ag tús an tsamhraidh. Cuirfear tuilleadh sonraí ar fáil ar ball maidir leis na socruithe sin. | Beidh fianaise ag teastáil go bhfuil iarrthóirí cláraithe le Comhairle na Múinteoir",
    "deadline": "2026年7月27日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程由圣三一学院与马利诺教育学院联合开办，面向已注册中学教师，提升爱尔兰语教学水平，完成后可注册教授爱尔兰语至毕业会考水平。课程为两年兼读，第一年授予证书、第二年授予文凭；采用线上与面授结合教学，并含四周盖尔塔赫特沉浸式学习。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "教师爱尔兰语研究生证书（P.Grad.Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "irish-writing-mphil--pgraddip",
@@ -1307,25 +1808,35 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/irish-writing-mphil--pgraddip/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€18,720/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should have an honours Bachelor's degree (at least of upper-second class standard or GPA of 3.3) or equivalent qualification in a relevant subject (such as English, History, Art History, Irish Studies, or Modern Languages). | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士研究17世纪末至今的英语爱尔兰文学，从埃奇沃思、叶芝等经典作家到性别、阶层与种族等当代议题，主要采用小班研讨课教学，多在王尔德中心授课。学生修读核心模块和两门选修，完成15000至18000字论文，毕业生可进入教育、出版业或继续读博。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "爱尔兰写作硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "irish-medium-and-gaeltacht-education-med",
    "title": "Irish-Medium and Gaeltacht Education (M.Ed.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/irish-medium-and-gaeltacht-education-med/",
    "tuition": "欧盟生 €4,730/年；非欧盟生（中国学生适用）No NEU Intake/年（2026/27）",
-   "language": null,
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Ní mór d’iarrthóirí íosleibhéal de 2.1 i gcéim onóracha nó a chomhionann a bheith acu. | Inniúlacht sa Ghaeilge ag leibhéal B1 ar an bhFráma Tagartha Comónta Eorpach do Theangacha, Clárúchán leis an gComhairle Mhúinteoireachta, Agallamh.",
    "deadline": "27 Iúil 2026",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向具备教师资格、对爱尔兰语媒介教育感兴趣的小学及中学教师，旨在提升教学实践与爱尔兰语能力，助其胜任日常教学或领导岗位，或转向课程开发与研究。学制两年兼读，八个模块全部必修，涵盖沉浸式双语教学、评估规划与领导管理等，并以论文结业。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "爱尔兰语媒介与盖尔塔赫特教育硕士（M.Ed.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：接受任何专业背景）"
   },
   {
    "id": "law-and-finance-msc",
@@ -1333,12 +1844,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/law-and-finance-msc/",
    "tuition": "欧盟生 €16,575/年；非欧盟生（中国学生适用）€22,000/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "An undergraduate honours Bachelor's degree of II.1 grade or higher in Business, Economics or Law. | The above is the starting point for applications and does not guarantee admission. Admission to this highly-subscribed programme is at the absolute discretion of the review panel, who will decide on admissions with regard to a range of academic criteria, including the quality of the individual application and the objectives of ensuring a diverse class of the highest possible academic calibre. | Applications are reviewed on a rolling basis. We advise students to apply for the course as early as possible as admission is competitive. The programme is subject to early closure. | This programme is ",
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该跨学科硕士由法学院与圣三一商学院联合开设，不限定本科专业，适合对商业法律与金融感兴趣的人，学习金融投资、商业伦理、金融创新及法律、可持续与金融等议题。课程共90学分，含五门必修与选修模块，需完成12000字研究论文。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "法律与金融硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "laws-llm",
@@ -1346,12 +1862,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/laws-llm/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applications are invited from well-qualified graduates who hold a very good Honours Bachelor degree in law or in a law-based interdisciplinary programme. Applications may also be considered from exceptional graduates in disciplines relevant to the LL.M degree they are applying for where:  a substantial component of their undergraduate degree(s) is in Law; or applicants have significant professional experience in Law. | The criteria above is the starting point for applications and does not guarantee admission. Admission to Trinity's LL.M. programmes is at the absolute discretion of the School of Law, which will decide on admissions with regard to a range of academic criteria, including the qu",
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该旗舰通用型法律硕士吸引世界各地学生，可从覆盖法律各分支的庞大模块库中自由选课，专注公法或私法，或两者兼修，避免过早过度专业化。课程为全日制在校授课，每学期三门共六门模块，另有研究论文，由全职学者或资深实务者讲授。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "法学硕士（LL.M.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "leading-and-implementing-sustainable-finance-pgrad-cert",
@@ -1359,12 +1880,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/leading-and-implementing-sustainable-finance-pgrad-cert/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "The Postgraduate Certificate course is open to: | Graduates with a degree (or equivalent) with a strong academic record in any discipline from a recognised third-level institution\tApplicants without a degree with a proven managerial track record | All applicants are required to have a minimum of 3 years of professional or managerial work experience and should provide two references confirming their eligibility and suitability for the programme, which together with the applicant's academic performance during their undergraduate years and their CV will be used to select the most suitable candidates.  Telephone interviews may be conducted to clarify applicants' motivation and interest in the pr",
    "deadline": "2026年9月11日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该证书面向私营、公共和第三部门的中高层管理者，帮助其审视组织对社会与环境的影响，并从组织内部推动可持续变革。课程含四门5学分授课模块和一个10学分行动学习项目，从战略、工具、实施到报告披露层层推进，参与者将为自己组织定制可持续金融落地方案。",
+   "duration": "9个月兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "领导与实施可持续金融研究生证书（P.Grad. Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "linguistics-mphil--pgraddip",
@@ -1372,25 +1898,35 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/linguistics-mphil--pgraddip/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€21,550/年（2026/27）",
    "language": "雅思 7.0（各单项≥6.5）/ 托福 iBT 100（各单项≥23）/ PTE 75 · Band C（更高要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should have a good honours degree (at least an upper second or equivalent; GPA of at least 3.2). Previous knowledge of linguistics is not a requirement. | Applicants must provide a Personal Statement explaining their motivation in applying for their chosen course(s). | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band C (Higher Entry) English language requirements. For more details of qualifications that meet Band C, see the English Language Requirements page here.",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士开设近三十年，不要求申请者具备语言学背景，学生来自翻译、教学、言语治疗、出版或英语、现代语言、心理学等专业，只需对语言有系统的兴趣。课程修读语音、语法、语义和声音系统实验分析四门核心模块及两门选修，小班教学，毕业撰写15000字论文。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "语言学硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：接受任何专业背景）"
   },
   {
    "id": "literary-translation-mphil",
    "title": "Literary Translation (M.Phil.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/literary-translation-mphil/",
    "tuition": "欧盟生 €9,800/年；非欧盟生（中国学生适用）€19,020/年（2026/27）",
-   "language": null,
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Entry Requirements: | A minimum 2.1 honours class degree from an Irish university or its international equivalent.A demonstrable working knowledge of two or more languagesFor candidates who are not native English speakers and have not completed a degree through the medium of English, a minimum IELTS score of at least 6.5 in each category or its equivalent is required | Application and next steps | We accept applications at any point between the autumn and the closing date in the summer. However, the course is popular, and applications are handled on a first-come first-served basis. So, you are strongly advised to apply early to avoid disappointment. We do our best to provide applicants with ",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士设在爱尔兰领先的文学与文化翻译中心，理论与实践并重，翻译对象涵盖小说、漫画、歌曲、电子游戏、字幕与演讲。学生可打造个性化翻译作品集，学习前沿翻译工具，通过团队项目、驻校译者等积累人脉；毕业完成15000至20000字论文或实验性翻译。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "文学翻译硕士（M.Phil.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "management-msc",
@@ -1403,7 +1939,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士为非商科毕业生设计的转换课程，助其掌握财务、人力资源、创业等核心商业技能，适合希望跨行者。课程共90学分，含60学分授课和30学分研究项目，毕业生进入咨询、科技、金融服务与媒体娱乐行业，雇主包括德勤、毕马威、埃森哲和安永。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "管理学硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "managing-risk-and-system-change-msconline",
@@ -1416,7 +1957,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该线上硕士聚焦运营、制造与服务中的风险、变革与系统设计，创新整合人在系统中的角色，框架均经工业合作研究验证，由国际顶尖团队授课。第一年读七门课，第二年完成基于本组织运营问题的论文；学生多为金融、医疗、IT、航空、制药等行业在职风险管理者。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "风险管理与系统变革硕士（M.Sc.）（在线）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "managing-risk-and-system-change-pgradcert",
@@ -1429,7 +1975,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该一年制在线证书从风险与系统变革管理硕士课程中精选四门模块，让负责风险管理的在职人员补充学历与职业发展，无需立即投入硕士学位。课程全部线上完成，无需前往校园，修毕后可加修三门模块升读研究生文凭，未来还可继续攻读硕士。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "风险管理与系统变革研究生证书（P.Grad.Cert）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "managing-risk-and-system-change-pgraddip",
@@ -1442,7 +1993,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该在线研究生文凭包含硕士第一年的七门核心模块，面向金融、医疗、IT、航空、制药等行业中负责风险管理的在职人员，线上授课无需到校，聚焦风险、变革与系统设计及其中人员的作用。学生完成课程后可再学习一年并完成研究论文，以取得硕士学位。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "风险管理与系统变革研究生文凭（P.Grad.Dip）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "marketing-msc",
@@ -1455,7 +2011,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士面向持有商科、市场营销或相关专业本科学位的学生，融合传统与当代营销思维，可在数字营销、产品管理、国际营销或消费者行为等方向深化专长。课程共90学分，含60学分授课和30学分论文或企业研究项目，毕业生就职于甲骨文、亚马逊、脸书等企业。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "市场营销硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "master-in-business-administration-mba",
@@ -1468,7 +2029,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该MBA项目始于1964年，由三重认证、享誉全球的圣三一商学院开设，以严谨、体验式教学培养未来领导者。课程采用案例研究、小组讨论与现场行动学习，学生将进入真实公司开展三个企业项目，直接向高管交付解决方案；提供全日制、在职高管与弹性三种模式。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "工商管理硕士（M.B.A.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "master-in-education-med",
@@ -1481,7 +2047,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士面向各阶段教育者、教育领导者和支持人员，深入研究教育理论、实践与研究，设领导力与政策、高等教育、教育心理学等专业方向及灵活开放路径。课程共90学分，含六门教学模块与30学分论文，可全日制一年或兼职两至三年完成；该项目并非教师资格培训。",
+   "duration": "1年全日制（可选1年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "教育学硕士（M.Ed.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "master-in-theology",
@@ -1489,12 +2060,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/master-in-theology/",
    "tuition": "欧盟生 €3,790/年；非欧盟生（中国学生适用）€3,790/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "All candidates will be required to successfully complete the Foundation Course. In addition candidates will have either: | An Honours Degree in Theology or another discipline; OR\tAn appropriate qualification and at least 3 years ministerial experience or equivalent professional experience; OR\tOtherwise satisfy the Course Admissions Committee that they have the ability to complete and benefit from the course. In exceptional circumstances candidates may also be required to submit a further piece of written work for assessment by the School of Religions, Peace Studies and Theology. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficien",
    "deadline": "2026年5月28日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该神学硕士与爱尔兰圣公会神学院联合开设，面向已有神学学位、准备进入教会事奉的人士，整合神学、圣经研究与基督教实践，保持学术核心的同时强化专业应用。课程提供三年住读与四年非住读混合两种模式，论文以书面与口试双重考核。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "神学硕士",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "mechanical-engineering-mscpgraddipcert",
@@ -1507,7 +2083,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士为机械工程或相关领域学士学位持有者提供灵活深造路径，覆盖先进制造、材料、流体力学与自动化设计等主题，并设零碳技术方向，聚焦低碳能源与交通转型及其商业规划。课程共90学分，含60学分授课与30学分研究和论文，全日制一年或兼职两至三年。",
+   "duration": "3年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "机械工程硕士/研究生文凭/研究生证书（M.Sc./P.Grad.Dip/Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "medical-imaging-msc--pgraddip",
@@ -1515,12 +2096,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/medical-imaging-msc--pgraddip/",
    "tuition": "欧盟生 €6,600/年；非欧盟生（中国学生适用）€13,860/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applications will be accepted from those who: | Hold a B.Sc. in Radiography or an equivalent qualification in Radiography from a reputable university.\tHave access to a clinical placement in a Radiology Department. Candidates will not be accepted onto the course unless they have a clinical placement.\tOtherwise satisfy the course admission committee that they have the ability to complete and benefit from the course | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向在职放射技师，提供计算机断层扫描、磁共振成像、核医学或辐射安全与介入放射学方向的专精训练，实践在学员所在部门完成，并须每周至少15小时临床实习。课程兼职修读12个月，每周五授课，授课部分完成后撰写研究论文获硕士学位。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "医学影像硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "medieval-irish-mphil",
@@ -1533,7 +2119,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士培养编辑与翻译中世纪爱尔兰语手稿所需的语言、文学、韵律学与古文字学能力，学生可专攻早期爱尔兰语（600—1200年）或古典现代爱尔兰语（1200—1650年）。毕业完成约两万字论文，多为手稿整理翻译，适合有志研究者及图书馆档案工作者。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "中世纪爱尔兰语硕士（M.Phil.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "medieval-studies-mphil--pgraddip",
@@ -1546,7 +2137,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该跨学科硕士依托圣三一世界领先的中世纪手稿与文物收藏，学习中世纪文本、文献与文物的批判研究技能，设历史、语言文学、文化与文明三个方向。学生修读文献来源导论等核心模块，再按方向选修古文字学、拉丁语或中世纪语言等课程，完成15000字论文。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "中世纪研究硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "mental-health-msc--pgraddip",
@@ -1559,7 +2155,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程与爱尔兰国家法医心理健康服务合作，促进护理、医学、社工、心理、法律、监狱与警务等跨专业人员面向心理健康服务对象的协作。教学采用讲座、小组讨论与自主学习的混合式，考核结合书面与实务作业，完成授课模块后可继续研究论文获硕士学位。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "心理健康硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "mental-health-psychosocial-interventions-pgradcert",
@@ -1572,7 +2173,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向护理、医学、职业治疗、社会工作、心理学等临床专业人员，提升为精神病患者及其家属实施心理社会干预的知识与技能。教学采用混合式学习，结合讲座、小组讨论与自主学习，考核为书面与实务作业；学员修毕证书模块后可继续修读文凭或硕士，并完成研究论文。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "心理健康心理社会干预研究生证书（P.Grad.Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "middle-east-in-a-global-context-mphil",
@@ -1585,7 +2191,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该在线硕士研究中东与北非的历史、文化、政治和语言，涵盖少数民族与身份、伊斯兰文化、阿拉伯思想史及西方干预等内容，可同时选修阿拉伯语。学制灵活，全日制一年或兼读二至三年，修读核心与选修模块后完成30学分研究项目；毕业生可进入新闻、教育、外交与国际关系等领域。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "全球背景下的中东硕士（M.Phil.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "midwifery-hdip",
@@ -1595,10 +2206,15 @@ var SCHOOL_COURSES = {
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Applicants are required to posses a minimum 2.1 Honours degree in General Nursing. For further information visit here. | Only candidates who have attended an application interview may apply for the course. | Students will be required to undergo Garda Vetting, you can learn more here. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
-   "deadline": null,
+   "deadline": "官网未标注具体截止（滚动审理，建议尽早申请）",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向持有NMBI注册资质的护士，由圣三一护理与助产学院联合都柏林罗通达医院和库姆医院开设，培养能独立安全提供助产照护的注册助产士。课程18个月，含26周理论与52周临床实践，学员受雇于合作医院，考核含考试、书面与口头作业、案例汇报与OSCE技能评估。",
+   "duration": "2年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "助产学高级文凭（H.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "midwifery-practice-and-leadership-msc--pgraddip",
@@ -1606,12 +2222,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/midwifery-practice-and-leadership-msc--pgraddip/",
    "tuition": "欧盟生 €6,560/年；非欧盟生（中国学生适用）€13,130/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants must hold: | Registration as a midwife with the Nursing and Midwifery Board of Ireland.A minimum of one year full-time recent clinical midwifery practice or equivalent since registration as a midwife.An Honours undergraduate degree in Midwifery or a related discipline, or equivalent professional and academic qualification. | Students will be required to undergo Garda Vetting, you can learn more here. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that m",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向已注册且有经验的助产士，不办理NMBI注册，旨在提升其临床实践、卫生服务管理与教育领域的职业发展能力。圣三一助产教学团队在NMBI与卫生服务机构任职，第一年修读领导力与妇女中心孕产照护等模块，第二年以工作坊开展并完成硕士研究论文。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "助产实践与领导力硕士/研究生文凭（M.Sc. / P.Grad.Dip）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向this course毕业生）"
   },
   {
    "id": "modern-and-contemporary-literary-studies-mphil--pgraddip",
@@ -1619,12 +2240,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/modern-and-contemporary-literary-studies-mphil--pgraddip/",
    "tuition": "欧盟生 €9,790/年；非欧盟生（中国学生适用）€18,180/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should have an Honours Bachelor degree (at least of upper-second class standard or GPA of 3.3) or equivalent qualification in a relevant subject (such as English, History, Art History, Irish Studies, or Modern Languages). | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年3月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向英语及相关学科（历史、艺术史、现代语言）毕业生，研习19世纪至今两百余年的英语文学及身份、种族、性别等议题。采用小班研讨教学，修读两学期核心模块与四门选修，完成15000至16000字论文；依托圣三一英文学院的国际声誉和版权图书馆馆藏，适合有志深造研究者。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "现当代文学研究硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "modern-irish-history-mphil--pgraddip",
@@ -1637,7 +2263,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年4月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向历史学及相关人文社科专业毕业生，系统介绍现代爱尔兰历史研究的问题、方法与史料，逐年开设17至20世纪的专门主题模块。教学分两学期进行，毕业须基于原始史料撰写15000字论文；毕业生多继续攻读博士或成为教师、图书馆员、律师和档案工作者。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "现代爱尔兰史硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "molecular-medicine-msc",
@@ -1650,7 +2281,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月10日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向生物、医学、牙科、兽医、药学等专业本科毕业生，学习细胞信号、遗传、肿瘤、免疫学及分子诊断治疗、纳米医学等主题。项目由80多位圣三一及附属医院的科研专家授课，强调尖端实验室动手实践，完成55学分授课、15学分研究技能模块和三个月实验室项目。",
+   "duration": "3年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "分子医学硕士（M.Sc.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "molecular-medicine-pgraddip",
@@ -1663,7 +2299,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该文凭与硕士共享同等授课内容，面向生物、医学、药学等相关专业本科毕业生，学习分子医学各领域知识，但无需三个月全职实验室研究，适合时间有限的在职人士。课程由55学分授课与15学分研究技能模块组成，从十余门模块中选修九门，修毕可继续深造或服务临床与生物技术行业。",
+   "duration": "3年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "分子医学研究生文凭（P.Grad.Dip）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "music-and-media-technologies-mphil",
@@ -1676,7 +2317,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程由电子电气工程与音乐系联合开设，音乐与科技并重，培养作曲能力，同时从工作站实践与数理基础两方面学习音频、视频与计算技术，涉及视觉音乐、互动装置等课题。全日制一年或兼读两年，前两学期构成研究生文凭，第三学期完成研究项目与论文；音乐训练并非必需。",
+   "duration": "24年全日制（可选24年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "音乐与媒体技术硕士（M.Phil.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "neuroscience-msc",
@@ -1689,20 +2335,30 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程研究神经系统从分子、细胞到行为各层面的功能，涵盖神经递质与突触的生化基础及精神、神经退行性疾病的病理与药物治疗。教学含约200学时讲座、实验室实践与研讨会，第三学期完成研究项目；欢迎神经科学、心理学、药理学、化学、医学等背景，也适合跨专业转换者。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "神经科学硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "nursing-msc",
    "title": "Nursing (M.Sc.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/nursing-msc/",
    "tuition": "欧盟生 €11,480/年；非欧盟生（中国学生适用）€22,950/年（2026/27）",
-   "language": null,
+   "language": "英语（官网要求英语水平证明，多为雅思 6.5 或托福 90；医学/健康类课程要求更高，以官网为准）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Places on this course are limited and offers are based on a first come basis. Offers which are made are based on suitably qualified applicants providing all the required documentation. All conditions must be met before an offer can be made. | Applicants must hold at least an upper second-class (2.1) Honours undergraduate degree in nursing or a related discipline or equivalent professional and academic qualification. | They must also hold current registration as a nurse with the Nursing and Midwifery Board of Ireland, or, in the case of international applicants (for theory-only learning strands), be registered as a professional nurse in their own country. | Students will be required to underg",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向希望晋升或转向专科、管理与教育岗位的注册护士，不办理NMBI护士注册。修读90学分课程，含60学分授课模块（循证护理、研究方法、伦理法律、领导力与质量改进等）和第二年30学分研究论文，采用混合式教学；圣三一护理与助产学院位列QS世界大学学科排名第20位。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "护理学硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "nursing-nursing-midwife-prescribing-certificate",
@@ -1710,12 +2366,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/nursing-nursing-midwife-prescribing-certificate/",
    "tuition": "欧盟生 €11,480/年；非欧盟生（中国学生适用）€22,950/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants must posses: | An NFQ Level-8 qualification, either a higher diploma or Honours undergraduate degree, in Nursing or a related discipline. Additionally, they must also be able to demonstrate evidence of further post-registration education.Registration with the General, Psychiatric, Children’s, Intellectual Disability, Midwifery or Public Health Nurse divisions of the active register maintained by The Nursing and Midwifery Board of Ireland and have a minimum of three years post-registration clinical experience during the last five years (with at least one year full-time experience in the specific area of practice).Employment in a clinical area within Ireland approved by the course t",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该证书面向具备临床实践经验的注册护士和助产士（须获医疗服务机构与医疗主管支持），培养安全有效开具药品处方的能力。课程一年兼读，混合式教学，含96小时在临床医生监督下的处方实践，考核含书面与实务作业及OSCE考试；毕业可申请NMBI注册为处方者。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "护理（护士/助产士处方）（证书）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "nursing---advancing-child-health-and-wellbeing-1-year-full-time-mscpgraddip",
@@ -1728,20 +2389,30 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月24日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向在职注册护士，深化儿童、青少年及其家庭健康照护的知识技能，涵盖研究方法、管理与领导力、临床实践及儿童健康当代议题。学制灵活，取得证书或文凭后可继续攻读硕士，采用混合式教学并完成研究论文；本项目不办理NMBI护士注册。",
+   "duration": "2年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "护理 - 促进儿童健康与福祉硕士/研究生文凭（一年全日制 M.Sc./P.Grad.Dip）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "old-irish-pgraddip",
    "title": "Old Irish (P.Grad.Dip.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/old-irish-pgraddip/",
-   "tuition": null,
+   "tuition": "欧盟生 €6,530/年；非欧盟生（中国学生适用）€12,670/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "This is a beginner’s course and assumes no prior knowledge of any period of the Irish language. The lectures are all delivered in English. Applications are normally accepted only from persons with a good Honours degree (II.1 or higher) in a cognate subject such as Modern Irish or another Celtic language, medieval languages, literature or history, archaeology. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements pag",
    "deadline": "30th June 2025",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该文凭是古爱尔兰语零基础课程，学习公元600至900年间古爱尔兰语的语言与文学，可阅读《塔因》等史诗、早期爱尔兰诗歌与布莱洪法律。每周六小时授课，含语言入门、辅导课、韵文及语注与传奇文学阅读；毕业者可开展中世纪爱尔兰语独立研究，也适合图书馆员与档案工作者进修。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "古爱尔兰语研究生文凭（P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "operations-and-supply-chain-management-msc",
@@ -1754,7 +2425,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月14日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向具备较强分析能力的学生，学习在全球化与数字化市场中管理供应链流程及相关运营，核心主题包括风险监控、创新与协作管理。项目由三重认证的圣三一商学院开设，共90学分，含60学分授课和30学分研究项目；毕业生可进入制造、农产品、消费、公共与数字等行业。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "运营与供应链管理硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "palliative-care-msc--pgrad-dip",
@@ -1767,7 +2443,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该跨学科课程面向有姑息治疗临床经验的注册医护专业人员，与都柏林圣弗朗西斯临终关怀医院合作开办，由护理与助产学院参与设计教学。证书阶段三门核心模块线上授课，文凭阶段增加面授模块并可选104小时临床实习；硕士第二年完成研究论文，可提升晋升资格。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "姑息治疗硕士/研究生文凭（M.Sc. / P.Grad. Dip.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "pharmaceutical-manufacturing-technology-online---mscpgraddip",
@@ -1780,7 +2461,12 @@ var SCHOOL_COURSES = {
    "deadline": "31st October 2026",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该两年制在线课程与行业专家及监管机构合作开发，面向制药行业监督管理岗位且有化学、生物或药学等相关学位与工作经验者。修读八门模块共60学分，涉及制药工艺、药理学与药品监管等，并须参观制造设施；攻读硕士者须完成QP专业工业论文，以满足欧盟合格人员岗位的教育要求。",
+   "duration": "2年在线学习",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "制药生产技术硕士/研究生文凭（在线 - M.Sc./P.Grad.Dip）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "pharmaceutical-sciences-msc--pgrad-dip",
@@ -1793,7 +2479,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年4月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该跨学科硕士面向药学、化学、生物化学、微生物学等相关科学专业毕业生，系统学习从药物发现、开发、生产到分析的全流程，是爱尔兰唯一由专科药学院开设的同类学位。全日制一年或兼读两年，以讲座、工作坊与实验教学；硕士须完成研究论文并提交科学报告，项目可在药学院或学员单位进行。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "药学硕士/研究生文凭（M.Sc. / P.Grad. Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "philosophy",
@@ -1806,20 +2497,30 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该哲学硕士面向哲学专业或相关学科中哲学成分较强者，通常要求哲学二等一级学位，其他专业但哲学基础扎实者可个案评估。小班研讨教学并设一对一导师指导，修读六门模块共60学分并完成不超过15000字的论文；毕业生可进入教学、新闻、法律、金融与科技等广泛领域。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "哲学硕士",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "physiotherapy-msc",
    "title": "Physiotherapy (M.Sc.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/physiotherapy-msc/",
-   "tuition": null,
-   "language": null,
+   "tuition": "欧盟生 €13,500/年；非欧盟生（中国学生适用）€27,000/年（2026/27）",
+   "language": "英语水平证明要求以官网为准（TCD 常见为雅思 6.5 或托福 90，视课程为 Band B/C）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Applicants must:•    Hold a primary degree, normally at upper second class (2.1) level (or international equivalent) in a health, science, or related discipline. In exceptional circumstances graduates from other disciplines may also be considered based on experience. •    Submit a personal statement.•    Attend an interview if shortlisted. The interview will assess your personal motivation for the course, communication skills, relevant qualifications and interests, and your understanding of physiotherapy.•    Complete Garda vetting as per the provisions of the National Vetting Bureau (Children and Vulnerable Persons) Act 2012, for more information please visit: https://www.tcd.ie/academicreg",
    "deadline": "2026年5月19日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该两年制全日制硕士为健康、理学等相关学科毕业生提供快速成为物理治疗师的通道，共180学分，与临床伙伴共同开发，教学以讲座、技能实验室、模拟、案例学习及跨专业教育为主。学生完成至少1000小时临床实习，兼修肌骨、神经与心肺物理治疗，第二年完成研究论文。",
+   "duration": "2年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "物理治疗硕士（M.Sc.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向the msc in physiotherapy毕业生）"
   },
   {
    "id": "playwriting-mfa",
@@ -1832,7 +2533,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该艺术硕士在利尔学院开设，通过专业剧作家、导演与戏剧顾问主持的技能工作坊和一对一辅导培养学员独特的剧本写作风格，辅以戏剧构作与当代戏剧实践课程。全日制一年或兼读两年，以创作完整长剧收尾，片段面向业界专业人士公开展示，并与导演、制作等方向硕士合作。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "剧本创作硕士（M.F.A.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "professional-masters-in-education-pme",
@@ -1845,20 +2551,30 @@ var SCHOOL_COURSES = {
    "deadline": "As per the dates on the apply links",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程是爱尔兰中学教师必备的专业硕士，亦获欧盟认可，为期两年全日制、120学分，设九个中学学科专修方向，申请时选定主修科目。课程由教育基础学科、专业研究、两段在不同学校进行的教学实习及选修模块组成，并须完成一万字研究论文，强调以研究为基础的教师专业发展。",
+   "duration": "2年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "教育专业硕士（P.M.E.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "project-management-pgraddip",
    "title": "Project Management (P.Grad.Dip.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/project-management-pgraddip/",
-   "tuition": null,
+   "tuition": "欧盟生 €7,890/年；非欧盟生（中国学生适用）€17,610/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "An honours degree in Engineering or related subject, or a suitable professional qualification plus at least one year’s relevant work experience. A candidate may be interviewed to establish their suitability for the course. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该研究生文凭不限定本科专业，助学员掌握项目规划、风险管理、利益相关者管理及项目评估等技能，了解敏捷与瀑布等方法，尤其适用于建筑行业。课程于每年9月至次年4月利用周五晚与周六上午授课，共45学分；项目已开设40余年，获爱尔兰工程师协会认可为持续专业发展课程。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "项目管理研究生文凭（P.Grad.Dip.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：接受任何专业背景）"
   },
   {
    "id": "psychoanalytic-psychotherapy-msc--pgrad-dip",
@@ -1866,12 +2582,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/psychoanalytic-psychotherapy-msc--pgrad-dip/",
    "tuition": "欧盟生 €10,250/年；非欧盟生（中国学生适用）€21,490/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "To apply for the MSc in Psychoanalytic Psychotherapy at Trinity College Dublin, applicants must meet the following criteria: | 1.    Academic Qualifications: An upper second class honours primary degree or higher is required. Exceptions can be made for those in professions that did not require a primary degree at the time of entry, such as nursing, subject to approval by Trinity’s Graduate Studies Office. | 2.    Work Experience: For the Adult Strand, work in a related field is desirable. For the Child and Adolescent Strand, applicants typically work in various settings with children and adolescents. | 3.    Personal Factors: While a strong knowledge of psychoanalysis is not required, some u",
    "deadline": "2027年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该两年兼读硕士是四年精神分析心理治疗培训的前两年，面向希望以此为职业的人士，系统学习弗洛伊德、克莱因、比昂与温尼科特等人的理论及其临床应用。课程强调自我觉察、个人治疗与婴幼儿观察，含临床实践模块，入学需参加评估面试；第三、四年培训由训练机构另行安排。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "精神分析心理治疗硕士/研究生文凭（M.Sc. / P.Grad. Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "psychoanalytic-studies-mphil--pgraddip",
@@ -1884,20 +2605,30 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士面向心理学、哲学等文社理科学位持有人，也欢迎心理健康从业者及艺术、教育、健康领域人士，学习精神分析从弗洛伊德到当代的历史、理论及临床应用。全日制一年，修读梦与象征生活、儿童情感世界、客体关系理论等模块并完成主题论文；毕业生多从事心理咨询、社会工作与学术研究。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "精神分析研究硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "psychology-hdip---psychology-conversion-course",
    "title": "Psychology (H.Dip.) - Psychology Conversion Course",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/psychology-hdip---psychology-conversion-course/",
-   "tuition": null,
+   "tuition": "欧盟生 €10,990/年；非欧盟生（中国学生适用）€22,000/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Candidates for admission to the Higher Diploma in Psychology must hold a primary degree, in any discipline with at least an upper second-class Honours degree. | Students will be required to undergo Garda Vetting, you can learn more at: www.tcd.ie/students/orientation/undergraduates/garda-vetting.php | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年3月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该转换课程欢迎任何专业本科毕业生，为无心理学背景者提供相当于心理学学士的预职业资格，进入心理学职业领域，课程获爱尔兰心理学会认证。两年全日制，通过讲座、辅导课、实验课与研究项目覆盖生物基础、认知、发展、社会与人格等专业领域，第二年须在教师指导下完成实证研究项目。",
+   "duration": "2年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "心理学高级文凭（H.Dip.）- 心理学转换课程",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：接受任何专业背景）"
   },
   {
    "id": "public-history-and-cultural-heritage--mphil--pgraddip",
@@ -1910,20 +2641,30 @@ var SCHOOL_COURSES = {
    "deadline": "2026年4月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程提供公共历史与文化遗产管理的扎实训练，探讨博物馆、画廊、媒体如何塑造公众认知，关注物质遗产的保护阐释。课程与都柏林多家文化机构合作教学并提供三个月实习，最后完成12000至15000字论文或大型项目；毕业生可进入博物馆、图书馆、档案与公共政策领域。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "公共历史与文化遗产硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "quantitative-methods-and-data-analysis-for-healthcare-pgradcert",
    "title": "Quantitative Methods and Data Analysis for Healthcare (P.Grad.Cert.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/quantitative-methods-and-data-analysis-for-healthcare-pgradcert/",
-   "tuition": null,
+   "tuition": "欧盟生 €4,070/年；非欧盟生（中国学生适用）€8,150/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Applicants will be required to hold a minimum of a second-class Honours (2.1) grade in a relevant primary degree in the applicant’s field of practice. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该证书面向各类医疗健康相关背景的专业人士，培养理解、评估与批判分析医疗保健研究数据的能力，学习医疗统计与流行病学的基本原理。课程共30学分，含三门必修模块，混合式教学，其中两门完全在线，项目模块线上与面授结合；毕业后可胜任医疗研究与数据分析岗位。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "医疗保健定量方法与数据分析研究生证书（P.Grad.Cert.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "quantum-fields-strings-and-gravity-msc--pgraddip",
@@ -1936,7 +2677,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该全日制硕士由圣三一数学学院开设，面向理论物理或数学物理（理论物理比重强）毕业生，深入学习弦论、共形场论、广义相对论与宇宙学、量子场论及格点规范理论。设正式与格点两个方向并提供基础、进阶两级模块，完成60学分课程和30学分研究项目，毕业生多继续攻读理论物理博士。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "量子场、弦理论与引力硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "quantum-science-and-technology-msc--pgraddip",
@@ -1949,7 +2695,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该硕士聚焦量子技术的理论与软件层面，融合量子信息科学、硬件物理与量子材料，培养编写量子计算机程序的能力；跨国公司、中小企业及量子初创企业的讲者全年开讲。适合数学基础扎实的物理、化学、工程、数学、计算机毕业生，全日制一年修读六门必修模块并完成30学分项目或实习。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "量子科学与技术硕士/研究生文凭（M.Sc. / P.Grad.Dip）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向this programme毕业生）"
   },
   {
    "id": "race-ethnicity-conflict-mphil",
@@ -1957,12 +2708,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/race-ethnicity-conflict-mphil/",
    "tuition": "欧盟生 €10,028/年；非欧盟生（中国学生适用）€18,603/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Candidates should have an undergraduate degree at upper second-class level or equivalent (GPA of at least 3.2) in one of the Social Sciences or a degree that has included Social Science as a component. | In exceptional cases, candidates without a first degree may be accepted directly into the programme if they can demonstrate they possess the equivalent of a good first degree, have work experience in the fields of population movement, conflict, and/or publications that demonstrate analytical skills. Applicants seeking admission in this category may, where practicable, be called for interview. | In all cases the quality of the candidates statement of interest and of their academic references ",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向本科学位持有者（最好含社会科学背景），以人权倡导、社会研究或新闻为职业方向。课程考察国家与国际机构管理族群和冲突的手段及社会文化影响，运用社会学理论分析种族化、性别、移民与族群冲突，小班教学与一对一辅导，毕业完成两万字研究论文。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "种族、族裔与冲突硕士（M.Phil.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "responsible-business-and-sustainability-msc",
@@ -1975,7 +2731,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程融合商业伦理、可持续发展与组织管理科学，培养创造负责任和可持续商业价值的未来商业领袖。设八门核心模块和学位论文，可个人研究，也可作为学生咨询项目与企业、公共部门或社会组织合作；毕业生可从事企业社会责任、ESG、气候行动等管理岗位。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "负责任商业与可持续性硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "screen-studies-mphil",
@@ -1983,12 +2744,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/screen-studies-mphil/",
    "tuition": "欧盟生 €6,700/年；非欧盟生（中国学生适用）€14,090/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should have a good Honours Bachelor degree of upper‐second class or above, or an equivalent qualification, in a cognate area. Applicants should upload either a creative writing sample (short story, screenplay, extract from a novel) or an academic writing sample (e.g. an essay from their undergraduate studies). | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程聚焦多屏写作、屏幕媒体的历史与理论趋势及影视创作，学生可依兴趣选择剧本写作或批判研究等路径。课程含六门授课模块与研究项目，学生将积累含剧本、播客、项目提案的作品集；全日制一年或两年在职完成，毕业后可从事编剧、媒体制作与教育等工作。",
+   "duration": "1年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "屏幕研究硕士（M.Phil.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "smart-and-sustainable-cities-msc--pgraddip",
@@ -2001,7 +2767,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程不限专业，面向计算机、地理、建筑、市场营销等广泛背景学生，跨学科培养，可发展新技能并深化专长。课程由全校多院系教师与国内外机构合作讲授，结合规划、工程与生态学；含实地考察、企业实习与论文，毕业生可就职于智慧城市机构或可持续发展领域。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "智慧与可持续城市硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "social-policy-and-practice-online-p-grad-dip",
@@ -2014,7 +2785,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月17日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程是转换型在线研究生文凭课程，面向所有学科毕业生，尤其适合本科非社会科学背景、计划转入社会工作或政策领域者。一年制全程在线，含七个模块，探讨贫困、不平等等复杂社会问题及社保、健康、住房政策；毕业生可从事社会工作、研究或政策倡导工作。",
+   "duration": "1年在线学习",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "社会政策与实践（在线）研究生文凭（P.Grad. Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "social-work-msw--pgraddip",
@@ -2027,7 +2803,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年2月12日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向社会科学或同等学科学士申请者，获卫生与照护专业人士监管机构CORU认证，毕业后可申请注册为专业社工。学制两年全日制，每年含14周学术学习与14周专业实习，需通过警方背景审查。毕业生可就职于儿童与家庭机构、缓刑服务、心理健康等领域。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "社会工作硕士/研究生文凭（M.S.W. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "specialist-practice---cancer-care-amp-haematology-pgradcert",
@@ -2035,12 +2816,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/specialist-practice---cancer-care-amp-haematology-pgradcert/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Admission Requirements Specialist Nursing strands: | Admission to the strand will be subject to place availability. The entry criteria for this strand are:Current registration on the appropriate nursing division of the Nursing and Midwifery Board of Ireland Active RegisterTwo years post-registration clinical experience since first registrationTwelve months experience (within the last two years) in the specialty in Ireland at the time of application. | Candidates must also fulfil one of the following criteria: | An honours degree in nursing or a related discipline or equivalent professional and academic qualification or satisfy the selection committee that they have the academic ability to su",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向临床执业的注册护士，助其提升癌症护理与血液肿瘤学的知识和临床能力。采用线上线下混合式教学，为在职护士设计：第一年首周全日制、此后每周一天，第二年以工作坊为主并完成论文；考核包括学术作业与临床能力档案，由护理学院与医疗机构合作授课。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "专科实践 - 癌症护理与血液学研究生证书（P.Grad.Cert.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "specialist-practice---cardiovascular-pgradcert",
@@ -2048,12 +2834,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/specialist-practice---cardiovascular-pgradcert/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Admission to the strand will be subject to place availability. The entry criteria for this strand are: | Current registration on the appropriate nursing division of the Nursing and Midwifery Board of Ireland Active RegisterTwo years post-registration clinical experience since first registrationTwelve months experience (within the last two years) in the specialty in Ireland at the time of application. | Candidates must also fulfil one of the following criteria: | An honours degree in nursing or a related discipline or equivalent professional and academic qualification or satisfy the selection committee that they have the academic ability to successfully complete the programme. | Each student ",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向临床执业的注册护士，助其掌握心血管护理的知识、临床专长与技术能力。采用混合式教学，两年兼读：第一年首周全日制后每周一天，还须赴医疗合作机构完成附加课程，第二年以工作坊为主并完成论文；学术考核与临床评估贯穿实习，注重循证实践。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "专科实践 - 心血管研究生证书（P.Grad.Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "specialist-practice---emergency-department-pgradcert",
@@ -2061,12 +2852,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/specialist-practice---emergency-department-pgradcert/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Admission to the strand will be subject to place availability. The entry criteria for this strand are: | • Current registration on the appropriate nursing division of the Nursing and Midwifery Board of Ireland Active Register | • Two years post-registration clinical experience since first registration | • Twelve months experience (within the last two years) in the specialty in Ireland at the time of application. | • Candidates must also fulfil one of the following criteria: | An honours degree in nursing or a related discipline or equivalent professional and academic qualification or satisfy the selection committee that they have the academic ability to successfully complete the programme. |",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向临床执业的注册护士，培养急诊护理所需的知识、临床专长与技术能力。采用混合式教学，两年兼读：第一年首周全日制、此后每周一天，第二年以工作坊为主并完成论文；考核结合学术作业与临床实习中的能力评估，帮助学员成为称职的急诊专科护士。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "专科实践 - 急诊科研究生证书（P.Grad.Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "specialist-practice---intensive-care-pgradcert",
@@ -2074,12 +2870,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/specialist-practice---intensive-care-pgradcert/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Admission Requirements Specialist Nursing strands: | Admission to the strand will be subject to place availability. The entry criteria for this strand are: | Current registration on the appropriate nursing division of the Nursing and Midwifery Board of Ireland Active Register\tTwo years post-registration clinical experience since first registration\tTwelve months experience (within the last two years) in the specialty in Ireland at the time of application.\tCandidates must also fulfil one of the following criteria:\tAn honours degree in nursing or a related discipline or equivalent professional and academic qualification or satisfy the selection committee that they have the academic ability to s",
    "deadline": "30th June 2026",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向临床执业的注册护士，培养重症监护护理的知识、临床专长与技术能力。采用混合式教学，两年兼读：第一年首周全日制、此后每周一天，第二年以工作坊为主并完成论文；考核结合学术作业与临床实习评估，注重循证实践与理论临床的整合。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "专科实践 - 重症监护研究生证书（P.Grad.Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "specialist-practice---perioperative-pgradcert",
@@ -2087,12 +2888,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/specialist-practice---perioperative-pgradcert/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Admission to the strand will be subject to place availability. The entry criteria for this strand are: | Current registration on the appropriate nursing division of the Nursing and Midwifery Board of Ireland Active RegisterTwo years post-registration clinical experience since first registrationTwelve months experience (within the last two years) in the specialty in Ireland at the time of application.Candidates must also fulfil one of the following criteria: | An honours degree in nursing or a related discipline or equivalent professional and academic qualification or satisfy the selection committee that they have the academic ability to successfully complete the programme. | Each student wil",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向临床执业的注册护士，培养围术期护理的专科知识与实践技能，强调对手术患者的整体照护。学员须拥有既往所选方向（外科、麻醉与复苏或儿科）近两年从业经验，可选相应进阶方向；第一年完成学业获研究生文凭，继续完成第二年论文可获硕士。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "专科实践 - 围术期研究生证书（P.Grad.Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "specialist-practice---renal-mscpgraddippgradcert",
@@ -2100,12 +2906,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/specialist-practice---renal-mscpgraddippgradcert/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Admission to the strand will be subject to place availability. The entry criteria for this strand are: | Current registration on the appropriate nursing division of the Nursing and Midwifery Board of Ireland Active Register\tTwo years post-registration clinical experience since first registration\tTwelve months experience (within the last two years) in the specialty in Ireland at the time of application.\tCandidates must also fulfil one of the following criteria: | An honours degree in nursing or a related discipline or equivalent professional and academic qualification or satisfy the selection committee that they have the academic ability to successfully complete the programme. | Each student ",
    "deadline": "30th June 2026",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向临床执业的注册护士，提升其在肾脏专科护理领域的知识、经验与临床技能，强调循证实践。采用混合式教学并提供一至三年灵活学制，第一年修读血液透析、肾内科、移植与腹膜透析等专科模块，第二年完成论文。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "专科实践 - 肾脏硕士/研究生文凭/研究生证书（M.Sc./P.Grad.Dip/P.Grad.Cert）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "speech-and-language-processing-mphil--pgraddip",
@@ -2113,12 +2924,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/speech-and-language-processing-mphil--pgraddip/",
    "tuition": "欧盟生 €10,090/年；非欧盟生（中国学生适用）€21,550/年（2026/27）",
    "language": "雅思 7.0（各单项≥6.5）/ 托福 iBT 100（各单项≥23）/ PTE 75 · Band C（更高要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants should have a good honours degree (at least an upper second or equivalent; GPA of at least 3.2). | Applicants must provide a Personal Statement explaining their motivation in applying for their chosen course(s). | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band C (Higher Entry) English language requirements. For more details of qualifications that meet Band C, see the English Language Requirements page here.",
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程不限专业背景，面向语言研究、心理学、计算机或工程等背景的学生，欢迎想探明语言机制的分析型申请者。课程含语音处理（语音合成、病理性语音）与语言处理（计算语言学、预测输入、语音助手等应用）两大方向，小班授课，毕业需完成一万五千字论文。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "言语与语言处理硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：接受任何专业背景）"
   },
   {
    "id": "sports-and-exercise-medicine-msc",
@@ -2131,7 +2947,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年5月29日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向医学与物理治疗毕业生，以及获认证的运动创伤与运动康复治疗师，提供运动医学入门或进阶训练。全日制一年，含六门授课模块与科研项目，内容涵盖肌骨解剖（含解剖实践）、运动生理、临床运动医学与康复运动处方；教学以面授讲座、工作坊与案例进行。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "运动医学硕士（M.Sc.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "stage-design-mfa",
@@ -2144,7 +2965,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年3月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向热心舞台设计的专业人士，提供灯光、服装与舞美方向的实践型培训。场景、服装方向接受其他学科背景者（须懂舞台设计），灯光方向需具演出灯光技术知识；与编剧、制作、导演硕士共同学习，接受总监辅导与业界大师课，含专业实习，毕业公开展示作品。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "舞台设计硕士（M.F.A.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "statistics-and-data-science-online-pgradcert",
@@ -2152,12 +2978,17 @@ var SCHOOL_COURSES = {
    "url": "https://www.tcd.ie/courses/postgraduate/courses/statistics-and-data-science-online-pgradcert/",
    "tuition": null,
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Applicants are required to possess a Bachelors degree and knowledge of mathematics (high-school level/introductory level university module is sufficient). | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程专为非统计学背景的毕业生设计，面向需要在商业、工业、公共服务或研究工作中应用统计方法者，亦可作职业进修。唯一入学路径为一年研究生证书，之后经修读文凭与硕士论文逐年进阶；全程在线、兼顾在职，以实例讲授，涵盖回归、实验设计、时间序列等。",
+   "duration": "1年在线学习",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "统计与数据科学（在线）研究生证书（P.Grad.Cert.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向disciplines, other than statistics,毕业生）"
   },
   {
    "id": "statistics-and-sustainability-msc--pgraddip",
@@ -2170,33 +3001,48 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程为一年全日制转专业课程，面向统计学以外专业的毕业生，如环境科学、资源管理、经济学、公共政策与商科学生，深化统计技能并学习可持续发展应用。学生将掌握建模、统计方法及地理信息系统与遥感技术。课程含90学分，以小组项目与毕业论文结业。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "统计与可持续性硕士/研究生文凭（M.Sc. / P.Grad.Dip.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向disciplines other than statistics毕业生）"
   },
   {
    "id": "sustainable-development-for-business-pgrad-cert",
    "title": "Sustainable Development for Business (P.Grad. Cert.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/sustainable-development-for-business-pgrad-cert/",
-   "tuition": null,
+   "tuition": "欧盟生 €8,500/年；非欧盟生（中国学生适用）€8,500/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "The programme is open to graduates with a degree (or equivalent) and a strong academic record in any discipline from a recognised third level institution. Applicants without a degree are welcome to apply provided they can show a proven managerial track record. All applicants are required to have a minimum of three years professional or managerial work experience. | All applicants should provide two references confirming their programme eligibility which, together with the applicant’s academic performance during their undergraduate years and their CV, will be used to select the most suitable candidates. Telephone interviews may be conducted to clarify applicants’ motivation and interest in th",
    "deadline": "2025年9月11日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向私营、公共、第三部门的中高层管理者，含CSR、合规、采购、运营等职能的资深经理及新晋升管理者。九个月内以每月一次面授工作坊学习五门模块，考核以小组及个人实践作业为主；核心是行动学习项目，为所在企业或合作机构制定可持续实施方案。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "商业可持续发展研究生证书（P.Grad. Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "sustainable-energy-and-the-environment-pgrad-dip",
    "title": "Sustainable Energy and the Environment (P.Grad. Dip)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/sustainable-energy-and-the-environment-pgrad-dip/",
-   "tuition": null,
+   "tuition": "欧盟生 €7,890/年；非欧盟生（中国学生适用）€17,610/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等乙级（2.2）荣誉学位或国际同等学历",
    "requirements": "Applicants must have a minimum lower second-class (2.2) in an Honours Bachelor's of Engineering or Science degrees or equivalent professional qualification. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirements page here.",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向土木工程师及相关专业人士，适合在职进修，讲授能源管理、能效与可持续能源发电技术，并涉及经济与法规标准。兼职混合式学习，八个月内完成三门模块，由学术与行业专家授课；须通过两门考试并完成个人研究项目，毕业可任能源或环境工程师。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "可持续能源与环境研究生文凭（P.Grad. Dip）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "theatre-and-performance-mphil",
@@ -2209,7 +3055,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年6月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向对戏剧的过去与未来感兴趣的申请者，融合理论与实践，培养未来的戏剧从业者、研究者与领导者。教学采用讲座、小班研讨、工作室及一对一辅导，并与都柏林戏剧节、艾比剧院等业界建立联系；毕业项目可选一万五千字论文或实践导向的混合媒体作品。",
+   "duration": "5年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "戏剧与表演硕士（M.Phil）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "theatre-directing-mfa",
@@ -2222,7 +3073,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年3月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程是爱尔兰首个完全的实践型导演硕士，在利尔国家戏剧学院授课，因应爱尔兰戏剧产业需求而设。学生通过工作坊了解演员、设计、舞台监督等不同工种，接受课程总监个别辅导与专业导演大师课；毕业前须在利尔剧院的表演工作室完成一台职业制作演出。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "戏剧导演硕士（M.F.A.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "theatre-producing-mfa",
@@ -2235,7 +3091,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程是爱尔兰首个以实践为基础的戏剧制作硕士项目，可全职一年或兼职两年。学生学习戏剧制作的职业技能，与其他硕士方向学生合作，在利尔剧院完成职业制作或为都柏林边缘艺术节制作剧目，学期末还须完成专业实习；工作坊与研讨课多由资深戏剧制作人讲授。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "戏剧制作硕士（M.F.A.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "theology-and-social-justice-mphil--pgraddip",
@@ -2248,20 +3109,30 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程专注神学与社会正义的关系，探讨宗教观念如何塑造并回应贫困、气候变化、种族主义、无家可归等现实问题。申请者无需神学背景，适合跨专业申请；设证书、文凭与硕士三种路径，可选全日制一年或兼读两年，多数课程安排在傍晚，硕士须完成研究论文。",
+   "duration": "2年全日制（可选2年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "神学与社会正义硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "traffic-medicine-pgradcertonline",
    "title": "Traffic Medicine (P.Grad.Cert)(Online)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/traffic-medicine-pgradcertonline/",
-   "tuition": null,
+   "tuition": "欧盟生 €3,300/年；非欧盟生（中国学生适用）€5,500/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Admission Requirements | Admission to the programme is competitive. Applicants will be expected to have an Honours Bachelor’s degree at II.1 or above/equivalent. To support this, postgraduate applicants must submit official, certified academic transcripts for all years of third-level study, detailing modules and grades. As transcripts may take several days to be issued by some universities, applicants are advised to request this document as early as possible. Applicants may also be interviewed and/or asked to submit a written sample for assessment and must meet the admissions requirements published in the Calendar Part III. Medical or allied health profession primary degree. | Applicants wil",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向执业医师及联合健康专业人员，讲授医学状况、药物、衰老与残疾如何影响驾驶与出行安全，汇集临床实践、道路安全、公共卫生、康复与政策。全程在线一年，采用翻转课堂结合异步学习与直播讨论，共三模块；可提升医护就驾驶适格性提供循证建议的能力。",
+   "duration": "1年在线学习",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "交通医学研究生证书（P.Grad.Cert）（在线）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "translational-oncology-msc",
@@ -2274,7 +3145,12 @@ var SCHOOL_COURSES = {
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程聚焦癌症的细胞与分子基础，涵盖特定部位癌症的诊治挑战，以及从标准治疗到分子靶向与免疫治疗等各方面。学制一年，修读十一门授课模块，并在实验室完成十二周研究项目撰写论文；适合科学家、医生等医疗专业人士，近四年毕业生就业率超过92%。",
+   "duration": "1年全日制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "转化肿瘤学硕士（M.Sc.）",
+   "background": "可否跨专业：以官网\"申请资格\"为准，官网提示：（官网：面向医疗/健康领域从业者）"
   },
   {
    "id": "women39s-gender-and-sexuality-studies-mphil--pgraddip",
@@ -2287,33 +3163,48 @@ var SCHOOL_COURSES = {
    "deadline": "2026年4月30日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程依托古典学、历史学及艺术史与建筑史等学科，从跨学科视角研究女性、性别与性议题的理论、方法及历史文化背景。学生修读核心课程与选择性专题，最终完成一万五千字论文；全日制一年或兼读两年，毕业后可从事教育、倡导、公共政策或研究工作。",
+   "duration": "2年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "女性、性别与性研究硕士/研究生文凭（M.Phil. / P.Grad.Dip.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "workplace-wellness-p-grad-cert",
    "title": "Workplace Wellness (P. Grad. Cert.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/workplace-wellness-p-grad-cert/",
-   "tuition": null,
+   "tuition": "欧盟生 €3,000/年；非欧盟生（中国学生适用）€5,714/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
-   "gpa": null,
+   "gpa": "以官网录取要求为准（官网原文见申请材料字段）",
    "requirements": "Funding eligibility is as outlined in the Springboard+ website. | The postgraduate certificate course will be open to graduates with a level 8 honours degree (or equivalent) in any discipline from a recognised third level institution. Those with demonstrated entrepreneurship aspirations will be prioritised. As part of the entrance criteria, all applicants will be required to submit a 1-page personal statement outlining their motivation to undertake the course. | Applicants who do not meet the entry requirements may still be considered if they can demonstrate their suitability for the course based on recognition of prior learning (RPL) under Trinity’s RPL policy and procedures. | English Lang",
    "deadline": "2026年5月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程为实践导向的研究生证书课程，教授如何设计与协调与企业价值观一致的员工福利计划，并争取管理层与员工参与支持。课堂在圣三一校园现场与线上进行，提供日间与晚间两种课表；适合职场健康从业者进修，也适合人力资源或商科毕业生转行或重返职场。",
+   "duration": "1年兼读制",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "职场健康研究生证书（P.Grad. Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   },
   {
    "id": "zero-carbon-technology-mscpgraddipcert",
    "title": "Zero Carbon Technology (M.Sc./P.Grad.Dip/Cert.)",
    "url": "https://www.tcd.ie/courses/postgraduate/courses/zero-carbon-technology-mscpgraddipcert/",
-   "tuition": null,
+   "tuition": "欧盟生 €9,910/年；非欧盟生（中国学生适用）€27,780/年（2026/27）",
    "language": "雅思 6.5（各单项≥6.0）/ 托福 iBT 90（各单项≥21）/ PTE 69 · Band B（标准要求）",
    "gpa": "二等甲级（2.1）荣誉学位或国际同等学历（相当于国内本科均分 75-85%+，视本科院校而定）",
    "requirements": "Admission is normally restricted to graduates who have achieved an upper second-class honours degree (2.1), or better, in engineering, science, computing, statistics, mathematics or a related discipline. Well-qualified candidates or industry professionals from other numerate disciplines who have sufficient knowledge of engineering and science, may also be considered. | English Language Requirements | All applicants to Trinity are required to provide official evidence of proficiency in the English language. Applicants to this course are required to meet Band B (Standard Entry) English language requirements. For more details of qualifications that meet Band B, see the English Language Requirem",
    "deadline": "2026年7月31日",
    "updated": "2026-09",
    "applicationOpen": "2026年11月（针对2027年9月入学；官网原文：Applications open in November for September 2027 admission）",
-   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。"
+   "deadlineNote": "如课程截止日期为 2026 年（如 2026年8月），那是 2026 年 9 月入学那批的截止；2027 年 9 月入学的截止日期以官网更新为准。",
+   "summary": "该课程面向机械工程或相关专业本科毕业生，以及机械工程、可再生能源领域的在职专业人士，培养零碳技术的开发能力。修读六十学分授课模块并完成研究论文，可全职一年或兼读两至三年；毕业生有望进入跨国公司及初创企业研发岗位。",
+   "duration": "3年全日制（可选3年兼读制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "titleCn": "零碳技术硕士/研究生文凭/研究生证书（M.Sc./P.Grad.Dip/Cert.）",
+   "background": "本课官网未明确\"跨专业政策\"；TCD 通行要求为二等甲级（2.1）荣誉学位或同等（见绩点要求），跨专业友好度以官网课程页为准"
   }
  ]
 };
