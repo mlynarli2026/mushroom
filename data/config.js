@@ -2,4 +2,4 @@
    目标学校配置（当前优先做这些学校的课程数据）
    其它学校页面显示"待整理 + 我想了解"按钮
    ========================================================== */
-var TARGET_SCHOOLS = ["tum", "lmu", "heidelberg", "fub", "psl", "ipp", "sorbonne", "parissaclay", "tcd"];
+var TARGET_SCHOOLS = ["tum", "lmu", "heidelberg", "fub", "psl", "ipp", "sorbonne", "parissaclay", "tcd", "kuleuven"];
