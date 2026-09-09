@@ -6,6 +6,26 @@
    ========================================================== */
 
 
+
+/* 授课语言判定：返回 {tag: 徽章文字, en: 是否英语授课为主的独立课程, key: 筛选类别} */
+function langInfo(c) {
+  var t = (c.teachingLanguage || "").toLowerCase();
+  if (!t && c.title) {
+    var m = c.title.match(/[\u4e00-\u9fff]/) ? null : null;
+    if (!c.teachingLanguage) return { tag: "语言待定", en: false, key: "unknown" };
+  }
+  var hasEn = t.indexOf("英语") !== -1;
+  var hasDe = t.indexOf("德语") !== -1;
+  var hasFr = t.indexOf("法语") !== -1;
+  var hasOther = t.indexOf("西语") !== -1 || t.indexOf("意语") !== -1 || t.indexOf("汉语") !== -1 || t.indexOf("中文") !== -1 || t.indexOf("双语") !== -1 || t.indexOf("葡语") !== -1;
+  if (hasDe && hasFr) return { tag: "德/法语", en: false, key: "nonEn" };
+  if (hasDe) return { tag: "德语授课", en: false, key: "nonEn" };
+  if (hasFr) return { tag: "法语授课", en: false, key: "nonEn" };
+  if (hasOther) return { tag: "混合语言", en: hasEn, key: hasEn ? "en" : "nonEn" };
+  if (hasEn) return { tag: "英语授课", en: true, key: "en" };
+  return { tag: "语言待定", en: false, key: "unknown" };
+}
+
 /* 把课程名拆成英文主名 + 中文名（titleCn 优先，其次从 title 内嵌中文提取） */
 var CJK_RE = /[\u4e00-\u9fff\uff08\uff09\u3001\uff0c\uff1a\uff1b\u3002\uff01\uff1f\u00b7\u2026\u2014]+/g;
 function splitTitle(c) {
@@ -201,12 +221,38 @@ function initSchool() {
     }
 
     var alpha = groupAlpha(courses);
+    var langFilter = "all";
+    var filterBarEl = document.getElementById("lang-filter");
+    if (!filterBarEl) {
+      filterBarEl = document.createElement("div");
+      filterBarEl.id = "lang-filter";
+      filterBarEl.className = "lang-filter";
+      filterBarEl.innerHTML = '<span class="lang-label">🌐 授课语言筛选：</span>' +
+        '<button class="lang-btn active" data-k="all">全部</button>' +
+        '<button class="lang-btn" data-k="en">英语授课</button>' +
+        '<button class="lang-btn" data-k="nonEn">非英语授课</button>';
+      searchBox.parentNode.insertBefore(filterBarEl, searchBox.nextSibling);
+      filterBarEl.querySelectorAll(".lang-btn").forEach(function (b) {
+        b.addEventListener("click", function () {
+          langFilter = b.getAttribute("data-k");
+          filterBarEl.querySelectorAll(".lang-btn").forEach(function (x) { x.classList.remove("active"); });
+          b.classList.add("active");
+          renderList(input.value);
+        });
+      });
+    }
 
     function renderList(q) {
       var shown = [];
       searchBox.style.display = "block";
       alpha.keys.forEach(function (k) {
-        var hit = alpha.groups[k].filter(function (c) { return courseMatches(c, q); });
+        var hit = alpha.groups[k].filter(function (c) {
+          if (!courseMatches(c, q)) return false;
+          var li = langInfo(c);
+          if (langFilter === "en" && !li.en) return false;
+          if (langFilter === "nonEn" && li.en) return false;
+          return true;
+        });
         if (hit.length) shown.push({ letter: k, items: hit });
       });
       count.textContent = shown.reduce(function (n, g) { return n + g.items.length; }, 0) + " 门";
@@ -219,8 +265,10 @@ function initSchool() {
           '<ul class="course-list">' +
           g.items.map(function (c) {
             var sp = splitTitle(c);
+            var li = langInfo(c);
             return '<li><a href="course.html?id=' + encodeURIComponent(id) +
               '&c=' + encodeURIComponent(c.id) + '">' +
+              '<span class="lang-badge lb-' + esc(li.key) + '">' + esc(li.tag) + '</span>' +
               '<span class="t-en">' + esc(sp.en) + '</span>' +
               (sp.cn ? '<span class="t-cn">' + esc(sp.cn) + '</span>' : '') +
               (c.tuition ? '<span class="tag">' + esc(String(c.tuition).split('（')[0].trim()) + '</span>' : "") +
@@ -291,8 +339,19 @@ function initCourse() {
           '<div class="summary-label">📖 课程内容简介</div>' +
           '<div class="summary-text">' + esc(course.summary) + '</div>' +
           '</div>'
-        : '<div class="summary-block summary-pending"><div class="summary-label">📖 课程内容简介</div>' +
-          '<div class="summary-text">内容简介整理中（可以先点上面官网链接阅读官方介绍）</div></div>') +
+        : '<div class="summary-block summary-pending"><div class="summary-label">⚠️ 本课程深度信息未能完整抓取</div>' +
+          '<div class="summary-text">原因：部分欧洲院校官网访问缓慢/有反爬屏障，本课程逐字段抓取未完成。' +
+          '内容简介、学费、语言成绩、绩点、申请时间等请以官网为准——点击上方【前往官网查看课程介绍】按钮即可直达官方课程页。</div></div>') +
+      (langInfo(course).en || !langInfo(course).key
+        ? (course.tuition || course.language || course.gpa || course.deadline
+        ? ''
+        : '<div class="summary-block summary-pending" style="margin-top:14px;"><div class="summary-label">⚠️ 本课程深度信息未能完整抓取</div>' +
+          '<div class="summary-text">原因：部分欧洲院校官网访问缓慢/有反爬屏障，本课程逐字段抓取未完成。' +
+          '学费、语言成绩、绩点、申请时间等请以官网为准——点击上方【前往官网查看课程介绍】按钮即可直达官方课程页查看全部信息。</div></div>')
+        : '<div class="summary-block"><div class="summary-label">🌐 非英语授课课程</div>' +
+          '<div class="summary-text">本课程为' + esc(langInfo(course).tag) +
+          '。按项目定位，非英语授课课程仅提供官网入口：点击上方【前往官网查看课程介绍】' +
+          '即可获取官方完整信息（学费、语言要求与申请流程以官网为准）。</div></div>') +
       '<div class="info-cards">' +
       info.map(function (it) {
         var warn = (it.value && it.value.indexOf("⚠️") !== -1) ? " info-card-warn" : "";

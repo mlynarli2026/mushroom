@@ -41,17 +41,17 @@ var SCHOOL_COURSES = {
    "id": "lea-gestion-commerce-international",
    "title": "Master Langues étrangères appliquées : Gestion et commerce international (GCI) / Master in Applied Foreign Languages: Management and International Trade",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-langues-etrangeres-appliquees-gestion-et-commerce-international-gci-MLEAP1L_602.html",
-   "summary": "应用外语+国际商务复合型硕士（LEA-GCI）：语言（法语+两门外语）与国际商贸技能双修，课程覆盖国际贸易法律、经济、谈判与数字化战略，以及管理、市场营销、物流与财务基础（官网课程说明），采用案例教学并配合M1、M2强制企业实践（实习3-4个月起，可赴海外6个月）。毕业生进入跨国公司外贸部门、国际业务开发、产品/市场经理、物流与采购等岗位；面向外语/文科背景转商科学生的典型复合路径。",
+   "summary": null,
    "duration": "2年（M1+M2，120 ECTS；实习3-4个月以上，海外实习可选6个月）",
    "teachingLanguage": "法语授课（官网：'une maîtrise achevée des outils linguistiques, en français et en deux autres langues'；并注明'Il n'est pas possible en master 1 de commencer une langue en tant que débutant'——M1不可零基础新学语言）",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）",
-   "language": "法语须达硕士申请要求（索邦文学学院官网对非欧学生：法语C1）；另需两门外语（含英语，课程语言须达可学习水平，M1不可从零开始一门语言）；语言水平将影响audition与入学评估",
-   "gpa": "本科180 ECTS（外语/经济/管理类为佳）；评审关注本科成绩、专业相关性、动机与职业规划",
-   "background": "接受跨专业（外语+经管双轨培养，官网明确以案例/实践教学，核心要求为'法语+两门外语'扎实）；语言零基础者不可",
-   "requirements": "Mon Master（M1）或eCandidat（M2）：成绩单、简历、动机信；语言能力证明（法语+两门外语）；部分情况需语言面试",
-   "applicationOpen": "M1：2026-02-16（Mon Master主阶段）；M2（eCandidat）：2026-04-01",
-   "deadline": "M1：2026-03-16；M2：2026-06-16（第2轮08-18开始）",
-   "deadlineNote": "官网页面对该课程未列出单独Admission细则（Admission标签页为空），请以Mon Master平台当年开放信息与LEA UFR秘书处（01 43 18 41 04）为准。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "应用外语硕士：国际商务与贸易管理（GCI）"
   },
@@ -95,17 +95,17 @@ var SCHOOL_COURSES = {
    "id": "info-comm-conseil-management-organisations",
    "title": "Master Information-Communication : Conseil, management et organisations (M2 en apprentissage) / Master in Information and Communication: Consulting, Management and Organisations",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-information-communication-conseil-management-et-organisations-master-2-en-apprentissage-KLTEM2Q7.html",
-   "summary": "管理咨询硕士（CELSA信息-传播学院）：以组织诊断与转型项目咨询为主业方向（企业战略、营销、人力资源、商业模式；咨询方法论：客户关系管理、变革项目、咨询伦理等），课程由科研学者（SHS/信息传播/管理科学）与咨询公司从业者共同讲授；M1完成企业实习（3个月起，官网），M2在咨询公司学徒（参与客户项目、商业开发与内部管理等，350-450小时课程+交替）。官网明确面向SHS各专业本科毕业生（信息传播、历史、政治学、法律、社会学、文学、经济、艺术史等）且年龄小于29岁——专门为'文科转咨询'设计的路径。",
+   "summary": null,
    "duration": "2年（M1 FI + M2学徒制；官网：M2课程350h/450h于9月起密集6周后每周1天+企业实践）",
    "teachingLanguage": "法语授课（官网标注Langue: Français）",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）；M2学徒制另按企业合同",
-   "language": "法语C1（索邦文学学院对非欧学生的统一硕士要求）；CELSA面试为法语；传播行业英语为加分项",
-   "gpa": "本科180 ECTS（信息传播、历史、政治学、法律、社会学、文学、经济、艺术史等SHS专业——官网原文）；年龄<29岁（M2学徒合同签署时要求，官网原文）",
-   "background": "高度接受跨专业：官网原文'aux titulaires d'un diplôme de niveau bac + 3 (180 ECTS) venant notamment des disciplines en sciences humaines et sociales (information et communication, histoire, sciences politiques, droit, sociologie, lettres, économie, histoire de l'art…) et âgés de moins de 29 ans'——SHS背景均可申请",
-   "requirements": "CELSA两阶段入学考试：材料评审（admissibilité）+入学口试（entretien）；M1申请经Mon Master（法国在籍）/文学预科Bel/境外学生Campus France三条通道之一（官网原文）；材料含成绩单、简历、动机信",
-   "applicationOpen": "M1（Mon Master）：2026-02-17（官网CELSA校准：'Début de la période de dépôt 17 février 2026'）；境外学生Campus France通道：2025-10开放",
-   "deadline": "2026-03-16（Mon Master材料截止）；境外Campus France通道：2026-03；口试2026-05-06~05-23，录取结果2026-06-03（官网CELSA 2026校准表原文）",
-   "deadlineNote": "CELSA官方2026日程（PDF原文）：材料评审3月21日-4月10日；复试通知4月14-17日；口试5月6-23日；录取结果6月3日。M2（FA/FC）申请流程以celsa.fr当年通知为准。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "信息-传播硕士：咨询、管理与组织（M2 学徒制）"
   },
@@ -167,17 +167,17 @@ var SCHOOL_COURSES = {
    "id": "info-comm-communication-organisations",
    "title": "Master Information-Communication : Communication des organisations (M2 en alternance) / Master in Information and Communication: Corporate Communication",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-information-communication-communication-des-organisations-master-2-en-alternance-KLTDMT8G.html",
-   "summary": "组织传播硕士（CELSA）：核心为组织传播战略（传播计划、公共关系、危机传播、媒体训练）加当代社会议题（AI、企业社会责任、多元化、跨文化），服务对象涵盖企业内部与外部公众（员工、股东、客户、意见领袖、媒体、政府——官网）；M1小组研究+M2个人论文，M2交替制（官网：'la seconde année s'effectue en alternance'）；FC轨道：9月至次年1月，400小时/60 ECTS、4门UE+3-6个月实习（官网原文）。毕业生进入企业传播部、公关公司、机构传播管理岗位；是文科转'品牌/公关/企业传播'的管理型路径。",
+   "summary": null,
    "duration": "2年（M1 FI + M2 FA/FC；FC轨道：9月-次年1月班型400h、60 ECTS、3-6个月实习——官网原文）",
    "teachingLanguage": "法语授课（官网标注Langue: Français）",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）；M2学徒制另按企业合同",
-   "language": "法语C1（索邦文学学院对非欧学生的统一硕士要求）",
-   "gpa": "M1：本科180 ECTS；M2 FA：Bac+4（240 ECTS）且<30岁（官网原文强制条件）；M2 FC：Bac+4或同等（在职兼容）",
-   "background": "接受跨专业（官网未限定专业；SHS/经管背景均可）",
-   "requirements": "CELSA两阶段入学考试（材料评审+口试）；M2 FA需企业学徒合同；材料含成绩单、简历、动机信",
-   "applicationOpen": "M1（Mon Master）：2026-02-17；境外Campus France通道：2025-10开放",
-   "deadline": "M1：2026-03-16（Mon Master）；口试2026-05-06~05-23（官网CELSA 2026校准表）",
-   "deadlineNote": "CELSA统一日程（同前）。注意：M2学徒合同有<30岁强制条件（官网原文）。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "信息-传播硕士：组织传播（M2 交替制）"
   },
@@ -239,17 +239,17 @@ var SCHOOL_COURSES = {
    "id": "sociologie-charge-etudes",
    "title": "Master Sociologie : Chargé(e) d'études sociologiques – conseil, enquêtes, évaluation / Master in Sociology: Sociological Research Consultant (Surveys and Evaluation)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-sociologie-charge-e-d-etudes-sociologiques-conseil-enquetes-evaluation-MSOCI1L_601.html",
-   "summary": "社会学调查研究职业硕士（'社会学研究专员'方向）：培养定量/定性调查的设计、采集、分析与呈现，以及咨询与公共政策评估能力；面向社会学本科及其他人文社科本科（也接受社会科学应用数学本科），M1仅20个名额（官网），小班培养；强制3-6个月实习（调查所、公共/私立研究中心、企业HR部门、地方政府、协会等——官网），毕业论文为企业调查报告。毕业生进入市场/民意调查、研究性咨询、公共部门评估岗位——文科+数据分析技能的实用组合。",
+   "summary": null,
    "duration": "2年（M1+M2，120 ECTS；实习3-6个月，官网：'entre 3 et 6 mois'）",
    "teachingLanguage": "法语授课（官网标注Langue: Français）",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）",
-   "language": "法语C1（索邦文学学院对非欧学生统一要求）+统计学/数据处理文献阅读能力（英语统计文献常见）",
-   "gpa": "社会学本科或其他人文社科本科、社会科学应用数学本科（官网：'titulaires d'une licence de sociologie (ou d'une autre licence des sciences humaines et sociales)...licence de mathématiques appliquées aux sciences sociales'）；需证明'社会学基础知识+数据处理分析基础'（官网原文）；M1 20个名额",
-   "background": "接受跨专业：官网明确'或其他人文社科本科'；人文/社科背景+一定量化基础即可申请",
-   "requirements": "Mon Master（M1）：成绩单、动机信（展示社会学与数据基础）；M2 eCandidat；FC联系lettres-ftlv-fpc@sorbonne-universite.fr（官网）",
-   "applicationOpen": "M1：2026-02-16（Mon Master主阶段）；M2（eCandidat）：2026-04-01",
-   "deadline": "M1：2026-03-16；M2：2026-06-16",
-   "deadlineNote": "官网旧文示例'2023年3月22日-4月18日'为平台早前循环；2026按Mon Master主阶段（02-16~03-16）执行。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "社会学硕士：社会学调查研究专员（咨询、调查与评估）"
   },
@@ -311,17 +311,17 @@ var SCHOOL_COURSES = {
    "id": "lettres-litterature-francaise",
    "title": "Master Lettres : Littérature française / Master in French Literature",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-litterature-francaise-MLETT1L_607.html",
-   "summary": "法国文学硕士（研究型）：研究中世纪至当代法语与法语区文学（官网：'centrée sur les littératures française et francophones du Moyen âge à nos jours'），官方明确'所有课程以法语讲授'；方法论+研讨班+年度论文；毕业可考教师资格、进入文化/出版/媒体行业，或经索邦'Phénix'项目进入企业（官网就业栏：教师、文化机构、出版、企事业管理/人力资源/传播等），就业面较宽。面向文学本科及相近人文社科背景（官网Pre-requis：'licence littéraire ou autre parcours (sciences humaines, etc.)'）。",
+   "summary": null,
    "duration": "2年（M1+M2，120 ECTS）",
    "teachingLanguage": "法语授课（官网原文：'Tous les enseignements de la formation sont dispensés en langue française.'——全部课程法语教学）",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）",
-   "language": "法语C1（索邦文学学院对非欧学生统一要求；本课程全程法语教学，故法语必须非常扎实）+至少一门外语（官网：'Pratique d'au moins une langue vivante étrangère'）",
-   "gpa": "本科180 ECTS：文学或其他人文社科（官网Pre-requis原文：'titulaires d'une licence littéraire ou autre parcours (sciences humaines, etc.)'）；录取仅凭Mon Master材料",
-   "background": "接受跨专业：官网明确'或其他人文社科路径'（sciences humaines等）——人文跨专业友好",
-   "requirements": "Mon Master（M1）材料（成绩单、简历、动机信）；M2或转专业eCandidat（最多3志愿）",
-   "applicationOpen": "M1：2026-02-16（Mon Master主阶段）",
-   "deadline": "M1：2026-03-16；M2（eCandidat）：2026-06-16",
-   "deadlineNote": "官网2025示例：02-25~03-24+06-17~06-23；2026年主阶段提前一周（官方校历印证02-16~03-16）。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "文学硕士：法国文学"
   },
@@ -383,17 +383,17 @@ var SCHOOL_COURSES = {
    "id": "tlte-data-supply-chain-isteli",
    "title": "Master TLTE – Data Supply Chain (ISTELI) / Master in Transport, Mobility and Networks: Data Supply Chain (ISTELI)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-tlte-data-supply-chain-isteli-MGAED1L_607.html",
-   "summary": "供应链数字化硕士（TLTE-DSI，与ISTELI共创）：聚焦供应链数据化与AI（官网UE：数据议题、物流流程建模、供应链AI应用、供应链信息系统、物流战略与持续改进），并共享TLTE公共课（地理工具、生态转型、管理与财务、法律）；两年交替制24个月，另有海外实地实习（官网：'un stage de terrain à l'étranger'）。毕业生进入供应链数字平台、物流企业、奢侈品/医药/汽车行业供应链部门（官网就业栏）；面向地理/经济/管理本科与运输物流/国际商务LP(BUT)，其他专业凭项目一致性可申请（官网原文）。",
+   "summary": null,
    "duration": "2年（M1+M2，120 ECTS；24个月强制交替培养）",
    "teachingLanguage": "法语授课；⚠️ TLTE三方向中仅EST方向全英文（官网原文），ISTELI方向官网未标注英文教学，语言课程含'Anglais des transports'+TOEIC备考",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）；交替制企业合同另按学徒规定",
-   "language": "法语C1（索邦文学学院非欧学生统一要求）+英语（官网：'la bonne maitrise d'une ou plusieurs langues étrangères'为评估标准之一，另有运输英语与TOEIC备考课程）",
-   "gpa": "地理/经济/管理本科，或运输/物流/国际商务Licence Pro(BUT)（官网原文）；'Autre licence possible, si la cohérence du projet est démontrée'——其他本科凭项目一致性",
-   "background": "接受跨专业（官网原文'Autre licence possible'）；文科+数据/物流职业规划可申请，评估看重与TLTE专业的一致性",
-   "requirements": "M1 Mon Master材料（成绩、动机、项目陈述）；M2 eCandidat；欢迎reprise d'études",
-   "applicationOpen": "M1：2026-02-16（Mon Master主阶段）；M2（eCandidat）：2026-04-01",
-   "deadline": "M1：2026-03-16；M2：2026-06-16",
-   "deadlineNote": "24个月强制交替制（需签约企业）；更多信息见官网tlte.paris-sorbonne.fr。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "运输、流动性与网络硕士（TLTE）：数据供应链（ISTELI）"
   },
@@ -437,17 +437,17 @@ var SCHOOL_COURSES = {
    "id": "sciences-langage-fle",
    "title": "Master Sciences du langage : Linguistique appliquée au français langue étrangère et au français de spécialité (FLE) / Master in Linguistics: Teaching French as a Foreign Language (FLE)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-sciences-du-langage-fle-linguistique-appliquee-en-francais-langue-etrangere-et-au-francais-de-specialite-MSCLA1L_615.html",
-   "summary": "对外法语教学与应用语言学硕士（FLE/法语专业语言）：两轴教学——法语语法系统与跨语言对比、法语教学法（官网）；M2分两方向（FLE-文化区域：可选阿布扎比校区；FLE-专业法语/商务旅游法语）；两次教学实习（第4学期长期海外实习），并与马德里康普顿斯大学联合学位（官网：2学期赴西+双学位可选）；毕业可教法语或从事法语培训产品设计与商业化（官网就业：'conception et commercialisation de produits de formation en langue française (économie, tourisme)'）。对计划以法语为职业工具、或未来从事中法教育/文化商务的中文学生很实用；要求法语C2（非母语者）。",
+   "summary": null,
    "duration": "2年（M1+M2；两段实习，S4海外长实习；康普顿斯双学位2学期可选）",
    "teachingLanguage": "法语授课（官网Pre-requis原文：'Une expression écrite et orale en français de très bon niveau (certification de français C2 requise si le français n'est pas la langue maternelle)'——非法语母语者须法语C2）",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）",
-   "language": "法语C2（官网原文：'certification de français C2 requise si le français n'est pas la langue maternelle'）+英语（官网UE含'Langue vivante et informatique'）",
-   "gpa": "文学本科（现代文学/语言科学/LLCER并含FLE方向）或同等（官网：'licence de Lettres (Lettres modernes / Sciences du langage / LLCER) avec option FLE ou d'un autre diplôme jugé équivalent par les responsables'）",
-   "background": "接受相近专业（官网明确'其他同等学历可由负责人认定'）；需展示法语水平与教学/跨文化兴趣",
-   "requirements": "Mon Master（M1）/eCandidat（M2）：成绩单、法语C2证明（或预考证明）、动机信；M2方向选择（FLE-文化区域/FLE-专业法语）",
-   "applicationOpen": "M1：2026-02-16（Mon Master主阶段）；M2（eCandidat）：2026-04-01",
-   "deadline": "M1：2026-03-16；M2：2026-06-16",
-   "deadlineNote": "法语C2是硬性门槛（官方原文）；带FLE本科学分者优先。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "语言科学硕士：对外法语与专业法语应用语言学（FLE）"
   },
@@ -456,30 +456,32 @@ var SCHOOL_COURSES = {
    "title": "DOUBLE MASTER LLCER : Etudes germaniques : Allemand - Lettres Modernes",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/double-master-llcer-etudes-germaniques-allemand-lettres-modernes-MLLCE1L_601.html",
    "updated": "2026-09",
-   "titleCn": "德语研究双硕士（LLCER）：德语—现代文学"
+   "titleCn": "德语研究双硕士（LLCER）：德语—现代文学",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "double-master-llcer-etudes-germaniques-allemand-philosophie",
    "title": "DOUBLE MASTER LLCER Etudes Germaniques - Allemand - Philosophie",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/double-master-llcer-etudes-germaniques-allemand-philosophie-MLLCE1L_602.html",
    "updated": "2026-09",
-   "titleCn": "德语研究双硕士（LLCER）：德语—哲学"
+   "titleCn": "德语研究双硕士（LLCER）：德语—哲学",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "lettres-scenario-et-direction-litteraire-scedil",
    "title": "MASTER 2 Lettres : scénario et Direction littéraire ; SCEDIL",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-2-lettres-scenario-et-direction-litteraire-scedil-MLETT1L_609.html",
-   "summary": "编剧与文学总监硕士（SCEDIL，M2，法国文学与比较文学系）：与法国出版业工会培训中心Asfored合办的学徒制职业型M2（官网：'en partenariat avec l'Asfored, le centre de formation du Syndicat National de l'Edition'），课程由影、视、电台行业专业人士讲授（官网），覆盖编剧、文学总监、视听节目顾问、制片助理、剧本审读等岗位，并关注网络纪录片、跨媒体叙事、真人秀等新形态（官网）。容量约15人（官网原文：'La capacité d'accueil est limitée à une quinzaine de places'），毕业可进入文化、信息与传播领域的多类岗位。",
+   "summary": null,
    "duration": "1年M2（60 ECTS，官网信息栏；在职交替制，与出版社/影视公司签约）",
    "teachingLanguage": "法语授课（官网信息栏 Langue: Français）",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）；M2学徒制费用由企业合同覆盖",
-   "language": "法语C1（索邦文学学院非欧学生统一要求）；官网强调文学素养与视听文本分析能力（'des critères...font une large place à la culture littéraire'）",
-   "gpa": "具备M1或同等学历（官网原文：'M1 ou équivalent'）；推荐M1：Lettres-LEMA、Arts Lettres Langues-出版行业、LLCER、艺术史与考古、信息-传播、电影与视听（官网列表）",
-   "background": "接受跨专业（官网列出多个相关M1来源，含CELSA信息-传播、艺术史等）；来自MESEM通识路径M1或他校M1均可申请（官网原文：'soit du parcours généraliste du Master, soit d'autres Masters'）",
-   "requirements": "仅eCandidat在线申请，每年一轮，无其他渠道（官网原文：'Les dossiers de candidature au parcours SCEDIL (M2) doivent être déposés en ligne sur l'application e-candidat. Il n'y a qu'une session par an. Aucune autre voie d'accès n'est possible.'）；另需企业学徒合同",
-   "applicationOpen": "以官网当年为准（eCandidat每年一轮；日期见UFR官网candidature页面）",
-   "deadline": "以官网当年为准（eCandidat单轮）",
-   "deadlineNote": "官网明确15个名额、一年仅一轮，且需先获得企业签约（学徒制）；建议提前与Asfored及项目负责人沟通。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "文学硕士：编剧与文学总监（SCEDIL）"
   },
@@ -488,51 +490,56 @@ var SCHOOL_COURSES = {
    "title": "MASTER Lettres : De la Renaissance aux Lumières",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-de-la-renaissance-aux-lumieres-MLETT1L_611.html",
    "updated": "2026-09",
-   "titleCn": "文学硕士：文艺复兴至启蒙时代"
+   "titleCn": "文学硕士：文艺复兴至启蒙时代",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "lettres-ecriture-et-corrections-multisupports-correm-en-apprentissage",
    "title": "MASTER Lettres : écriture et corrections multisupports ; CORREM en apprentissage",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-ecriture-et-corrections-multisupports-correm-en-apprentissage-MLETT1L_613.html",
    "updated": "2026-09",
-   "titleCn": "文学硕士：多平台写作与校对（CORREM，学徒制）"
+   "titleCn": "文学硕士：多平台写作与校对（CORREM，学徒制）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "lettres-langue-francaise-texte-style",
    "title": "MASTER Lettres : Langue Française, texte, style",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-langue-francaise-texte-style-MLETT1L_603.html",
    "updated": "2026-09",
-   "titleCn": "文学硕士：法语语言、文本与文体"
+   "titleCn": "文学硕士：法语语言、文本与文体",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "lettres-lettres-medievales-litterature-langues-et-savoirs",
    "title": "MASTER Lettres : Lettres Médiévales - Littérature, langues et savoirs",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-lettres-medievales-litterature-langues-et-savoirs-MLETT1L_604.html",
    "updated": "2026-09",
-   "titleCn": "文学硕士：中世纪文学（文学、语言与知识）"
+   "titleCn": "文学硕士：中世纪文学（文学、语言与知识）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "lettres-metiers-de-l-edition-du-scenario-ou-des-ecritures-mediatiques-mesem-crem-en-apprentissage",
    "title": "MASTER Lettres : Métiers de l’Edition, du Scénario ou des Ecritures Médiatiques (MESEM) , CREM en apprentissage",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-metiers-de-l-edition-du-scenario-ou-des-ecritures-mediatiques-mesem-crem-en-apprentissage-MLETT1L_610.html",
    "updated": "2026-09",
-   "titleCn": "文学硕士：出版、编剧与媒介写作行业（MESEM，CREM 学徒制）"
+   "titleCn": "文学硕士：出版、编剧与媒介写作行业（MESEM，CREM 学徒制）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "lettres-metiers-de-l-edition-du-scenario-ou-des-ecritures-mediatiques-mesem-parcours-generaliste-m1",
    "title": "MASTER Lettres : Métiers de l’Edition, du Scénario ou des Ecritures Médiatiques (MESEM) parcours généraliste  M1",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-metiers-de-l-edition-du-scenario-ou-des-ecritures-mediatiques-mesem-parcours-generaliste-m1-MLETT1L_509.html",
-   "summary": "出版与编剧行业硕士（MESEM）通识路径M1：由文学与比较文学系设置的职业型硕士，第一学期通用课程+可选方向课程，第二学期实习并答辩法国文学或比较文学方向论文（官网课程说明）。官网明确：不允许将第一学年用作海外交换学期（课程与法国职业领域绑定），但第二学期的职业实习在满足条件时可赴海外。培养目标：出版、影视制作、文学媒介领域的文字写作与管理技能（官网能力清单：文字与口头表达、文学与视听文化、文献检索、综合与论证能力）。",
+   "summary": null,
    "duration": "1年（M1，60 ECTS，官网信息栏；M2另有CREM学徒制或SCEDIL方向）",
    "teachingLanguage": "法语授课（官网信息栏 Langue: 未标注；文学学院课程以法语教学为主，属文学学院UFR文学与比较文学系）",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）",
-   "language": "法语C1（索邦文学学院对非欧学生的统一硕士要求）；文学阅读需掌握外语文献能力（官网：研究中以比较文学/法国文学文本为主）",
-   "gpa": "本科180 ECTS：官网Admission原文——优先接受文学（Lettres）本科：Lettres modernes / Lettres classiques / Lettres édition médias audiovisuel (LEMA) / Lettres et Arts / Lettres et Humanités métiers du livre；其次为其他文学、语言与人文社科本科",
-   "background": "接受相近专业（官网原文：'secondairement : autres licences de lettres, langues et sciences humaines'——其他文学、语言、人文本科可申请）；录取看文学素养与多媒介分析能力",
-   "requirements": "Mon Master平台在线申请（官网原文：'Les dossiers de candidature sont déposés en ligne sur la plateforme nationale dédiée, MonMaster'）；录取仅凭材料评审（官网：'L'admission est décidée sur le seul examen du dossier'）",
-   "applicationOpen": "Mon Master：官网页面示例日期为2025-02-25开放（页面为2025年campaign文案；2026主阶段提前至2026-02-16）",
-   "deadline": "官网示例：2025-03-24（第一轮）、2025-06-23（第二轮）；2026年按Mon Master主阶段03-16执行",
-   "deadlineNote": "官网Admission标注两轮：'la première du 25 février au 24 mars 2025 et la seconde du 17 juin au 23 juin 2025'（示例日期）；2026年以Mon Master平台公布为准。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "文学硕士：出版、编剧与媒介写作行业（MESEM）通识路径 M1"
   },
@@ -541,86 +548,96 @@ var SCHOOL_COURSES = {
    "title": "MASTER Lettres : Préparation de l'agrégation de Lettres Modernes",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-preparation-de-l-agregation-de-lettres-modernes-MLETT1L_605.html",
    "updated": "2026-09",
-   "titleCn": "文学硕士：现代文学教师资格（Agrégation）备考"
+   "titleCn": "文学硕士：现代文学教师资格（Agrégation）备考",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "lettres-lettres-classiques-latin-grec-francais",
    "title": "MASTER Lettres ; Lettres Classiques ( latin, grec, français)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-lettres-classiques-latin-grec-francais-MLETT1L_601.html",
    "updated": "2026-09",
-   "titleCn": "文学硕士：古典文学（拉丁语、希腊语、法语）"
+   "titleCn": "文学硕士：古典文学（拉丁语、希腊语、法语）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "lettres-preparation-agregation-grammaire",
    "title": "MASTER Lettres ; Préparation Agrégation Grammaire",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-preparation-agregation-grammaire-MLETT1L_615.html",
    "updated": "2026-09",
-   "titleCn": "文学硕士：语法教师资格（Agrégation）备考"
+   "titleCn": "文学硕士：语法教师资格（Agrégation）备考",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "lettres-preparation-agregation-lettres-classiques",
    "title": "MASTER Lettres ; Préparation Agrégation Lettres Classiques",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-preparation-agregation-lettres-classiques-MLETT1L_602.html",
    "updated": "2026-09",
-   "titleCn": "文学硕士：古典文学教师资格（Agrégation）备考"
+   "titleCn": "文学硕士：古典文学教师资格（Agrégation）备考",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-preparation-de-l-agregation-d-anglais",
    "title": "MASTER LLCER : Préparation de l'Agrégation d'Anglais",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-preparation-de-l-agregation-d-anglais-MLLCE1L_612.html",
    "updated": "2026-09",
-   "titleCn": "英语研究硕士（LLCER）：英语教师资格（Agrégation）备考"
+   "titleCn": "英语研究硕士（LLCER）：英语教师资格（Agrégation）备考",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-germaniques-communication-interculturelle-et-museologie-dans-l-europe-renovee-cimer",
    "title": "MASTER LLCER Etudes germaniques : Communication Interculturelle et Muséologie dans l'Europe Rénovée (CIMER)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-germaniques-communication-interculturelle-et-museologie-dans-l-europe-renovee-cimer-MLLCE1L_608.html",
    "updated": "2026-09",
-   "titleCn": "德语研究硕士（LLCER）：欧洲更新中的跨文化传播与博物馆学（CIMER）"
+   "titleCn": "德语研究硕士（LLCER）：欧洲更新中的跨文化传播与博物馆学（CIMER）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-germaniques-culture-litterature-idees",
    "title": "MASTER LLCER Etudes germaniques : Culture, littérature, idées",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-germaniques-culture-litterature-idees-MLLCE1L_639.html",
    "updated": "2026-09",
-   "titleCn": "德语研究硕士（LLCER）：文化、文学与思想"
+   "titleCn": "德语研究硕士（LLCER）：文化、文学与思想",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-germaniques-etudes-neerlandaises",
    "title": "MASTER LLCER Etudes germaniques : Etudes Néerlandaises",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-germaniques-etudes-neerlandaises-MLLCE1L_604.html",
    "updated": "2026-09",
-   "titleCn": "德语研究硕士（LLCER）：荷兰语研究"
+   "titleCn": "德语研究硕士（LLCER）：荷兰语研究",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-germaniques-etudes-nordiques",
    "title": "MASTER LLCER Etudes germaniques : Etudes nordiques",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-germaniques-etudes-nordiques-MLLCE1L_605.html",
    "updated": "2026-09",
-   "titleCn": "德语研究硕士（LLCER）：北欧研究"
+   "titleCn": "德语研究硕士（LLCER）：北欧研究",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-germaniques-langues-litteratures-et-civilisations-d-europe-centrale-allemand-bcms-hongrois-polonais-russe-tcheque",
    "title": "MASTER LLCER Etudes germaniques : Langues, littératures et civilisations d’Europe centrale (allemand, BCMS, hongrois, polonais, russe, tchèque),",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-germaniques-langues-litteratures-et-civilisations-d-europe-centrale-allemand-bcms-hongrois-polonais-russe-tcheque-MLLCE1L_607.html",
    "updated": "2026-09",
-   "titleCn": "德语研究硕士（LLCER）：中欧语言、文学与文明（德语、BCMS、匈牙利语、波兰语、俄语、捷克语）"
+   "titleCn": "德语研究硕士（LLCER）：中欧语言、文学与文明（德语、BCMS、匈牙利语、波兰语、俄语、捷克语）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-germaniques-mediation-interculturelle-et-traduction-espaces-germanique-et-nordique-megen",
    "title": "MASTER LLCER Etudes germaniques : Médiation interculturelle et traduction espaces germanique et nordique (MEGEN)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-germaniques-mediation-interculturelle-et-traduction-espaces-germanique-et-nordique-megen-MLLCE1L_606.html",
-   "summary": "德北欧空间跨文化调解与翻译硕士（MEGEN，德语与北欧研究系）：官网定位'欧洲独一无二的职业化硕士'，两大主线——①跨文化调解行业入门与德北欧文化空间交流/转移研究；②语言调解（翻译实践）与图书行业（官网）。课程由日耳曼与北欧研究（德语、荷兰语、斯堪的纳维亚语）三个方向共同授课、资源共享（官网），并安排专业人士讲座与多类文化机构实习（文化学院、国际媒体、出版社、文学代理、博物馆——官网）。",
+   "summary": null,
    "duration": "2年（M1+M2，120 ECTS，官网信息栏）",
    "teachingLanguage": "法语授课；⚠️ 专业内容以德语/荷兰语/北欧语与法语双语材料为主（官网：面向'德语与北欧文化空间'；需掌握至少一门日耳曼或北欧语言）",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）",
-   "language": "法语C1（索邦文学学院非欧学生统一要求）+至少一门德语/荷兰语/北欧语高水平（官网原文：'excellente maîtrise d'au moins une langue germanique ou nordique'）；良好的书面与沟通能力",
-   "gpa": "本科（官网原文：'Être titulaire d'une licence'）；优先LLCE或LEA日耳曼/荷兰语/北欧语本科（官网：'germanistes, néerlandisant.e.s ou scandinavisant.e.s'）；也接受文学、历史等SHS本科（官网原文），但须有扎实的日耳曼/北欧语言能力",
-   "background": "接受跨专业（官网明确文学、历史等人文社科也可申请）；需展示职业项目（官网：'ayant déjà entamé une réflexion sur un projet professionnel'）",
-   "requirements": "M1：Mon Master（官网）；M2：eCandidat（官网原文http://ecandidat.paris-sorbonne.fr）；继续教育走eCandidat-reprise d'études渠道",
-   "applicationOpen": "M1：Mon Master主阶段（2026-02-16）；M2：eCandidat（2026-04-01）",
-   "deadline": "M1：2026-03-16（主阶段）；M2：2026-06-16",
-   "deadlineNote": "官网给出继续教育咨询：01 53 42 30 39 / reprise.etudes@paris-sorbonne.fr。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "德语研究硕士（LLCER）：德北欧空间的跨文化调解与翻译（MEGEN）"
   },
@@ -629,30 +646,32 @@ var SCHOOL_COURSES = {
    "title": "MASTER LLCER Etudes germaniques : savoirs et communication culturelle",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-germaniques-savoirs-et-communication-culturelle-MLLCE1L_603.html",
    "updated": "2026-09",
-   "titleCn": "德语研究硕士（LLCER）：知识与文化传播"
+   "titleCn": "德语研究硕士（LLCER）：知识与文化传播",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-germaniques-et-nordiques-preparation-a-l-agregation-d-allemand",
    "title": "MASTER LLCER Etudes Germaniques et Nordiques : Préparation à l'agrégation d'Allemand",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-germaniques-et-nordiques-preparation-a-l-agregation-d-allemand-KMF6SY0H.html",
    "updated": "2026-09",
-   "titleCn": "德语与北欧研究硕士（LLCER）：德语教师资格（Agrégation）备考"
+   "titleCn": "德语与北欧研究硕士（LLCER）：德语教师资格（Agrégation）备考",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-romanes-espagnol-et-doubles-master-su-seville-et-su-unam",
    "title": "MASTER LLCER Etudes romanes : Espagnol (et doubles master SU-Séville et SU-UNAM)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-romanes-espagnol-et-doubles-master-su-seville-et-su-unam-MLLCE1L_619.html",
-   "summary": "西班牙语研究硕士（罗曼语研究LLCER，含塞维利亚大学与墨西哥UNAM双硕士）：研究方向M1/M2之外，官网列出两条双硕士通道——①与塞维利亚大学近代史系联合：M1第一学期末（约3月）选拔，M2在巴黎读一学期后赴塞维利亚完成硕士（论文以西班牙语撰写、双导师，官网原文）；②与墨西哥国立自治大学（UNAM）历史硕士联合：同样M1选拔、M2第三学期强制赴墨（8-12月）学习、第四学期回巴黎，双学位（官网）。适合有西班牙语基础、欲获西语区双学位的跨专业申请者。",
+   "summary": null,
    "duration": "2年（M1+M2，120 ECTS，官网信息栏；双硕士项目含1学期海外）",
    "teachingLanguage": "法语授课；⚠️ 能力要求含西班牙语与法语双高水平（官网原文：'très bon niveau préalable en espagnol (équivalent C1), ainsi qu'en français'），双硕士项目论文用西班牙语撰写",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）",
-   "language": "法语C1（索邦文学学院非欧学生统一要求）+西班牙语C1（官网硬性要求）+学术英语文献阅读能力",
-   "gpa": "西班牙语本科（官网原文：'Être titulaire d'une licence d'espagnol'）；双硕士项目在M1期间选拔",
-   "background": "中等跨专业接受度：官网硬性要求西班牙语专业本科；西语背景+人文倾向可争取双硕士通道（M1时申请）",
-   "requirements": "Mon Master（M1）/eCandidat（M2）；双硕士：M1当年3月提交双学位申请材料（官网原文：'Les dossiers de candidatures sont à adresser au mois de mars de l'année de Master 1'）",
-   "applicationOpen": "M1：Mon Master主阶段（2026-02-16）；双硕士选拔：M1当年3月",
-   "deadline": "M1：2026-03-16；双硕士申请：3月（官网原文）",
-   "deadlineNote": "官网给出双硕士负责人联系方式：David Marcilhacy（david.marcilhacy@sorbonne-universite.fr），建议申请前邮件确认。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "罗曼语研究硕士（LLCER）：西班牙语（含塞维利亚大学与墨西哥国立自治大学双硕士）"
   },
@@ -661,322 +680,368 @@ var SCHOOL_COURSES = {
    "title": "MASTER LLCER Etudes romanes : Etudes  Italiennes Codiplomation Milan",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-romanes-etudes-italiennes-codiplomation-milan-MKZJ05Q3.html",
    "updated": "2026-09",
-   "titleCn": "罗曼语研究硕士（LLCER）：意大利语研究（米兰双学位）"
+   "titleCn": "罗曼语研究硕士（LLCER）：意大利语研究（米兰双学位）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-romanes-portugais",
    "title": "MASTER LLCER Etudes romanes : Portugais",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-romanes-portugais-MLLCE1L_621.html",
    "updated": "2026-09",
-   "titleCn": "罗曼语研究硕士（LLCER）：葡萄牙语"
+   "titleCn": "罗曼语研究硕士（LLCER）：葡萄牙语",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-romanes-etudes-italiennes",
    "title": "MASTER LLCER Etudes romanes ; Etudes Italiennes",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-romanes-etudes-italiennes-MLLCE1L_625.html",
    "updated": "2026-09",
-   "titleCn": "罗曼语研究硕士（LLCER）：意大利语研究"
+   "titleCn": "罗曼语研究硕士（LLCER）：意大利语研究",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-romanes-etudes-italiennes-universite-sapienza",
    "title": "MASTER LLCER Etudes romanes ; Etudes Italiennes ; Université Sapienza",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-romanes-etudes-italiennes-universite-sapienza-MLLCE1L_637.html",
    "updated": "2026-09",
-   "titleCn": "罗曼语研究硕士（LLCER）：意大利语研究（罗马大学双学位）"
+   "titleCn": "罗曼语研究硕士（LLCER）：意大利语研究（罗马大学双学位）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-semitiques-etudes-arabes-et-islamiques",
    "title": "MASTER LLCER Etudes sémitiques :  Etudes arabes et islamiques",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-semitiques-etudes-arabes-et-islamiques-MLLCE1L_613.html",
    "updated": "2026-09",
-   "titleCn": "闪语研究硕士（LLCER）：阿拉伯与伊斯兰研究"
+   "titleCn": "闪语研究硕士（LLCER）：阿拉伯与伊斯兰研究",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-semitiques-etudes-hebraiques-et-juives",
    "title": "MASTER LLCER Etudes sémitiques : Etudes hébraïques et juives",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-semitiques-etudes-hebraiques-et-juives-MLLCE1L_617.html",
    "updated": "2026-09",
-   "titleCn": "闪语研究硕士（LLCER）：希伯来与犹太研究"
+   "titleCn": "闪语研究硕士（LLCER）：希伯来与犹太研究",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-slaves-langues-litteratures-et-civilisations-d-europe-centrale-allemand-bcms-hongrois-polonais-russe-tcheque",
    "title": "MASTER LLCER Etudes Slaves :  Langues, littératures et civilisations d’Europe centrale (allemand, BCMS, hongrois, polonais, russe, tchèque)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-slaves-langues-litteratures-et-civilisations-d-europe-centrale-allemand-bcms-hongrois-polonais-russe-tcheque-MLLCE1L_636.html",
    "updated": "2026-09",
-   "titleCn": "斯拉夫语研究硕士（LLCER）：中欧语言、文学与文明（德语、BCMS、匈牙利语、波兰语、俄语、捷克语）"
+   "titleCn": "斯拉夫语研究硕士（LLCER）：中欧语言、文学与文明（德语、BCMS、匈牙利语、波兰语、俄语、捷克语）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-slaves-metiers-de-l-edition-de-l-europe-centrale-et-orientale-meeco",
    "title": "MASTER LLCER Etudes Slaves :  Métiers de l'édition de l'europe centrale et Orientale ( MEECO )",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-slaves-metiers-de-l-edition-de-l-europe-centrale-et-orientale-meeco-MLLCE1L_631.html",
    "updated": "2026-09",
-   "titleCn": "斯拉夫语研究硕士（LLCER）：中东欧出版行业（MEECO）"
+   "titleCn": "斯拉夫语研究硕士（LLCER）：中东欧出版行业（MEECO）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-slaves-bosniaque-croate-montenegrin-serbe-bcms",
    "title": "MASTER LLCER Etudes Slaves : Bosniaque Croate Monténégrin Serbe (BCMS )",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-slaves-bosniaque-croate-montenegrin-serbe-bcms-MLLCE1L_634.html",
    "updated": "2026-09",
-   "titleCn": "斯拉夫语研究硕士（LLCER）：波斯尼亚语、克罗地亚语、黑山语、塞尔维亚语（BCMS）"
+   "titleCn": "斯拉夫语研究硕士（LLCER）：波斯尼亚语、克罗地亚语、黑山语、塞尔维亚语（BCMS）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-slaves-communication-interculturelle-et-museologie-dans-l-europe-renovee-cimer",
    "title": "MASTER LLCER Etudes Slaves : Communication interculturelle et muséologie dans l'Europe rénovée CIMER",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-slaves-communication-interculturelle-et-museologie-dans-l-europe-renovee-cimer-MLLCE1L_635.html",
    "updated": "2026-09",
-   "titleCn": "斯拉夫语研究硕士（LLCER）：欧洲更新中的跨文化传播与博物馆学（CIMER）"
+   "titleCn": "斯拉夫语研究硕士（LLCER）：欧洲更新中的跨文化传播与博物馆学（CIMER）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-slaves-etudes-hongroises",
    "title": "MASTER LLCER Etudes Slaves : Etudes Hongroises",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-slaves-etudes-hongroises-M4MTOKOP.html",
    "updated": "2026-09",
-   "titleCn": "斯拉夫语研究硕士（LLCER）：匈牙利语研究"
+   "titleCn": "斯拉夫语研究硕士（LLCER）：匈牙利语研究",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-slaves-etudes-russes-et-russophones",
    "title": "MASTER LLCER Etudes Slaves : Etudes russes et russophones",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-slaves-etudes-russes-et-russophones-MLLCE1L_632.html",
    "updated": "2026-09",
-   "titleCn": "斯拉夫语研究硕士（LLCER）：俄语及俄语世界研究"
+   "titleCn": "斯拉夫语研究硕士（LLCER）：俄语及俄语世界研究",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-slaves-etudes-tcheques",
    "title": "MASTER LLCER Etudes Slaves : Etudes Tchèques",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-slaves-etudes-tcheques-M4MTITQ1.html",
    "updated": "2026-09",
-   "titleCn": "斯拉夫语研究硕士（LLCER）：捷克语研究"
+   "titleCn": "斯拉夫语研究硕士（LLCER）：捷克语研究",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-etudes-slaves-polonais",
    "title": "MASTER LLCER Etudes Slaves : Polonais",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-etudes-slaves-polonais-MLLCE1L_628.html",
    "updated": "2026-09",
-   "titleCn": "斯拉夫语研究硕士（LLCER）：波兰语研究"
+   "titleCn": "斯拉夫语研究硕士（LLCER）：波兰语研究",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-mondes-arabes-et-musulmans",
    "title": "MASTER LLCER Mondes Arabes et musulmans",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-mondes-arabes-et-musulmans-MLLCE1L_614.html",
    "updated": "2026-09",
-   "titleCn": "阿拉伯语与穆斯林世界研究硕士（LLCER）"
+   "titleCn": "阿拉伯语与穆斯林世界研究硕士（LLCER）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "llcer-preparation-agregation-russe",
    "title": "MASTER LLCER Préparation Agrégation Russe",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-llcer-preparation-agregation-russe-MLLCE1L_633.html",
    "updated": "2026-09",
-   "titleCn": "斯拉夫语研究硕士（LLCER）：俄语教师资格（Agrégation）备考"
+   "titleCn": "斯拉夫语研究硕士（LLCER）：俄语教师资格（Agrégation）备考",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "meef-2nd-degre-anglais",
    "title": "MASTER MEEF 2nd degré Anglais",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-meef-2nd-degre-anglais-MEEF2_411.html",
    "updated": "2026-09",
-   "titleCn": "教学专业硕士（MEEF 中学）：英语"
+   "titleCn": "教学专业硕士（MEEF 中学）：英语",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "musicologie-musique-et-interdisciplinarite-musicologie-et-acoustique",
    "title": "MASTER Musicologie :   Musique et Interdisciplinarité; musicologie et acoustique",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-musicologie-musique-et-interdisciplinarite-musicologie-et-acoustique-MKZIAEP0.html",
    "updated": "2026-09",
-   "titleCn": "音乐学硕士：音乐与跨学科（音乐学与声学）"
+   "titleCn": "音乐学硕士：音乐与跨学科（音乐学与声学）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "musicologie-ethnomusicologie-et-interculturalite",
    "title": "MASTER Musicologie : Ethnomusicologie et Interculturalité",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-musicologie-ethnomusicologie-et-interculturalite-M4L4KDGR.html",
    "updated": "2026-09",
-   "titleCn": "音乐学硕士：民族音乐学与跨文化"
+   "titleCn": "音乐学硕士：民族音乐学与跨文化",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "musicologie-mediation-de-la-musique",
    "title": "MASTER Musicologie : Médiation de la Musique",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-musicologie-mediation-de-la-musique-MMUSI1L_609.html",
    "updated": "2026-09",
-   "titleCn": "音乐学硕士：音乐传播与调解"
+   "titleCn": "音乐学硕士：音乐传播与调解",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "musicologie-musique-langages-societes-avec-specialite-franco-italien",
    "title": "MASTER Musicologie : musique, langages, sociétés ( avec spécialité Franco Italien )",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-musicologie-musique-langages-societes-avec-specialite-franco-italien-MMUSI1L_601.html",
    "updated": "2026-09",
-   "titleCn": "音乐学硕士：音乐、语言与社会（法意专修）"
+   "titleCn": "音乐学硕士：音乐、语言与社会（法意专修）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "musicologie-recherche-et-pratique-analyse-et-creation-direction-de-choeur-interpretation-des-musiques-anciennes-pratiques-orchestrales",
    "title": "MASTER Musicologie : Recherche et pratique (Analyse et création, direction de chœur, interprétation des musiques anciennes, pratiques orchestrales)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-musicologie-recherche-et-pratique-analyse-et-creation-direction-de-choeur-interpretation-des-musiques-anciennes-pratiques-orchestrales-MMUSI1L_610.html",
    "updated": "2026-09",
-   "titleCn": "音乐学硕士：研究与演奏实践（分析创作、合唱指挥、古乐演绎、乐队实践）"
+   "titleCn": "音乐学硕士：研究与演奏实践（分析创作、合唱指挥、古乐演绎、乐队实践）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sciences-du-langage-langue-et-informatique",
    "title": "MASTER Sciences du langage : Langue et Informatique",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-sciences-du-langage-langue-et-informatique-MSCLA1L_613.html",
    "updated": "2026-09",
-   "titleCn": "语言科学硕士：语言与计算机"
+   "titleCn": "语言科学硕士：语言与计算机",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sciences-du-langage-linguistique-francaise-generale-lfg",
    "title": "MASTER Sciences du langage : Linguistique française générale (LFG)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-sciences-du-langage-linguistique-francaise-generale-lfg-MSCLA1L_614.html",
    "updated": "2026-09",
-   "titleCn": "语言科学硕士：普通法语语言学（LFG）"
+   "titleCn": "语言科学硕士：普通法语语言学（LFG）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "double-master-archeologie-archeologie-geographie",
    "title": "DOUBLE MASTER Archéologie : Archéologie-Géographie",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/double-master-archeologie-archeologie-geographie-M4L42206.html",
    "updated": "2026-09",
-   "titleCn": "考古学双硕士：考古学—地理学"
+   "titleCn": "考古学双硕士：考古学—地理学",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "double-master-histoire-histoire-anglais",
    "title": "DOUBLE MASTER Histoire : Histoire - Anglais",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/double-master-histoire-histoire-anglais-MHIST1L_614.html",
    "updated": "2026-09",
-   "titleCn": "历史学双硕士：历史学—英语"
+   "titleCn": "历史学双硕士：历史学—英语",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "archeologie-recherches-sciences-patrimoines",
    "title": "MASTER  Archéologie : recherches, sciences, patrimoines",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-archeologie-recherches-sciences-patrimoines-MAHAR1L_601.html",
    "updated": "2026-09",
-   "titleCn": "考古学硕士：研究、科学与遗产"
+   "titleCn": "考古学硕士：研究、科学与遗产",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "information-communication-communication-publique-et-politique",
    "title": "MASTER  Information- Communication :  communication publique et politique",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-information-communication-communication-publique-et-politique-KLTDQST4.html",
    "updated": "2026-09",
-   "titleCn": "信息-传播硕士（CELSA）：公共与政治传播"
+   "titleCn": "信息-传播硕士（CELSA）：公共与政治传播",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "information-communication-medias-et-creation-master-2-en-alternance",
    "title": "MASTER  Information- Communication :  Médias et création  ( Master 2 en alternance)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-information-communication-medias-et-creation-master-2-en-alternance-KLTE2HGP.html",
    "updated": "2026-09",
-   "titleCn": "信息-传播硕士（CELSA）：媒体与创作（M2 学徒制）"
+   "titleCn": "信息-传播硕士（CELSA）：媒体与创作（M2 学徒制）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "information-communication-marque-et-strategies-de-communication-master-2-en-alternance",
    "title": "MASTER  Information- Communication:  Marque et stratégies de communication ( master 2 en alternance )",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-information-communication-marque-et-strategies-de-communication-master-2-en-alternance-KLTDZ1YO.html",
    "updated": "2026-09",
-   "titleCn": "信息-传播硕士（CELSA）：品牌与传播战略（M2 学徒制）"
+   "titleCn": "信息-传播硕士（CELSA）：品牌与传播战略（M2 学徒制）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "archeologie-metiers-de-l-archeologie-et-du-patrimoine-en-alternance",
    "title": "MASTER 2 Archéologie : Métiers de l'archéologie et du patrimoine ( en alternance )",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-2-archeologie-metiers-de-l-archeologie-et-du-patrimoine-en-alternance-M4L4CN50.html",
    "updated": "2026-09",
-   "titleCn": "考古学硕士（M2）：考古与遗产行业（学徒制）"
+   "titleCn": "考古学硕士（M2）：考古与遗产行业（学徒制）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-de-l-art-l-art-contemporain-et-son-exposition",
    "title": "MASTER 2 Histoire de l'Art : L'art contemporain et son exposition",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-2-histoire-de-l-art-l-art-contemporain-et-son-exposition-MAHAR1L_603.html",
    "updated": "2026-09",
-   "titleCn": "艺术史硕士（M2）：当代艺术及其展览"
+   "titleCn": "艺术史硕士（M2）：当代艺术及其展览",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-de-l-art-preparation-au-concours-du-patrimoine",
    "title": "MASTER 2 Histoire de l'art : Préparation au Concours du patrimoine",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-2-histoire-de-l-art-preparation-au-concours-du-patrimoine-MAHAR1L_604.html",
    "updated": "2026-09",
-   "titleCn": "艺术史硕士（M2）：遗产管理公务员考试备考"
+   "titleCn": "艺术史硕士（M2）：遗产管理公务员考试备考",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "information-communication-communication-et-transformation",
    "title": "MASTER 2 Information-communication : Communication et transformation",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-2-information-communication-communication-et-transformation-MCOMM1L_661.html",
    "updated": "2026-09",
-   "titleCn": "信息-传播硕士（M2）：传播与转型"
+   "titleCn": "信息-传播硕士（M2）：传播与转型",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "gaed-enviterr-parcours-environnement-et-territoires",
    "title": "MASTER GAED : EnviTERR - Parcours Environnement et Territoires",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-gaed-enviterr-parcours-environnement-et-territoires-MGAED1L_605.html",
    "updated": "2026-09",
-   "titleCn": "地理学硕士（GAED）：环境与地方（EnviTERR）"
+   "titleCn": "地理学硕士（GAED）：环境与地方（EnviTERR）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "gaed-geopolitique-geoint",
    "title": "MASTER GAED : Géopolitique-Geoint",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-gaed-geopolitique-geoint-MGAED1L_613.html",
    "updated": "2026-09",
-   "titleCn": "地理学硕士（GAED）：地缘政治与情报地理学（Géoint）"
+   "titleCn": "地理学硕士（GAED）：地缘政治与情报地理学（Géoint）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "gaed-geosuds-societes-territoires-developpement",
    "title": "MASTER GAED : GéoSuds - sociétés, territoires, développement",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-gaed-geosuds-societes-territoires-developpement-MGAED1L_606.html",
    "updated": "2026-09",
-   "titleCn": "地理学硕士（GAED）：南方社会、地方与发展（GéoSuds）"
+   "titleCn": "地理学硕士（GAED）：南方社会、地方与发展（GéoSuds）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "gaed-mondes-arabes-et-musulmans",
    "title": "MASTER GAED : Mondes arabes et musulmans",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-gaed-mondes-arabes-et-musulmans-MGAED1L_611.html",
    "updated": "2026-09",
-   "titleCn": "地理学硕士（GAED）：阿拉伯与穆斯林世界"
+   "titleCn": "地理学硕士（GAED）：阿拉伯与穆斯林世界",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "gaed-preparation-a-l-agregation-de-geographie",
    "title": "MASTER GAED : Préparation à l'Agrégation de Géographie",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-gaed-preparation-a-l-agregation-de-geographie-MGAED1L_612.html",
    "updated": "2026-09",
-   "titleCn": "地理学硕士（GAED）：地理教师资格（Agrégation）备考"
+   "titleCn": "地理学硕士（GAED）：地理教师资格（Agrégation）备考",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "gaed-societes-cultures-territoires-sct",
    "title": "MASTER GAED : Sociétés, Cultures, Territoires ( SCT)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-gaed-societes-cultures-territoires-sct-MGAED1L_604.html",
    "updated": "2026-09",
-   "titleCn": "地理学硕士（GAED）：社会、文化与地方（SCT）"
+   "titleCn": "地理学硕士（GAED）：社会、文化与地方（SCT）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "geomatique-geomatique-3d-et-amenagement-durable",
    "title": "MASTER Géomatique : Géomatique 3D et aménagement durable",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-geomatique-geomatique-3d-et-amenagement-durable-MGAED1L_610.html",
    "updated": "2026-09",
-   "titleCn": "地理信息学硕士：三维地理信息与可持续发展规划"
+   "titleCn": "地理信息学硕士：三维地理信息与可持续发展规划",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-armees-guerres-et-securite-dans-les-societes-de-l-antiquite-a-nos-jours",
    "title": "MASTER Histoire : Armées, guerres et sécurité dans les sociétés de l’Antiquité à nos jours",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-histoire-armees-guerres-et-securite-dans-les-societes-de-l-antiquite-a-nos-jours-MHIST1L_601.html",
    "updated": "2026-09",
-   "titleCn": "历史学硕士：军队、战争与安全（古代至当代）"
+   "titleCn": "历史学硕士：军队、战争与安全（古代至当代）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-dynamique-des-systemes-internationaux",
    "title": "MASTER Histoire : Dynamique des systèmes internationaux.",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-histoire-dynamique-des-systemes-internationaux-MHIST1L_603.html",
    "updated": "2026-09",
-   "titleCn": "历史学硕士：国际体系动态"
+   "titleCn": "历史学硕士：国际体系动态",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-monde-mediterraneen-medieval-byzance-islam-occident",
    "title": "MASTER Histoire : Monde méditerranéen médiéval : (Byzance, Islam, Occident)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-histoire-monde-mediterraneen-medieval-byzance-islam-occident-MHIST1L_606.html",
    "updated": "2026-09",
-   "titleCn": "历史学硕士：中世纪地中海世界（拜占庭、伊斯兰、西方）"
+   "titleCn": "历史学硕士：中世纪地中海世界（拜占庭、伊斯兰、西方）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-mondes-antiques",
    "title": "MASTER Histoire : Mondes antiques",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-histoire-mondes-antiques-MHIST1L_607.html",
    "updated": "2026-09",
-   "titleCn": "历史学硕士：古代世界"
+   "titleCn": "历史学硕士：古代世界",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-mondes-arabes-et-musulmans",
    "title": "MASTER Histoire : Mondes arabes et musulmans",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-histoire-mondes-arabes-et-musulmans-MHIST1L_608.html",
    "updated": "2026-09",
-   "titleCn": "历史学硕士：阿拉伯与穆斯林世界"
+   "titleCn": "历史学硕士：阿拉伯与穆斯林世界",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-mondes-contemporains",
@@ -1001,42 +1066,48 @@ var SCHOOL_COURSES = {
    "title": "MASTER Histoire : Mondes médiévaux",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-histoire-mondes-medievaux-MHIST1L_610.html",
    "updated": "2026-09",
-   "titleCn": "历史学硕士：中世纪世界"
+   "titleCn": "历史学硕士：中世纪世界",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-mondes-modernes",
    "title": "MASTER Histoire : Mondes modernes",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-histoire-mondes-modernes-MHIST1L_602.html",
    "updated": "2026-09",
-   "titleCn": "历史学硕士：近代世界"
+   "titleCn": "历史学硕士：近代世界",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-preparation-de-l-agregation-d-histoire",
    "title": "MASTER Histoire : Préparation de l'agrégation d'Histoire",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-histoire-preparation-de-l-agregation-d-histoire-MHIST1L_616.html",
    "updated": "2026-09",
-   "titleCn": "历史学硕士：历史教师资格（Agrégation）备考"
+   "titleCn": "历史学硕士：历史教师资格（Agrégation）备考",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-religions-et-societes",
    "title": "MASTER Histoire : Religions et sociétés",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-histoire-religions-et-societes-MHIST1L_605.html",
    "updated": "2026-09",
-   "titleCn": "历史学硕士：宗教与社会"
+   "titleCn": "历史学硕士：宗教与社会",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-de-l-art-metiers-de-la-recherche-de-la-culture-et-du-patrimoine",
    "title": "MASTER Histoire de l'art  : métiers de la recherche, de la culture et du patrimoine",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-histoire-de-l-art-metiers-de-la-recherche-de-la-culture-et-du-patrimoine-MAHAR1L_602.html",
    "updated": "2026-09",
-   "titleCn": "艺术史硕士：研究、文化与遗产行业"
+   "titleCn": "艺术史硕士：研究、文化与遗产行业",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "histoire-de-l-art-histoire-de-l-art-droit-1ere-annee",
    "title": "MASTER Histoire de l'art : Histoire de l'Art - Droit 1ère année",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-histoire-de-l-art-histoire-de-l-art-droit-1ere-annee-MAHAR1L_561.html",
    "updated": "2026-09",
-   "titleCn": "艺术史硕士：艺术史—法律（M1）"
+   "titleCn": "艺术史硕士：艺术史—法律（M1）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "humanites-numeriques-etudes-romanes-traduction-edition-media",
@@ -1061,30 +1132,32 @@ var SCHOOL_COURSES = {
    "title": "MASTER Information- Communication :  communication et industries créatives ( master 2 en alternance)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-information-communication-communication-et-industries-creatives-master-2-en-alternance-KLTDP3XP.html",
    "updated": "2026-09",
-   "titleCn": "信息-传播硕士（CELSA）：传播与创意产业（M2 学徒制）"
+   "titleCn": "信息-传播硕士（CELSA）：传播与创意产业（M2 学徒制）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "information-communication-metiers-de-la-communication-fc",
    "title": "MASTER Information- Communication :  Métiers de la communication (FC)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-information-communication-metiers-de-la-communication-fc-KLTE3QV5.html",
    "updated": "2026-09",
-   "titleCn": "信息-传播硕士（CELSA）：传播行业（继续教育）"
+   "titleCn": "信息-传播硕士（CELSA）：传播行业（继续教育）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "information-communication-communication-et-strategies-culturelles",
    "title": "MASTER Information-communication :  communication et stratégies culturelles",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-information-communication-communication-et-strategies-culturelles-KLTDVB21.html",
-   "summary": "文化传播战略硕士（CELSA信息-传播学院）：两年制，融合传播基础（传播计划、媒体、项目管理、战略规划）与文化战略——既学当代文化传播议题，也学'文化'在企业、机构与地方传播战略中日益重要的角色（官网）。师资为SHS/信息传播科学研究人员+业界从业者（官网），教学方法含案例课、工作坊、简报展示与真实情境（官网）；M1小组研究项目+M2个人论文。面向文化机构/艺术机构/企业传播部门的中高层管理岗位。",
+   "summary": null,
    "duration": "2年（M1 FI + M2 FI/FC，120 ECTS；FC轨道：9月-2月400h/60 ECTS+3-6个月实习——官网原文）",
    "teachingLanguage": "法语授课（官网信息栏 Langue: Français）",
-   "tuition": "法国公立（2026/27官网原文）：欧盟/EEA等标准注册费硕士€255/年（另加CVEC约€100）；非欧盟生（中国学生适用）差异化注册费约€3,950/年（2026/27新费率，官网原文，可按官网标准申请豁免）；M2 FC按继续教育标准",
-   "language": "法语C1（索邦文学学院/CELSA对非欧学生统一要求）+英语文化文献阅读能力（官网未作强制要求）",
-   "gpa": "本科180 ECTS（SHS/传播/文化类为佳；官网未设专业限制）",
-   "background": "接受跨专业（官网未限定专业；文化、传播、社会人文背景均可，看材料与动机）",
-   "requirements": "CELSA两阶段入学考试（材料评审+口试）；材料含成绩单、简历、动机信（官网未单独列出该M1的Mon Master入口说明，请以celsa.fr当年招生通知为准）",
-   "applicationOpen": "以CELSA官网当年通知为准（官网目录页Admission栏目未列出具体日期）",
-   "deadline": "以CELSA官网当年通知为准",
-   "deadlineNote": "官网页面未提供该M1/M2的具体录取日程，仅有专业介绍；申请请查阅celsa.fr（官网已给出：https://www.celsa.fr/nos-formations/master-communication-et-strategies-culturelles/）。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "信息-传播硕士（CELSA）：传播与文化战略"
   },
@@ -1093,28 +1166,32 @@ var SCHOOL_COURSES = {
    "title": "MASTER Information-communication : Marque et stratégies de communication",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-information-communication-marque-et-strategies-de-communication-MCOMM1L_611.html",
    "updated": "2026-09",
-   "titleCn": "信息-传播硕士（CELSA）：品牌与传播战略"
+   "titleCn": "信息-传播硕士（CELSA）：品牌与传播战略",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "journalisme-journalisme-et-informations-scientifiques-2ere-annee-fc",
    "title": "MASTER Journalisme : Journalisme et Informations Scientifiques ; 2ère année (FC)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-journalisme-journalisme-et-informations-scientifiques-2ere-annee-fc-KLTBK87L.html",
    "updated": "2026-09",
-   "titleCn": "新闻学硕士：新闻与科学信息（M2 继续教育）"
+   "titleCn": "新闻学硕士：新闻与科学信息（M2 继续教育）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "journalisme-et-nouvelles-ecritures-2ere-annee-en-fa",
    "title": "MASTER Journalisme et Nouvelles Ecritures ; 2ère année (en FA)",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-journalisme-et-nouvelles-ecritures-2ere-annee-en-fa-KLTDKJWB.html",
    "updated": "2026-09",
-   "titleCn": "新闻学硕士：新闻与新媒体写作（M2 学徒制）"
+   "titleCn": "新闻学硕士：新闻与新媒体写作（M2 学徒制）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "meef-2nd-degre-philosophie",
    "title": "Master MEEF 2nd degré Philosophie",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-meef-2nd-degre-philosophie-MEEF2_431.html",
    "updated": "2026-09",
-   "titleCn": "教学专业硕士（MEEF 中学）：哲学"
+   "titleCn": "教学专业硕士（MEEF 中学）：哲学",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "philosophie-conseil-editorial-et-gestion-des-contenus-plurimedias",
@@ -1139,112 +1216,128 @@ var SCHOOL_COURSES = {
    "title": "MASTER Philosophie : Esthétique et philosophie de l’art",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-philosophie-esthetique-et-philosophie-de-l-art-MPHIL1L_603.html",
    "updated": "2026-09",
-   "titleCn": "哲学硕士：美学与艺术哲学"
+   "titleCn": "哲学硕士：美学与艺术哲学",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "philosophie-histoire-de-la-philosophie-metaphysique-phenomenologie",
    "title": "MASTER Philosophie : Histoire de la philosophie, métaphysique, phénoménologie",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-philosophie-histoire-de-la-philosophie-metaphysique-phenomenologie-MPHIL1L_601.html",
    "updated": "2026-09",
-   "titleCn": "哲学硕士：哲学史、形而上学与现象学"
+   "titleCn": "哲学硕士：哲学史、形而上学与现象学",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "philosophie-humanites-bio-medicales",
    "title": "MASTER Philosophie : Humanités bio-médicales",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-philosophie-humanites-bio-medicales-MPHIL1L_606.html",
    "updated": "2026-09",
-   "titleCn": "哲学硕士：生物医学人文"
+   "titleCn": "哲学硕士：生物医学人文",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "philosophie-philosophie-des-sciences-de-la-connaissance-et-de-l-esprit",
    "title": "MASTER Philosophie : Philosophie des Sciences, de la connaissance et de l'esprit",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-philosophie-philosophie-des-sciences-de-la-connaissance-et-de-l-esprit-MPHIL1L_604.html",
    "updated": "2026-09",
-   "titleCn": "哲学硕士：科学哲学、认识论与心智哲学"
+   "titleCn": "哲学硕士：科学哲学、认识论与心智哲学",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "philosophie-preparation-de-l-agregation-de-philosophie",
    "title": "MASTER Philosophie : Préparation de l'agrégation de Philosophie",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-philosophie-preparation-de-l-agregation-de-philosophie-MPHIL1L_607.html",
    "updated": "2026-09",
-   "titleCn": "哲学硕士：哲学教师资格（Agrégation）备考"
+   "titleCn": "哲学硕士：哲学教师资格（Agrégation）备考",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sociologie-sociologie-contemporaine",
    "title": "MASTER Sociologie : Sociologie contemporaine",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-sociologie-sociologie-contemporaine-MSOCI1L_602.html",
    "updated": "2026-09",
-   "titleCn": "社会学硕士：当代社会学"
+   "titleCn": "社会学硕士：当代社会学",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "tlte-mondes-urbains-mobiles",
    "title": "MASTER TLTE - Mondes Urbains Mobiles",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-tlte-mondes-urbains-mobiles-M4L5CB3E.html",
    "updated": "2026-09",
-   "titleCn": "运输、流动性与网络硕士（TLTE）：都市世界与流动"
+   "titleCn": "运输、流动性与网络硕士（TLTE）：都市世界与流动",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "urbanisme-et-amenagement-ville-heritee-et-developpement-durable",
    "title": "MASTER Urbanisme et Aménagement : Ville héritée et développement durable",
    "url": "https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/sciences-humaines-et-sociales-SHS/master-urbanisme-et-amenagement-ville-heritee-et-developpement-durable-MURAM1L_621.html",
    "updated": "2026-09",
-   "titleCn": "城市规划与整治硕士：遗产城市与可持续发展"
+   "titleCn": "城市规划与整治硕士：遗产城市与可持续发展",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sciences-actuariat",
    "title": "Master Actuariat",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-actuariat",
    "updated": "2026-09",
-   "titleCn": "精算学硕士（ISUP）"
+   "titleCn": "精算学硕士（ISUP）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sciences-automatique-robotique",
    "title": "Master Automatique, Robotique",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-automatique-robotique",
    "updated": "2026-09",
-   "titleCn": "自动化与机器人硕士"
+   "titleCn": "自动化与机器人硕士",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sciences-biodiversite-ecologie-et-evolution-bee",
    "title": "Master Biodiversité, écologie et évolution (BEE)",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-biodiversite-ecologie-et-evolution-bee",
    "updated": "2026-09",
-   "titleCn": "生物多样性、生态与进化硕士（BEE）"
+   "titleCn": "生物多样性、生态与进化硕士（BEE）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sciences-bip-biologie-integrative-et-physiologie",
    "title": "Master Biologie intégrative et physiologie (BIP)",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-bip-biologie-integrative-et-physiologie",
    "updated": "2026-09",
-   "titleCn": "整合生物学与生理学硕士（BIP）"
+   "titleCn": "整合生物学与生理学硕士（BIP）",
+   "teachingLanguage": "法语授课（imAGEin国际方向为英语授课）"
   },
   {
    "id": "sciences-biologie-moleculaire-et-cellulaire-bmc",
    "title": "Master Biologie moléculaire et cellulaire (BMC)",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-biologie-moleculaire-et-cellulaire-bmc",
    "updated": "2026-09",
-   "titleCn": "分子与细胞生物学硕士（BMC）"
+   "titleCn": "分子与细胞生物学硕士（BMC）",
+   "teachingLanguage": "法语授课（部分专题为英语授课）"
   },
   {
    "id": "sciences-chimie",
    "title": "Master de Chimie",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-de-chimie",
    "updated": "2026-09",
-   "titleCn": "化学硕士"
+   "titleCn": "化学硕士",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sciences-electronique-energie-electrique-automatique",
    "title": "Master Électronique, énergie électrique, automatique",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-electronique-energie-electrique-automatique",
    "updated": "2026-09",
-   "titleCn": "电子、电气能源与自动化硕士"
+   "titleCn": "电子、电气能源与自动化硕士",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sciences-informatique",
    "title": "Master Informatique",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-informatique",
    "updated": "2026-09",
-   "titleCn": "计算机科学硕士"
+   "titleCn": "计算机科学硕士",
+   "teachingLanguage": "法语授课（含全英文授课的国际方向：DIGIT/Quantum等）"
   },
   {
    "id": "sciences-management-de-linnovation",
@@ -1269,14 +1362,16 @@ var SCHOOL_COURSES = {
    "title": "Master Mathématiques et applications",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-mathematiques-et-applications-offre-2026-2027",
    "updated": "2026-09",
-   "titleCn": "数学与应用数学硕士"
+   "titleCn": "数学与应用数学硕士",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sciences-mecanique",
    "title": "Master de Mécanique",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-de-mecanique",
    "updated": "2026-09",
-   "titleCn": "力学硕士"
+   "titleCn": "力学硕士",
+   "teachingLanguage": "法语授课（Computational Mechanics方向全英文授课）"
   },
   {
    "id": "sciences-neurosciences",
@@ -1301,12 +1396,24 @@ var SCHOOL_COURSES = {
    "title": "Master Physique fondamentale et applications",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-physique-fondamentale-et-applications",
    "updated": "2026-09",
-   "titleCn": "基础物理与应用物理硕士"
+   "titleCn": "基础物理与应用物理硕士",
+   "teachingLanguage": "法语授课（M1另设全英文Paris Physics Master）"
   },
   {
    "id": "sciences-cognitives",
    "title": "Master Sciences cognitives",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-sciences-cognitives",
+   "summary": "认知科学硕士Cog-SUP是索邦大学与巴黎西岱大学联合创办的跨学科硕士项目（官网原文：'Cog-SUP is an interdisciplinary master's program in English between two major Parisian universities, Sorbonne Université and Université Paris Cité.'），官网明确绝大部分课程用英语授课（'The big majority of courses are in English (except otherwise stated)'）。设心理学、哲学、计算语言学、神经科学、计算神经科学与人工智能、认知科学与社会六个方向（官网），自M1起所有方向均须实地实习（实验室或其他机构），M2的认证一半取决于贯穿整个第二学期的长实习（官网）。项目以科研为导向、为攻读博士做准备，也培养面向人工智能、公共政策等新兴领域的能力（官网）。",
+   "duration": "2年（M1+M2；官网提及两个年级：'un stage de terrain ... est obligatoire dès l'année de M1'，M2认证一半基于贯穿第二学期的长实习；M2另含约10个直接录取名额）",
+   "teachingLanguage": "英语（官网原文：'La grande majorité des cours sont en anglais (sauf mention dans le cas contraire)'；英文版：'The big majority of courses are in English (except otherwise stated)'）",
+   "tuition": "法国公立（官网原文）：索邦大学官网2026-2027学年'Cursus Master : 255 €'（国家标准注册费，'* Nouveaux tarifs nationaux en vigueur à la rentrée 2026-2027'），另须缴纳CVEC（2026-2027学年为105 €，理学院官网原文）；项目官网cog-sup.fr原文：'Pour l'année universitaire 2024/25, les droits de scolarité s'élèvent à 353€ / an.'；非欧盟生差异化收费：索邦大学官网（2026-07更新）说明自2019年起国家对非欧盟学生实行差异化注册费（2019-2025年硕士国家核定约€3,950/年），2026-05-19新法令调整后索邦大学校董会于2026-07-07一致通过豁免政策——符合标准的非欧盟学生申请后获部分或全额豁免，2026-2027学年实际与其他学生同费（官网原文）",
+   "language": "英语（官网原文：'La grande majorité des cours sont en anglais'；英语最低门槛官网原文：'Niveau minimum en anglais : Equivalent C1'，可用英语国家经历、研究实习、英文论文/写作等证明；进入面谈短名单者另有英语口试评估）；法语不强制（官网未列法语水平要求；申请材料中书面作品可用法语或英语，官网原文）",
+   "gpa": "官网未设GPA/分数门槛，以学位+成绩单评审；需提交'Copies certifiées conformes de tous les relevés de notes de l'enseignement supérieur'（全部高等教育成绩单认证副本，法/英均可，其他语言须附翻译）；前置要求为相关学科licence（学士）学位或工科/医学M1同等学历（官网Pré-requis）",
+   "background": "官网原文：'Une licence dans l'une des disciplines fondatrices des sciences cognitives : psychologie, biologie, linguistique, philosophie, mathématiques, physique ou informatique OU l'équivalent d'un M1 dans un cursus d'ingénieurs ou de médecine. D'autres formations initiales sont possibles et sont discutées au cas par cas.'（即心理学、生物学、语言学、哲学、数学、物理或计算机科学学士；或工科/医学M1同等学历；其他背景个案讨论）",
+   "requirements": "官网（cog-sup.fr/fr/candidature/）要求：(1) 前置学历见background字段；(2) 英语C1（官网原文'Equivalent C1'，CECRL）；(3) 申请材料：身份证件、动机信（仅英文，不限字数）、CV（2页以内，仅英文）、书面作品（法/英皆可）、高等教育成绩单及文凭认证副本、英语语言证书、至少1封推荐信（须由真正了解你的人直接提交，如实习导师）；(4) 名额：M1共75个，M2共80个（含约10个直接录取）（官网原文）",
+   "applicationOpen": "官网原文：'Les candidatures pour l'année universitaire 2026-2027 ouvriront le 1ᵉʳ décembre 2025 et fermeront le 1ᵉʳ mars 2026.'（2026-27学年申请窗口2025-12-01开放；理学院官网同载'Les candidatures sont ouvertes sur https://cog-sup.fr/fr/candidature/'；2026-27轮已截止，下一轮以官网为准）",
+   "deadline": "2026-03-01（官网原文：'La date limite est fixée au 1er mars 2026.' / 'Application deadline: 1 March 2026'，面向2026-2027学年）",
+   "deadlineNote": "申请入口官网：https://cog-sup.fr/fr/candidature/（英文 https://cog-sup.fr/application/）；Cog-SUP为索邦大学×巴黎西岱大学联合硕士（两校共建）；candidature页另附Campus France等资助渠道链接。",
    "updated": "2026-09",
    "titleCn": "认知科学硕士"
   },
@@ -1315,140 +1422,160 @@ var SCHOOL_COURSES = {
    "title": "Master Sciences de l'océan, de l'atmosphère et du climat",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/sciences-ocean-atmosphere-climat",
    "updated": "2026-09",
-   "titleCn": "海洋、大气与气候科学硕士（SOAC）"
+   "titleCn": "海洋、大气与气候科学硕士（SOAC）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sciences-de-la-mer",
    "title": "Master Sciences de la mer",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-sciences-de-la-mer",
    "updated": "2026-09",
-   "titleCn": "海洋科学硕士"
+   "titleCn": "海洋科学硕士",
+   "teachingLanguage": "法语授课（部分UE为英语授课）"
   },
   {
    "id": "sciences-de-la-terre-et-des-planetes",
    "title": "Master Sciences de la Terre et des planètes, environnement (STePE)",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-sciences-de-la-terre-et-des-planetes",
    "updated": "2026-09",
-   "titleCn": "地球与行星科学、环境硕士（STePE）"
+   "titleCn": "地球与行星科学、环境硕士（STePE）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sciences-meef",
    "title": "Master MEEF (Métiers de l'enseignement, de l'éducation et de la formation)",
    "url": "https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-m2e",
    "updated": "2026-09",
-   "titleCn": "教学专业硕士（MEEF，数学/物理化学/生物地质）"
+   "titleCn": "教学专业硕士（MEEF，数学/物理化学/生物地质）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m1-tronc-commun",
    "title": "MASTER 1 MENTION SANTE (TRONC COMMUN)",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/mention-sante-m1/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M1 公共核心课程）"
+   "titleCn": "健康科学硕士（M1 公共核心课程）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m1-cecac",
    "title": "Master 1 Circulation Extra Corporelle et Assistance Circulatoire",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/circulation-extra-corporelle-et-assistance-circulatoire-m1/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M1）：体外循环与循环辅助（CECAC）"
+   "titleCn": "健康科学硕士（M1）：体外循环与循环辅助（CECAC）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m2-b2prs",
    "title": "Biologie Physiologie Pharmacologie de la Respiration et du Sommeil (B2PRS)",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/mention-sante-m2/m2-biologie-physiologie-pharmacologie-de-la-respiration-et-du-sommeil-b2prs/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M2）：呼吸与睡眠的生物学、生理学、药理学（B2PRS）"
+   "titleCn": "健康科学硕士（M2）：呼吸与睡眠的生物学、生理学、药理学（B2PRS）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m2-cecac",
    "title": "Circulation Extra Corporelle et Assistance Circulatoire (CECAC)",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/circulation-extra-corporelle-et-assistance-circulatoire-m2/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M2）：体外循环与循环辅助（CECAC）"
+   "titleCn": "健康科学硕士（M2）：体外循环与循环辅助（CECAC）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m2-gerontologie",
    "title": "Expertise en gérontologie (EG)",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/mention-sante-m2/expertise-en-gerontologie/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M2）：老年学专业（EG）"
+   "titleCn": "健康科学硕士（M2）：老年学专业（EG）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m2-mch",
    "title": "Maladies chroniques et Handicap (MCH)",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/mention-sante-m2/maladies-chroniques-et-handicap/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M2）：慢性病与残疾（MCH）"
+   "titleCn": "健康科学硕士（M2）：慢性病与残疾（MCH）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m2-mch-education-therapeutique",
    "title": "Education thérapeutique",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/mention-sante-m2/maladies-chroniques-et-handicap/education-therapeutique/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M2）：慢性病与残疾——治疗教育方向"
+   "titleCn": "健康科学硕士（M2）：慢性病与残疾——治疗教育方向",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m2-mch-recherche-readaptation",
    "title": "Recherche en réadaptation",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/mention-sante-m2/maladies-chroniques-et-handicap/recherche-en-readaptation/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M2）：慢性病与残疾——康复研究方向"
+   "titleCn": "健康科学硕士（M2）：慢性病与残疾——康复研究方向",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m2-mch-coordination-soins",
    "title": "Coordination du parcours de soins",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/mention-sante-m2/maladies-chroniques-et-handicap/coordination-du-parcours-de-soins/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M2）：慢性病与残疾——照护路径协调方向"
+   "titleCn": "健康科学硕士（M2）：慢性病与残疾——照护路径协调方向",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m2-rcpam",
    "title": "Recherche Clinique, Pharmacovigilance et Affaires Médicales (RCPAM)",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/mention-sante-m2/recherche-clinique-et-pharmacovigilance/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M2）：临床研究、药物警戒与医学事务（RCPAM）"
+   "titleCn": "健康科学硕士（M2）：临床研究、药物警戒与医学事务（RCPAM）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m2-nrbce",
    "title": "Risques sanitaires, radionucléaires, biologiques, chimiques, et explosifs (NRBCE)",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/mention-sante-m2/risques-sanitaires-radionucleaires-biologiques-chimiques-et-explosifs/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M2）：核、辐射、生物、化学与爆炸健康风险（NRBCE）"
+   "titleCn": "健康科学硕士（M2）：核、辐射、生物、化学与爆炸健康风险（NRBCE）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-m2-skills",
    "title": "Surgical Knowledge and Innovation in Lifelong Learning and Science (SKILLS)",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante/mention-sante-m2/surgical-knowledge/",
    "updated": "2026-09",
-   "titleCn": "健康科学硕士（M2）：外科知识与终身学习创新科学（SKILLS）"
+   "titleCn": "健康科学硕士（M2）：外科知识与终身学习创新科学（SKILLS）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-publique-m1",
    "title": "Master 1 Mention Santé Publique",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante-publique/mention-sante-publique-m1/",
    "updated": "2026-09",
-   "titleCn": "公共卫生硕士（M1）"
+   "titleCn": "公共卫生硕士（M1）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-publique-m2-eclipse",
    "title": "Épidémiologie clinique et pharmaco-épidémiologie (ECLIPE)",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante-publique/mention-sante-publique-m2/epidemiologie-clinique-et-pharmaco-epidemiologie-epiphe/",
    "updated": "2026-09",
-   "titleCn": "公共卫生硕士（M2）：临床流行病学与药物流行病学（ECLIPE）"
+   "titleCn": "公共卫生硕士（M2）：临床流行病学与药物流行病学（ECLIPE）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-publique-m2-epipop",
    "title": "Épidémiologie en population et prévention (ÉPIPOP)",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante-publique/mention-sante-publique-m2/epidemiologie-et-intervention-en-population-epipop/",
    "updated": "2026-09",
-   "titleCn": "公共卫生硕士（M2）：人群流行病学与预防（ÉPIPOP）"
+   "titleCn": "公共卫生硕士（M2）：人群流行病学与预防（ÉPIPOP）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-publique-m2-infomed",
    "title": "Informatique biomédicale (INFOMED)",
    "url": "https://master-sante.sorbonne-universite.fr/mention-sante-publique/mention-sante-publique-m2/informatique-biomedicale/",
    "updated": "2026-09",
-   "titleCn": "公共卫生硕士（M2）：生物医学信息学（INFOMED）"
+   "titleCn": "公共卫生硕士（M2）：生物医学信息学（INFOMED）",
+   "teachingLanguage": "法语授课"
   },
   {
    "id": "sante-publique-m2-geme",

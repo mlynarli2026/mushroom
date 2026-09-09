@@ -1,810 +1,1017 @@
-/* 巴黎理工学院 Institut Polytechnique de Paris (IP Paris) · 硕士课程全量目录（所有专业，含法语授课项目）
- * 整理自 ip-paris.fr 官网 2026-27 学年信息：
- * - 课程目录：https://www.ip-paris.fr/en/education/graduate-programs/masters-science（19 个专业方向，共 75 门硕士项目）
- * - 申请日程：https://www.ip-paris.fr/en/education/admissions
- * - 学费表（官方 PDF，2026-27）：https://www.ip-paris.fr/sites/default/files/pages/documents/Masters/master-phd-track-registration-fees-EN-26-27%20(3).pdf
- * 说明：IP Paris 的硕士为法国国家硕士文凭（2 年 120 ECTS，M1+M2 分段招生，均可单独申请入读）；
- * 部分专业以 full 2 年 Major（120 ECTS）形式招生（如计算机科学 DataAI、QMI 等）。
- * 学费按官方 2026-27 表：列入『国际项目表』的轨道（经济学 MiE、数据科学 DS、统计金融精算 SFA、应用数学统计 APPMS、
- * 数据与人工智能 DAIIG、网络安全 CCSN、能源 ES/OFFWIND/TET、土木工程 GCC、健康转型 DS4Health、交通 TMR/TRADD、
- * 城市规划 UA/AMUR 等）为 €4,870/年（欧盟/欧洲经济区/瑞士）与 €7,166/年（其他国籍）；未列入表内的项目
- * （如创新、产业与社会、EEET、化学、力学、物理、数学与应用、EEET、IREN、COSI 等）按『国家轨』执行
- * €255/年（欧盟）与 €4,327/年（其他国籍）。
- * 注意：EEET（环境、能源与交通经济学）、PIC、M2 概率与金融（Probability and Finance）、设计研究、社会学定量方向、
- * 数学及应用数学（法语 M1 等）、交通、城市规划等为法语（或英法双语）授课项目，已一并收录。
- */
+/* 巴黎理工学院 Institut Polytechnique de Paris (IP Paris) · 硕士课程全量目录 */
 var SCHOOL_COURSES = {
-  "searchUrl": "https://www.ip-paris.fr/en/education/graduate-programs",
-  "courses": [
-
- {
-  "id": "m1-economics",
-  "title": "Master Year 1 in Economics（经济学硕士第一年，与HEC联合培养）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/economics-program/master-year-1-economics",
-  "summary": "IP Paris 与 HEC Paris 联合开办的两年制研究导向经济学硕士（法国国家文凭）第一年，全英文授课，位于帕莱索校区。第一年修读微观、宏观、计量经济学的高阶核心课程，并在导师指导下参与研究项目；第二年可在计量经济理论、金融、产业组织与数字经济、劳动经济学、宏观与公共经济学等子领域专精。毕业生多进入政府机构、央行、国际组织、咨询与金融行业，或继续攻读CREST经济学博士。",
-  "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
-  "teachingLanguage": "英语（全英文授课）",
-  "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费；休学年另收€2,478（欧盟）/€4,303（其他国籍）",
-  "language": "英语B2（官方要求：TOEFL/IELTS/TOEIC/Cambridge ESOL B2级证书；英语授课背景院校毕业可豁免）",
-  "gpa": "无官方GPA线；官网要求来自高排名院校且成绩突出（择优录取），申请时需将成绩换算为20分制",
-  "background": "接受经济、数学、社会科学及相关专业本科（官网：Bachelor in economics, mathematics or social sciences or the equivalent）；⚠️ 需要很强的量化/数学背景，GRE证书强烈推荐（用于证明量化能力）；纯文科背景转申难度高。例外情况：已完成等价研究型M1且成绩优秀者可直入M2",
-  "requirements": "申请表、本科成绩单（自大学第一年起）、学位证书/在读证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语B2证书、GRE（强烈推荐）；非英/法语材料须公证翻译",
-  "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放；法国MonMaster通道2026-02-17开放",
-  "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28（⚠️ 官网注明经济学MiE项目不开放第3轮）",
-  "deadlineNote": "以上为2026年9月入学轮次，结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31（成员校工程生2026-07-08），学费须于2026-07-31前缴清；每轮申请均可提交，最多同时申请5个项目；不可重复申请同一项目",
-  "updated": "2026-09"
- },
-
-
- {
-  "id": "m2-economics",
-  "title": "Master Year 2 in Economics（经济学硕士第二年）",
-  "url": "https://www.ip-paris.fr/en/education/masters/economics-program/master-year-2-economics",
-  "summary": "经济学硕士第二年（60 ECTS，全英文，位于帕莱索/ENSAE，金融类课程周一在HEC的Jouy-en-Josas校区上课），与HEC联合培养、研究导向。学生自由选课40-42 ECTS（可覆盖计量经济理论、金融经济学、博弈与决策理论、产业组织与数字市场、劳动经济学、国际贸易、宏观与公共经济学等），并完成20 ECTS硕士论文（研究项目由CREST、i3-SES、GREGHEC等中心导师指导）。完成两年课程后可在政府、国际组织、咨询、金融部门担任专业经济学家，或继续攻读博士。",
-  "duration": "1年（M2，60 ECTS，全日制12个月）",
-  "teachingLanguage": "英语（全英文授课）",
-  "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费",
-  "language": "英语B2（官网要求）",
-  "gpa": "无官方GPA线；官网要求来自高排名院校且成绩优异，申请时成绩换算为20分制",
-  "background": "主要在IP Paris或他处完成经济学（或等价研究型）M1的学生申请（官网：Completion of the first year of the Master in Economics at IP Paris or equivalent）；成绩优秀者可从等价M1直入M2；⚠️ 需扎实的量化/经济学基础，不适合零基础转行",
-  "requirements": "申请表、成绩单、学位证明、简历、动机信（需说明已完成或即将完成等价研究型硕士第一年）、两封学术推荐信（在线提交）；非英/法语材料须公证翻译",
-  "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
-  "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28（⚠️ 官网注明经济学MiE项目不开放第3轮）",
-  "deadlineNote": "以上为2026年9月入学轮次，结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
-  "updated": "2026-09"
- },
-
-
- {
-  "id": "m2-data-science",
-  "title": "Master Year 2 in Data Science（数据科学硕士第二年）",
-  "url": "https://www.ip-paris.fr/en/education/masters/applied-mathematics-and-statistics-program/master-year-2-data-science",
-  "summary": "数据科学硕士第二年（60 ECTS，全英文，帕莱索校区），培养数据科学专家：掌握统计学习、深度学习、强化学习、优化与大数据基础设施等技能，并通过实践项目与数据科学竞赛训练；由Qube Research & Technologies赞助、与École polytechnique基金会合作。毕业可从事数据分析师/数据科学家或在学术界继续深造，官方强调全球数据人才缺口极大。",
-  "duration": "1年（M2，60 ECTS，全日制12个月）",
-  "teachingLanguage": "英语（全英文授课）",
-  "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费",
-  "language": "英语；官网另列法语（未注明级别，授课为英语）",
-  "gpa": "无官方GPA线；官网要求高排名院校且成绩突出，申请时成绩换算为20分制",
-  "background": "需已完成数学类硕士第一年（官网：Completion of the first year of a Master in mathematics at IP Paris or equivalent），即应用数学与统计M1或等价；⚠️ 数学/统计门槛很高，纯文科背景无法直接申请",
-  "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）；建议突出数学/统计课程背景",
-  "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
-  "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
-  "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
-  "updated": "2026-09"
- },
-
-
- {
-  "id": "m2-statistics-finance-actuarial-science",
-  "title": "Master Year 2 in Statistics, Finance and Actuarial Science（统计、金融与精算科学硕士第二年）",
-  "url": "https://www.ip-paris.fr/en/education/masters/applied-mathematics-and-statistics-program/master-year-2-statistics-finance-and-actuarial-science",
-  "summary": "统计、金融与精算科学硕士第二年（60 ECTS，全英文，帕莱索校区），结合数学与统计现代方法应对金融与保险业的风险建模需求（银行、保险公司、精算师）。完成指定课程组合可获得法国精算师学会（Institut des Actuaires）的精算师资格认证；可跨选M2概率与金融、M2数据科学课程。毕业生面向金融机构、保险、咨询或继续读博。",
-  "duration": "1年（M2，60 ECTS，全日制12个月）",
-  "teachingLanguage": "英语（全英文授课）",
-  "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费",
-  "language": "英语",
-  "gpa": "无官方GPA线；官网要求高排名院校且成绩优异，申请时成绩换算为20分制",
-  "background": "需已完成数学类硕士第一年（官网：Completion of the first year of a Master in mathematics at IP Paris or equivalent）；⚠️ 要求扎实的概率统计基础，纯文科背景无法直接申请",
-  "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）",
-  "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
-  "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
-  "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
-  "updated": "2026-09"
- },
-
-
- {
-  "id": "m1-applied-mathematics-statistics",
-  "title": "Master Year 1 in Applied Mathematics and Statistics（应用数学与统计硕士第一年）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/applied-mathematics-and-statistics-program/master-year-1-applied-mathematics-and-statistics",
-  "summary": "应用数学与统计硕士第一年（60 ECTS，全英文，帕莱索校区），官网明确说明其数学水平高于同类项目、只招收本科数学能力卓越的学生。核心课程包括概率与随机过程、数理统计、优化、Python数据科学、马尔可夫过程、机器学习导论、数据库等（含ENSAE时间序列等选修）。第二年分流为数据科学、统计/金融/精算科学、概率与金融、数学建模等方向，也可衔接数学金融及数据科学与AI的PhD Track。",
-  "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
-  "teachingLanguage": "英语（全英文授课）",
-  "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费",
-  "language": "英语（官网语言要求：English）",
-  "gpa": "无官方GPA线；但官网要求本科阶段具备卓越数学能力（概率论与数理统计需达到Ross/Hogg教材水平并修完数学分析），申请时成绩换算为20分制",
-  "background": "数学、数学科学或相关专业本科（官网：Bachelor's degree in mathematics, mathematical sciences or related field）；⚠️ 官网附有入学水平测试链接，要求极高；纯文科背景无法申请",
-  "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）、官网数学入门水平自测",
-  "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
-  "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
-  "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
-  "updated": "2026-09"
- },
-
-
- {
-  "id": "major-data-and-artificial-intelligence",
-  "title": "Data and Artificial Intelligence (DataAI) 专业方向（计算机科学硕士，数据与人工智能）",
-  "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-data-and-artificial-intelligence-dataai",
-  "summary": "计算机科学硕士（法国国家文凭）下的『数据与人工智能（DataAI）』两年制major（120 ECTS），全英文授课，位于帕莱索校区。课程覆盖机器学习、逻辑学、大数据系统与数据库基础，进阶到高级机器学习、符号AI、群体智能、NLP、视觉计算与机器人等，研究导向并为读博做准备。毕业生适合AI/数据研发岗、数据驱动的决策支持系统或继续攻读博士。",
-  "duration": "2年（120 ECTS，全日制；含M1与M2实习）",
-  "teachingLanguage": "英语（全英文授课）",
-  "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费（两年均为该标准）",
-  "language": "英语（官网语言要求：English）",
-  "gpa": "无官方GPA线；官网要求高排名院校且成绩优异，申请时成绩换算为20分制",
-  "background": "计算机科学学士（官网：Bachelor of Science in Computer Science）；研究型major，动机信需突出研究兴趣与动机；⚠️ 需要扎实的编程与数学基础，文商科背景无法直接申请",
-  "requirements": "申请表、成绩单、学位证明、简历、动机信（需说明研究兴趣与科研动机）、两封学术推荐信（在线提交）",
-  "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
-  "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28（⚠️ 官网注明DataAI项目不开放第3轮）",
-  "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
-  "updated": "2026-09"
- },
-
-
- {
-  "id": "m1-innovation-industry-society",
-  "title": "Master Year 1 Innovation, Industry and Society（创新、产业与社会硕士第一年）",
-  "url": "https://www.ip-paris.fr/en/education/masters/innovation-industry-and-society-program/master-year-1-innovation-industry-and-society",
-  "summary": "创新、产业与社会硕士第一年（60 ECTS，英法双语，帕莱索校区），由Télécom Paris牵头的i3-SES团队讲授，融合经济学、组织社会学与战略管理，聚焦创新驱动的企业、制度与区域转型。课程涵盖创新战略、商业模式、平台经济、数据营销与客户体验、创业融资、大数据与信息系统等（部分课程法语授课），并含至少16周必修研究实习（20 ECTS）。毕业后可进入咨询公司、大型研发企业、银行与风险投资、公共机构或攻读博士。",
-  "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
-  "teachingLanguage": "英语授课；⚠️ 英法双语（官网原文：Languages English and/or French；English and French），部分课程为法语，非法语背景学生官方要求法语B2（DELF）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "language": "英语（TOEFL/TOEIC/IELTS/Cambridge证书）+ 法语B2（非法语学生需DELF B2，官网原文）",
-  "gpa": "无官方GPA线；官网要求理工科成绩优秀且在管理学科表现良好，申请时成绩换算为20分制",
-  "background": "接受本科为理科或工科（数学、物理、计算机、工程等）或社科（经济学、管理学、社会学等背景）；官网强调『硬科学（尤其数学/物理）优秀＋管理学良好』（Excellent level in hard sciences ... and a good level in management sciences），鼓励学科交叉背景；⚠️ 纯文科背景需证明数学与量化能力",
-  "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）、英语与法语语言证明",
-  "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放；法国MonMaster通道2026-02-17开放",
-  "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
-  "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；M2可选IREN（网络产业与数字经济）、COSI（咨询）、PIC（项目创新设计，法语）",
-  "updated": "2026-09"
- },
-
-
- {
-  "id": "m2-consulting-organization-strategy-information-systems",
-  "title": "Master Year 2 in Consulting in Organization, Strategy and Information Systems（COSI，组织、战略与信息系统咨询硕士第二年）",
-  "url": "https://www.ip-paris.fr/en/education/masters/innovation-industry-and-society-program/master-year-2-consulting-organization-strategy-and-information-systems",
-  "summary": "创新、产业与社会硕士的COSI方向第二年（60 ECTS），与巴黎一大、ENSTA Paris等合作，培养咨询顾问：90%以上的毕业生进入『Top 10』国际咨询公司，其余进入大企业与国际机构。课程含企业战略、经济决策模拟、咨询方法论、国际经济学（国际贸易、出口合规）、信息系统与数字化转型、计量实践、数据关系分析等，并配有咨询公司实习与硕士论文。",
-  "duration": "1年（M2，60 ECTS，全日制12个月）",
-  "teachingLanguage": "英语授课；⚠️ 官网原文：English and French - possible to follow the program entirely in English with some restrictions on the courses available（英法双语，多数课程法语，可全英文完成但可选课程受限）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "language": "英语 + 法语（官网语言要求：English、French；多数授课语言为法语，建议法语B2+）",
-  "gpa": "无官方GPA线；官网要求高排名院校且成绩优异，申请时成绩换算为20分制",
-  "background": "需完成M1（官网：Master in Innovation, Industry and Society Economics, Management, Political Science or Engineering/Science with a background in economics at IP Paris or equivalent）；面向工程、商科、经济学背景的M1毕业生，接受多元背景（含经济学本科+管理训练者）；⚠️ 要求有经济学基础",
-  "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）；官网强调咨询工作强度大，需在材料中体现投入度与动机",
-  "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
-  "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
-  "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
-  "updated": "2026-09"
- },
-
-
- {
-  "id": "m2-network-industries-digital-economics",
-  "title": "Master Year 2 – Network Industries and Digital Economics（IREN，网络产业与数字经济硕士第二年）",
-  "url": "https://www.ip-paris.fr/en/education/masters/innovation-industry-and-society-program/master-2-industries-de-reseaux-et-economie-numerique",
-  "summary": "创新、产业与社会硕士的IREN方向第二年（60 ECTS，以英语授课为主），由École polytechnique、Télécom Paris与巴黎-多芬大学、CentraleSupélec等联合培养，在巴黎Dauphine校区上课。设数字经济平台、竞争与监管、创新、市场设计四个专业方向，含创业预孵化（Agoranov）选项，就业率接近100%、中位年薪约40,500欧元（官网数据）。毕业生可担任监管/行业经济学家、数据分析师、战略与组织分析负责人，或继续读博。",
-  "duration": "1年（M2，60 ECTS，全日制12个月）",
-  "teachingLanguage": "英语授课；⚠️ 官网原文（法文页）：Anglais (majoritaire) ; français，即英语为主、部分法语课程，申请要求英语+法语",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "language": "英语 + 法语（官网：Prérequis linguistiques：Anglais、Français）",
-  "gpa": "无官方GPA线；官网要求高排名院校且成绩优异，申请时成绩换算为20分制",
-  "background": "需完成M1（官网：Master 1 in Innovation, Entreprise, Société at IP Paris or equivalent）；适合经济学、管理学、工科+经济背景学生；⚠️ 项目以法语为主，强烈建议法语B2",
-  "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）",
-  "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
-  "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
-  "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
-  "updated": "2026-09"
- },
-
-
- {
-  "id": "m2-probability-and-finance",
-  "title": "Master Year 2 Probability and Finance",
-  "titleCn": "概率与金融硕士第二年（M2，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/applied-mathematics-and-statistics-program/master-year-2-probability-and-finance",
-  "summary": "应用数学与统计硕士的M2方向（60 ECTS，法语授课，帕莱索与索邦大学Jussieu校区），由巴黎各大金融数学实验室师资联合培养，是法国最负盛名的数学金融项目之一。课程为数学金融提供高水平训练，覆盖衍生品风险定价与管理、算法与统计金融、利率建模、投资组合管理、金融监管、金融科技与区块链、能源市场等内容，工具包括高级随机分析、蒙特卡洛方法、随机控制、过程统计、机器学习/深度学习、数值分析与微分博弈等。",
-  "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
-  "teachingLanguage": "法语（官网授课语言：français；部分材料涉及英语文献）",
-  "language": "法语（官网语言要求：Français）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "background": "需已完成数学类硕士第一年（官网：应用数学与统计M1或等价）；⚠️ 需扎实的概率论、随机分析基础（官网课程即按此水准设计），并熟悉编程/数值计算，纯文科背景无法直接申请",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-mathematical-modelling",
-  "title": "Master Year 2 Mathematical Modelling",
-  "titleCn": "数学建模硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/masters/applied-mathematics-and-statistics-program/master-year-2-mathematical-modelling",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-chemistry-and-interfaces",
-  "title": "Master Year 1 Chemistry and Interfaces",
-  "titleCn": "化学与界面硕士第一年（M1）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/chemistry-program/master-year-1-chemistry-and-interfaces",
-  "summary": "化学与界面硕士第一年（60 ECTS，全英文，帕莱索校区），依托IP Paris在分子化学、物理化学与材料科学方向的卓越研究单元，提供有机化学、有机金属、超分子化学、固体化学与无机化学等领域的前沿课程，并向生物学、材料科学与能源等交叉方向延伸，强调\"在做中学\"——在实验室研究环境中掌握新实验技术。",
-  "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
-  "teachingLanguage": "英语（全英文授课）",
-  "language": "英语（官网语言要求：English）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "background": "化学或相关科学本科（官网未设硬性分类，面向化学/材料/生物交叉背景）；⚠️ 需要扎实的化学实验与理论功底",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-chemistry-and-interfaces",
-  "title": "Master Year 2 Chemistry and Interfaces",
-  "titleCn": "化学与界面硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/chemistry-program/master-year-2-chemistry-and-interfaces",
-  "summary": "化学与界面硕士第二年（60 ECTS，全英文），面向界面化学的深入训练——分子层面与材料化学并重，培养面向生物学、健康、人工智能与环境交叉领域的未来专家；通过研究项目、实验课与学术/工业实习发展实操能力，成果可应用于能源、交通、电子、医学、纳米技术与健康等社会挑战。",
-  "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
-  "teachingLanguage": "英语（全英文授课）",
-  "language": "英语（官网语言要求：English）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "background": "需完成化学M1（官网：IP Paris化学与界面M1或等价），或具有扎实化学背景的本科/工程学历",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-civil-engineering-and-construction",
-  "title": "Master Year 1 in Civil Engineering and Construction",
-  "titleCn": "土木工程与建造硕士第一年（M1，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/civil-engineering-program/master-year-1-civil-engineering-and-construction",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-civil-engineering-and-construction",
-  "title": "Master Year 2 in Civil Engineering and Construction",
-  "titleCn": "土木工程与建造硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/civil-engineering-program/master-year-2-civil-engineering-and-construction",
-  "summary": "土木工程与建造硕士第二年（60 ECTS，法语授课，ENPC Champs-sur-Marne校区），依托法国国立桥路学校（École des ponts）长期以来的土木工程传统培养国际化的基础设施与建造专家：课程覆盖大型基础设施项目、既有设施维护、能源生产与储存、建筑翻新改造、超高层建筑与都市网络等，并直面气候紧急状态与生物多样性流失背景下的绿色建造需求——降低能耗、限制温室气体排放、材料循环利用，以及极端天气下的韧性建筑与新材料应用。",
-  "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
-  "teachingLanguage": "法语（官网授课语言：French）",
-  "language": "法语（官网语言要求：French）",
-  "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M2 GCC在列），每学年计费",
-  "background": "需完成土木/工程类M1（官网：Civil Engineering相关M1或等价）；⚠️ 需工程与力学基础，法语授课项目建议法语B2",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-civil-engineering-materials-science-sustainable-construction",
-  "title": "Master Year 2 in Materials Science for Sustainable Construction",
-  "titleCn": "可持续建造材料科学硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/masters/civil-engineering-program/master-year-2-materials-science-sustainable-construction",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-civil-engineering-soil-rock-mechanics-geo-environmental",
-  "title": "Master Year 2 in Soil and Rock Mechanics and Geo-environmental Engineering",
-  "titleCn": "土力学与岩石力学及地质环境工程硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/masters/civil-engineering-program/master-year-2-soil-and-rock-mechanics-and-geo-environmental-engineering",
-  "updated": "2026-09"
- },
-
- {
-  "id": "major-quantum-mathematics-computer-science",
-  "title": "Major - Quantum, Mathematics, Computer Science (QMI)",
-  "titleCn": "量子、数学与计算机科学专业方向（QMI，两年制）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/computer-science-program/major-quantum-mathematics-computer-science-qmi",
-  "summary": "计算机科学硕士下的QMI专业方向（120 ECTS，两年，全英文，帕莱索校区）：量子技术正在走向成熟、将深刻改变计算、通信、加密与模拟方式；QMI为量子革命的理论、数学与计算机科学层面提供训练，课程覆盖量子密码学到纠错码等前沿主题，并链接Saclay地区活跃的量子产业与学术实验室。毕业可进入量子产业界或继续攻读博士。",
-  "duration": "2年（120 ECTS，全日制；9月开学）",
-  "teachingLanguage": "英语（全英文授课）",
-  "language": "英语（官网语言要求：English）",
-  "background": "量子力学、数学或计算机科学背景（官网：需要深入了解量子理论）；⚠️ 官网强调其培养包含数学与计算机科学深度内容，需扎实的物理/数学基础",
-  "updated": "2026-09"
- },
-
- {
-  "id": "major-computer-science-networks",
-  "title": "Major - Computer Science for Networks (CSN)",
-  "titleCn": "计算机网络专业方向（CSN）",
-  "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-computer-science-networks-csn",
-  "updated": "2026-09"
- },
-
- {
-  "id": "major-cybersecurity",
-  "title": "Major - Cybersecurity",
-  "titleCn": "网络安全专业方向",
-  "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-cybersecurity",
-  "updated": "2026-09"
- },
-
- {
-  "id": "major-formal-methods-cyber-physical-systems",
-  "title": "Major - Formal Methods and Foundations of Cyber-Physical Systems (CPS)",
-  "titleCn": "形式化方法与网络物理系统基础专业方向（CPS）",
-  "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-formal-methods-and-foundations-cyber-physical-systems-cps",
-  "updated": "2026-09"
- },
-
- {
-  "id": "major-foundations-computer-science",
-  "title": "Major - Foundations of Computer Science (MPRI)",
-  "titleCn": "计算机科学基础专业方向（MPRI）",
-  "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-foundations-computer-science-mpri",
-  "updated": "2026-09"
- },
-
- {
-  "id": "major-interaction-graphics-design",
-  "title": "Major - Interaction, Graphics & Design",
-  "titleCn": "交互、图形与设计专业方向（IGD）",
-  "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-interaction-graphics-design",
-  "updated": "2026-09"
- },
-
- {
-  "id": "major-operational-research",
-  "title": "Major - Operational Research (MPRO)",
-  "titleCn": "运筹学专业方向（MPRO）",
-  "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-operational-research-mpro",
-  "updated": "2026-09"
- },
-
- {
-  "id": "major-parallel-distributed-systems",
-  "title": "Major - Parallel and Distributed Systems (PDS)",
-  "titleCn": "并行与分布式系统专业方向（PDS）",
-  "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-parallel-and-distributed-systems-pds",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-digital-skills-health-transformation",
-  "title": "Master Year 1 Digital Skills for Health Transformation (DS4Health)",
-  "titleCn": "健康数字化转型数字技能硕士第一年（DS4Health）",
-  "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/master-year-1-digital-skills-health-transformation-ds4health",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-digital-skills-health-transformation",
-  "title": "Master Year 2 in Digital Skills for Health Transformation (DS4Health)",
-  "titleCn": "健康数字化转型数字技能硕士第二年（DS4Health）",
-  "url": "https://www.ip-paris.fr/en/education/masters/health-engineering-program/master-year-2-digital-skills-health-transformation-ds4health",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-recherche-en-design",
-  "title": "Master 1 Recherche en Design",
-  "titleCn": "设计研究硕士第一年（M1，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/design-program/master-1-recherche-en-design",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-recherche-en-design",
-  "title": "Master 2 Recherche en Design",
-  "titleCn": "设计研究硕士第二年（M2，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/design-program/master-2-recherche-en-design",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-electrical-engineering-communications",
-  "title": "Master Year 1 Electrical Engineering for Communications & Information Processing",
-  "titleCn": "电气工程（通信与信息处理）硕士第一年（M1）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/electrical-engineering-program/master-year-1-electrical-engineering-communications-information-processing",
-  "summary": "电气工程（通信与信息处理）硕士第一年（60 ECTS，英语授课，Evry校区），第二学期即进入TNM/DataPac（通信、网络与多媒体/数据分析与模式识别）或EOE-MIE（电气与光学工程及微电子）专业方向，为第二年细化做准备。DataPAC/TNM方向覆盖5G网络、物联网与机器间通信、低时延高可靠网络、传感器数据处理、医学影像、生物识别、生物信息学、银行保险与数据挖掘等应用；EOE-MIE方向侧重电气与光学工程及微电子。",
-  "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
-  "teachingLanguage": "英语（官网：English；含法语语言课程）",
-  "language": "英语（官网语言要求：English）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "background": "电气/电子、通信、物理、计算机等工科或理科本科；⚠️ 需较强数学与物理基础",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-electrical-engineering-communications",
-  "title": "Master Year 2 Electrical Engineering for Communications & Information Processing",
-  "titleCn": "电气工程（通信与信息处理）硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/electrical-engineering-program/master-year-2-electrical-engineering-communications-information-processing",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-sciences-and-technologies-energy",
-  "title": "Master Year 1 in Sciences and Technologies for Energy",
-  "titleCn": "能源科学与技术硕士第一年（M1）",
-  "url": "https://www.ip-paris.fr/en/education/masters/energy-program/master-year-1-energy",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-sciences-and-technology-energy",
-  "title": "Master Year 2 Sciences and Technology for Energy",
-  "titleCn": "能源科学与技术硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/masters/energy-program/master-year-2-energy",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-territories-energy-transition",
-  "title": "Master Year 2 in Territories and the Energy Transition - TET",
-  "titleCn": "领土与能源转型硕士第二年（TET）",
-  "url": "https://www.ip-paris.fr/en/education/masters/energy-program/master-year-2-territories-and-energy-transition-tet",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-offwind-offshore-wind-energy",
-  "title": "Master Year 1 OFFWIND - Offshore Wind Energy",
-  "titleCn": "海上风电能源硕士第一年（OFFWIND）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/energy-program/master-year-1-offwind-offshore-wind-energy",
-  "summary": "OFFWIND海上风电硕士第一年（60 ECTS，全英文，巴黎Saclay校区帕莱索/ENSTA与马恩河谷/ENPC）——为浮动式与固定式海上风电产业培养运营工程师、研发工程师与项目经理；由ENSTA与法国国立桥路学校（ENPC）联合开设，面向全球能源转型与海上风电大规模开发的战略需求，与产业界联系紧密。",
-  "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
-  "teachingLanguage": "英语（全英文授课）",
-  "language": "英语（官网语言要求：English）",
-  "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M1 OFFWIND在列），每学年计费",
-  "background": "机械/能源/海洋/土木等工程本科（官网面向工程师背景）；⚠️ 需流体力学与工程力学基础",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-offwind-offshore-wind-energy",
-  "title": "Master Year 2 OFFWIND - Offshore Wind Energy",
-  "titleCn": "海上风电能源硕士第二年（OFFWIND）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/energy-program/master-year-2-offwind-offshore-wind-energy",
-  "summary": "OFFWIND海上风电硕士第二年（60 ECTS，全英文，ENSTA Brest校区），在M1基础上深化浮动式与固定式海上风电系统的研发与设计，面向全球海上风电产业的高管人才培养需求；课程设在布列塔尼海域产业生态圈（Brest/ENSTA）。",
-  "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
-  "teachingLanguage": "英语（全英文授课）",
-  "language": "英语（官网语言要求：English）",
-  "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M2 OFFWIND在列），每学年计费",
-  "background": "需完成OFFWIND M1或等价工程背景（官网：工程类M1）；⚠️ 需流体力学、结构力学基础，适合风电/海事工程背景",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-biology-biotechnology-health",
-  "title": "Master Year 1 in Biology, Biotechnology and Health",
-  "titleCn": "生物学、生物技术与健康硕士第一年（M1）",
-  "url": "https://www.ip-paris.fr/en/education/masters/biology-and-health-program/master-year-1-biology-biotechnology-and-health",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-biology-biotechnology-health",
-  "title": "Master Year 2 in Biology, Biotechnology and Health",
-  "titleCn": "生物学、生物技术与健康硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/masters/biology-and-health-program/master-year-2-biology-biotechnology-and-health",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-biomedical-engineering-bme",
-  "title": "Master Year 1 in BioMedical Engineering (BME)",
-  "titleCn": "生物医学工程硕士第一年（BME）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/health-engineering-program/master-year-1-biomedical-engineering-bme",
-  "summary": "健康工程/生物医学工程硕士第一年（60 ECTS，全英文，帕莱索校区），将物理与工程科学应用于生命科学、医学与健康：提供研究密集型的训练，覆盖生物医学成像、生物力学、生物材料、生物医学数据科学等方向；项目获法国国家研究署（ANR）France 2030计划资助（EUR BERTIP、AMI-CMA DaTSHealth），与巴黎医学院校及医院网络密切合作。",
-  "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
-  "teachingLanguage": "英语（全英文授课）",
-  "language": "英语（官网语言要求：English）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "background": "官网明确：申请人需具备工程学、物理科学或应用数学的扎实背景（strong background in engineering, physical sciences, or applied mathematics），并对生命科学与医学的变革充满兴趣；⚠️ 不需生物背景，但必须强量化",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-biomedical-engineering-bme",
-  "title": "Master Year 2 in BioMedical Engineering (BME)",
-  "titleCn": "生物医学工程硕士第二年（BME）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/health-engineering-program/master-year-2-biomedical-engineering-bme",
-  "summary": "生物医学工程硕士第二年（60 ECTS，全英文，帕莱索校区）：将数学/物理科学、工程概念与技术应用于生命科学及疾病的理解、诊断与治疗；高度跨学科，设成像与影像建模、生物物理与生物力学、生物材料与生物器件、生物医学数据科学与应用四个方向。毕业去向为生命科学与生物医学工程的工程师、研究者与创业者。",
-  "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
-  "teachingLanguage": "英语（全英文授课）",
-  "language": "英语（官网语言要求：English）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "background": "官网明确：申请人需具备工程、物理或应用数学的扎实背景，不需生物背景；⚠️ 适合工科/物理/应数背景、想转向生物医学交叉领域者",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-mechanical-engineering-clinicians-mecencli",
-  "title": "Master Year 2 in Mechanical Engineering for Clinicians (MECENCLI)",
-  "titleCn": "面向临床医生的机械工程硕士第二年（MECENCLI）",
-  "url": "https://www.ip-paris.fr/en/education/masters/health-engineering-program/master-year-2-mechanical-engineering-clinicians-mecencli",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-environmental-energy-transport-economics-eeet",
-  "title": "Master Year 1 in Environmental, Energy and Transport Economics (EEET)",
-  "titleCn": "环境、能源与交通经济学硕士第一年（EEET，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/environmental-energy-and-transportation-economics-eeet-program/master-year-1-environmental-energy-and-transport-economics-eeet",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-energy-economics",
-  "title": "Master Year 2 in Energy Economics",
-  "titleCn": "能源经济学硕士第二年（EEET，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/environmental-energy-and-transportation-economics-eeet-program/master-year-2-energy-economics",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-environmental-sustainable-development-economics",
-  "title": "Master Year 2 in Environmental and Sustainable Development Economics",
-  "titleCn": "环境与可持续发展经济学硕士第二年（EEET，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/environmental-energy-and-transportation-economics-eeet-program/master-year-2-environmental-and-sustainable-development-economics",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-prospective-modelling-economy-energy-environment",
-  "title": "Master Year 2 in Prospective Modelling: Economy, Energy, Environment",
-  "titleCn": "经济-能源-环境前瞻建模硕士第二年（EEET，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/environmental-energy-and-transportation-economics-eeet-program/master-year-2-prospective-modelling-economy-energy-environment",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-transport-mobility-economics",
-  "title": "Master Year 2 in Transport and Mobility Economics",
-  "titleCn": "交通与出行经济学硕士第二年（EEET，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/environmental-energy-and-transportation-economics-eeet-program/master-year-2-transport-and-mobility-economics",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-projet-innovation-conception",
-  "title": "Master 2 Projet, Innovation, Conception",
-  "titleCn": "项目、创新与设计硕士第二年（PIC，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/innovation-industry-and-society-program/master-2-projet-innovation-conception",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-analyse-modelisation-simulation",
-  "title": "Master 2 Analyse, Modélisation, Simulation",
-  "titleCn": "分析、建模与仿真硕士第二年（AMS，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/mathematics-and-applications-program/master-2-analyse-modelisation-simulation",
-  "summary": "分析与应用数学硕士的AMS方向（60 ECTS，法语授课，帕莱索与巴黎萨克雷大学等）：从偏微分方程等理论分析到数值模拟，覆盖建模-分析-模拟全链条，由IP Paris与巴黎萨克雷大学联名授予；培养掌握高水平数学工具、数值方法与编程语言的建模与计算方向人才，毕业可进入工业研发或读博。",
-  "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
-  "teachingLanguage": "法语（官网授课语言：Français）",
-  "language": "法语（官网语言要求：Français）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "background": "需完成数学类M1（官网：M1 mathématiques或等价）；⚠️ 需扎实分析、方程与数值计算基础，法语授课建议法语B2",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-mathematiques-appliquees",
-  "title": "Master 1 Mathématiques Appliquées",
-  "titleCn": "应用数学硕士第一年（M1，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-1-mathematiques-appliquees",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-mathematiques-jacques-hadamard",
-  "title": "Master 1 Mathématiques Jacques Hadamard",
-  "titleCn": "雅克·阿达马数学硕士第一年（M1，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-1-mathematiques-jacques-hadamard",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-analyse-arithmetique-geometrie",
-  "title": "Master 2 Analyse, Arithmétique, Géométrie",
-  "titleCn": "分析、算术与几何硕士第二年（M2，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-2-analyse-arithmetique-geometrie",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-mathematiques-sciences-du-vivant",
-  "title": "Master 2 Mathématiques pour les Sciences du Vivant",
-  "titleCn": "生命科学数学硕士第二年（M2，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-2-mathematiques-pour-les-sciences-du-vivant",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-mathematics-of-randomness",
-  "title": "Master Year 2 Mathematics of Randomness",
-  "titleCn": "随机性数学硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-year-2-mathematics-randomness",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-mathematics-vision-learning",
-  "title": "Master Year 2 Mathematics, Vision, Learning",
-  "titleCn": "数学、视觉与学习硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-year-2-mathematics-vision-learning",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-optimization",
-  "title": "Master Year 2 Optimization",
-  "titleCn": "最优化硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-year-2-optimization",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-mechanics",
-  "title": "Master Year 1 Mechanics",
-  "titleCn": "力学硕士第一年（M1）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/mechanics-program/master-year-1-mechanics",
-  "summary": "力学硕士第一年（60 ECTS，英/法双语，帕莱索校区），研究导向、覆盖从基础到应用的广泛力学领域：连续介质力学、流体力学、力学实验与数值方法、波与振动、流固耦合等核心课，并可选修材料科学、声学、智能材料与耦合系统、环境科学等方向，为第二年细分方向打基础。",
-  "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
-  "teachingLanguage": "英/法语（官网：English, French）",
-  "language": "英语+法语（官网语言要求：English and/or French；建议法语A2-B2便利校园生活）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "background": "工程、力学、数学或物理背景本科；⚠️ 需扎实的数学分析、线性代数与基础物理",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-mechanics",
-  "title": "Master Year 2 Mechanics",
-  "titleCn": "力学硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/mechanics-program/master-year-2-mechanics",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-nuclear-engineering",
-  "title": "Master Year 1 Nuclear Engineering",
-  "titleCn": "核工程硕士第一年（M1）",
-  "url": "https://www.ip-paris.fr/en/education/masters/nuclear-engineering-program/master-year-1-nuclear-engineering",
-  "summary": "核工程硕士第一年（60 ECTS，全英文，帕莱索校区+CEA国家核科学与技术研究所等），面向核电产业的当前与未来需求：优化现有反应堆性能、设计第三代核设施（反应堆与燃料循环工厂）、开发第四代工艺与系统、运行维护与废物退役管理；课程与研究实验室实习（可选物理与工程、化学与工程两轨）结合，毕业可直入核工程M2。",
-  "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
-  "teachingLanguage": "英语（全英文授课）",
-  "language": "英语（官网语言要求：English）",
-  "tuition": "见官方2026-27学费表\"Master Nuclear Energy\"栏（PDF注明该栏目费用仅供参考，2026-07-01后确认）",
-  "background": "工程、物理、化学或相关本科；⚠️ 需热力学、流体力学等工科基础，部分课程在CEA萨克雷校区及合作院校开设",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-nuclear-engineering",
-  "title": "Master Year 2 Nuclear Engineering",
-  "titleCn": "核工程硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/masters/nuclear-engineering-program/master-year-2-nuclear-engineering",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-physics",
-  "title": "Master Year 1 Physics",
-  "titleCn": "物理硕士第一年（M1）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-1-physics",
-  "summary": "物理硕士第一年（60 ECTS，全英文，帕莱索校区），为进入博士或工业界研发提供高级实验与理论物理训练；研究方向对应IP Paris实验室的核心主线：高能物理、凝聚态理论与理论等离子体、数学物理、粒子物理与天体物理、实验凝聚态、纳米科学、光学与等离子体物理、原子物理与冷原子气体、大型科研装备使用等。第一年下设高能物理（HEP）、激光/光学/光与物质相互作用（LOM）等专业方向。",
-  "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
-  "teachingLanguage": "英语（全英文授课；部分选修课为法语）",
-  "language": "英语（官网语言要求：English）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "background": "物理、数学或工程物理本科；⚠️ 需扎实的量子力学、电动力学与数学物理基础，科研导向",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-high-energy-physics",
-  "title": "Master Year 1 High Energy Physics",
-  "titleCn": "高能物理硕士第一年（M1）",
-  "url": "https://www.ip-paris.fr/en/education/masters/physics-program/master-year-1-high-energy-physics",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-high-energy-physics",
-  "title": "Master Year 2 High Energy Physics",
-  "titleCn": "高能物理硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/masters/physics-program/master-year-2-high-energy-physics",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-physics-plasmas-fusion",
-  "title": "Master 2 Physique des Plasmas et de la Fusion",
-  "titleCn": "等离子体与聚变物理硕士第二年（M2，官方法语名称）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-2-physics-plasmas-and-fusion",
-  "summary": "物理硕士的等离子体与聚变方向（60 ECTS，英语授课，帕莱索/巴黎萨克雷、索邦大学、CentraleSupélec等校区）——等离子体物理是跨学科研究领域：涵盖磁约束与惯性约束热核聚变、激光-等离子体相互作用、天体物理与工艺等离子体；面向能源、环境、空间、健康与国防等应用，培养能进入聚变/等离子体研究或工业研发的高级人才。",
-  "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
-  "teachingLanguage": "英语（官网授课语言：English）",
-  "language": "英语（官网语言要求：English）",
-  "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
-  "background": "需完成物理/应数M1（官网：物理硕士M1相应方向或等价）；⚠️ 需等离子体物理、电动力学基础",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-physics-international-centre-fundamental-physics",
-  "title": "Master Year 2 International Centre for Fundamental Physics",
-  "titleCn": "国际基础物理中心硕士第二年（M2，ICFP）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-2-international-centre-fundamental-physics",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-physics-large-facilities",
-  "title": "Master Year 2 Large Facilities",
-  "titleCn": "大型设施（等离子体-激光-加速器-托卡马克 GI-PLATO）硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-2-large-facilities",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-physics-materials-science-nano-objects",
-  "title": "Master Year 2 in Materials Science and Nano-Objects - Nanomat",
-  "titleCn": "材料科学与纳米物体硕士第二年（M2，Nanomat）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-2-materials-science-and-nano-objects-nanomat",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-physics-by-research",
-  "title": "Master Year 2 Physics by Research",
-  "titleCn": "研究型物理硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-2-physics-research",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-physics-quantum-light-materials-nano-sciences",
-  "title": "Master Year 2 Quantum, Light, Materials, and Nano Sciences",
-  "titleCn": "量子、光、材料与纳米科学硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-2-quantum-light-materials-and-nano-sciences",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-physics-quantum-devices",
-  "title": "Master Year 2 Quantum devices",
-  "titleCn": "量子器件硕士第二年（M2）",
-  "url": "https://www.ip-paris.fr/en/education/masters/physics-program/master-year-2-quantum-devices",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-sociologie-quantitative-demographie",
-  "title": "Master 1 Sociologie Quantitative et Démographie",
-  "titleCn": "定量社会学与人口学硕士第一年（M1，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/sociology-program/master-1-sociologie-quantitative-et-demographie",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-quantitative-sociology-computational-social-science",
-  "title": "Master 2 Quantitative Sociology and Computational Social Science",
-  "titleCn": "定量社会学与计算社会科学硕士第二年（M2，QSCSS）",
-  "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/sociology-program/master-2-quantitative-sociology-and-computational-social-science",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-transport-mobility-networks",
-  "title": "Master Year 1 in Transport, Mobility, Networks",
-  "titleCn": "交通、移动与网络硕士第一年（M1，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/transport-mobility-networks-program/master-year-1-transport-mobility-networks",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-transport-sustainable-development",
-  "title": "Master Year 2 in Transport and Sustainable Development",
-  "titleCn": "交通与可持续发展硕士第二年（M2，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/transport-mobility-networks-program/master-year-2-transport-and-sustainable-development",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m1-urban-planning",
-  "title": "Master Year 1 in Urban Planning",
-  "titleCn": "城市规划硕士第一年（M1，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/urban-planning-program/master-year-1-urban-planning",
-  "updated": "2026-09"
- },
-
- {
-  "id": "m2-urban-planning-amur",
-  "title": "Master Year 2 in Urban Planning and Project Management (AMUR)",
-  "titleCn": "城市规划与项目管理硕士第二年（M2，AMUR，法语授课）",
-  "url": "https://www.ip-paris.fr/en/education/masters/urban-planning-program/master-year-2-urban-planning-and-project-management-amur",
-  "updated": "2026-09"
- },
-
-
+ "searchUrl": "https://www.ip-paris.fr/en/education/graduate-programs",
+ "courses": [
+  {
+   "id": "m1-economics",
+   "title": "Master Year 1 in Economics（经济学硕士第一年，与HEC联合培养）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/economics-program/master-year-1-economics",
+   "summary": "IP Paris 与 HEC Paris 联合开办的两年制研究导向经济学硕士（法国国家文凭）第一年，全英文授课，位于帕莱索校区。第一年修读微观、宏观、计量经济学的高阶核心课程，并在导师指导下参与研究项目；第二年可在计量经济理论、金融、产业组织与数字经济、劳动经济学、宏观与公共经济学等子领域专精。毕业生多进入政府机构、央行、国际组织、咨询与金融行业，或继续攻读CREST经济学博士。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语（全英文授课）",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费；休学年另收€2,478（欧盟）/€4,303（其他国籍）",
+   "language": "英语B2（官方要求：TOEFL/IELTS/TOEIC/Cambridge ESOL B2级证书；英语授课背景院校毕业可豁免）",
+   "gpa": "无官方GPA线；官网要求来自高排名院校且成绩突出（择优录取），申请时需将成绩换算为20分制",
+   "background": "接受经济、数学、社会科学及相关专业本科（官网：Bachelor in economics, mathematics or social sciences or the equivalent）；⚠️ 需要很强的量化/数学背景，GRE证书强烈推荐（用于证明量化能力）；纯文科背景转申难度高。例外情况：已完成等价研究型M1且成绩优秀者可直入M2",
+   "requirements": "申请表、本科成绩单（自大学第一年起）、学位证书/在读证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语B2证书、GRE（强烈推荐）；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放；法国MonMaster通道2026-02-17开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28（⚠️ 官网注明经济学MiE项目不开放第3轮）",
+   "deadlineNote": "以上为2026年9月入学轮次，结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31（成员校工程生2026-07-08），学费须于2026-07-31前缴清；每轮申请均可提交，最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-economics",
+   "title": "Master Year 2 in Economics（经济学硕士第二年）",
+   "url": "https://www.ip-paris.fr/en/education/masters/economics-program/master-year-2-economics",
+   "summary": "经济学硕士第二年（60 ECTS，全英文，位于帕莱索/ENSAE，金融类课程周一在HEC的Jouy-en-Josas校区上课），与HEC联合培养、研究导向。学生自由选课40-42 ECTS（可覆盖计量经济理论、金融经济学、博弈与决策理论、产业组织与数字市场、劳动经济学、国际贸易、宏观与公共经济学等），并完成20 ECTS硕士论文（研究项目由CREST、i3-SES、GREGHEC等中心导师指导）。完成两年课程后可在政府、国际组织、咨询、金融部门担任专业经济学家，或继续攻读博士。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语（全英文授课）",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费",
+   "language": "英语B2（官网要求）",
+   "gpa": "无官方GPA线；官网要求来自高排名院校且成绩优异，申请时成绩换算为20分制",
+   "background": "主要在IP Paris或他处完成经济学（或等价研究型）M1的学生申请（官网：Completion of the first year of the Master in Economics at IP Paris or equivalent）；成绩优秀者可从等价M1直入M2；⚠️ 需扎实的量化/经济学基础，不适合零基础转行",
+   "requirements": "申请表、成绩单、学位证明、简历、动机信（需说明已完成或即将完成等价研究型硕士第一年）、两封学术推荐信（在线提交）；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28（⚠️ 官网注明经济学MiE项目不开放第3轮）",
+   "deadlineNote": "以上为2026年9月入学轮次，结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-data-science",
+   "title": "Master Year 2 in Data Science（数据科学硕士第二年）",
+   "url": "https://www.ip-paris.fr/en/education/masters/applied-mathematics-and-statistics-program/master-year-2-data-science",
+   "summary": "数据科学硕士第二年（60 ECTS，全英文，帕莱索校区），培养数据科学专家：掌握统计学习、深度学习、强化学习、优化与大数据基础设施等技能，并通过实践项目与数据科学竞赛训练；由Qube Research & Technologies赞助、与École polytechnique基金会合作。毕业可从事数据分析师/数据科学家或在学术界继续深造，官方强调全球数据人才缺口极大。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语（全英文授课）",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费",
+   "language": "英语；官网另列法语（未注明级别，授课为英语）",
+   "gpa": "无官方GPA线；官网要求高排名院校且成绩突出，申请时成绩换算为20分制",
+   "background": "需已完成数学类硕士第一年（官网：Completion of the first year of a Master in mathematics at IP Paris or equivalent），即应用数学与统计M1或等价；⚠️ 数学/统计门槛很高，纯文科背景无法直接申请",
+   "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）；建议突出数学/统计课程背景",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-statistics-finance-actuarial-science",
+   "title": "Master Year 2 in Statistics, Finance and Actuarial Science（统计、金融与精算科学硕士第二年）",
+   "url": "https://www.ip-paris.fr/en/education/masters/applied-mathematics-and-statistics-program/master-year-2-statistics-finance-and-actuarial-science",
+   "summary": "统计、金融与精算科学硕士第二年（60 ECTS，全英文，帕莱索校区），结合数学与统计现代方法应对金融与保险业的风险建模需求（银行、保险公司、精算师）。完成指定课程组合可获得法国精算师学会（Institut des Actuaires）的精算师资格认证；可跨选M2概率与金融、M2数据科学课程。毕业生面向金融机构、保险、咨询或继续读博。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语（全英文授课）",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费",
+   "language": "英语",
+   "gpa": "无官方GPA线；官网要求高排名院校且成绩优异，申请时成绩换算为20分制",
+   "background": "需已完成数学类硕士第一年（官网：Completion of the first year of a Master in mathematics at IP Paris or equivalent）；⚠️ 要求扎实的概率统计基础，纯文科背景无法直接申请",
+   "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-applied-mathematics-statistics",
+   "title": "Master Year 1 in Applied Mathematics and Statistics（应用数学与统计硕士第一年）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/applied-mathematics-and-statistics-program/master-year-1-applied-mathematics-and-statistics",
+   "summary": "应用数学与统计硕士第一年（60 ECTS，全英文，帕莱索校区），官网明确说明其数学水平高于同类项目、只招收本科数学能力卓越的学生。核心课程包括概率与随机过程、数理统计、优化、Python数据科学、马尔可夫过程、机器学习导论、数据库等（含ENSAE时间序列等选修）。第二年分流为数据科学、统计/金融/精算科学、概率与金融、数学建模等方向，也可衔接数学金融及数据科学与AI的PhD Track。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语（全英文授课）",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费",
+   "language": "英语（官网语言要求：English）",
+   "gpa": "无官方GPA线；但官网要求本科阶段具备卓越数学能力（概率论与数理统计需达到Ross/Hogg教材水平并修完数学分析），申请时成绩换算为20分制",
+   "background": "数学、数学科学或相关专业本科（官网：Bachelor's degree in mathematics, mathematical sciences or related field）；⚠️ 官网附有入学水平测试链接，要求极高；纯文科背景无法申请",
+   "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）、官网数学入门水平自测",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "major-data-and-artificial-intelligence",
+   "title": "Data and Artificial Intelligence (DataAI) 专业方向（计算机科学硕士，数据与人工智能）",
+   "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-data-and-artificial-intelligence-dataai",
+   "summary": "计算机科学硕士（法国国家文凭）下的『数据与人工智能（DataAI）』两年制major（120 ECTS），全英文授课，位于帕莱索校区。课程覆盖机器学习、逻辑学、大数据系统与数据库基础，进阶到高级机器学习、符号AI、群体智能、NLP、视觉计算与机器人等，研究导向并为读博做准备。毕业生适合AI/数据研发岗、数据驱动的决策支持系统或继续攻读博士。",
+   "duration": "2年（120 ECTS，全日制；含M1与M2实习）",
+   "teachingLanguage": "英语（全英文授课）",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨），每学年计费（两年均为该标准）",
+   "language": "英语（官网语言要求：English）",
+   "gpa": "无官方GPA线；官网要求高排名院校且成绩优异，申请时成绩换算为20分制",
+   "background": "计算机科学学士（官网：Bachelor of Science in Computer Science）；研究型major，动机信需突出研究兴趣与动机；⚠️ 需要扎实的编程与数学基础，文商科背景无法直接申请",
+   "requirements": "申请表、成绩单、学位证明、简历、动机信（需说明研究兴趣与科研动机）、两封学术推荐信（在线提交）",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28（⚠️ 官网注明DataAI项目不开放第3轮）",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-innovation-industry-society",
+   "title": "Master Year 1 Innovation, Industry and Society（创新、产业与社会硕士第一年）",
+   "url": "https://www.ip-paris.fr/en/education/masters/innovation-industry-and-society-program/master-year-1-innovation-industry-and-society",
+   "summary": "创新、产业与社会硕士第一年（60 ECTS，英法双语，帕莱索校区），由Télécom Paris牵头的i3-SES团队讲授，融合经济学、组织社会学与战略管理，聚焦创新驱动的企业、制度与区域转型。课程涵盖创新战略、商业模式、平台经济、数据营销与客户体验、创业融资、大数据与信息系统等（部分课程法语授课），并含至少16周必修研究实习（20 ECTS）。毕业后可进入咨询公司、大型研发企业、银行与风险投资、公共机构或攻读博士。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语授课；⚠️ 英法双语（官网原文：Languages English and/or French；English and French），部分课程为法语，非法语背景学生官方要求法语B2（DELF）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（TOEFL/TOEIC/IELTS/Cambridge证书）+ 法语B2（非法语学生需DELF B2，官网原文）",
+   "gpa": "无官方GPA线；官网要求理工科成绩优秀且在管理学科表现良好，申请时成绩换算为20分制",
+   "background": "接受本科为理科或工科（数学、物理、计算机、工程等）或社科（经济学、管理学、社会学等背景）；官网强调『硬科学（尤其数学/物理）优秀＋管理学良好』（Excellent level in hard sciences ... and a good level in management sciences），鼓励学科交叉背景；⚠️ 纯文科背景需证明数学与量化能力",
+   "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）、英语与法语语言证明",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放；法国MonMaster通道2026-02-17开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；M2可选IREN（网络产业与数字经济）、COSI（咨询）、PIC（项目创新设计，法语）",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-consulting-organization-strategy-information-systems",
+   "title": "Master Year 2 in Consulting in Organization, Strategy and Information Systems（COSI，组织、战略与信息系统咨询硕士第二年）",
+   "url": "https://www.ip-paris.fr/en/education/masters/innovation-industry-and-society-program/master-year-2-consulting-organization-strategy-and-information-systems",
+   "summary": "创新、产业与社会硕士的COSI方向第二年（60 ECTS），与巴黎一大、ENSTA Paris等合作，培养咨询顾问：90%以上的毕业生进入『Top 10』国际咨询公司，其余进入大企业与国际机构。课程含企业战略、经济决策模拟、咨询方法论、国际经济学（国际贸易、出口合规）、信息系统与数字化转型、计量实践、数据关系分析等，并配有咨询公司实习与硕士论文。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语授课；⚠️ 官网原文：English and French - possible to follow the program entirely in English with some restrictions on the courses available（英法双语，多数课程法语，可全英文完成但可选课程受限）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语 + 法语（官网语言要求：English、French；多数授课语言为法语，建议法语B2+）",
+   "gpa": "无官方GPA线；官网要求高排名院校且成绩优异，申请时成绩换算为20分制",
+   "background": "需完成M1（官网：Master in Innovation, Industry and Society Economics, Management, Political Science or Engineering/Science with a background in economics at IP Paris or equivalent）；面向工程、商科、经济学背景的M1毕业生，接受多元背景（含经济学本科+管理训练者）；⚠️ 要求有经济学基础",
+   "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）；官网强调咨询工作强度大，需在材料中体现投入度与动机",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-network-industries-digital-economics",
+   "title": "Master Year 2 – Network Industries and Digital Economics（IREN，网络产业与数字经济硕士第二年）",
+   "url": "https://www.ip-paris.fr/en/education/masters/innovation-industry-and-society-program/master-2-industries-de-reseaux-et-economie-numerique",
+   "summary": "创新、产业与社会硕士的IREN方向第二年（60 ECTS，以英语授课为主），由École polytechnique、Télécom Paris与巴黎-多芬大学、CentraleSupélec等联合培养，在巴黎Dauphine校区上课。设数字经济平台、竞争与监管、创新、市场设计四个专业方向，含创业预孵化（Agoranov）选项，就业率接近100%、中位年薪约40,500欧元（官网数据）。毕业生可担任监管/行业经济学家、数据分析师、战略与组织分析负责人，或继续读博。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语授课；⚠️ 官网原文（法文页）：Anglais (majoritaire) ; français，即英语为主、部分法语课程，申请要求英语+法语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语 + 法语（官网：Prérequis linguistiques：Anglais、Français）",
+   "gpa": "无官方GPA线；官网要求高排名院校且成绩优异，申请时成绩换算为20分制",
+   "background": "需完成M1（官网：Master 1 in Innovation, Entreprise, Société at IP Paris or equivalent）；适合经济学、管理学、工科+经济背景学生；⚠️ 项目以法语为主，强烈建议法语B2",
+   "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-probability-and-finance",
+   "title": "Master Year 2 Probability and Finance",
+   "titleCn": "概率与金融硕士第二年（M2，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/applied-mathematics-and-statistics-program/master-year-2-probability-and-finance",
+   "summary": "应用数学与统计硕士的M2方向（60 ECTS，法语授课，帕莱索与索邦大学Jussieu校区），由巴黎各大金融数学实验室师资联合培养，是法国最负盛名的数学金融项目之一。课程为数学金融提供高水平训练，覆盖衍生品风险定价与管理、算法与统计金融、利率建模、投资组合管理、金融监管、金融科技与区块链、能源市场等内容，工具包括高级随机分析、蒙特卡洛方法、随机控制、过程统计、机器学习/深度学习、数值分析与微分博弈等。",
+   "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
+   "teachingLanguage": "法语（官网授课语言：français；部分材料涉及英语文献）",
+   "language": "法语（官网语言要求：Français）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "background": "需已完成数学类硕士第一年（官网：应用数学与统计M1或等价）；⚠️ 需扎实的概率论、随机分析基础（官网课程即按此水准设计），并熟悉编程/数值计算，纯文科背景无法直接申请",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-mathematical-modelling",
+   "title": "Master Year 2 Mathematical Modelling",
+   "titleCn": "数学建模硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/masters/applied-mathematics-and-statistics-program/master-year-2-mathematical-modelling",
+   "updated": "2026-09",
+   "teachingLanguage": "英语/法语"
+  },
+  {
+   "id": "m1-chemistry-and-interfaces",
+   "title": "Master Year 1 Chemistry and Interfaces",
+   "titleCn": "化学与界面硕士第一年（M1）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/chemistry-program/master-year-1-chemistry-and-interfaces",
+   "summary": "化学与界面硕士第一年（60 ECTS，全英文，帕莱索校区），依托IP Paris在分子化学、物理化学与材料科学方向的卓越研究单元，提供有机化学、有机金属、超分子化学、固体化学与无机化学等领域的前沿课程，并向生物学、材料科学与能源等交叉方向延伸，强调\"在做中学\"——在实验室研究环境中掌握新实验技术。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语（全英文授课）",
+   "language": "英语（官网语言要求：English）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "background": "化学或相关科学本科（官网未设硬性分类，面向化学/材料/生物交叉背景）；⚠️ 需要扎实的化学实验与理论功底",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-chemistry-and-interfaces",
+   "title": "Master Year 2 Chemistry and Interfaces",
+   "titleCn": "化学与界面硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/chemistry-program/master-year-2-chemistry-and-interfaces",
+   "summary": "化学与界面硕士第二年（60 ECTS，全英文），面向界面化学的深入训练——分子层面与材料化学并重，培养面向生物学、健康、人工智能与环境交叉领域的未来专家；通过研究项目、实验课与学术/工业实习发展实操能力，成果可应用于能源、交通、电子、医学、纳米技术与健康等社会挑战。",
+   "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
+   "teachingLanguage": "英语（全英文授课）",
+   "language": "英语（官网语言要求：English）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "background": "需完成化学M1（官网：IP Paris化学与界面M1或等价），或具有扎实化学背景的本科/工程学历",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-civil-engineering-and-construction",
+   "title": "Master Year 1 in Civil Engineering and Construction",
+   "titleCn": "土木工程与建造硕士第一年（M1，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/civil-engineering-program/master-year-1-civil-engineering-and-construction",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-civil-engineering-and-construction",
+   "title": "Master Year 2 in Civil Engineering and Construction",
+   "titleCn": "土木工程与建造硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/civil-engineering-program/master-year-2-civil-engineering-and-construction",
+   "summary": "土木工程与建造硕士第二年（60 ECTS，法语授课，ENPC Champs-sur-Marne校区），依托法国国立桥路学校（École des ponts）长期以来的土木工程传统培养国际化的基础设施与建造专家：课程覆盖大型基础设施项目、既有设施维护、能源生产与储存、建筑翻新改造、超高层建筑与都市网络等，并直面气候紧急状态与生物多样性流失背景下的绿色建造需求——降低能耗、限制温室气体排放、材料循环利用，以及极端天气下的韧性建筑与新材料应用。",
+   "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
+   "teachingLanguage": "法语（官网授课语言：French）",
+   "language": "法语（官网语言要求：French）",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M2 GCC在列），每学年计费",
+   "background": "需完成土木/工程类M1（官网：Civil Engineering相关M1或等价）；⚠️ 需工程与力学基础，法语授课项目建议法语B2",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-civil-engineering-materials-science-sustainable-construction",
+   "title": "Master Year 2 in Materials Science for Sustainable Construction",
+   "titleCn": "可持续建造材料科学硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/masters/civil-engineering-program/master-year-2-materials-science-sustainable-construction",
+   "summary": "土木工程硕士第二年「材料科学与可持续建造」（MSSC/SMCD）方向（60 ECTS，全英文，ENPC Champs-sur-Marne校区），面向可持续发展对材料提出的绝缘轻量化、易制造易施工、耐久可回收等新要求，以物理、力学、化学与数值模拟等多学科模块训练从微观结构理解材料宏观行为、优化制备与功能性能、评估全生命周期环境足迹的能力。官方称67%毕业生继续攻读博士（IP Paris、EPFL、哈佛、ETH、帝国理工等），其余进入Holcim、Michelin、EDF、Saint-Gobain、Bouygues、CSTB等企业或研究机构研发部门。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目：M2仅GCC列入国际项目表，MSSC未列入），每学年计费",
+   "language": "英语B1（CEFR）/TOEFL iBT >72/TOEFL ITP >550（官网原文）",
+   "gpa": "无官方GPA线；官网要求物理、化学、力学、材料科学与工程或土木工程学科高等级学位，择优录取，申请时成绩换算为20分制",
+   "background": "官网：已完成物理学、化学、力学、材料科学与工程或土木工程硕士或60 ECTS（对应240 ECTS的学位/工程师学位亦可）；⚠️ 官网明确该M2属英语授课（B2要求对应程序页为B1+TOEFL分数线），需工科与材料科学基础，跨专业难度高",
+   "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）、英语B1/TOEFL证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-civil-engineering-soil-rock-mechanics-geo-environmental",
+   "title": "Master Year 2 in Soil and Rock Mechanics and Geo-environmental Engineering",
+   "titleCn": "土力学与岩石力学及地质环境工程硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/masters/civil-engineering-program/master-year-2-soil-and-rock-mechanics-and-geo-environmental-engineering",
+   "updated": "2026-09",
+   "teachingLanguage": "英语/法语"
+  },
+  {
+   "id": "major-quantum-mathematics-computer-science",
+   "title": "Major - Quantum, Mathematics, Computer Science (QMI)",
+   "titleCn": "量子、数学与计算机科学专业方向（QMI，两年制）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/computer-science-program/major-quantum-mathematics-computer-science-qmi",
+   "summary": "计算机科学硕士「量子、数学与计算机科学」专业方向（QMI，FODQ轨，120 ECTS，全英文，帕莱索校区），覆盖量子革命的理论、数学与计算机科学面向：课程从量子密码学到量子纠错码，兼顾广度与深度，直达该领域研究前沿；与Saclay地区及全球量子产业（Quandela、Pasqal、Alice&Bob、IBM等）保持合作。官网明确该项目为「national」硕士项目（适用国家轨学费）；毕业者可攻读基础研究博士、Cifre工业博士或直接进入量子产业研发。",
+   "duration": "2年（120 ECTS，全日制）",
+   "teachingLanguage": "英语（全英文授课）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目；官网页面原文：QMI is a \"national\" master's programs; the corresponding fees apply），每学年计费",
+   "language": "英语B2（官网：English (B2 level)）",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩优异（研究导向择优录取），申请时成绩换算为20分制",
+   "background": "官网：数学、计算机科学、物理或相关领域学士（法国或国外）；直入硕士第二年须已修读硕士第一年或等价学位；⚠️ 需要极强的数学（含量子理论）与编程基础，研究导向",
+   "requirements": "申请表、简历（须写明两位可联系的研究者姓名，作为推荐人）、动机信、历年成绩单、如有的近期科研报告（如本科毕业论文、研究实习报告等）；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "major-computer-science-networks",
+   "title": "Major - Computer Science for Networks (CSN)",
+   "titleCn": "计算机网络专业方向（CSN）",
+   "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-computer-science-networks-csn",
+   "summary": "计算机科学硕士「计算机网络」专业方向（CSN，CCSN轨，120 ECTS，全英文，帕莱索校区），培养理解、分析与改进通信网络并为下一代网络开发软件的能力：核心课程覆盖计算机科学与网络，含新兴复杂网络建模与分析的数学技术、基于高级软件工程的分步网络开发；由世界级教授与行业专家授课。毕业生可任复杂网络建模/分析、分布式计算方向研究或工程岗，或在IP Paris及其他顶尖大学/研究中心攻读博士。",
+   "duration": "2年（120 ECTS，全日制）",
+   "teachingLanguage": "英语",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M1/M2 CCSN），每学年计费",
+   "language": "英语B2（官网：English (B2)）",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩优异（择优录取），申请时成绩换算为20分制；另需附所在大学排名链接的可参考（见申请材料）",
+   "background": "官网：计算机科学学士（Bachelor of Science in Computer Science）；须具备良好的数学与网络基础，掌握算法、软件工程与通用网络架构基础知识；⚠️ 需编程+数学基础，纯文科背景无法申请",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信、两封学术推荐信（在线提交）、英语B2证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28（⚠️ 官网注明CSN项目不开放第3轮）",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "major-cybersecurity",
+   "title": "Major - Cybersecurity",
+   "titleCn": "网络安全专业方向",
+   "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-cybersecurity",
+   "summary": "计算机科学硕士「网络安全」专业方向（CCSN轨，120 ECTS，全英文，帕莱索校区），两年制，涵盖计算机科学与网络安全必备的理论基础、关键概念与通用工具，深入密学、系统安全与网络安全，并跟踪机器学习、区块链、后量子与先进密码学等最新趋势；以研究为重点，通过项目与硕士论文在实验室开展研究（官网提示：该major不开放第3轮申请）。毕业后多继续攻读博士（学术界或工业研发），也可进入科技公司研发部门。",
+   "duration": "2年（120 ECTS，全日制）",
+   "teachingLanguage": "英语",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M1/M2 CCSN），每学年计费",
+   "language": "英语B1/B2（官网：English (B1/B2)）",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩优异（择优录取），申请时须附所在大学在所在国排名（THE、Edurank或Wikipedia链接），成绩换算为20分制",
+   "background": "官网：计算机科学学士（Bachelor of Science in Computer Science）；项目面向CS基础背景、对网络/系统/密码学有兴趣的学生；⚠️ 需编程与数学基础，官网未设量化先修门槛但建议具备",
+   "requirements": "申请表、学历证明与成绩单、简历、英语水平证明、所在大学排名链接（THE/Edurank/Wikipedia等）、动机信（须突出研究兴趣与科研动机）、两封学术推荐信（推荐人在线提交）；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28（⚠️ 官网注明Cybersecurity项目（M1 Cyber）不开放第3轮）",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "major-formal-methods-cyber-physical-systems",
+   "title": "Major - Formal Methods and Foundations of Cyber-Physical Systems (CPS)",
+   "titleCn": "形式化方法与网络物理系统基础专业方向（CPS）",
+   "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-formal-methods-and-foundations-cyber-physical-systems-cps",
+   "summary": "计算机科学硕士「形式化方法与网络物理系统基础」专业方向（CPS，CCSN轨，120 ECTS，全英文，帕莱索校区），面向自动驾驶、智能电网、无人机群、医疗设备等复杂自主软件系统，专注用形式化方法（抽象解释、模型检测、证明方法与助手、SAT/SMT等）对网络物理系统（CPS）进行规约、分析与验证；研究导向，每年含一次研究实习（多在IP Paris实验室），第二学年深入高级研究主题（神经网络及其控制系统的形式化验证、形式化安全分析等）。毕业生可攻读计算机科学/形式化方法方向博士，或进入航空航天、汽车、机器人、制造等行业研发部门。",
+   "duration": "2年（120 ECTS，全日制；每年含研究实习）",
+   "teachingLanguage": "英语",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M1/M2 CCSN），每学年计费",
+   "language": "英语B2（官网：English (B2)）",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩优异（研究导向择优录取），申请时成绩换算为20分制",
+   "background": "官网：计算机科学、数学或工程学士（Bachelor of Science in Computer Science, Mathematics, or Engineering）；⚠️ 需扎实的数学与编程基础、研究兴趣；第一年覆盖形式化方法核心原理与计算机系统基础，必修转跨领域选修",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信（须突出研究兴趣与科研动机）、两封学术推荐信（推荐人在线提交）、英语B2证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "major-foundations-computer-science",
+   "title": "Major - Foundations of Computer Science (MPRI)",
+   "titleCn": "计算机科学基础专业方向（MPRI）",
+   "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-foundations-computer-science-mpri",
+   "summary": "计算机科学硕士「计算机科学基础」专业方向（MPRI，FODQ轨，120 ECTS，全英文），对应巴黎计算机科学研究硕士（MPRI），由Université Paris Cité（协调）、Université PSL（ENS Paris）、Université Paris-Saclay（ENS Paris-Saclay）与IP Paris（École polytechnique、Télécom Paris）联合举办；覆盖可计算性理论（可计算性、逻辑、语义、组合数学）、计算模型（自动机、并发与分布式/量子编程、混合系统）、程序安全性（验证、静态分析）、程序效率（算法、复杂度、编译）与程序安全（密码学、编码）；研究导向，第一年主要在École polytechnique、第二年在Université Paris Cité。毕业生多数继续攻读博士，也可进入工业研发。",
+   "duration": "2年（120 ECTS，全日制）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目：FODQ轨未列入国际项目表），每学年计费",
+   "language": "英语（官网：English，未注明级别）",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩优异（研究导向择优录取），申请时成绩换算为20分制",
+   "background": "官网：计算机科学学士（Bachelor of Science in computer science）；⚠️ 理论计算机科学研究导向，需极强的数学与算法基础；联合培养（PSL/Paris Cité/Paris-Saclay/IP Paris），跨校选课与实习",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信（须突出研究兴趣与科研动机）、两封学术推荐信（推荐人在线提交）、英语证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "major-interaction-graphics-design",
+   "title": "Major - Interaction, Graphics & Design",
+   "titleCn": "交互、图形与设计专业方向（IGD）",
+   "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-interaction-graphics-design",
+   "summary": "计算机科学硕士「交互、图形与设计」专业方向（IGD，DAIIG轨，120 ECTS，全英文，帕莱索校区），系统覆盖人机交互、计算机图形学与设计，培养设计与实现高级交互计算系统的能力，涉及增强/虚拟现实、多模态交互等主题，可选择广度学习或聚焦子领域；以项目、工作坊、冲刺与实践课为主，第一年含科学项目、第二年含实习。毕业生进入学术或工业研发实验室（如INRIA、CNRS、CEA），应用领域包括交互设计、计算机辅助设计、AR/VR、电子游戏、特效、可视化与移动/Web计算。",
+   "duration": "2年（120 ECTS，全日制）",
+   "teachingLanguage": "英语",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M1/M2 DAIIG），每学年计费",
+   "language": "英语B2/C1（官网：English: B2/C1）",
+   "gpa": "无官方GPA线；官网要求有计算机编程与应用数学的实践经验（择优录取），申请时成绩换算为20分制",
+   "background": "官网：须具备计算机编程与应用数学的实践经验（Students must have proven experience in computer programming and applied mathematics）；⚠️ 需要编程+数学+设计基础，跨专业申请者建议提供项目/作品集",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信（须突出研究兴趣与科研动机）、两封学术推荐信（推荐人在线提交）、英语B2/C1证明、编程/项目经验证明（如作品集）；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "major-operational-research",
+   "title": "Major - Operational Research (MPRO)",
+   "titleCn": "运筹学专业方向（MPRO）",
+   "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-operational-research-mpro",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "major-parallel-distributed-systems",
+   "title": "Major - Parallel and Distributed Systems (PDS)",
+   "titleCn": "并行与分布式系统专业方向（PDS）",
+   "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/major-parallel-and-distributed-systems-pds",
+   "summary": "计算机科学硕士「并行与分布式系统」专业方向（PDS，FODQ轨，120 ECTS，全英文，帕莱索校区），研究导向，培养下一代并行与分布式系统研究者与高级工程师：课程从操作系统、编译与大规模分布式中间件到并行/分布式系统的算法与数学基础，覆盖人工智能应用、在线游戏、社交网络、Web服务与健康仿真等负载；通过专项项目与研讨会形成研究专长。毕业生可攻读云计算/高性能计算等方向博士，或进入企业研发部门。",
+   "duration": "2年（120 ECTS，全日制）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目：FODQ轨未列入国际项目表），每学年计费",
+   "language": "英语B2（官网：English (B2)）",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩优异（研究导向择优录取），申请时成绩换算为20分制",
+   "background": "官网：计算机科学或电气工程学士（Bachelor of Science in Computer Science or Electrical Engineering）；⚠️ 需系统/网络/数学与算法基础，研究导向",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信（须突出研究兴趣与科研动机）、两封学术推荐信（推荐人在线提交）、英语B2证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-digital-skills-health-transformation",
+   "title": "Master Year 1 Digital Skills for Health Transformation (DS4Health)",
+   "titleCn": "健康数字化转型数字技能硕士第一年（DS4Health）",
+   "url": "https://www.ip-paris.fr/en/education/masters/computer-science-program/master-year-1-digital-skills-health-transformation-ds4health",
+   "summary": "数字技能促进健康转型（DS4Health）硕士第一年（60 ECTS，全英文，帕莱索校区+在线），官方定位为设计并交付国际数字健康硕士项目，覆盖人工智能、网络安全、数据、机器人与物联网等关键应用，提升医疗健康领域工作者的数字技能，注重软技能、创业精神与以患者为中心的共创设计。课程后半程分「健康数据专家」与「数字健康技术」两个方向，各含20 ECTS研究项目/实习。毕业生可进入ICT或医疗行业（临床信息经理、数据分析师、医疗系统顾问、UX设计师等）或继续科研。",
+   "duration": "1年（M1，60 ECTS，全日制12个月；完成M2后获硕士学位）",
+   "teachingLanguage": "英语",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M1 DS4Health），每学年计费",
+   "language": "英语最低B2、推荐C1（官网原文：a minimum of a B2 level in English is required, while a C1 level is recommended）",
+   "gpa": "无官方GPA线；官网要求基础计算机科学与健康方向学业成绩优异（excellent academic records in fundamental computer science and healthcare），申请时成绩换算为20分制",
+   "background": "官网：需学士学位（180 ECTS）；所有学生须在基础计算机科学与健康领域成绩优异；⚠️ 适合计算机/健康信息类背景，跨专业申请者须证明编程、数据与应用基础",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证书/在读证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语B2/C1证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放；法国MonMaster通道2026-02-17开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "以上为2026年9月入学轮次，结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31（成员校工程生2026-07-08），学费须于2026-07-31前缴清；每轮申请均可提交，最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-digital-skills-health-transformation",
+   "title": "Master Year 2 in Digital Skills for Health Transformation (DS4Health)",
+   "titleCn": "健康数字化转型数字技能硕士第二年（DS4Health）",
+   "url": "https://www.ip-paris.fr/en/education/masters/health-engineering-program/master-year-2-digital-skills-health-transformation-ds4health",
+   "summary": "数字技能促进健康转型（DS4Health）硕士第二年（60 ECTS，全英文，帕莱索校区+在线），官方定位为国际数字健康硕士项目的第二年，覆盖人工智能、网络安全、数据、机器人与物联网应用，培养医疗数字技能人才；第一学期修读高级课程（信息论、数字世界的商业模式、研究工作坊等），第二学期为必修硕士论文（至少4个月，建议5-6个月，30 ECTS）。毕业生可进入ICT或医疗行业，或继续攻读研究/博士。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M2 DS4Health），每学年计费",
+   "language": "英语最低B2、推荐C1（官网原文：a minimum of a B2 level in English is required, while a C1 level is recommended）",
+   "gpa": "无官方GPA线；官网要求基础计算机科学与健康方向学业成绩优异，申请时成绩换算为20分制",
+   "background": "官网：已完成IP Paris DS4Health硕士第一年或等价（Completion of the first year of a Master in DS4Health at IP Paris or equivalent），且已修读与M1 DS4Health类似的课程；⚠️ 需要计算机科学与健康交叉基础",
+   "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）、英语B2/C1证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-recherche-en-design",
+   "title": "Master 1 Recherche en Design",
+   "titleCn": "设计研究硕士第一年（M1，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/design-program/master-1-recherche-en-design",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-recherche-en-design",
+   "title": "Master 2 Recherche en Design",
+   "titleCn": "设计研究硕士第二年（M2，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/design-program/master-2-recherche-en-design",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m1-electrical-engineering-communications",
+   "title": "Master Year 1 Electrical Engineering for Communications & Information Processing",
+   "titleCn": "电气工程（通信与信息处理）硕士第一年（M1）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/electrical-engineering-program/master-year-1-electrical-engineering-communications-information-processing",
+   "summary": "电气工程（通信与信息处理）硕士第一年（60 ECTS，英语授课，Evry校区），第二学期即进入TNM/DataPac（通信、网络与多媒体/数据分析与模式识别）或EOE-MIE（电气与光学工程及微电子）专业方向，为第二年细化做准备。DataPAC/TNM方向覆盖5G网络、物联网与机器间通信、低时延高可靠网络、传感器数据处理、医学影像、生物识别、生物信息学、银行保险与数据挖掘等应用；EOE-MIE方向侧重电气与光学工程及微电子。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语（官网：English；含法语语言课程）",
+   "language": "英语（官网语言要求：English）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "background": "电气/电子、通信、物理、计算机等工科或理科本科；⚠️ 需较强数学与物理基础",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-electrical-engineering-communications",
+   "title": "Master Year 2 Electrical Engineering for Communications & Information Processing",
+   "titleCn": "电气工程（通信与信息处理）硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/electrical-engineering-program/master-year-2-electrical-engineering-communications-information-processing",
+   "updated": "2026-09",
+   "teachingLanguage": "英语/法语"
+  },
+  {
+   "id": "m1-sciences-and-technologies-energy",
+   "title": "Master Year 1 in Sciences and Technologies for Energy",
+   "titleCn": "能源科学与技术硕士第一年（M1）",
+   "url": "https://www.ip-paris.fr/en/education/masters/energy-program/master-year-1-energy",
+   "summary": "能源科学与技术硕士第一年（60 ECTS，全英文，帕莱索校区），由必修与选修科学课程、法语语言课程、项目与实习构成，覆盖物理、工程、应用数学与网络管理等方向，帮助学生在第二年进入清洁能源生产、能源基础设施管理与能源利用优化三大专业方向之一。官网目标包括深入理解能源产业的科学基础（物理、力学、化学、热力学、化工、应用数学等）、掌握能源生产/储存/输配原理，以及理解能源转型的环境、气候、经济与社会影响。毕业后可攻读博士，或任风电/光伏研发工程师、智能电网开发者、风电场/光伏项目经理、可持续发展顾问、能源市场分析师等。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M1 ES – Energy Sciences），每学年计费",
+   "language": "英语B2（官网语言要求：English (B2)）",
+   "gpa": "无官方GPA线；官网要求来自高排名大学且基础学科能力过硬（择优录取），申请时成绩须换算为20分制",
+   "background": "官网要求顶尖大学理工科学士（Bachelor of Science from a top university），且数学、物理、力学、化学等基础学科达到高水平；⚠️ 需扎实的数理基础，适合理工科背景学生，纯文科背景无法申请",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证书/在读证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语B2证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放；法国MonMaster通道2026-02-17开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "以上为2026年9月入学轮次，结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31（成员校工程生2026-07-08），学费须于2026-07-31前缴清；每轮申请均可提交，最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-sciences-and-technology-energy",
+   "title": "Master Year 2 Sciences and Technology for Energy",
+   "titleCn": "能源科学与技术硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/masters/energy-program/master-year-2-energy",
+   "summary": "能源科学与技术硕士第二年（60 ECTS，全英文，帕莱索校区），设三大方向：能源基础设施管理（优化能源输配、管理并设计高性能基础设施，含网络管理、机器学习与数据挖掘及能源经济学课程）、能源利用优化（面向建筑、交通与过程工业节能）、面向清洁能源生产（聚焦可再生能源物理与工程及低碳发电技术）；共同课程覆盖能源转型、工程系统与能源经济学，并含法语课程与实习。毕业后可攻读博士，或进入能源行业任研发工程师、智能电网开发者、能源市场分析师等。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M2 ES – Energy Sciences），每学年计费",
+   "language": "英语最低B2、优先C1（官网：English (minimum B2, preferred C1)）；法语水平受欢迎但非必需",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩突出（择优录取），申请时成绩换算为20分制",
+   "background": "官网：已完成IP Paris能源硕士第一年或等价（Completion of the first year of a Master in Energy at IP Paris or equivalent）；或已完成能源工程、机械工程、电气工程、材料科学、化学工程、可持续发展等专业硕士第一年（官网列出的等价专业）；⚠️ 需扎实的科学与工程基础，M2不面向零基础转行",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信、两封学术推荐信（在线提交）、英语B2/C1证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-territories-energy-transition",
+   "title": "Master Year 2 in Territories and the Energy Transition - TET",
+   "titleCn": "领土与能源转型硕士第二年（TET）",
+   "url": "https://www.ip-paris.fr/en/education/masters/energy-program/master-year-2-territories-and-energy-transition-tet",
+   "updated": "2026-09",
+   "teachingLanguage": "英语/法语"
+  },
+  {
+   "id": "m1-offwind-offshore-wind-energy",
+   "title": "Master Year 1 OFFWIND - Offshore Wind Energy",
+   "titleCn": "海上风电能源硕士第一年（OFFWIND）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/energy-program/master-year-1-offwind-offshore-wind-energy",
+   "summary": "OFFWIND海上风电硕士第一年（60 ECTS，全英文，巴黎Saclay校区帕莱索/ENSTA与马恩河谷/ENPC）——为浮动式与固定式海上风电产业培养运营工程师、研发工程师与项目经理；由ENSTA与法国国立桥路学校（ENPC）联合开设，面向全球能源转型与海上风电大规模开发的战略需求，与产业界联系紧密。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语（全英文授课）",
+   "language": "英语（官网语言要求：English）",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M1 OFFWIND在列），每学年计费",
+   "background": "机械/能源/海洋/土木等工程本科（官网面向工程师背景）；⚠️ 需流体力学与工程力学基础",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-offwind-offshore-wind-energy",
+   "title": "Master Year 2 OFFWIND - Offshore Wind Energy",
+   "titleCn": "海上风电能源硕士第二年（OFFWIND）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/energy-program/master-year-2-offwind-offshore-wind-energy",
+   "summary": "OFFWIND海上风电硕士第二年（60 ECTS，全英文，ENSTA Brest校区），在M1基础上深化浮动式与固定式海上风电系统的研发与设计，面向全球海上风电产业的高管人才培养需求；课程设在布列塔尼海域产业生态圈（Brest/ENSTA）。",
+   "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
+   "teachingLanguage": "英语（全英文授课）",
+   "language": "英语（官网语言要求：English）",
+   "tuition": "€4,870/年（欧盟/欧洲经济区/瑞士）；€7,166/年（其他国籍）——2026-27官方学费表（国际项目轨：M2 OFFWIND在列），每学年计费",
+   "background": "需完成OFFWIND M1或等价工程背景（官网：工程类M1）；⚠️ 需流体力学、结构力学基础，适合风电/海事工程背景",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-biology-biotechnology-health",
+   "title": "Master Year 1 in Biology, Biotechnology and Health",
+   "titleCn": "生物学、生物技术与健康硕士第一年（M1）",
+   "url": "https://www.ip-paris.fr/en/education/masters/biology-and-health-program/master-year-1-biology-biotechnology-and-health",
+   "summary": "生物学、生物技术与健康硕士第一年（60 ECTS，全英文，帕莱索校区），聚焦分子与细胞生物学，将分子/结构生物学与细胞生物学、生物体发育及新治疗策略等更整合的方法相结合；通过与物理、化学、数学、计算机与力学等学科对话，覆盖测序、基因组与组学等前沿进展及相关生物技术伦理问题，并含研究实验室实习。毕业后可继续攻读博士，或进入生物技术、制药、农业食品等行业（博士后可任教研岗或生物技术法规、知识产权、创新融资等职位）。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（官网语言要求：English，未注明级别）",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩突出（择优录取），申请时成绩换算为20分制",
+   "background": "官网：生命科学/理学学士（生物学-物理-化学-数学-信息学方向的Licence/Bachelor of Science），须对生物科学有强烈兴趣并具备基础知识；⚠️ 跨学科项目，需自然科学基础，纯文科背景无法申请",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证书/在读证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语能力证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放；法国MonMaster通道2026-02-17开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "以上为2026年9月入学轮次，结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31（成员校工程生2026-07-08），学费须于2026-07-31前缴清；每轮申请均可提交，最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-biology-biotechnology-health",
+   "title": "Master Year 2 in Biology, Biotechnology and Health",
+   "titleCn": "生物学、生物技术与健康硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/masters/biology-and-health-program/master-year-2-biology-biotechnology-and-health",
+   "summary": "生物学与健康硕士第二年（60 ECTS，全英文，帕莱索校区），在分子与细胞生物学基础上以多学科方式深化研究能力（生物概念与学科交叉、前沿技术、伦理学），含研究实验室实习与硕士研究训练。毕业者可攻读博士，或经博士进入生物技术、制药、农业食品行业及教研岗位；经额外培训可从事生物技术法规、知识产权、创新资助管理和科学传播等职位。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（官网语言要求：English，未注明级别）",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩突出（择优录取），申请时成绩换算为20分制",
+   "background": "官网：已完成IP Paris生物学与健康硕士第一年或等价（法国或国外）；已完成类似硕士第一年（已获60 ECTS）的学生可直入M2；⚠️ 需要分子/细胞生物学基础，纯文科背景无法申请",
+   "requirements": "申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（在线提交）、英语能力证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-biomedical-engineering-bme",
+   "title": "Master Year 1 in BioMedical Engineering (BME)",
+   "titleCn": "生物医学工程硕士第一年（BME）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/health-engineering-program/master-year-1-biomedical-engineering-bme",
+   "summary": "健康工程/生物医学工程硕士第一年（60 ECTS，全英文，帕莱索校区），将物理与工程科学应用于生命科学、医学与健康：提供研究密集型的训练，覆盖生物医学成像、生物力学、生物材料、生物医学数据科学等方向；项目获法国国家研究署（ANR）France 2030计划资助（EUR BERTIP、AMI-CMA DaTSHealth），与巴黎医学院校及医院网络密切合作。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语（全英文授课）",
+   "language": "英语（官网语言要求：English）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "background": "官网明确：申请人需具备工程学、物理科学或应用数学的扎实背景（strong background in engineering, physical sciences, or applied mathematics），并对生命科学与医学的变革充满兴趣；⚠️ 不需生物背景，但必须强量化",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-biomedical-engineering-bme",
+   "title": "Master Year 2 in BioMedical Engineering (BME)",
+   "titleCn": "生物医学工程硕士第二年（BME）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/health-engineering-program/master-year-2-biomedical-engineering-bme",
+   "summary": "生物医学工程硕士第二年（60 ECTS，全英文，帕莱索校区）：将数学/物理科学、工程概念与技术应用于生命科学及疾病的理解、诊断与治疗；高度跨学科，设成像与影像建模、生物物理与生物力学、生物材料与生物器件、生物医学数据科学与应用四个方向。毕业去向为生命科学与生物医学工程的工程师、研究者与创业者。",
+   "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
+   "teachingLanguage": "英语（全英文授课）",
+   "language": "英语（官网语言要求：English）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "background": "官网明确：申请人需具备工程、物理或应用数学的扎实背景，不需生物背景；⚠️ 适合工科/物理/应数背景、想转向生物医学交叉领域者",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-mechanical-engineering-clinicians-mecencli",
+   "title": "Master Year 2 in Mechanical Engineering for Clinicians (MECENCLI)",
+   "titleCn": "面向临床医生的机械工程硕士第二年（MECENCLI）",
+   "url": "https://www.ip-paris.fr/en/education/masters/health-engineering-program/master-year-2-mechanical-engineering-clinicians-mecencli",
+   "summary": "「临床医生机械工程」（MECENCLI）硕士第二年（60 ECTS，全英文，帕莱索校区+巴黎大学医学院，11月开学），由IP Paris与Université de Paris合办，将先进力学学术知识与长期临床研究项目结合，培养兼具医学与力学卓越能力的未来工程师、研究者、临床医生与创业者，并为生物医学工程行业输送研发人才。官网强调该项目学习生物力学/临床应用与科研沟通，可结合力学与物理、生物与健康方向攻读博士，（硕士）M2是医学学术职业的前提。",
+   "duration": "1年（M2，60 ECTS，全日制12个月；11月开学）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语B2（官网：English language proficiency (minimum B2 level or equivalent) needs to be demonstrated）",
+   "gpa": "无官方GPA线；官网要求医学与力学学科成绩优异（项目面向医学与力学兼备的学生），申请时成绩换算为20分制",
+   "background": "官网：需硕士第一年或等价学历；该学位仅对健康科学学生或从业者开放（颌面/整形外科、骨科、口腔外科、耳鼻喉、眼科、皮肤科、理疗、康复医学、药学、风湿免疫、兽医学等）；须先联系项目协调人（Natacha Kadlub或Jean Boisson）确认研究项目主题与接收机构；⚠️ 面向临床医学背景+力学兴趣的学生，非医学背景应申请其他M2",
+   "requirements": "先与协调人联系确认12个月研究项目主题与接收单位（实验室/研究所/医院/企业），再在线提交：申请表、成绩单、学位证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语B2水平证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（项目官网显示11月开学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放（其余轮次以申请系统为准）",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "⚠️ 该项目11月开学，与多数9月开学项目不同，具体轮次请以IP Paris申请系统为准；结果于对应轮次截止后约2个月内邮件通知；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-environmental-energy-transport-economics-eeet",
+   "title": "Master Year 1 in Environmental, Energy and Transport Economics (EEET)",
+   "titleCn": "环境、能源与交通经济学硕士第一年（EEET，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/environmental-energy-and-transportation-economics-eeet-program/master-year-1-environmental-energy-and-transport-economics-eeet",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-energy-economics",
+   "title": "Master Year 2 in Energy Economics",
+   "titleCn": "能源经济学硕士第二年（EEET，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/environmental-energy-and-transportation-economics-eeet-program/master-year-2-energy-economics",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-environmental-sustainable-development-economics",
+   "title": "Master Year 2 in Environmental and Sustainable Development Economics",
+   "titleCn": "环境与可持续发展经济学硕士第二年（EEET，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/environmental-energy-and-transportation-economics-eeet-program/master-year-2-environmental-and-sustainable-development-economics",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-prospective-modelling-economy-energy-environment",
+   "title": "Master Year 2 in Prospective Modelling: Economy, Energy, Environment",
+   "titleCn": "经济-能源-环境前瞻建模硕士第二年（EEET，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/environmental-energy-and-transportation-economics-eeet-program/master-year-2-prospective-modelling-economy-energy-environment",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-transport-mobility-economics",
+   "title": "Master Year 2 in Transport and Mobility Economics",
+   "titleCn": "交通与出行经济学硕士第二年（EEET，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/environmental-energy-and-transportation-economics-eeet-program/master-year-2-transport-and-mobility-economics",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-projet-innovation-conception",
+   "title": "Master 2 Projet, Innovation, Conception",
+   "titleCn": "项目、创新与设计硕士第二年（PIC，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/innovation-industry-and-society-program/master-2-projet-innovation-conception",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-analyse-modelisation-simulation",
+   "title": "Master 2 Analyse, Modélisation, Simulation",
+   "titleCn": "分析、建模与仿真硕士第二年（AMS，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/mathematics-and-applications-program/master-2-analyse-modelisation-simulation",
+   "summary": "分析与应用数学硕士的AMS方向（60 ECTS，法语授课，帕莱索与巴黎萨克雷大学等）：从偏微分方程等理论分析到数值模拟，覆盖建模-分析-模拟全链条，由IP Paris与巴黎萨克雷大学联名授予；培养掌握高水平数学工具、数值方法与编程语言的建模与计算方向人才，毕业可进入工业研发或读博。",
+   "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
+   "teachingLanguage": "法语（官网授课语言：Français）",
+   "language": "法语（官网语言要求：Français）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "background": "需完成数学类M1（官网：M1 mathématiques或等价）；⚠️ 需扎实分析、方程与数值计算基础，法语授课建议法语B2",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-mathematiques-appliquees",
+   "title": "Master 1 Mathématiques Appliquées",
+   "titleCn": "应用数学硕士第一年（M1，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-1-mathematiques-appliquees",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m1-mathematiques-jacques-hadamard",
+   "title": "Master 1 Mathématiques Jacques Hadamard",
+   "titleCn": "雅克·阿达马数学硕士第一年（M1，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-1-mathematiques-jacques-hadamard",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-analyse-arithmetique-geometrie",
+   "title": "Master 2 Analyse, Arithmétique, Géométrie",
+   "titleCn": "分析、算术与几何硕士第二年（M2，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-2-analyse-arithmetique-geometrie",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-mathematiques-sciences-du-vivant",
+   "title": "Master 2 Mathématiques pour les Sciences du Vivant",
+   "titleCn": "生命科学数学硕士第二年（M2，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-2-mathematiques-pour-les-sciences-du-vivant",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-mathematics-of-randomness",
+   "title": "Master Year 2 Mathematics of Randomness",
+   "titleCn": "随机性数学硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-year-2-mathematics-randomness",
+   "updated": "2026-09",
+   "teachingLanguage": "英语/法语"
+  },
+  {
+   "id": "m2-mathematics-vision-learning",
+   "title": "Master Year 2 Mathematics, Vision, Learning",
+   "titleCn": "数学、视觉与学习硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-year-2-mathematics-vision-learning",
+   "updated": "2026-09",
+   "teachingLanguage": "英语/法语"
+  },
+  {
+   "id": "m2-optimization",
+   "title": "Master Year 2 Optimization",
+   "titleCn": "最优化硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/masters/mathematics-and-applications-program/master-year-2-optimization",
+   "summary": "最优化硕士第二年（60 ECTS，全英文，帕莱索校区+Universite Paris-Saclay），全面覆盖最优化及其与控制的交叉（离散/连续时间、确定/随机的动态规划与最优控制）、博弈论、变分法（分析与PDE）、随机优化与运筹学，多门课程与IT硕士项目（MPRO）共享；由Gaspard Monge最优化计划（PGMO，EDF参与）资助国际专家授课。毕业生进入CNRS、CEA、CNES、INRIA等大型研究机构或EDF、Air France、Orange、SNCF、Engie、达索、泰雷兹等研发中心及运筹优化型中小企业，多数继续攻读博士。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（官网：English）",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩优异（需强数学背景），申请时成绩换算为20分制",
+   "background": "官网：已完成IP Paris数学硕士第一年或等价（法国工程师学校或国外）；项目对数学背景要求强，但培养中也含计算机科学家与经济学家；⚠️ 纯文科背景无法申请；官方建议同时关注PGMO奖学金",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语证明；非英/法语材料须公证翻译（官方另附FMJH Sophie Germain博士生奖学金信息，如需可另行申请）",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-mechanics",
+   "title": "Master Year 1 Mechanics",
+   "titleCn": "力学硕士第一年（M1）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/mechanics-program/master-year-1-mechanics",
+   "summary": "力学硕士第一年（60 ECTS，英/法双语，帕莱索校区），研究导向、覆盖从基础到应用的广泛力学领域：连续介质力学、流体力学、力学实验与数值方法、波与振动、流固耦合等核心课，并可选修材料科学、声学、智能材料与耦合系统、环境科学等方向，为第二年细分方向打基础。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英/法语（官网：English, French）",
+   "language": "英语+法语（官网语言要求：English and/or French；建议法语A2-B2便利校园生活）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "background": "工程、力学、数学或物理背景本科；⚠️ 需扎实的数学分析、线性代数与基础物理",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-mechanics",
+   "title": "Master Year 2 Mechanics",
+   "titleCn": "力学硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/mechanics-program/master-year-2-mechanics",
+   "summary": "力学硕士第二年（60 ECTS，全英文，帕莱索校区），设三大方向：水、空气、污染与能源（WAPE，研究海洋、大气、空气污染与水循环的动力过程及可再生能源生产）、流体力学（理论与数值/实验流体力学训练+学术或工业实验室实习）、固体力学（材料与结构的多物理、多尺度建模）。毕业生可攻读博士，或面向环境与气候风险评估、自然资源优化、先进材料与可再生能源系统等研发岗位；官网强调该项目联合IP Paris多校与University-Evry等优势资源。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（官网：English）；流体力学方向全英文授课、少量选修法语（官网原文：An English-speaking student can graduate without any French prerequisites），并为非法语学生另设法语课",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩优异（择优录取），申请时成绩换算为20分制",
+   "background": "官网：已完成IP Paris力学、物理或应用数学硕士第一年或等价（法国或国外）；⚠️ 需扎实力学/物理/数学基础，流体力学方向英语授课无需法语即可毕业",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-nuclear-engineering",
+   "title": "Master Year 1 Nuclear Engineering",
+   "titleCn": "核工程硕士第一年（M1）",
+   "url": "https://www.ip-paris.fr/en/education/masters/nuclear-engineering-program/master-year-1-nuclear-engineering",
+   "summary": "核工程硕士第一年（60 ECTS，全英文，帕莱索校区+CEA国家核科学与技术研究所等），面向核电产业的当前与未来需求：优化现有反应堆性能、设计第三代核设施（反应堆与燃料循环工厂）、开发第四代工艺与系统、运行维护与废物退役管理；课程与研究实验室实习（可选物理与工程、化学与工程两轨）结合，毕业可直入核工程M2。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语（全英文授课）",
+   "language": "英语（官网语言要求：English）",
+   "tuition": "见官方2026-27学费表\"Master Nuclear Energy\"栏（PDF注明该栏目费用仅供参考，2026-07-01后确认）",
+   "background": "工程、物理、化学或相关本科；⚠️ 需热力学、流体力学等工科基础，部分课程在CEA萨克雷校区及合作院校开设",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-nuclear-engineering",
+   "title": "Master Year 2 Nuclear Engineering",
+   "titleCn": "核工程硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/masters/nuclear-engineering-program/master-year-2-nuclear-engineering",
+   "summary": "核工程硕士第二年（60 ECTS，全英文，帕莱索校区及INSTN、ENSTA Paris、CentraleSupélec、ChimieParisTech、École des Ponts授课），官方定位为国际硕士学位，为核工业（低碳电力）培养高级人才的五个轨道：核反应堆与物理工程（NRPE）、核电站设计与建造（NPD）、运行（O）、燃料循环（FC）、退役与废物管理（DWM）；由EDF支持创立（2009年），获I2EN与EIT InnoEnergy认证，教学全部英语。毕业生可进入核电运行、研发、设计咨询、燃料循环与退役管理等岗位，或继续核能研究（反应堆物理、建模与仿真、仪器、放射化学等）。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "见官方2026-27学费表\"Master Nuclear Energy\"栏（EU/EEA/Switzerland €255/年、非欧盟 €6,255/年；PDF注明该栏目费用仅供参考，2026-07-01后确认）",
+   "language": "英语（官网：English；全课程英语授课）",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩优异（择优录取），申请时成绩换算为20分制",
+   "background": "官网按轨道要求：NRPE需物理、化学或核工程60 ECTS；NPD需物理、机械或核工程60 ECTS；FC需化学或核工程60 ECTS；O与DWM需物理、化学、机械或核工程60 ECTS（以上均含外国大学理科学位）；⚠️ 需理工科基础并匹配所选轨道先修",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-physics",
+   "title": "Master Year 1 Physics",
+   "titleCn": "物理硕士第一年（M1）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-1-physics",
+   "summary": "物理硕士第一年（60 ECTS，全英文，帕莱索校区），为进入博士或工业界研发提供高级实验与理论物理训练；研究方向对应IP Paris实验室的核心主线：高能物理、凝聚态理论与理论等离子体、数学物理、粒子物理与天体物理、实验凝聚态、纳米科学、光学与等离子体物理、原子物理与冷原子气体、大型科研装备使用等。第一年下设高能物理（HEP）、激光/光学/光与物质相互作用（LOM）等专业方向。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语（全英文授课；部分选修课为法语）",
+   "language": "英语（官网语言要求：English）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "background": "物理、数学或工程物理本科；⚠️ 需扎实的量子力学、电动力学与数学物理基础，科研导向",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-high-energy-physics",
+   "title": "Master Year 1 High Energy Physics",
+   "titleCn": "高能物理硕士第一年（M1）",
+   "url": "https://www.ip-paris.fr/en/education/masters/physics-program/master-year-1-high-energy-physics",
+   "summary": "高能物理硕士第一年（60 ECTS，全英文，帕莱索校区），提供理论与实验高能物理的全面训练：粒子物理、天体粒子物理、电弱标准模型及其扩展、强相互作用与量子色动力学、实验物理工具与方法、广义相对论、弦论与宇宙学等；第一年建立宽厚知识基础，项目含IP Paris与ETH Zürich双学位国际轨道（两年课程共同设计，两校合作）。毕业生可攻读博士，通往学术界或工业界研究岗位。",
+   "duration": "1年（M1，60 ECTS；完成M2后获硕士学位，总学制2年）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（官方要求：English is mandatory）；法语知识非必需但受欢迎（官网：Notions of French are highly desirable）",
+   "gpa": "无官方GPA线；官网明确要求基础物理与数学成绩优异（An excellent academic record in fundamental physics and mathematics），且来自高排名院校，申请时成绩换算为20分制",
+   "background": "官网：已完成IP Paris物理学士或等价学位（法国或国外）＋基础物理与数学成绩优异；⚠️ 需强物理/数学基础；含IP Paris-ETH Zürich双学位国际轨道",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证书/在读证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语证明（官方：English is mandatory）；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放；法国MonMaster通道2026-02-17开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "以上为2026年9月入学轮次，结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31（成员校工程生2026-07-08），学费须于2026-07-31前缴清；每轮申请均可提交，最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-high-energy-physics",
+   "title": "Master Year 2 High Energy Physics",
+   "titleCn": "高能物理硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/masters/physics-program/master-year-2-high-energy-physics",
+   "summary": "高能物理硕士第二年（60 ECTS，全英文，帕莱索校区），继第一年的全面训练之后深入理论与实验高能物理（粒子物理、天体粒子物理、电弱标准模型、强相互作用与QCD、实验物理方法、广义相对论、弦论与宇宙学等），侧重高级知识与研究能力培养；项目含IP Paris与ETH Zürich双学位国际轨道（共同设计课程、两校课程互选）。毕业者多继续攻读博士，通往学术界或工业界研究岗位。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（官方要求：English is mandatory）；法语知识非必需但受欢迎（官网：Notions of French are highly desirable）",
+   "gpa": "无官方GPA线；官网明确要求基础物理与数学成绩优异（An excellent academic record in fundamental physics and mathematics），申请时成绩换算为20分制",
+   "background": "官网：已完成IP Paris或等价（法国工程师学校或国外）物理硕士第一年；所有学生须基础物理与数学成绩优异，且已修读与M1高能物理类似的课程；⚠️ 需强物理/数学基础；含IP Paris-ETH Zürich双学位国际轨道",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语证明（官方：English is mandatory）；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-physics-plasmas-fusion",
+   "title": "Master 2 Physique des Plasmas et de la Fusion",
+   "titleCn": "等离子体与聚变物理硕士第二年（M2，官方法语名称）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-2-physics-plasmas-and-fusion",
+   "summary": "物理硕士的等离子体与聚变方向（60 ECTS，英语授课，帕莱索/巴黎萨克雷、索邦大学、CentraleSupélec等校区）——等离子体物理是跨学科研究领域：涵盖磁约束与惯性约束热核聚变、激光-等离子体相互作用、天体物理与工艺等离子体；面向能源、环境、空间、健康与国防等应用，培养能进入聚变/等离子体研究或工业研发的高级人才。",
+   "duration": "1年（M2，60 ECTS，全日制12个月，9月开学）",
+   "teachingLanguage": "英语（官网授课语言：English）",
+   "language": "英语（官网语言要求：English）",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "background": "需完成物理/应数M1（官网：物理硕士M1相应方向或等价）；⚠️ 需等离子体物理、电动力学基础",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-physics-international-centre-fundamental-physics",
+   "title": "Master Year 2 International Centre for Fundamental Physics",
+   "titleCn": "国际基础物理中心硕士第二年（M2，ICFP）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-2-international-centre-fundamental-physics",
+   "summary": "国际基础物理中心硕士第二年（60 ECTS，全英文，巴黎/巴黎-萨克雷），提供基础物理领域广泛的高级课程选择：理论物理、量子物理、凝聚态物理、宏观物理与复杂性等，学生可定制课程（官网声明该框架与Physics by Research相同、需先与导师沟通研究计划）；依托IP Paris实验室的设施与科研卓越环境，为攻读基础物理博士与应用研究做准备。毕业者可攻读博士，或经博士后进入大学及CNRS、CEA、IN2P3等主要研究机构，以及工业应用研究。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（官网：English）；具备法语工作知识将扩大可选课程范围（官网：Working knowledge of French will enhance the range of options available）",
+   "gpa": "无官方GPA线；官网要求以最高荣誉（with highest honors）完成硕士第一年，申请时成绩换算为20分制",
+   "background": "官网：以最高荣誉完成IP Paris或等价（法国/国外）硕士第一年；须提交与项目理念一致的个人研究计划，建议在申请截止前尽早联系相关领域教师（官网原文），并因项目高度选择性，强烈建议同时申请一个IP Paris其他方向M2；⚠️ 需强物理/数学基础",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信（含研究计划，建议提前联系导师）、两封学术推荐信（推荐人在线提交）、英语证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-physics-large-facilities",
+   "title": "Master Year 2 Large Facilities",
+   "titleCn": "大型设施（等离子体-激光-加速器-托卡马克 GI-PLATO）硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-2-large-facilities",
+   "summary": "大型科研设施（GI-PLATO：等离子体、激光、加速器、托卡马克）硕士第二年（60 ECTS，全英文，帕莱索/巴黎-萨克雷校区，专业方向可选Cadarache、Bordeaux或Geneva），为粒子加速器、同步辐射与自由电子激光、高功率激光等离子体物理与托卡马克磁约束聚变等大型设施培养理论与实验能力；含1个月在大型装置现场（CEA/Cadarache托卡马克、CEA/Bordeaux LMJ激光、日内瓦CERN加速器）与国际学生同班上课、参观与动手实践。毕业生可进入CEA、CNRS、ONERA等公共研究机构或AREVA、THALES、ALSTOM等工业研发部门及CERN、ITER等国际组织（官方向导：55%在大学/CNRS实验室实习、15%在CEA、17%国外）。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（官网：English）；具有法语工作知识可扩大可选课程范围（官网原文）；官方要求非英语母语者须提交英语水平证书（Certificate of English level compulsory for non-English speakers）",
+   "gpa": "无官方GPA线；官网要求高排名院校、成绩优异（择优录取），申请时成绩换算为20分制",
+   "background": "官网：已完成IP Paris或等价（法国/国外）物理硕士第一年；适合工程背景学生转向研究，或大学背景学生转向工程；⚠️ 需强物理/数学基础，需注明所选专业方向（加速器/等离子体/激光等）",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信、两封学术推荐信（推荐人在线提交）、英语水平证书（非英语母语者官方要求）；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-physics-materials-science-nano-objects",
+   "title": "Master Year 2 in Materials Science and Nano-Objects - Nanomat",
+   "titleCn": "材料科学与纳米物体硕士第二年（M2，Nanomat）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-2-materials-science-and-nano-objects-nanomat",
+   "summary": "材料科学与纳米物体（Nanomat）硕士第二年（60 ECTS，全英文，巴黎Sorbonne Université校区），研究型M2，对凝聚态物质与纳米结构的结构与电子性质提供完整高级训练，覆盖光学、电子学、自旋电子学、超导、关联体系、固体物理化学、行星内部探索及材料与环境相互作用等主题，涉及纳米结构材料、2D材料、薄膜、能源材料、极端条件材料、玻璃、矿物与文化遗产材料，强调微观现象决定宏观性质；第一学期修课、第二学期研究实习。毕业者可继续攻读博士（工业或学术）。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（官网：English）；具有法语工作知识可扩大可选课程范围（官网原文）",
+   "gpa": "无官方GPA线；官网要求以最高荣誉（with highest honors）完成硕士第一年，申请时成绩换算为20分制",
+   "background": "官网：以最高荣誉完成IP Paris或等价（法国/国外）硕士第一年；须提交与项目理念一致的个人研究计划，建议提前联系相关领域教师；因项目高度选择性，官方建议同时申请一个IP Paris其他方向M2；本项目由Sorbonne University主办、与ESPCI共享；⚠️ 需凝聚态物理/材料物理基础",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信（含研究计划，建议提前联系导师）、两封学术推荐信（推荐人在线提交）、英语证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-physics-by-research",
+   "title": "Master Year 2 Physics by Research",
+   "titleCn": "研究型物理硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-2-physics-research",
+   "summary": "物理研究硕士（Physics by Research）第二年（60 ECTS，全英文，巴黎/巴黎-萨克雷），为有志于学术生涯的学生开设的「à la carte」跨学科项目：由协调各专题硕士课程的教师团队指导，量身定制与职业计划一致的课程体系，覆盖IP Paris全部基础与应用物理领域（理论与实验凝聚态、数学物理、等离子体物理及物理-化学、材料、应用数学、生物交叉主题）；官网说明该项目高度筛选，官方强烈建议同时申请一个IP Paris专题M2（fees栏仍显示2023-24旧标准）。大多数学生毕业后继续攻读博士，随后进入法国及国外大学或主要研究机构（CNRS、CEA、IN2P3）获得学术职位。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费；注：官网Fees栏仍显示2023-24旧标准（EU €243/非EU €3,770/成员校工程生 €159）",
+   "language": "英语（官网：English）；具有法语工作知识可扩大可选课程范围（官网原文）",
+   "gpa": "无官方GPA线；官网要求以最高荣誉（with highest honors）完成硕士第一年，申请时成绩换算为20分制",
+   "background": "官网：以最高荣誉完成IP Paris或等价（法国/国外）硕士第一年；须提交与项目理念一致的个人研究计划，建议在申请截止前尽早联系相关领域教师；因高度选择性，官方强烈建议同时申请一个IP Paris专题M2；⚠️ 需强物理/数学基础，面向科研志向学生",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信（含研究计划，建议提前联系导师）、两封学术推荐信（推荐人在线提交）、英语证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-physics-quantum-light-materials-nano-sciences",
+   "title": "Master Year 2 Quantum, Light, Materials, and Nano Sciences",
+   "titleCn": "量子、光、材料与纳米科学硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/physics-program/master-year-2-quantum-light-materials-and-nano-sciences",
+   "summary": "量子、光、材料与纳米科学硕士第二年（60 ECTS，英语为主、少量法语课程，帕莱索校区），设三条路径：光与物质（量子技术、量子光学、原子分子物理、光-物质相互作用与激光）、凝聚态及其界面（固态物质电子/结构性质及其与稀薄物质、纳米技术与材料化学的界面）、纳米器件与技术（纳米尺度物体的基础与技术方面）；课程结合IP Paris与Université Paris-Saclay实验室，含实验课与在卓越实验室的实习。毕业者约75%继续攻读博士，其余进入量子技术、激光开发、光学仪器设计、图像处理、电信、量子材料、微电子等工业研发。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（官网：English）；具有法语工作知识可扩大可选课程范围（官网原文）；项目信息栏注明课程为英语为主、部分法语（English with some courses in French）",
+   "gpa": "无官方GPA线；官网要求以最高荣誉（with highest honors）完成硕士第一年，申请时成绩换算为20分制",
+   "background": "官网：以最高荣誉完成IP Paris或等价（法国/国外）硕士第一年；须提交与项目理念一致的个人研究计划，建议提前联系相关领域教师；因高度选择性，官方建议同时申请一个IP Paris其他方向M2；⚠️ 需量子物理/凝聚态基础，需选择三条路径之一",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信（含研究计划，建议提前联系导师）、两封学术推荐信（推荐人在线提交）、英语证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m2-physics-quantum-devices",
+   "title": "Master Year 2 Quantum devices",
+   "titleCn": "量子器件硕士第二年（M2）",
+   "url": "https://www.ip-paris.fr/en/education/masters/physics-program/master-year-2-quantum-devices",
+   "summary": "量子器件硕士第二年（60 ECTS，全英文，帕莱索校区+Universite Paris-Diderot），聚焦量子器件与纳米技术——物理、化学、材料科学、生物学与分子医学的交叉领域：从单原子观测与操控到半导体光源/探测器、分子晶体管、量子信息超导电路、巨磁阻硬盘与DNA芯片，学习量子现象的理论与实验并掌握纳米制备与纳米表征（含洁净室设施与纳米科学教学平台）。毕业生可走向大学、CNRS、CEA、IN2P3等机构的学术道路，或从事工业应用研究。",
+   "duration": "1年（M2，60 ECTS，全日制12个月）",
+   "teachingLanguage": "英语",
+   "tuition": "€255/年（欧盟/欧洲经济区/瑞士）；€4,327/年（其他国籍）——2026-27官方学费表（国家轨项目，未列入国际项目表），每学年计费",
+   "language": "英语（官网：English）；具有法语工作知识可扩大可选课程范围（官网原文）",
+   "gpa": "无官方GPA线；官网要求以最高荣誉（with highest honors）完成硕士第一年，申请时成绩换算为20分制",
+   "background": "官网：以最高荣誉完成IP Paris或等价（法国/国外）硕士第一年；须提交与项目理念一致的个人研究计划，建议提前联系相关领域教师；因高度选择性，官方建议同时申请一个IP Paris其他方向M2；⚠️ 需量子物理/纳米科学基础",
+   "requirements": "申请表、成绩单（自大学第一年起）、学位证明、简历、动机信（含研究计划，建议提前联系导师）、两封学术推荐信（推荐人在线提交）、英语证明；非英/法语材料须公证翻译",
+   "applicationOpen": "2026-27学年（2026年9月入学）：第1轮自2025-10-29、第2轮自2026-01-09、第3轮自2026-03-27在IP Paris申请系统开放",
+   "deadline": "第1轮：2026-01-08；第2轮：2026-03-26；第3轮：2026-05-28",
+   "deadlineNote": "结果于轮次截止后约2个月内邮件通知；录取后注册2026-06-02开放、截止2026-07-31，学费须于2026-07-31前缴清；最多同时申请5个项目；不可重复申请同一项目",
+   "updated": "2026-09"
+  },
+  {
+   "id": "m1-sociologie-quantitative-demographie",
+   "title": "Master 1 Sociologie Quantitative et Démographie",
+   "titleCn": "定量社会学与人口学硕士第一年（M1，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/sociology-program/master-1-sociologie-quantitative-et-demographie",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-quantitative-sociology-computational-social-science",
+   "title": "Master 2 Quantitative Sociology and Computational Social Science",
+   "titleCn": "定量社会学与计算社会科学硕士第二年（M2，QSCSS）",
+   "url": "https://www.ip-paris.fr/en/education/graduate-programs/masters-science/sociology-program/master-2-quantitative-sociology-and-computational-social-science",
+   "updated": "2026-09",
+   "teachingLanguage": "英语/法语"
+  },
+  {
+   "id": "m1-transport-mobility-networks",
+   "title": "Master Year 1 in Transport, Mobility, Networks",
+   "titleCn": "交通、移动与网络硕士第一年（M1，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/transport-mobility-networks-program/master-year-1-transport-mobility-networks",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-transport-sustainable-development",
+   "title": "Master Year 2 in Transport and Sustainable Development",
+   "titleCn": "交通与可持续发展硕士第二年（M2，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/transport-mobility-networks-program/master-year-2-transport-and-sustainable-development",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m1-urban-planning",
+   "title": "Master Year 1 in Urban Planning",
+   "titleCn": "城市规划硕士第一年（M1，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/urban-planning-program/master-year-1-urban-planning",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  },
+  {
+   "id": "m2-urban-planning-amur",
+   "title": "Master Year 2 in Urban Planning and Project Management (AMUR)",
+   "titleCn": "城市规划与项目管理硕士第二年（M2，AMUR，法语授课）",
+   "url": "https://www.ip-paris.fr/en/education/masters/urban-planning-program/master-year-2-urban-planning-and-project-management-amur",
+   "updated": "2026-09",
+   "teachingLanguage": "法语"
+  }
  ]
 };

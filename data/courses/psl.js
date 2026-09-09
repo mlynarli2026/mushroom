@@ -257,17 +257,17 @@ var SCHOOL_COURSES = {
    "id": "dauphine-management-m1",
    "title": "Master's Year 1 in Management and Organizations (M1 Management et Organisations)",
    "url": "https://dauphine.psl.eu/en/training/masters-degrees/management-and-organizations/masters-year-1-management-and-organizational-management",
-   "summary": "管理与组织硕士第一年（Dauphine-PSL），管理领域的大入口：学习组织管理、战略、人力资源与创新基础，第二年可选择国际商务（MIB，全英文）、战略咨询、创业等8个方向。法语授课，本科为管理学、经济学或社会科学（含社会学、政治学等文科社会学）背景可申请。",
+   "summary": null,
    "duration": "1年（M1，60 ECTS；M1与M2之间可选休学年；M2再60 ECTS）",
    "teachingLanguage": "法语授课（官网 Language(s): French；其中 M2 国际商务轨全英文）",
-   "tuition": "DGE 文凭：按父母/家庭2024年总收入浮动 €258–11,100/年（2026-27学年）；税务居民不在欧盟的国际生固定 €6,831/年（官网原文，不可减免）。",
-   "language": "法语授课为主；申请 MIB 方向需英语流利（TOEFL iBT≥92）；建议法语 B2。",
-   "gpa": "已获本科学位（180 ECTS）或同等；官方列举专业：管理学、经济学、社会科学。持四年制学位（240 ECTS）可直接申请 M2。",
-   "background": "跨专业友好：官方明确接受社会科学（social sciences）背景申请；注意：BBA（工商管理学士）不被视为 M1 同等学历，需从 M1 读起（官网注明）。",
-   "requirements": "MyCandidature 网申：成绩单、CV、动机信等；材料审核（可加面试）。",
-   "applicationOpen": "2026年1月15日（2026-27学年）",
-   "deadline": "2026年2月24日",
-   "deadlineNote": "官方页面'When to apply: 15 Jan - 24 Feb 2026'；文科生可借此路径升入全英文 MIB。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "管理与组织硕士（第一年，M1 Management et Organisations）"
   },
@@ -293,17 +293,17 @@ var SCHOOL_COURSES = {
    "id": "dauphine-marketing-m2-consulting-data-research",
    "title": "M2 Consulting, Data and Research (102) - Master's Year 2 in Marketing & Strategy",
    "url": "https://dauphine.psl.eu/en/training/masters-degrees/marketing-strategy/masters-year-2-consulting-data-research-102",
-   "summary": "营销与战略硕士第二年'咨询、数据与研究'方向：融合市场研究、数据科学与咨询方法论，毕业生进入市场研究公司、数据咨询和战略咨询。与研究轨联合培养，课程含大量数据分析与定性研究；法语授课（非法语国家学生须提供法语证明）。",
+   "summary": null,
    "duration": "1年（M2，60 ECTS；须先完成 240 ECTS 硕士第一年）",
    "teachingLanguage": "法语授课（官网 Language(s): French；非法语国家申请者须 DELF/DALF 证明）",
-   "tuition": "DGE 文凭：按父母/家庭2024年总收入浮动 €258–11,100/年（2026-27学年）；税务居民不在欧盟的国际生固定 €6,831/年（官网原文，不可减免）。",
-   "language": "⚠️ 特殊情况：需法语成绩（官网原文：Applicants from non-Francophone countries must provide evidence of French ability (DELF or DALF): a minimum level of B1 is required; B2 is preferred）——文科生需先考出 DELF B1/B2。",
-   "gpa": "已获四年制学位（240 ECTS）或同等（大学、Grande École、工程师学院）。",
-   "background": "跨专业较友好：接受管理、经济、社会科学等背景；国际学生/特殊背景需经委员会评估适配性，再进入常规流程。",
-   "requirements": "MyCandidature 网申：成绩单、CV、动机信、法语 DELF/DALF 证明；材料审核+面试。",
-   "applicationOpen": "2026年1月15日（2026-27学年）",
-   "deadline": "2026年2月23日",
-   "deadlineNote": "官方页面'When to apply: 15 Jan - 23 Feb 2026'；全法语项目，务必先确认法语水平。",
+   "tuition": null,
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null,
    "updated": "2026-09",
    "titleCn": "营销与战略硕士（第二年，M2）：咨询、数据与研究（102）"
   },
@@ -456,868 +456,992 @@ var SCHOOL_COURSES = {
    "title": "Master 1 International Affairs and Development - Economics Track (Majeure Economie)",
    "titleCn": "国际事务与发展硕士第一年（经济方向 Majeure Économie）",
    "url": "https://dauphine.psl.eu/formations/masters/affaires-internationales-et-developpement/1re-annee-de-master-majeure-economie",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-iaid-majeure-devdurable-m1",
    "title": "Master 1 International Affairs and Development - Sustainable Development Track (Majeure Développement Durable)",
    "titleCn": "国际事务与发展硕士第一年（可持续发展方向）",
    "url": "https://dauphine.psl.eu/formations/masters/affaires-internationales-et-developpement/1re-annee-de-master-majeure-developpement-durable",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-iaid-majeure-peace-m1",
    "title": "Master 1 International Affairs and Development - Conflict Transformation and Peace Studies Track",
    "titleCn": "国际事务与发展硕士第一年（冲突转型与和平研究方向）",
    "url": "https://dauphine.psl.eu/formations/masters/affaires-internationales-et-developpement/1re-annee-de-master-majeure-conflict-transformation-and-peace-studies",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-iaid-m2-commodities-strategies-212",
    "title": "Master 2 International Affairs, Commodities and Strategies (212)",
    "titleCn": "国际事务、原材料与战略硕士（212）",
    "url": "https://dauphine.psl.eu/formations/masters/affaires-internationales-et-developpement/m2-affaires-internationales-matieres-premieres-strategies-212",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-iaid-m2-organisations-sustainabilities-239",
    "title": "Master 2 Organizations, Sustainability and Responsibilities (239)",
    "titleCn": "组织、可持续发展与责任硕士（239）",
    "url": "https://dauphine.psl.eu/formations/masters/affaires-internationales-et-developpement/m2-organisations-soutenabilites-et-responsabilites-239",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-iaid-m2-economics-diagnostics",
    "title": "Master 2 International Economic Diagnostics",
    "titleCn": "国际经济诊断硕士",
    "url": "https://dauphine.psl.eu/formations/masters/affaires-internationales-et-developpement/m2-diagnostic-economique-international",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-iaid-m2-international-economics-development",
    "title": "Master 2 International Economics and Development",
    "titleCn": "国际经济与发展硕士",
    "url": "https://dauphine.psl.eu/formations/masters/affaires-internationales-et-developpement/m2-economie-internationale-et-developpement",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-iaid-m2-peace-studies",
    "title": "Master 2 Conflict Transformation and Peace Studies",
    "titleCn": "冲突转型与和平研究硕士",
    "url": "https://dauphine.psl.eu/formations/masters/affaires-internationales-et-developpement/m2-peace-studies",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-iaid-m2-supply-chain",
    "title": "Master 2 International Supply Chain",
    "titleCn": "国际供应链硕士",
    "url": "https://dauphine.psl.eu/formations/masters/affaires-internationales-et-developpement/m2-supplychain-internationale",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-iaid-m2-decision-public-policy",
    "title": "Master 2 Decision Support and Public Policy Evaluation",
    "titleCn": "决策支持与公共政策评估硕士",
    "url": "https://dauphine.psl.eu/formations/masters/affaires-internationales-et-developpement/m2-aide-decision-evaluation-politiques-publiques",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-car-m1",
    "title": "Master 1 Accounting, Audit and Financial Reporting (CARF)",
    "titleCn": "会计、审计与财务报告硕士第一年（CARF）",
    "url": "https://dauphine.psl.eu/formations/masters/controle-audit-reporting-financier/m1",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-car-m2-audit-research",
    "title": "Master 2 Audit and Control Consulting and Research",
    "titleCn": "审计与控制咨询与研究硕士",
    "url": "https://dauphine.psl.eu/formations/masters/controle-audit-reporting-financier/m2-conseil-et-recherche-en-audit-et-controle",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-car-m2-governance-strategy",
    "title": "Master 2 Control, Governance and Strategies",
    "titleCn": "控制、治理与战略硕士",
    "url": "https://dauphine.psl.eu/formations/masters/controle-audit-reporting-financier/m2-controle-gouvernance-et-strategie",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-car-m2-financial-direction-267",
    "title": "Master 2 Control and Financial Management (267)",
    "titleCn": "控制与财务管理硕士（267）",
    "url": "https://dauphine.psl.eu/formations/masters/controle-audit-reporting-financier/m2-controle-direction-financiere-267",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-car-m2-sustainable-performance",
    "title": "Master 2 Sustainable Performance - Internal Audit and Risk Management",
    "titleCn": "可持续绩效硕士（内部审计与风险管理）",
    "url": "https://dauphine.psl.eu/formations/masters/controle-audit-reporting-financier/m2-internal-audit-and-risk-management",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-cca-m1",
    "title": "Master 1 Accounting, Control and Auditing (CCA)",
    "titleCn": "会计、控制与审计硕士第一年（CCA）",
    "url": "https://dauphine.psl.eu/formations/masters/comptabilite-controle-audit/m1-comptabilite-controle-audit",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-cca-m2",
    "title": "Master 2 Accounting, Control and Auditing (CCA)",
    "titleCn": "会计、控制与审计硕士第二年（CCA）",
    "url": "https://dauphine.psl.eu/formations/masters/comptabilite-controle-audit/m2-comptabilite-controle-audit",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-notarial-law-m1",
    "title": "Master 1 Notarial Law",
    "titleCn": "公证法硕士第一年",
    "url": "https://dauphine.psl.eu/formations/masters/droit-notarial/1re-annee-de-master-droit-notarial",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-notarial-law-m2",
    "title": "Master 2 Notarial Law",
    "titleCn": "公证法硕士第二年",
    "url": "https://dauphine.psl.eu/formations/masters/droit-notarial/2e-annee-de-master-droit-notarial",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-business-law-m1",
    "title": "Master 1 Business Law and Taxation",
    "titleCn": "商法与税务硕士第一年",
    "url": "https://dauphine.psl.eu/formations/masters/droit-des-affaires/1re-annee-de-master-droit-des-affaires-et-fiscalite",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-eu-business-law-m1",
    "title": "Master 1 European and International Business Law",
    "titleCn": "欧洲与国际商法硕士第一年",
    "url": "https://dauphine.psl.eu/formations/masters/droit-des-affaires/1re-annee-de-master-droit-europeen-et-international-des-affaires",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m2-admin-governance-tax",
    "title": "Master 2 Administration, Governance and Tax Law",
    "titleCn": "行政、治理与税法硕士",
    "url": "https://dauphine.psl.eu/formations/masters/droit-des-affaires/2e-annee-de-master-administration-gouvernance-et-droit-fiscal",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m2-business-law",
    "title": "Master 2 Business Law",
    "titleCn": "商法硕士",
    "url": "https://dauphine.psl.eu/formations/masters/droit-des-affaires/2e-annee-de-master-droit-des-affaires",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m2-legal-fiscal-engineering",
    "title": "Master 2 Legal and Tax Engineering for Executives",
    "titleCn": "高管法律与税务工程硕士",
    "url": "https://dauphine.psl.eu/formations/masters/droit-des-affaires/2e-annee-de-master-ingenierie-juridique-et-fiscale-du-dirigeant",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m2-insurance-law",
    "title": "Master 2 Insurance Law",
    "titleCn": "保险法硕士",
    "url": "https://dauphine.psl.eu/formations/masters/droit-des-affaires/2e-annee-de-master-droit-des-assurances",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m2-eu-business-law",
    "title": "Master 2 European and International Business Law",
    "titleCn": "欧洲与国际商法硕士",
    "url": "https://dauphine.psl.eu/formations/masters/droit-des-affaires/2e-annee-de-master-droit-europeen-et-international-des-affaires",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m2-corporate-taxation",
    "title": "Master 2 Corporate Taxation",
    "titleCn": "企业税务硕士",
    "url": "https://dauphine.psl.eu/formations/masters/droit-des-affaires/2e-annee-de-master-fiscalite-de-lentreprise",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m1-corporate-law",
    "title": "Master 1 Corporate Law (new from 2025)",
    "titleCn": "企业法硕士第一年（2025年新开）",
    "url": "https://dauphine.psl.eu/formations/masters/droit-entreprise/m1-droit-entreprise",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m2-corporate-social-responsibility-122",
    "title": "Master 2 Corporate Social Responsibility (122)",
    "titleCn": "企业社会责任硕士（122）",
    "url": "https://dauphine.psl.eu/formations/masters/droit-entreprise/2e-annee-de-master-droits-et-responsabilite-societale-des-entreprises-122",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m2-financial-counsel-259",
    "title": "Master 2 Financial Legal Counsel (259)",
    "titleCn": "金融法律顾问硕士（259）",
    "url": "https://dauphine.psl.eu/formations/masters/droit-entreprise/2e-annee-de-master-juriste-financier-259",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m1-public-law",
    "title": "Master 1 Public Law",
    "titleCn": "公法硕士第一年",
    "url": "https://dauphine.psl.eu/formations/masters/droit-public/1re-annee-de-master-droit-public",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m2-law-market-regulation-291",
    "title": "Master 2 Law and Market Regulation (291)",
    "titleCn": "法律与市场监管硕士（291）",
    "url": "https://dauphine.psl.eu/formations/masters/droit-public/2e-annee-de-master-droit-et-regulation-des-marches-291",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m2-advocacy-public-affairs",
    "title": "Master 2 Advocacy and Public Affairs Law",
    "titleCn": "辩护与公共事务法律硕士",
    "url": "https://dauphine.psl.eu/formations/masters/droit/m2-droit-du-plaidoyer-et-affaires-publiques",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-m2-public-law-management",
    "title": "Master 2 Public Law and Management",
    "titleCn": "公法与公共管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/droit/m2-droit-et-gestion-publique",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-asm-m1",
    "title": "Master 1 Advanced Studies in Management (Research in Management)",
    "titleCn": "高级管理研究硕士第一年（ASM / Research in Management）",
    "url": "https://dauphine.psl.eu/formations/masters/research-in-management/1ere-annee-research-in-management",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-asm-m2",
    "title": "Master 2 Advanced Studies in Management (Research in Management)",
    "titleCn": "高级管理研究硕士第二年（ASM / Research in Management）",
    "url": "https://dauphine.psl.eu/formations/masters/research-in-management/2e-annee-de-master-research-in-management",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-economics-finance-m1-bfa-magistere",
    "title": "Master 1 Banking, Finance and Insurance (Magistère BFA)",
    "titleCn": "银行、金融与保险硕士第一年（Magistère BFA）",
    "url": "https://dauphine.psl.eu/formations/masters/economie-finance/m1-banque-finance-assurance",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-economics-finance-m2-financial-engineering",
    "title": "Master 2 Economic and Financial Engineering",
    "titleCn": "经济与金融工程硕士",
    "url": "https://dauphine.psl.eu/formations/masters/economie-finance/m2-ingenierie-economique-et-financiere",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-economics-finance-m2-bfa-magistere",
    "title": "Master 2 Banking, Finance and Insurance (Magistère BFA)",
    "titleCn": "银行、金融与保险硕士第二年（Magistère BFA）",
    "url": "https://dauphine.psl.eu/formations/masters/economie-finance/m2-banque-finance-assurance",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-economics-finance-m2-international-track",
    "title": "Master 2 International Track (Economics and Finance)",
    "titleCn": "经济与金融硕士国际方向（第二年）",
    "url": "https://dauphine.psl.eu/formations/masters/economie-finance/2e-annee-de-master-parcours-international",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-health-economics-m1",
    "title": "Master 1 Health Economics and Management",
    "titleCn": "健康经济学与管理硕士第一年",
    "url": "https://dauphine.psl.eu/formations/masters/economie-et-gestion-de-la-sante/m1",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-health-m2-health-organizations",
    "title": "Master 2 Economics and Management of Health and Medico-Social Organizations",
    "titleCn": "卫生与社会医疗机构经济与管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/economie-et-gestion-de-la-sante/m2-economie-et-gestion-des-organisations-sanitaires-et-medico-sociales",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-health-m2-medico-economic-evaluation",
    "title": "Master 2 Medico-Economic Evaluation and Market Access",
    "titleCn": "药物经济学评价与市场准入硕士",
    "url": "https://dauphine.psl.eu/formations/masters/economie-et-gestion-de-la-sante/m2-evaluation-medico-economique-et-acces-marche",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-finance-m1-apprenticeship",
    "title": "Master 1 Finance (Apprenticeship Track)",
    "titleCn": "金融硕士第一年（学徒制轨）",
    "url": "https://dauphine.psl.eu/formations/masters/finance/m1-alternance",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-finance-m1-financial-markets",
    "title": "Master 1 Finance - Financial Markets Track",
    "titleCn": "金融硕士第一年（金融市场方向）",
    "url": "https://dauphine.psl.eu/formations/masters/finance/m1-financial-markets",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-finance-m1-tunis",
    "title": "Master 1 Finance, Companies and Markets (Tunis Campus)",
    "titleCn": "金融、企业与市场硕士第一年（突尼斯校区）",
    "url": "https://dauphine.psl.eu/formations/masters/finance/m1-finance-entreprises-et-marches-tunis",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-finance-m2-audit-advisory",
    "title": "Master 2 Audit and Financial Advisory",
    "titleCn": "审计与财务顾问硕士",
    "url": "https://dauphine.psl.eu/formations/masters/finance/m2-audit-and-financial-advisory",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-finance-m2-impact-technology",
    "title": "Master 2 Finance, Impact and Technology",
    "titleCn": "金融、影响力与技术硕士",
    "url": "https://dauphine.psl.eu/formations/masters/finance/m2-finance-impact-technologie",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-finance-m2-corporate-financial-management",
    "title": "Master 2 Corporate Financial Management",
    "titleCn": "企业财务管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/finance/m2-management-financier-de-entreprise",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-finance-m2-real-estate",
    "title": "Master 2 Real Estate Management",
    "titleCn": "房地产管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/finance/m2-management-immobilier",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-finance-m2-tunis",
    "title": "Master 2 Finance, Companies and Markets (Tunis Campus)",
    "titleCn": "金融、企业与市场硕士第二年（突尼斯校区）",
    "url": "https://dauphine.psl.eu/formations/masters/finance/m2-finance-entreprises-et-marches-tunis",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-wealth-management-m1",
    "title": "Master 1 Wealth Management",
    "titleCn": "财富管理硕士第一年",
    "url": "https://dauphine.psl.eu/formations/masters/gestion-de-patrimoine/m1",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-wealth-management-m2",
    "title": "Master 2 Wealth Management",
    "titleCn": "财富管理硕士第二年",
    "url": "https://dauphine.psl.eu/formations/masters/gestion-de-patrimoine/m2",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-cs-m1-idd",
    "title": "Master 1 Computer Science, Decision Making and Data (IDD)",
    "titleCn": "计算机科学、决策与数据硕士第一年（IDD）",
    "url": "https://dauphine.psl.eu/formations/masters/informatique/m1-informatique-decisions-donnees",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-cs-m2-iasd",
    "title": "Master 2 Artificial Intelligence, Systems and Data (IASD) - Computer Science",
    "titleCn": "人工智能、系统与数据硕士（IASD，计算机科学方向）",
    "url": "https://dauphine.psl.eu/formations/masters/informatique/m2-intelligence-artificielle-systemes-donnees",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-cs-m2-modo",
    "title": "Master 2 Modeling, Optimization, Decision and Organization (MODO)",
    "titleCn": "建模、优化、决策与组织硕士（MODO）",
    "url": "https://dauphine.psl.eu/formations/masters/informatique/m2-modelisation-optimisation-decision-et-organisation",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-cs-m2-iasd-apprenticeship",
    "title": "Master 2 Artificial Intelligence, Systems and Data (IASD) - Apprenticeship Track",
    "titleCn": "人工智能、系统与数据硕士（IASD，学徒制轨）",
    "url": "https://dauphine.psl.eu/formations/masters/informatique/2e-annee-de-master-intelligence-artificielle-systemes-donnees-en-apprentissage",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-miage-m1",
    "title": "Master 1 MIAGE (IT for Business)",
    "titleCn": "企业信息管理硕士第一年（MIAGE）",
    "url": "https://dauphine.psl.eu/formations/masters/miage/m1-miage",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-miage-id-m2",
    "title": "Master 2 MIAGE ID - Business Intelligence (Apprenticeship)",
    "titleCn": "MIAGE-ID 商务智能硕士（学徒制）",
    "url": "https://dauphine.psl.eu/formations/masters/miage/2e-annee-de-master-miage-id-en-apprentissage",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-miage-idsitn-m2",
    "title": "Master 2 MIAGE ID/SITN (new from 2025)",
    "titleCn": "MIAGE ID/SITN 硕士（2025年新开）",
    "url": "https://dauphine.psl.eu/formations/masters/miage/m2",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-miage-sitn-m2",
    "title": "Master 2 MIAGE SITN - Information Systems and Digital Transformation (Apprenticeship)",
    "titleCn": "MIAGE-SITN 信息系统与数字化转型硕士（学徒制）",
    "url": "https://dauphine.psl.eu/formations/masters/miage/2e-annee-de-master-miage-sitn-en-apprentissage",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-journalism-m1",
    "title": "Master 1 Journalism (IPJ Dauphine)",
    "titleCn": "新闻学硕士第一年（IPJ-Dauphine）",
    "url": "https://dauphine.psl.eu/formations/masters/journalisme-ipj-dauphine/m1",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-journalism-m1-apprenticeship",
    "title": "Master 1 Journalism (Apprenticeship Track)",
    "titleCn": "新闻学硕士第一年（学徒制轨）",
    "url": "https://dauphine.psl.eu/formations/masters/journalisme-ipj-dauphine/m1-alternance",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-journalism-m2-economic-social",
    "title": "Master 2 Economic and Social Journalism",
    "titleCn": "经济与社会新闻硕士",
    "url": "https://dauphine.psl.eu/formations/masters/journalisme-ipj-dauphine/2e-annee-de-master-journalisme-economique-et-social",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-journalism-m2-international",
    "title": "Master 2 International Journalism",
    "titleCn": "国际新闻硕士",
    "url": "https://dauphine.psl.eu/formations/masters/journalisme-ipj-dauphine/2e-annee-de-master-journalisme-international",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-journalism-m2-political",
    "title": "Master 2 Political Journalism",
    "titleCn": "政治新闻硕士",
    "url": "https://dauphine.psl.eu/formations/masters/journalisme-ipj-dauphine/2e-annee-de-master-journalisme-politique",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-journalism-m2-economic-social-apprenticeship",
    "title": "Master 2 Economic and Social Journalism (Apprenticeship)",
    "titleCn": "经济与社会新闻硕士（学徒制）",
    "url": "https://dauphine.psl.eu/formations/masters/journalisme-ipj-dauphine/2e-annee-de-master-journalisme-economique-et-social-en-alternance",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-journalism-m2-international-apprenticeship",
    "title": "Master 2 International Journalism (Apprenticeship)",
    "titleCn": "国际新闻硕士（学徒制）",
    "url": "https://dauphine.psl.eu/formations/masters/journalisme-ipj-dauphine/2e-annee-de-master-journalisme-international-en-alternance",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-journalism-m2-political-apprenticeship",
    "title": "Master 2 Political Journalism (Apprenticeship)",
    "titleCn": "政治新闻硕士（学徒制）",
    "url": "https://dauphine.psl.eu/formations/masters/journalisme-ipj-dauphine/2e-annee-de-master-journalisme-politique-en-alternance",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-innovation-m1",
    "title": "Master 1 Innovation Management",
    "titleCn": "创新管理硕士第一年",
    "url": "https://dauphine.psl.eu/formations/masters/management-innovation/m1",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-innovation-m2-technology",
    "title": "Master 2 Technology and Innovation Management",
    "titleCn": "技术与创新管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/management-innovation/m2-management-de-la-technologie-et-de-innovation",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-management-m1-apprenticeship",
    "title": "Master 1 Management and Organizations (Apprenticeship Track)",
    "titleCn": "管理与组织硕士第一年（学徒制轨）",
    "url": "https://dauphine.psl.eu/formations/masters/management-et-organisations/m1-alternance",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-management-m1-magistere",
    "title": "Master 1 Management Science (Magistère)",
    "titleCn": "管理科学硕士第一年（Magistère）",
    "url": "https://dauphine.psl.eu/formations/masters/management-et-organisations/m1-sciences-de-gestion",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-management-m2-business-transformation",
    "title": "Master 2 Business Transformation (MeM 277)",
    "titleCn": "业务转型硕士（MeM 277）",
    "url": "https://dauphine.psl.eu/formations/masters/management-et-organisations/m2-business-transformation",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-management-m2-business-consulting",
    "title": "Master 2 Business Consulting and Digital Organization",
    "titleCn": "商业咨询与数字化组织硕士",
    "url": "https://dauphine.psl.eu/formations/masters/management-et-organisations/m2-business-consulting-and-digital-organization",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-management-m2-global-south",
    "title": "Master 2 Management in the Global South",
    "titleCn": "发展中国家管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/management-et-organisations/m2-management-dans-les-pays-du-sud",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-management-m2-cultural-organizations",
    "title": "Master 2 Cultural Organizations Management",
    "titleCn": "文化机构管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/management-et-organisations/m2-management-des-organisations-culturelles",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-management-m2-cim-010",
    "title": "Master 2 Consulting and Innovation in Management (CIM 010)",
    "titleCn": "管理咨询与创新硕士（CIM 010）",
    "url": "https://dauphine.psl.eu/formations/masters/management-et-organisations/2e-annee-de-master-conseil-et-innovation-en-management-cim-010",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-management-m2-magistere",
    "title": "Master 2 Management Science (Magistère)",
    "titleCn": "管理科学硕士第二年（Magistère）",
    "url": "https://dauphine.psl.eu/formations/masters/management-et-organisations/m2-sciences-de-gestion",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-management-m2-global",
    "title": "Master 2 Global Management",
    "titleCn": "全球管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/management-et-organisations/m2-management-global",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-hrm-m1",
    "title": "Master 1 Human Resources Management",
    "titleCn": "人力资源管理硕士第一年",
    "url": "https://dauphine.psl.eu/formations/masters/management-des-ressources-humaines/m1",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-hrm-m2-strategic",
    "title": "Master 2 Strategic Human Resources Management",
    "titleCn": "战略人力资源管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/management-des-ressources-humaines/m2-management-strategique-des-ressources-humaines",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-hrm-m2-change-management",
    "title": "Master 2 Change Consulting and Support",
    "titleCn": "变革咨询与支持硕士",
    "url": "https://dauphine.psl.eu/formations/masters/management-des-ressources-humaines/m2-conseil-et-accompagnement-du-changement",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-marketing-m1-apprenticeship",
    "title": "Master 1 Marketing and Strategy (Apprenticeship Track)",
    "titleCn": "营销与战略硕士第一年（学徒制轨）",
    "url": "https://dauphine.psl.eu/formations/masters/marketing-et-strategie/m1-alternance",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-marketing-m2-business-development",
    "title": "Master 2 Business Development (MeM)",
    "titleCn": "业务发展硕士（MeM）",
    "url": "https://dauphine.psl.eu/formations/masters/marketing-et-strategie/m2-business-development",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-marketing-m2-luxury",
    "title": "Master 2 Luxury Management",
    "titleCn": "奢侈品管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/marketing-et-strategie/m2-management-du-luxe",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-marketing-m2-product-retail",
    "title": "Master 2 Product Management and Retail (new from 2025)",
    "titleCn": "产品经理与零售硕士（2025年新开）",
    "url": "https://dauphine.psl.eu/formations/masters/marketing-et-strategie/m2-chef-de-produit-et-retail",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-math-m1-actuarial",
    "title": "Master 1 Mathematics and Applications - Actuarial Science Track",
    "titleCn": "数学与应用数学硕士第一年（精算方向）",
    "url": "https://dauphine.psl.eu/formations/masters/mathematiques-et-applications/1re-annee-de-master-majeure-actuariat-et-statistiques",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-math-m1-advanced",
    "title": "Master 1 Mathematics and Applications - Advanced Mathematics Track",
    "titleCn": "数学与应用数学硕士第一年（高等数学方向）",
    "url": "https://dauphine.psl.eu/formations/masters/mathematiques-et-applications/1re-annee-de-master-majeure-mathematiques-approfondies",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-math-m1-statistics",
    "title": "Master 1 Mathematics and Applications - Statistics Track",
    "titleCn": "数学与应用数学硕士第一年（统计学方向）",
    "url": "https://dauphine.psl.eu/formations/masters/mathematiques-et-applications/1re-annee-de-master-majeure-statistiques",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-math-m2-actuarial",
    "title": "Master 2 Actuarial Science",
    "titleCn": "精算硕士",
    "url": "https://dauphine.psl.eu/formations/masters/mathematiques-et-applications/m2-actuariat",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-math-m2-isf",
    "title": "Master 2 Statistical and Financial Engineering (ISF)",
    "titleCn": "统计与金融工程硕士（ISF）",
    "url": "https://dauphine.psl.eu/formations/masters/mathematiques-et-applications/m2-ingenierie-statistique-et-financiere",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-math-m2-masef",
    "title": "Master 2 Mathematics of Insurance, Economics and Finance (MASEF)",
    "titleCn": "保险、经济与金融数学硕士（MASEF）",
    "url": "https://dauphine.psl.eu/formations/masters/mathematiques-et-applications/m2-mathematiques-assurance-economie-et-finance",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-math-m2-iasd",
    "title": "Master 2 Artificial Intelligence, Systems and Data (IASD) - Mathematics",
    "titleCn": "人工智能、系统与数据硕士（IASD，数学方向）",
    "url": "https://dauphine.psl.eu/formations/masters/mathematiques-et-applications/m2-intelligence-artificielle-systemes-donnees",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-math-m2-applied-theoretical",
    "title": "Master 2 Applied and Theoretical Mathematics (MATH)",
    "titleCn": "应用与理论数学硕士（MATH）",
    "url": "https://dauphine.psl.eu/formations/masters/mathematiques-et-applications/m2-mathematiques-appliquees-et-theoriques",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-public-policy-m1",
    "title": "Master 1 Public Policy",
    "titleCn": "公共政策硕士第一年",
    "url": "https://dauphine.psl.eu/formations/masters/politiques-publiques/m1-politiques-publiques",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-public-policy-m2-public-careers",
    "title": "Master 2 Public Careers and Grand National Competitions",
    "titleCn": "公共职业与公务员考试硕士",
    "url": "https://dauphine.psl.eu/formations/masters/politiques-publiques/m2-carrieres-publiques-et-grands-concours",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-public-policy-m2-corporate-social",
    "title": "Master 2 Corporate Policies and Social Responsibilities",
    "titleCn": "企业政策与社会责任硕士",
    "url": "https://dauphine.psl.eu/formations/masters/politiques-publiques/m2-politiques-entreprises-et-responsabilites-sociales",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-public-policy-m2-opinion",
    "title": "Master 2 Public Policy and Public Opinion",
    "titleCn": "公共政策与舆论硕士",
    "url": "https://dauphine.psl.eu/formations/masters/politiques-publiques/m2-politiques-publiques-et-opinion",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-public-policy-m2-urban",
    "title": "Master 2 Urban Policies and Territorial Governance",
    "titleCn": "城市政策与区域治理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/politiques-publiques/m2-politiques-urbaines-et-gouvernance-des-territoires",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-isn-m1",
    "title": "Master 1 Information Systems, Networks and Digital Technology",
    "titleCn": "信息系统、网络与数字技术硕士第一年",
    "url": "https://dauphine.psl.eu/formations/masters/systemes-information-reseaux-et-numerique/m1",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-isn-m2-network-industries",
    "title": "Master 2 Network Industries and Digital Economy",
    "titleCn": "网络产业与数字经济硕士",
    "url": "https://dauphine.psl.eu/formations/masters/systemes-information-reseaux-et-numerique/m2-industries-de-reseau-et-economie-numerique",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-isn-m2-is-management",
    "title": "Master 2 Information Systems Management",
    "titleCn": "信息系统管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/systemes-information-reseaux-et-numerique/m2-gestion-des-systemes-information",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-isn-m2-extended-enterprise",
    "title": "Master 2 Extended Enterprise Information Systems - Audit and Consulting",
    "titleCn": "扩展企业信息系统：审计与咨询硕士",
    "url": "https://dauphine.psl.eu/formations/masters/systemes-information-reseaux-et-numerique/m2-systemes-information-de-entreprise-etendue-audit-et-conseil",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-isn-m2-telecom-media",
    "title": "Master 2 Telecom and Media Management",
    "titleCn": "电信与媒体管理硕士",
    "url": "https://dauphine.psl.eu/formations/masters/systemes-information-reseaux-et-numerique/m2-management-des-telecoms-et-des-medias",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-isn-m2-audit-consulting",
    "title": "Master 2 IT Audit and Consulting",
    "titleCn": "IT 审计与咨询硕士",
    "url": "https://dauphine.psl.eu/formations/masters/systemes-information-reseaux-et-numerique/m2-audit-conseil-en-si",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-isn-m2-management-ai",
    "title": "Master 2 Management and AI",
    "titleCn": "管理与人工智能硕士",
    "url": "https://dauphine.psl.eu/formations/masters/systemes-information-reseaux-et-numerique/m2-management-ia",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-economies-societies-m1",
    "title": "Master 1 Economies and Societies",
    "titleCn": "经济与社会硕士第一年",
    "url": "https://dauphine.psl.eu/formations/masters/sciences-economiques-et-sociales/economie-et-societes/m1",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-economies-societies-m2",
    "title": "Master 2 Economies and Societies (300)",
    "titleCn": "经济与社会硕士（300）",
    "url": "https://dauphine.psl.eu/formations/masters/sciences-economiques-et-sociales/m2-economie-et-societes-300",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "dauphine-fashion-materials",
    "title": "Master Fashion and Materials (ENAMOMA-PSL, M1+M2)",
    "titleCn": "时尚与材料硕士（ENAMOMA-PSL，M1+M2）",
    "url": "https://dauphine.psl.eu/formations/masters/mode-matiere",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-acting-directing",
    "title": "Master Acting and Directing (CNSAD - PSL)",
    "url": "https://psl.eu/en/education/acting-and-directing",
    "titleCn": "表演与导演硕士（CNSAD-PSL 双学位）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-asian-studies",
    "title": "Master Asian Studies (EPHE-PSL / EFEO / EHESS)",
    "url": "https://psl.eu/en/education/masters-degree-asian-studies",
    "titleCn": "亚洲研究硕士（EPHE-PSL / EFEO / EHESS）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-biomedical-engineering",
    "title": "Master BioMedical Engineering (ST4Health - PSL)",
    "url": "https://psl.eu/en/education/master-s-degree-biomedical-engineering",
    "titleCn": "生物医学工程硕士（ST4Health）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-civilizations-culture-society",
    "title": "Master Civilizations, Culture and Society (EPHE-PSL)",
    "url": "https://psl.eu/en/education/masters-degree-civilizations-culture-and-society",
    "titleCn": "文明、文化与社会硕士（EPHE-PSL）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-digital-humanities",
    "title": "Master Digital Humanities (ENC/ENS/EPHE - PSL + EHESS)",
    "url": "https://psl.eu/en/education/master-s-degree-digital-humanities",
    "titleCn": "数字人文硕士（ENC/ENS/EPHE-PSL + EHESS）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-ens-diploma",
    "title": "Diploma from ENS - PSL (ENS-PSL Diploma)",
    "url": "https://psl.eu/en/education/diploma-ens-psl",
    "titleCn": "ENS-PSL 文凭项目（Diplôme ENS-PSL）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-earth-planetary-science",
    "title": "Master Earth and Planetary Science, Environment (ENS-PSL)",
    "url": "https://psl.eu/en/education/masters-degree-planetary-science",
    "titleCn": "地球与行星科学、环境硕士（ENS-PSL）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-mines-energy-engineering",
    "title": "Energy Engineering at MINES Paris - PSL",
    "url": "https://psl.eu/en/education/energy-engineering-mines-paris-psl",
    "titleCn": "MINES Paris-PSL 能源工程（工程师文凭）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-chimie-engineering",
    "title": "Engineering at École nationale supérieure de Chimie de Paris - PSL",
    "url": "https://psl.eu/en/education/engineering-ecole-nationale-superieure-de-chimie-de-paris-psl",
    "titleCn": "巴黎高等化学学院（Chimie ParisTech）-PSL 工程（工程师文凭）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-espci-engineering",
    "title": "Engineering at ESPCI Paris - PSL",
    "url": "https://psl.eu/en/education/engineering-espci-paris",
    "titleCn": "ESPCI Paris-PSL 工程（工程师文凭）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-mines-engineering",
    "title": "Engineering at MINES Paris - PSL",
    "url": "https://psl.eu/en/education/engineering-mines-paris-psl",
    "titleCn": "MINES Paris-PSL 工程（工程师文凭）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-materials-science",
    "title": "Master Materials Science and Engineering (PSL Engineering Schools)",
    "url": "https://psl.eu/en/education/master-s-degree-materials-science-and-engineering",
    "titleCn": "材料科学与工程硕士（PSL 三所工程师学院）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-quantum-engineering",
    "title": "Master Quantum Engineering (PSL)",
    "url": "https://psl.eu/en/education/master-s-quantum-engineering",
    "titleCn": "量子工程硕士（PSL）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-religious-sciences",
    "title": "Master Religious Sciences and Societies (EPHE-PSL + EHESS)",
    "url": "https://psl.eu/en/education/masters-degree-religious-sciences-and-societies",
    "titleCn": "宗教科学与社会硕士（EPHE-PSL + EHESS）",
-   "updated": "2026-09"
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课（官网未列英授清单；以官网为准）"
   },
   {
    "id": "psl-life-sciences",
@@ -1345,10 +1469,11 @@ var SCHOOL_COURSES = {
    "summary": "ENS-PSL 国际基础物理中心（ICFP）全英文两年制物理硕士，覆盖高能物理、统计物理、原子物理、凝聚态物理、天体物理、生物物理等广泛领域；M1 系统讲授统计物理、量子力学与相对论基础，M2 设凝聚态物理、软物质与生物物理、量子物理（原子到固体）、理论物理四个方向。课程与索邦大学、巴黎西岱大学、巴黎-萨克雷大学、巴黎理工学院（M2）联合组织，隶属 PSL 物理 Graduate Program，同时提供 5 年制全额资助 PhD Track。",
    "duration": "2年（120 ECTS，全日制；每学年第一学期课程 30 ECTS，第二学期实习：M1 法国或海外实习，M2 短期研究实习+选修）",
    "teachingLanguage": "英语（全英文授课）",
+   "tuition": "法国公立国家硕士注册费（官方：registration fees are set by the French government and are subject to annual review，见 ENS 物理系 ICFP 官网 Fees and Scholarships）：欧盟/法国学生 €255/年；非欧盟学生（中国学生适用）差异化收费 €3,950/年（可申请部分豁免）；另需每年 CVEC €105（官网原文：The annual fee is €105）。具体以 PSL 官网 Tuition fees 为准。",
    "language": "英语流利（全英文教学）；无指定考试，以申请材料与面试为准。",
    "gpa": "具备扎实基础物理与数学功底的理学/工学学士（BSc / BEng）。",
    "background": "跨专业不友好：需坚实的物理与数学基础；理工科背景为必需。",
-   "requirements": "通过 PSL 申请平台提交（成绩单、CV、动机信等）；材料审核+可能面试。",
+   "requirements": "通过 PSL 申请平台提交（成绩单、CV、动机信等）；材料审核+可能面试。ICFP 官网：录取后须在其中一所合作院校（Sorbonne Université、Université Paris Cité、Université Paris-Saclay、ENS-PSL、Institut Polytechnique de Paris）完成行政注册，非上述院校录取者由项目主任指定注册学校。",
    "applicationOpen": "2025年11月24日（2026-27学年 M1）",
    "deadline": "2026年1月23日",
    "deadlineNote": "官网原文：Application Master's year 1 → From November 24, 2025 to January 23, 2026。"
@@ -1393,16 +1518,16 @@ var SCHOOL_COURSES = {
    "url": "https://psl.eu/en/education/masters-degree-literature-and-humanities",
    "titleCn": "文学与人文硕士（ENS-PSL）",
    "updated": "2026-09",
-   "summary": "PSL 文学与人文研究硕士，学生注册于 ENS-PSL，训练跨学科、国际视野的高水平人文研究。M1/M2 设 5 个学术轨道：文学：理论与历史；多学科艺术轨道；古代世界：考古与历史；古代世界：语言、文本与图像；政治地理/研究。依托 AOROC、SACRe/Le Lab、IHMC、ITEM、Lattice、共和国知识、THALIM 等 CNRS 联合实验室，毕业生可继续博士研究或进入文化项目、公务员、外交与国际关系领域。",
+   "summary": null,
    "duration": "2年（M1+M2，60+60 ECTS；研究导向）",
    "teachingLanguage": "法语（官网 French）",
-   "language": "法语授课；需法语流利（学士在法语国家完成或提供法语证明，以院系要求为准）。",
-   "gpa": "面向文学或人文（艺术史、电影、音乐学、表演艺术、历史、地理、考古、现代语言等）学士或同等学历。",
-   "background": "跨专业友好度高：人文社科/文学背景直接适配；需法语水平与研究写作能力。",
-   "requirements": "以 ENS-PSL/PSL 申请程序为准：成绩单、CV、动机信、研究意向；材料审核+可能面试。",
-   "applicationOpen": "以官网公布为准",
-   "deadline": "以官网公布为准",
-   "deadlineNote": "官网注明学生注册于 ENS - PSL，申请流程见 Admissions/Curriculum 标签。"
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null
   },
   {
    "id": "psl-social-sciences",
@@ -1410,16 +1535,16 @@ var SCHOOL_COURSES = {
    "url": "https://psl.eu/en/education/masters-degree-social-sciences",
    "titleCn": "社会科学硕士（ENS-PSL / EHESS 联合）",
    "updated": "2026-09",
-   "summary": "PSL 社会科学硕士，由 ENS-PSL 与 EHESS 社会科学系合作开设，围绕人类学、历史学、社会学三大学科，并容纳政治学、经济学等相邻学科；M1 起设\"社会科学跨学科实践（PDI）\"与\"数字化社会科学与量化（Quantification）\"两个轨道。依托 Maurice Halbwachs 中心（CNRS-EHESS-ENS-PSL 联合单位）及 IRIS、CESSP 等实验室，以研究带教学：研究研讨班+田野实习+二年级个人研究项目。",
+   "summary": null,
    "duration": "2年（M1+M2；核心为研究训练与个人研究项目）",
    "teachingLanguage": "法语（官网 French）",
-   "language": "法语授课；需法语流利。",
-   "gpa": "面向人文与社会科学（经济、政治学、人文学科、历史、地理、社会学等）背景申请者；也接受应用数学/计算机学士（应用于人文社科方向）。",
-   "background": "跨专业较友好：明确接受人文社科背景，量化方向欢迎数学/计算机背景；文科生适配度高。",
-   "requirements": "以官网申请程序为准（成绩单、CV、动机信等）；部分轨道设\"concours normalien étudiant\"。",
-   "applicationOpen": "以官网公布为准",
-   "deadline": "以官网公布为准",
-   "deadlineNote": "课程主要在 ENS-PSL Paris-Jourdan 校区与 EHESS 举行；研究导向，多数毕业生继续攻读博士。"
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null
   },
   {
    "id": "psl-cognitive-science",
@@ -1430,6 +1555,7 @@ var SCHOOL_COURSES = {
    "summary": "PSL 认知科学硕士，由 ENS-PSL 主办、与 EHESS 联合认证，全英文授课，面向文理各科背景学生。课程覆盖认知神经科学、神经影像、计算认知科学、人工智能、实验认知心理学、心理物理学、心灵哲学、分析哲学、量化社会科学、演化心理学、语言学与心理语言学等，以及教育与认知、行为公共政策、认知工程等应用。毕业生多赴世界名校攻读博士，或进入政府与私营部门从事应用认知科学工作。",
    "duration": "2年（M1+M2，60+60 ECTS）",
    "teachingLanguage": "英语（全英文授课）",
+   "tuition": "CogMaster 为 ENS-PSL 与 EHESS 共同认证、由 ENS 主管的国家硕士（ENS 官网：un Master de Sciences cognitives cohabilité par l'ENS, « Cogmaster », ENS / EHESS / Paris 5）；按法国公立国家硕士注册费：欧盟/法国学生 €255/年；非欧盟学生（中国学生适用）差异化收费 €3,950/年（可申请部分豁免；另需 CVEC €105/年）。官网未在本页单独公布项目学费。",
    "language": "全英文；约 1/3 国际学生，需流利英语。",
    "gpa": "面向所有学科背景（理科或人文社科均可）；官网明确\"open to all students, whether they have previously studied in the sciences or the humanities\"。",
    "background": "跨专业非常友好：文理背景均可申请；无需特定先修专业。",
@@ -1464,10 +1590,11 @@ var SCHOOL_COURSES = {
    "summary": "PSL 化学硕士，由 Chimie ParisTech - PSL（巴黎高等化学学院）主办、PSL 联合开设（与 ENS-PSL、MINES Paris-PSL、ESPCI Paris-PSL 等共同授课），全英文授课，隶属 PSL 化学 Graduate Program。项目侧重现代化学前沿（材料、催化、能源化学、绿色化学等）与研究训练，并为优秀学生提供 2025 年卓越奖学金（Excellence scholarships）。",
    "duration": "2年（M1+M2，60+60 ECTS；亦可直申 M2）",
    "teachingLanguage": "英语（官网 English）",
+   "tuition": "Chimie ParisTech-PSL 官网（Tuition policy in French）未公布该硕士学费（其工程师轨非欧盟差异化学费为 €3,941/年，官网原文）；Master in Chemistry of PSL 为 Université PSL 国家硕士，按公立注册费：欧盟/法国学生 €255/年；非欧盟学生（中国学生适用）差异化收费 €3,950/年（可申请部分豁免；另需 CVEC €105/年）。",
    "language": "全英文授课，需流利英语；无指定考试。",
    "gpa": "化学或相关科学（物理、材料、生物化学等）学士。",
    "background": "跨专业中等：化学/材料相关背景必须；其他理工科可评估。",
-   "requirements": "通过 PSL 申请平台（APPLY: PSL PORTAL）提交材料；联系 admissions-MasterChimie@psl.eu。",
+   "requirements": "官网原文（Chimie ParisTech-PSL）：Online application on PSL portal & interview；材料包括：本科各学期成绩单、学士毕业证明（申 M2 者另加 M1 证明）、CV、阐明申请动机的 cover letter、两位学术推荐人联系方式、英语水平证明（非强制）；PhD Track 申请另需研究项目与陈述；可联系 admissions-MasterChimie@psl.eu。",
    "applicationOpen": "2026年1月15日",
    "deadline": "2026年2月24日",
    "deadlineNote": "官网原文：Application Master's year 1 and year 2 → From January 15 to February 24, 2026。"
@@ -1495,13 +1622,14 @@ var SCHOOL_COURSES = {
    "url": "https://psl.eu/en/education/master-s-degree-energy",
    "titleCn": "能源硕士（PSL）",
    "updated": "2026-09",
-   "summary": "PSL 能源硕士（Master Énergie），由 PSL 成员学校联合开设（联系人为 Assaad Zoughaib、Armelle Ringuede），培养能源转型与新能源技术人才；课程覆盖材料、物理、工程科学（官网 Discipline: Materials, Physics, Engineering Science），属于 PSL 工程 Graduate Program。项目强调能效、可再生与低碳能源系统，含企业合作与项目实践。",
+   "summary": "PSL 能源硕士（Master Énergie），由 MINES ParisTech-PSL、Chimie ParisTech-PSL 与 ESPCI Paris-PSL 三所工程师学院联合开设（隶属 PSL 工程 Graduate Program ISAI），学位由 PSL 大学授予、学生注册于 MINES ParisTech。项目面向能源转型与脱碳：M1 依托自设及伙伴学校课程（部分与 PSL 材料科学与工程硕士共用），多数课程法语授课；M2 全英文，设能源效率、降低碳足迹、可再生能源整合、可再生能源系统技术 4 个方向，第二学期为 6 个月学术或工业研究实习。",
    "duration": "2年（M1+M2，各 60 ECTS；亦可直申 M2）",
-   "teachingLanguage": "英语（官网 English）",
-   "language": "全英文授课，需流利英语。",
-   "gpa": "物理、化学、材料、工程等理工学士。",
+   "teachingLanguage": "法语/英语（官网原文：The majority of M1 courses are taught in French；M2：All courses are taught in English）",
+   "tuition": "学位由 PSL 大学授予（官网原文：The degree is delivered by PSL University），注册学校为 MINES ParisTech（官网原文：Registration institution MINES ParisTech）；官网未公布项目单独学费，按法国公立国家硕士注册费：欧盟/法国学生 €255/年；非欧盟学生（中国学生适用）差异化收费 €3,950/年（可申请部分豁免；另需 CVEC €105/年）。",
+   "language": "M1 以法语为主、M2 全英文（官网原文）；建议具备法语 B1/B2 与流利英语。",
+   "gpa": "官网原文：admission to M1 and M2 programs requires a validated L3 or M1, respectively, or equivalent for candidates who hold foreign degrees（M1 需 L3/本科，M2 需硕士第一年；外国学历同等认证）；理工科背景为佳（M1 部分课程与材料科学与工程硕士共用）。",
    "background": "跨专业中等：理工科背景即可，能源方向课程无特殊先修。",
-   "requirements": "PSL 平台申请（contact.master-energie@psl.eu 咨询）；材料审核。",
+   "requirements": "官网原文：Admission to M1 and M2 programs is done with application and interview；持外国学位的申请人除在 Campus France/Études en France 注册外，还需向教育机构提交申请。",
    "applicationOpen": "2026年1月15日",
    "deadline": "2026年2月24日",
    "deadlineNote": "官网原文：Application Session #2 - Master's year 1 and year 2 → From January 15 to February 24, 2026。"
@@ -1512,16 +1640,16 @@ var SCHOOL_COURSES = {
    "url": "https://psl.eu/en/education/masters-degree-archives",
    "titleCn": "档案学硕士：数字技术应用于历史（国立文献学校 chartes - PSL）",
    "updated": "2026-09",
-   "summary": "国立文献学校（École nationale des chartes - PSL）开设的档案硕士，围绕\"以数字技术处理历史与遗产文献（实物、文本、图像）\"这一学术课题：M1 提供文献学/历史与文学资料分析基础及三大专业轨道（档案、艺术史、书籍与媒体），M2 转向信息与通信技术，并与历史硕士课程衔接。毕业可继续博士研究，或进入档案、遗产、出版与数字人文岗位；隶属 PSL Translitterae Graduate Program。",
+   "summary": null,
    "duration": "2年（M1+M2，各 60 ECTS；M1 需获院务委员会批准方可升入 M2）",
    "teachingLanguage": "法语（官网 French）",
-   "language": "法语授课；需法语流利。",
-   "gpa": "历史、文学、档案学、艺术史等文科背景学士。",
-   "background": "跨专业友好：人文/文献学背景适配；对数字工具应用感兴趣者优先。",
-   "requirements": "以官网 Admissions 为准（成绩单、CV、动机信等）。",
-   "applicationOpen": "以官网公布为准",
-   "deadline": "以官网公布为准",
-   "deadlineNote": "隶属 Translitterae 研究生项目；官网未在本页标注具体申请日期。"
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null
   },
   {
    "id": "psl-art-history-archaeology",
@@ -1529,16 +1657,16 @@ var SCHOOL_COURSES = {
    "url": "https://psl.eu/en/education/master-art-history-and-archeology",
    "titleCn": "艺术史与考古学硕士（EPHE-PSL）",
    "updated": "2026-09",
-   "summary": "由 EPHE-PSL 负责的 PSL 艺术史与考古学硕士：依托巴黎国立艺术史研究所（INHA）的研讨会课程、专业图书馆（INHA 图书馆）与遗产藏品（卢浮宫、法国国家图书馆等）进行\"以研究带教学\"的训练；M1 系统讲授研究方法论与广泛时空范围内的艺术史、考古学基础，逐步走向专题研究（含口头考核：第一学期主题书目、第二学期专题报告）。与 EPHE-PSL 负责或共同负责的研究中心合作，隶属 PSL 历史科学 Graduate Program。",
+   "summary": null,
    "duration": "2年（M1+M2，研究导向）",
    "teachingLanguage": "法语（官网 French）",
-   "language": "法语授课；需法语流利。",
-   "gpa": "艺术史、考古学或相关人文背景学士。",
-   "background": "跨专业中等：人文/艺术史背景必须；法语与文献阅读能力关键。",
-   "requirements": "以官网 Admissions/CURRICULUM 为准（成绩单、CV、动机信、研究意向）。",
-   "applicationOpen": "以官网公布为准",
-   "deadline": "以官网公布为准",
-   "deadlineNote": "研讨会多在 INHA 举行；官网未在本页标注申请日期。"
+   "language": null,
+   "gpa": null,
+   "background": null,
+   "requirements": null,
+   "applicationOpen": null,
+   "deadline": null,
+   "deadlineNote": null
   },
   {
    "id": "psl-philosophy",

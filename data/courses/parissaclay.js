@@ -1,14 +1,6 @@
-/* 巴黎萨克雷大学 Université Paris-Saclay · 硕士项目（全量收录：官方 2 年制硕士目录 74 个硕士大类/mentions，含法语授课）
- * 来源：universite-paris-saclay.fr 官方课程页（/en/education/masters-degree/...，2026-09 抓取验证，均返回 200）
- * 官方全部硕士目录（Masters by field / Our Postgraduate Programmes）：https://www.universite-paris-saclay.fr/en/education/deuxieme-cycle（验证 200）
- * 官方英文授课硕士目录：https://www.universite-paris-saclay.fr/en/education/masters-programmes-taught-english（验证 200）
- * 说明：2026-09 起改为全量收录——deuxieme-cycle 官方目录所列全部 masters-degree 大类页（74 个 mention）均收录，
- * 每个大类含 id/title/url/titleCn/updated 基础字段；前 22 条为早期按"英语授课+经济/管理/社科/数据"优先整理的
- * 具体 M1/M2 项目（字段齐全），其后为官方大类页条目（含 15 个已补 summary/teachingLanguage 的条目，均为官网原文
- * 有把握信息）。个别 M2 项目页（如 M2 MIBS）官方页面曾返回 403/404，以对应大类页或 M1 页为准。 */
 var SCHOOL_COURSES = {
-  "searchUrl": "https://www.universite-paris-saclay.fr/en/education/masters-programmes-taught-english",
-  "courses": [
+ "searchUrl": "https://www.universite-paris-saclay.fr/en/education/masters-programmes-taught-english",
+ "courses": [
   {
    "id": "m1-economics",
    "title": "M1 Economics / Économie（经济学硕士·第一年，巴黎萨克雷大学与巴黎高师 ENS Paris-Saclay 合办）",
@@ -388,93 +380,161 @@ var SCHOOL_COURSES = {
    "title": "Administration économique et sociale",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/administration-economique-et-sociale",
    "titleCn": "行政经济与社会管理硕士（AES，含健康管理方向）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "agrosciences-environment-territory-landscape-forest",
    "title": "Agrosciences, Environment, Territory, Landscape, Forest",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/agrosciences-environment-territory-landscape-forest",
    "titleCn": "农业科学、环境、国土、景观与森林硕士（AETPF）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "农业科学、环境、国土、景观与森林硕士（AETPF）以多学科方式研究国土资源与环境的可持续管理，涵盖可持续农业、农业生态与环境保护议题（官网原文：sustainable management of resources and environments in territories）。项目由 1 个 M1 与 5 个 M2 组成，M1 处理农业与环境问题并提供生态、生物技术与社会科学的学科基础（官网原文）。英语授课方向为 M2 Climate, Land Use and Ecosystem Services（官网注明 CLUES 为英语授课）。",
+   "duration": "2年（1 个 M1 + 5 个 M2；英语方向为 M2 单年）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网：M2 CLUES 为英语授课，要求申请人英语水平良好（原文：Applicants must have a good level of English），材料含英语水平证书（非英语母语者）；M1 及法语 M2 须具备足够法语水平（原文：Students must have a sufficient level of French to follow the courses (except for CLUES)）。官网未标注具体英语 CEFR 分数。",
+   "gpa": "官网未设 GPA 门槛，以学业记录、排名与动机信综合评估（官网材料含上一学年排名与年级规模证明）。",
+   "background": "M1 主要面向环境科学、农学、生态学、生物学或地质学学士（或同等学历）申请者；地理或政治学学位者亦可申请，但须愿意补习物理、数学与生物学基础（官网 M1 Target audience）；每个 M2 方向另设各自先修要求（官网：Each M2 has its own prerequisites）。",
+   "requirements": "M2 CLUES 官网必修材料：动机信、上一学年成绩排名与年级规模、高中以来全部成绩单、大学以来课程与学时详细说明、英语水平证书（非英语母语者）（官网 Compulsory supporting documents）。",
+   "applicationOpen": "2026-02-02",
+   "deadline": "2026-06-15",
+   "deadlineNote": "官方网申平台（Inception Platform）：M2 Climate, Land Use and Ecosystem Services 2026/02/02–2026/06/15；容量 22 人。M1 为法语授课，官网未列英文申请窗口。"
+
+  },
   {
    "id": "archives",
    "title": "Archives",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/archives",
    "titleCn": "档案学与档案管理硕士（Archives）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "biodiversity-ecology-evolution",
    "title": "Biodiversity, Ecology, Evolution",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/biodiversity-ecology-evolution",
    "titleCn": "生物多样性、生态学与进化硕士（BEE）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "bioinformatics-computational-biology",
    "title": "Bioinformatics / Computational Biology",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/bioinformatics/computational-biology",
    "titleCn": "生物信息学与计算生物学硕士",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "生物信息学硕士培养生物学、计算机科学与数学交叉领域的研发人才，掌握数据分析、建模与人工智能技能，应用于基因组学、结构生物学、进化生物学与数字健康等领域（官网原文：trains research and development experts at the intersection of biology, computer science, and mathematics）。英语授课路径为 M1/M2 GENIOMHE-AI（基因组信息学、数学与健康环境人工智能，官网原文），官网注明 M1 于 9 月至次年 3 月授课，4 月起须在学术实验室或企业完成 2 个月实习。",
+   "duration": "1年（M1，第1年，含 2 个月实习；M2 另设）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网申请材料要求英语水平证书（Certificate of English level），未标注具体 CEFR 分数；课程以英语授课。",
+   "gpa": "官网未设 GPA 门槛，以本科成绩单、多学科基础与动机信综合评估。",
+   "background": "官网要求生物与信息学双重背景：如生命科学-信息学联合荣誉学位、巴黎萨克雷生命科学-信息学选拔课程、生物信息学方向生命科学学士、计算方向生物信息学学士或工程师学校毕业（原文：Joint honours in Life Sciences-Informatics… Engineering school）；纯粹生物背景但具备信息学补充知识与技能的申请者亦可。",
+   "requirements": "M1 GENIOMHE-AI 官网必修材料：动机信、高中以来全部成绩单、英语水平证书、简历；M2 另需下载并填写续读 M2 的选择表（Selection sheet）。",
+   "applicationOpen": "2026-01-15",
+   "deadline": "2026-04-25",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 GENIOMHE-AI 2026/01/15–2026/04/25，容量 25 人；M2 GENIOMHE-AI 窗口 2026/01/15–2026/07/15（容量 25 人）。"
+
+  },
   {
    "id": "biologie-moleculaire-et-cellulaire",
    "title": "Biologie moléculaire et cellulaire",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/biologie-moleculaire-et-cellulaire",
    "titleCn": "分子与细胞生物学硕士",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "分子与细胞生物学硕士（BMC）包含多个 M1/M2 方向：癌症生物学（Evry/Orsay/Versailles 校区）、基因组生物学、生物分子与生命工程、生物治疗与干细胞等（官网各方向页）。英语路径含 M1 国际轨道（与微生物学、神经科学硕士联合开设的 International Track）与中法 Sino-French 项目：M1 在中国华中科技大学校区（9 月–1 月）与 Evry 校区（次年 2 月–6 月）以英语授课，完成后可续读国际 M2（如组织、细胞与基因生物治疗 BTCG）（官网原文）。",
+   "duration": "2年（M1+M2 体制；英语路径含 M1 国际轨道单年与 Sino-French 双轨 M1）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网：M1 Sino-French 要求法语最低 B1 且英语最低 B1（原文：STUDENTS MUST BE ABLE TO SPEAK FRENCH LANGUAGE with B1 level minimum… and English language with B1 level minimum，华中科技大学合作协议的中国学生除外）；M1 生命科学国际轨道（Orsay/Evry）要求英语达 C1（原文：English proficiency at the C1 level）；M2 各方向另要求英语水平证书。",
+   "gpa": "官网未设 GPA 门槛，以成绩单、动机信与面试（如需）综合评估。",
+   "background": "官网：生命科学（Licence SV）、生命与地球科学（SVT）、健康科学学士或同等学历（原文：Licence SV / SVT / Bachelor in Life Sciences）；M1 国际轨道向全球学生开放，须具备分子生物学、生物化学与信号传导、细胞生物学与遗传学的扎实基础（原文）。",
+   "requirements": "动机信（须说明对 BMC 硕士的具体兴趣与职业目标）、高中以来全部成绩单、英语水平证书（官网 Compulsory supporting documents；Sino-French 另须法语水平证明）。",
+   "applicationOpen": "2026-01-15",
+   "deadline": "2026-03-31",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 生命科学国际轨道（Orsay 联合赛道）2026/01/15–2026/03/31，容量 15 人；Evry 校区同名轨道同日截止（容量 15 人）；Sino-French 项目 M1 窗口 2026/01/01–2026/06/15（容量 14 人）。"
+
+  },
   {
    "id": "biologie-agrosciences",
    "title": "Biologie-AgroSciences",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/biologie-agrosciences",
    "titleCn": "生物-农业科学硕士（Biologie-AgroSciences）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "生物-农业科学硕士（原 Integrative Biology and Physiology/BIP）培养学生深入理解农业生态系统中的生命系统，采用覆盖所有生物学组织层次的跨学科方法，毕业生可担任研究员、项目经理或咨询工程师（官网原文）。英语授课方向包括 M1/M2 Biologie Agrosciences Plant Sciences （植物科学）与 M1/M2 Biomass Engineering for Bioeconomy（生物质工程与生物经济，BEB 亦为欧盟 Erasmus Mundus 联合硕士 Bioceb 的巴黎萨克雷国家轨道，官网原文）。",
+   "duration": "2年（M1+M2；BEB 为两年制 EMJMD 连续项目）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。 注：BEB/Bioceb 为欧盟 Erasmus Mundus 联合硕士（EMJMD），官网 Fees and scholarships 指引至 tuition-fees 页并注明金额因项目与个人情况而异（原文：The amounts may vary depending on the programme and your personal circumstances）；学费与奖学金以官网及联合体页面为准。",
+   "language": "官网：M1 Plant Sciences 要求英语不低于欧洲标准 B1（原文：A minimum level of English (European B1) is required）；BEB（Bioceb）要求英语 B2 高级（原文：Demonstrated English language proficiency… B2 advanced），认可 TOEFL/TOEIC 或教师出具证明；M2 Plant Sciences 需英语水平证书。",
+   "gpa": "官网未设 GPA 门槛；BEB 官网明确按背景卓越性与学术成绩及动机选拔（原文：selected according to the excellence of their background and academic results as well as their motivation）。",
+   "background": "官网：M1 面向生物学、生命科学、健康科学、生命与地球科学学士及生物-化学/生物-数学双学位或同等（原文：Bachelor in Biology, Life Sciences, Health Sciences, Life Sciences and Earth Sciences…）；BEB 要求工学或理学学士且至少 180 ECTS，须具备生物学相关学科（生物技术、生物化学、微生物学、生物物理、生物过程工程、分子生物学）的扎实背景（原文）。",
+   "requirements": "M1 Plant Sciences 官网必修材料：学位证明、身份证件、动机信、高中以来全部成绩单、英语水平证书、简历；BEB 另需学位翻译件（英语）、护照等。",
+   "applicationOpen": "2026-01-15",
+   "deadline": "2026-03-16",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 Plant Sciences 2026/01/15–2026/03/16（第二批窗口 2026/06/19–06/25），容量 16 人；BEB 窗口 2026/01/01–2026/01/29（容量 16 人）；M2 Plant Sciences 2026/02/15–2026/06/10（容量 35 人）。"
+
+  },
   {
    "id": "business-law",
    "title": "Business Law",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/business-law",
    "titleCn": "商法硕士（Business Law）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "calcul-haute-performance-simulation",
    "title": "Calcul haute performance, simulation",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/calcul-haute-performance-simulation",
    "titleCn": "高性能计算与仿真硕士（CHPS）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "chemistry",
    "title": "Chemistry",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/chemistry",
    "titleCn": "化学硕士（Chemistry）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "化学硕士以研究带动教学（官网原文：training in research through research），覆盖化学及其交叉领域，培养研发专家以就业（分析/仪器、环境、教学）或攻读博士（公立或私立实验室）。英语授课路径为 M1/M2 Chemistry International Track（国际轨道，另设 Erasmus Mundus 联合硕士版本）与 M2 Molecular Chemistry and Interfaces 等（官网方向列表）。",
+   "duration": "2年（M1+M2；英语国际轨道含 M1 与 M2）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。 注：Chemistry International Track – ERASMUS Mundus 为 Erasmus Mundus 联合硕士方向，其学费与奖学金以官网 Fees and scholarships 页面及联合体公布为准。",
+   "language": "官网申请材料要求英语水平证书（Certificate of English level；非英语母语者），未标注具体 CEFR 分数；国际轨道含法语文化与欧盟价值观课程（3 ECTS，官网课程说明：French language, EU values）。",
+   "gpa": "官网未设 GPA 门槛，以本科化学成绩与学术背景综合评估。",
+   "background": "官网：申请者须具备化学专业背景；M1 要求化学主修学士（覆盖分析化学、无机化学、有机化学与物理化学各子学科），或化学-生物/物理-化学/化学-地球科学交叉学位及化学 BUT 等（官网 Admission Target audience 原文）；Admission Route 为 Chimie / Physique-chimie。",
+   "requirements": "M1 Chemistry – International Track 官网必修材料：最后学历证书、护照、动机信、高中以来全部成绩单、英语水平证书、简历、推荐信（官网 Compulsory supporting documents）；另可选 VAP 学历认证文件等。",
+   "applicationOpen": "2026-01-30",
+   "deadline": "2026-05-15",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 Chemistry – International Track 2026/01/30–2026/05/15，容量 15 人（参考开学日 2026-09-02）；M2 Chemistry International Track 2026/01/15–2026/04/30（容量 10 人）；Erasmus Mundus 方向申请窗口未在官网页面标注，以官网链接为准。"
+
+  },
   {
    "id": "chimie-et-sciences-du-vivant",
    "title": "Chimie et sciences du vivant",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/chimie-et-sciences-du-vivant",
    "titleCn": "化学与生命科学硕士",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "civil-engineering",
    "title": "Civil Engineering",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/civil-engineering",
    "titleCn": "土木工程硕士（Civil Engineering）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "communication-des-organisations",
    "title": "Communication des organisations",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/communication-des-organisations",
    "summary": "官网说明：培养组织传播人才——传播策略设计、材料撰写与制作、活动组织、信息传播技术运用、组织变革传播与社会对话支撑；两个方向衔接传播专员、社区经理、活动负责人、项目负责人等岗位。",
    "titleCn": "组织传播硕士（Communication des organisations）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "comptabilite-controle-audit",
    "title": "Comptabilité - contrôle - audit",
@@ -483,15 +543,16 @@ var SCHOOL_COURSES = {
    "teachingLanguage": "法语授课（法语培养项目，官网未见英语授课标注）",
    "titleCn": "会计、控制与审计硕士（CCA）",
    "updated": "2026-09"
-   },
+  },
   {
    "id": "computer-science-applied-business-management",
    "title": "Computer Science Applied to Business Management",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/computer-science-applied-business-management",
    "summary": "官网说明：MIAGE 培养 IT 与企业管理双专长人才，领域为信息系统工程、Web 技术与业务决策支持；毕业生须理解企业的管理、商务、会计、人力资源与物流内部流程并实施其信息化；课程含计算机、信息系统工程、组织管理、数学、沟通与英语、职业发展模块。",
    "titleCn": "计算机科学应用于企业管理硕士（MIAGE）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "computer-science",
    "title": "Computer Science",
@@ -500,42 +561,58 @@ var SCHOOL_COURSES = {
    "teachingLanguage": "法语为主，多个方向英语授课（官网：many tracks taught in English，如 DKAI、AI、HCI 等）",
    "titleCn": "计算机科学硕士（Informatique）",
    "updated": "2026-09"
-   },
+  },
   {
    "id": "controle-de-gestion-et-audit-organisationnel",
    "title": "Contrôle de gestion et audit organisationnel",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/controle-de-gestion-et-audit-organisationnel",
    "titleCn": "管理控制与组织审计硕士",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "criminal-law-and-criminal-sciences",
    "title": "Criminal law and criminal sciences",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/criminal-law-and-criminal-sciences",
    "titleCn": "刑法与刑事科学硕士",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "culture-patrimoine-et-mediation",
    "title": "Culture, patrimoine et médiation",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/culture-patrimoine-et-mediation",
    "titleCn": "文化、遗产与调解硕士（Culture, patrimoine et médiation）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "design",
    "title": "Design",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/design",
    "titleCn": "设计硕士（Design）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "earth-and-planetary-sciences-environment-stepe",
    "title": "Earth and Planetary Sciences, Environment (STePE)",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/earth-and-planetary-sciences-environment-stepe",
    "titleCn": "地球与行星科学、环境硕士（STePE）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "地球与行星科学、环境硕士（STePE）包含多个研究性 M1/M2 方向（官网方向列表）。官网英语授课方向包括 M2 Arctic Studies（北极研究：帮助北极地区或相关决策者/协调者开发综合分析工具，为有志研究者铺就博士路径，官网原文：help future decision-makers and facilitators working in the Arctic… develop integrated analysis tools）与 M2 Planetary Science and Space Exploration（行星科学与空间探索）等。",
+   "duration": "2年（M1+M2；英语方向均为 M2 单年）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网：M2 Arctic Studies 要求英语水平良好（原文：Applicants must have a good level of English），材料含英语水平证书（非英语母语者）；未标注具体 CEFR 分数。",
+   "gpa": "官网未设 GPA 门槛，以成绩单、研究/职业项目与动机信综合评估。",
+   "background": "官网 Arctic Studies：面向已完成 4 年高等教育者（四年制学士、硕士第一年、MBA （Equis）、工程师与商学院校，原文：four years of higher education validated…）；行星科学与空间探索方向面向地球科学、物理学或化学硕士二年级及工程师学校学生（原文：accepts students from the Geosciences, Physics or Chemistry M2s, or from the Engineering School）。",
+   "requirements": "M2 Arctic Studies 官网必修材料：动机信、高中以来全部成绩单、简历、大学以来课程与学时详细说明、英语水平证书（非英语母语者）。",
+   "applicationOpen": "2026-01-30",
+   "deadline": "2026-09-15",
+   "deadlineNote": "官方网申平台（Inception Platform）：M2 Arctic Studies 2026/01/30–2026/09/15，容量 20 人；M2 Planetary Science and Space Exploration 2026/05/01–2026/09/04（容量 12 人）。"
+
+  },
   {
    "id": "economics",
    "title": "Economics",
@@ -543,65 +620,97 @@ var SCHOOL_COURSES = {
    "summary": "官网说明：研究型经济学硕士，M1 为 8 门核心课+2 门选修+2 个研究项目，M2 完全选修制、在导师指导下构建个人研究路径，直接衔接博士项目；三大卓越方向：贸易/地理与发展经济学、公共与行为经济学、宏观经济学前沿。",
    "teachingLanguage": "英语授课（全英文，见本文件 M1/M2 Economics 条目）",
    "titleCn": "经济学硕士（Economics）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。"
+
+  },
   {
    "id": "economie-politique-et-institutions",
    "title": "Economie politique et institutions",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/economie-politique-et-institutions",
    "summary": "官网说明：由 UVSQ（UMI SOURCE）与 ENS（IDHES）联合开设，跨学科（社会学、历史、地理、法律、政治学）透视经济、政治与制度；培养社会经济诊断、专家评估与决策支持能力，面向地方发展、环境可持续、公共政策与创新议题。",
    "titleCn": "政治经济与制度硕士（Économie politique et institutions）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "electrical-engineering",
    "title": "Electrical Engineering",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/electrical-engineering",
    "titleCn": "电气工程硕士（Electrical Engineering）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "电气工程硕士（E3A）兼具研究与职业导向，覆盖电子学、能源、自动控制、计算机工程、电信、信号与图像处理、纳米科学、机电一体化与人工智能等工程科学领域，7 个 M1 轨道提供共同基础、第一学期末经选修课开始专业化（官网原文）。英语路径为 M1 International Track in Electrical Engineering（机电一体化/嵌入式电子/计算机视觉/人工智能/沉浸式技术的多学科教育，官网原文）与 M2 Advanced Wireless Communications Systems 等。",
+   "duration": "2年（M1+M2；英语路径含 M1 国际轨道与多个 M2）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网申请材料要求英语水平证书（Certificate of English level，非英语母语者必修），未标注具体 CEFR 分数。",
+   "gpa": "官网未设 GPA 门槛，以成绩单、推荐信与动机信综合评估。",
+   "background": "官网：M1 面向工程科学、电子/电气工程与自动化、计算机科学/应用数学、应用物理学/力学方向的学士（Licence 3 或同等），以及寻求机电一体化与人工智能多学科教育的国际学生（原文）；Admission Route 为 Physique / Sciences pour l'ingénieur。",
+   "requirements": "M1 International Track 官网必修材料：上一学年成绩排名与年级规模、动机信、高中以来全部成绩单、英语水平证书（非英语母语者）；推荐信或实习评估（部分 M2 方向要求）。",
+   "applicationOpen": "2026-02-03",
+   "deadline": "2026-06-30",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 International Track in Electrical Engineering 2026/02/03–2026/06/30（第二批窗口 2026/07/15–08/15），容量 28 人；M2 Advanced Wireless Communications Systems 2026/01/21–2026/06/30（容量 15 人）。"
+
+  },
   {
    "id": "energy",
    "title": "Energy",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/energy",
    "titleCn": "能源硕士（Energy）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "能源硕士围绕可再生能源（生产、输配、储存）及其应用展开（官网原文：dedicated to renewable energies (production, distribution, storage) and their applications）；M1 设 2 个通识课程（其中 1 个英语授课），M2 设 9 个方向（其中 1 个英语方向，涉及出行、材料或能效）。英语路径为 M1 Energy – International Track 与 M2 Advanced Materials, Structure and Energy for Sustainable Construction。",
+   "duration": "2年（M1+M2；英语路径含 M1 国际轨道与 1 个 M2 方向）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网申请材料要求英语水平证书（Certificate of English level，非英语母语者必修），未标注具体 CEFR 分数。",
+   "gpa": "官网未设 GPA 门槛，以成绩单与数学/物理基础综合评估。",
+   "background": "官网：申请人须具备物理、机械工程、化学工程或电气工程的扎实背景及较强的数学能力（原文：Good background in physics, mechanical engineering, chemical engineering or electrical engineering and strong skills in mathematics. Bachelor level or equivalent）；Admission Route 为 Physique-chimie / Sciences pour l'ingénieur。",
+   "requirements": "M1 Energy – International Track 官网必修材料：动机信、高中以来全部成绩单、英语水平证书（非英语母语者）、简历。",
+   "applicationOpen": "2026-01-15",
+   "deadline": "2026-06-15",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 Energy – International Track 2026/01/15–2026/06/15，容量 20 人；M2 Advanced Materials, Structure and Energy for Sustainable Construction 2026/03/05–2026/05/15（容量 30 人）。"
+
+  },
   {
    "id": "enseignement-et-education-professorat-des-ecoles",
    "title": "Enseignement et éducation professorat des écoles",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/enseignement-et-education-professorat-des-ecoles",
    "titleCn": "教育教学·小学教师培养（Professorat des écoles）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "enseignement-et-education-professorat-du-second-degre",
    "title": "Enseignement et éducation professorat du second degré",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/enseignement-et-education-professorat-du-second-degre",
    "titleCn": "教育教学·中学教师培养（Professorat du second degré）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "environmental-energy-and-transport-economics",
    "title": "Environmental, Energy and Transport Economics",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/environmental-energy-and-transport-economics",
    "titleCn": "环境、能源与交通经济学硕士（EETE）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英法双语（官网部分方向标 English；以官网为准）"
+  },
   {
    "id": "ergonomie",
    "title": "Ergonomie",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/ergonomie",
    "titleCn": "人体工程学硕士（Ergonomie）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "ethique",
    "title": "Ethique",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/ethique",
    "titleCn": "伦理学硕士（Éthique，含健康与社会方向）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "finance",
    "title": "Finance",
@@ -610,136 +719,197 @@ var SCHOOL_COURSES = {
    "teachingLanguage": "含多个英语授课方向（本文件对应条目：M1 Finance、M2 GRA、M2 SIIF 均为英语授课，部分方向为法语）",
    "titleCn": "金融学硕士（Finance）",
    "updated": "2026-09"
-   },
+  },
   {
    "id": "foreign-languages-literatures-and-cultures",
    "title": "Foreign languages, literatures and cultures",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/foreign-languages-literatures-and-cultures",
    "titleCn": "外语、文学与文化硕士（LLCER，英语方向为主）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "gestion-des-ressources-humaines",
    "title": "Gestion des ressources humaines",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/gestion-des-ressources-humaines",
    "summary": "官网说明：培养私营/公共组织的人力资源专家——HR 战略制定与实施、HR 项目管理、HR 实务与工具评估、职业沟通；课程应对全球化与数字化转型背景下的工作组织变革，覆盖中小企业与大型企业 HR 部门各岗位。",
    "titleCn": "人力资源管理硕士（GRH）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "health-law",
    "title": "Health law",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/health-law",
    "titleCn": "卫生法硕士（Droit de la santé）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "histoire",
    "title": "Histoire",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/histoire",
    "titleCn": "历史学硕士（Histoire）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "human-movement-sport-sciences-engineering-and-ergonomics",
    "title": "Human Movement & Sport Sciences : Engineering and Ergonomics",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/human-movement-sport-sciences-engineering-and-ergonomics",
    "titleCn": "人体运动与体育科学·工程与人体工程学方向",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "human-movement-sport-sciences-sport-management",
    "title": "Human Movement & Sport Sciences : Sport Management",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/human-movement-sport-sciences-sport-management",
    "titleCn": "人体运动与体育科学·体育管理方向（Sport Management）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "人体运动与体育科学·体育管理硕士关注当代体育管理的发展，培养公共、协会与私营主体适应与创新的能力，覆盖赛事（政治、社会、组织、经济、管理、营销、法律与体育等层面）、体育场馆与设施的设计管理、区域领导力与发展战略（官网 Learning outcome targets 原文）。官网英语方向为 M2 Sport, Leisure and Event Management（面向大型国际赛事：赞助、媒体权益、物流、票务、餐饮、志愿者、主办城市等全环节，官网原文）。",
+   "duration": "2年（M1+M2；英语方向为 M2 单年）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网未公布具体英语分数要求（M2 Sport Leisure and Event Management 为英语授课，其官网必修材料未列英语考试证书），以官方申请平台审理为准。",
+   "gpa": "官网未设 GPA 门槛，以成绩单、动机信与相关经历综合评估。",
+   "background": "官网：面向已完成 4 年高等教育（相当于 M1）的各类背景——经济、管理、商科、政治学、法学、工程等（原文：fields such as economics, management, business, political science, law, engineering, etc.），但须有扎实的体育管理与赛事背景；无此背景者可通过实习、志愿活动或在硕士论文中聚焦该主题弥补（原文）。",
+   "requirements": "官网必修材料：身份证件、动机信（须有论证；官网原文：Copy of identity document、Motivation letter argumentée）；其余以官方平台最终清单为准。",
+   "applicationOpen": "2026-02-15",
+   "deadline": "2026-03-31",
+   "deadlineNote": "官方网申平台（Inception Platform）：M2 Sport, Leisure and Event Management 2026/02/15–2026/03/31（第二批窗口 2026/05/15–06/14），容量 25 人。"
+
+  },
   {
    "id": "human-movement-sport-sciences-training-and-optimization-sports-performance-tosp",
    "title": "Human Movement & Sport Sciences : Training and Optimization of Sports Performance (TOSP)",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/human-movement-sport-sciences-training-and-optimization-sports-performance-tosp",
    "titleCn": "人体运动与体育科学·训练与运动表现优化方向（TOSP）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "人体运动与体育科学·运动表现训练与优化硕士（EOPS）在当代体育背景下培养人体运动科学家，能够处理运动情境的复杂问题，目标是优化训练并保护运动员健康（官网原文：train human movement scientists able to handle complex situations specific to sports field… optimize training and preserve the health of athletes）。官网英语路径为 M1/M2 Sport Sciences for Health and Performance；M1 自 9 月至次年 3 月在 Evry 校区、奥赛校区与 Racing Club 92 上课，随后进入实习与考核（官网原文）。",
+   "duration": "2年（M1+M2；M1 课程期 9 月–3 月，随后实习与考核）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网申请材料要求英语水平证书（Certificate of English level），动机信须以英语撰写（原文：Motivation letter In english）；未标注具体 CEFR 分数。",
+   "gpa": "官网未设 GPA 门槛，以成绩单、推荐信（或实习评估）与动机信综合评估。",
+   "background": "官网：面向人体运动科学学士（运动与锻炼科学、STAPS、运动机能学等）或同等学历，及健康专业人士（医生、物理治疗师、整骨师等）（原文：Bachelor's degree in human movement sciences… Health professionals）。",
+   "requirements": "M1 官网必修材料：动机信（英语）、推荐信（或实习评估）、高中以来全部成绩单、英语水平证书。",
+   "applicationOpen": "2026-01-30",
+   "deadline": "2026-04-21",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 Sport Sciences for Health and Performance 2026/01/30–2026/04/21，容量 20 人；M2 同期窗口（容量 21 人）。"
+
+  },
   {
    "id": "human-movement-sport-sciences",
    "title": "Human Movement & Sport Sciences",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/human-movement-sport-sciences",
    "titleCn": "人体运动与体育科学硕士（STAPS 大类）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "human-movement-sport-sciences-adapted-physical-activity-and-health",
    "title": "Human Movement & Sport Sciences: Adapted Physical Activity and Health",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/human-movement-sport-sciences-adapted-physical-activity-and-health",
    "titleCn": "人体运动与体育科学·适应性体育活动与健康方向（PAEH）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "人体运动与体育科学·适应性体育活动与健康硕士（PAEH）面向健康领域培养人体运动专家：分析年龄、疾病或残疾带来的行动困难，提出并实施适应性技术方案，预防失代偿、促进并重建移动能力与社会/职业参与（官网 Learning outcome targets 原文）。官网英语路径为 M1/M2 Physical Activity, Exercise and Health（M2 深入探索运动与健康的相互关系及生理机制，官网原文）。",
+   "duration": "2年（M1+M2；均设英语路径）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网要求动机信以英语撰写（官网材料原文：Motivation letter. Written in English）；未标注具体英语考试分数。",
+   "gpa": "官网未设 GPA 门槛，以成绩单与动机信综合评估。",
+   "background": "官网：M1 面向体育运动科学（Sport and Exercise Science、STAPS、Kinesiology 等）学士或同等学历，及健康专业人士（MD、物理治疗师、整骨师等）（原文）；M2 最低要求学士+4 年高等教育（Bac+4 或同等），推荐背景为 APA 教师、PAEH M1 在读学生以及医生/物理治疗师等。",
+   "requirements": "M1 官网必修材料：动机信（英语）、高中以来全部成绩单、简历；英语水平证书（如官网在各批次要求）。",
+   "applicationOpen": "2026-01-15",
+   "deadline": "2026-03-16",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 PAEH 2026/01/15–2026/03/16，容量 20 人；M2 PAEH 2026/03/01–2026/05/01（第二批窗口 2026/06/01–06/12，容量 21 人）。"
+
+  },
   {
    "id": "industrial-engineering",
    "title": "Industrial Engineering",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/industrial-engineering",
    "titleCn": "工业工程硕士（Génie Industriel）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "工业工程硕士（复杂系统工程 ISC）面向系统、产品、流程与组织（尤其工业）的建模、设计与治理，广泛运用建模科学、系统工程与系统科学以及工业工程（官网原文）；学科上处于应用数学、计算机科学、运筹学、力学、自动化、经济与管理以及设计/生产工具管理之间的交叉（官网原文）。英语授课方向为 M2 Industrial and Systems Engineering（含 SCS、MACLO、ORRA 等子轨道，官网）。",
+   "duration": "2年（M1+M2；英语方向为 M2 单年）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网：英语水平须达 CEFR C1，或 IELTS ≥ 6.5，或 TOEFL ≥ 94（官网原文：C1 of CERF level, OR an IELTS score of 6.5 or above, OR a TOEFL score of 94 or above），并提交英语水平证书（非英语母语者）。",
+   "gpa": "官网未设 GPA 门槛（官网注明以学业记录与动机评估：Admission is based on academic record and motivation）。",
+   "background": "官网：SCS 面向具备科学与工程背景（或合作院校）且技术能力强的 M1 学生；MACLO 面向运筹学、物流、计算机或应用数学 M1 学生及供应链与运营优化方向的工程/商学院学生；ORRA 面向相关领域（科学、工程、建模等）M1 学生（官网原文）。",
+   "requirements": "官网必修材料：动机信、高中以来全部成绩单、简历、英语水平证书（非英语母语者，C1/IELTS 6.5/TOEFL 94 或同等）；附加材料按子轨道要求。",
+   "applicationOpen": "2026-01-21",
+   "deadline": "2026-06-30",
+   "deadlineNote": "官方网申平台（Inception Platform）：M2 Industrial and Systems Engineering 2026/01/21–2026/06/30，容量 7 人（小班）。"
+
+  },
   {
    "id": "ingenierie-de-la-sante",
    "title": "Ingénierie de la santé",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/ingenierie-de-la-sante",
    "titleCn": "健康工程硕士（Ingénierie de la santé）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "innovation-enterprise-and-society",
    "title": "Innovation, Enterprise and Society",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/innovation-enterprise-and-society",
-   "summary": "官网说明：培养创新与科技管理、数字与健康创新项目管理、创新营销、开放式创新与研究转化、创业、企业数字化转型与网络经济人才；M1 后进入 6 个不同主题的 M2 方向。",
+   "summary": null,
    "teachingLanguage": "法语授课（官网原文：THIS MASTER'S PROGRAM IS ONLY IN FRENCH / CE MASTER EST UNIQUEMENT EN FRANÇAIS）",
    "titleCn": "创新、企业与产业社会硕士（IES，仅法语授课）",
    "updated": "2026-09"
-   },
+  },
   {
    "id": "intellectual-property-law-information-technology-law",
    "title": "Intellectual Property Law / Information Technology Law",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/intellectual-property-law/information-technology-law",
    "titleCn": "知识产权法/信息技术法硕士",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "international-law-and-european-law",
    "title": "International law and European law",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/international-law-and-european-law",
    "titleCn": "国际法与欧洲法硕士",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英法双语（官网部分方向标 English；以官网为准）"
+  },
   {
    "id": "justice-trials-and-procedures",
    "title": "Justice, Trials and Procedures",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/justice-trials-and-procedures",
    "titleCn": "司法、审判与程序硕士（Justice, Trials and Procedures）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "land-management-and-community-development",
    "title": "Land Management and Community Development",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/land-management-and-community-development",
    "titleCn": "土地管理与地方发展硕士（GTDL）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "lettres-et-langues",
    "title": "Lettres et Langues",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/lettres-et-langues",
    "titleCn": "文学与语言硕士（Lettres et Langues）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "meef-pratiques-et-ingenierie-de-la-formation",
    "title": "MEEF pratiques et ingénierie de la formation",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/meef-pratiques-et-ingenierie-de-la-formation",
    "titleCn": "MEEF 实践与培训工程硕士（Pratiques et ingénierie de la formation）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "management-et-administration-des-entreprises",
    "title": "Management et Administration des Entreprises",
@@ -748,7 +918,7 @@ var SCHOOL_COURSES = {
    "teachingLanguage": "法语为主，含英语授课模块与国际沉浸式研讨（官网：modules taught in English, immersive international seminars）",
    "titleCn": "企业管理与工商管理硕士（MAE）",
    "updated": "2026-09"
-   },
+  },
   {
    "id": "marketing",
    "title": "Marketing",
@@ -757,171 +927,293 @@ var SCHOOL_COURSES = {
    "teachingLanguage": "法语授课为主（官网未标注英语授课；本文件原有条目 M2 Marketing de l'Innovation 亦为法语授课）",
    "titleCn": "市场营销硕士（Marketing, Vente）",
    "updated": "2026-09"
-   },
+  },
   {
    "id": "materials-science-and-engineering",
    "title": "Materials Science and Engineering",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/materials-science-and-engineering",
    "titleCn": "材料科学与工程硕士",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "mathematics-and-applications",
    "title": "Mathematics and applications",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/mathematics-and-applications",
    "titleCn": "数学与应用硕士（Mathématiques et applications）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "数学与应用硕士汇集巴黎萨克雷大学全部数学研究生培养，覆盖从纯数学到应用数学的广泛谱系，核心轨道享有国际声誉（官网原文）。Jacques Hadamard 国际项目面向国际学生：官网注明 M1 Jacques Hadamard 项目提供大量英语授课课程（原文：a wide range of courses taught in English are offered），并提示 FMJH 基金会另设硕士与博士直通奖学金（原文）。",
+   "duration": "2年（M1+M2；Jacques Hadamard 为 M1/M2 连续项目）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网未设英语水平考试门槛（M1 J. Hadamard 官网必修材料未列英语证书；官网提示英语授课课程信息见 FMJH 网站），并注明：无论如何，学习基础法语将带来更好的法国生活体验（原文：you will have a much better experience living in France if you learn at least the basics of the French language）。",
+   "gpa": "官网未设 GPA 门槛，但要求数学成绩突出（官网 Target audience 原文：intended for outstanding students in mathematics）。",
+   "background": "官网：面向数学成绩优异的数学学士（原文：Bachelor in Mathematics, with outstanding results）；Admission Route 为 Mathématiques。",
+   "requirements": "M1 J. Hadamard 官网必修材料：动机信、高中以来全部成绩单、简历；M2 的动机信须写明博士项目意向及拟选课程（原文：must specify the doctoral project… list of courses envisaged ）。",
+   "applicationOpen": "2026-01-15",
+   "deadline": "2026-03-16",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 Program J. Hadamard, Mathematics (Orsay) 2026/01/15–2026/03/16，容量 20 人；M2 Program J. Hadamard 2026/04/01–2026/07/01（容量 25 人）。"
+
+  },
   {
    "id": "mechanics",
    "title": "Mechanics",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/mechanics",
    "titleCn": "力学硕士（Mécanique）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "力学硕士（Mechanical Engineering）为学生提供理论与实践的扎实基础，毕业后可担任工程师、高级管理人员或研究人员，服务于航空航天、空间、交通、能源、环境、生物医学等领域（官网原文）。官网英语路径为 M1 Mechanics – International Track（在外国规范与传统环境中培养自主工作能力并掌握力学及相关领域的 M1 知识，官网原文）与 M2 MAGIS（材料力学、损伤、断裂与多物理场）。",
+   "duration": "2年（M1+M2；英语路径含 M1 国际轨道与 M2 MAGIS）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网：M1 International Track 要求英语水平证书（非英语母语者，原文 Certificate of English level compulsory for non-English speakers）；M2 MAGIS 明确英语最低 B2（原文：Minimum level B2 in English）；法语授课的其他 M2 轨道另须法语 C1/至少 B1（官网原文：Other M2 Tracks (French C1 + Prerequisites)、B1 level in French）。",
+   "gpa": "官网未设 GPA 门槛，以成绩单、推荐信与动机信综合评估。",
+   "background": "官网 M1 International Track：需力学与物理基础及配套数学工具（线性代数、微积分等；官网 Prerequisites 原文：Physics and mechanics basics），面向力学、物理（力学方向）或数学方向本科毕业生（官网 Recommended undergraduate disciplines；Admission Route：Mécanique / Sciences pour l'ingénieur）。",
+   "requirements": "官网必修材料：动机信、推荐信（或实习评估；曾在法国接受高等教育者另须第 2 封推荐信，原文 2nd letter of recommendation compulsory for candidates who have already been enrolled in higher education in France）、高中以来全部成绩单、英语水平证书（非英语母语者）。",
+   "applicationOpen": "2026-01-30",
+   "deadline": "2026-06-15",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 Mechanics – International Track 2026/01/30–2026/06/15，容量 7 人；M2 MAGIS 2026/02/15–2026/06/30（容量 24 人，非法语母语者另须法语证书）。"
+
+  },
   {
    "id": "microbiologie",
    "title": "Microbiologie",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/microbiologie",
    "titleCn": "微生物学硕士（Microbiologie）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "微生物学硕士以研究为导向并具国际性，面向微生物学现代挑战（官网原文：international and with emphasis on research to prepare students for modern challenges in microbiology）；覆盖细菌、古菌、真核微生物与病毒等多种模型及从分子到基因组、细胞与群落的多尺度分析，第二学期为 6 个月实验室内实习（官网原文）。官网英语路径为 M1 International Track in France（生命科学联合国际轨道）与 M2 Fundamental Microbiology。",
+   "duration": "2年（M1+M2；M2 含 6 个月实验室实习）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网：M1 International Track 要求英语达 C1（原文：English proficiency at the C1 level）；M2 Fundamental Microbiology 未列具体分数（以英语授课，官网强调科学语境中的英语沟通与表达）。",
+   "gpa": "官网未设 GPA 门槛，以学业表现、动机与职业目标评估（招生为两阶段：材料评审+入围者线上面试，官网原文：Application review… Online interview for shortlisted candidates）。",
+   "background": "官网：欢迎全球申请者（含法国学生），须持有相当于法国国家学士（Licence）的生命科学学位，并具备分子生物学、生物化学与信号传导、细胞生物学与遗传学方面的扎实基础（原文）。",
+   "requirements": "M1 International Track 官网必修材料：动机信、官网下载并填写的问卷（Completed questionnaire）、高中以来全部成绩单、英语水平证书（C1）；官网注明入围者须参加线上面试。",
+   "applicationOpen": "2026-01-15",
+   "deadline": "2026-03-31",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 International Track in France（Orsay）2026/01/15–2026/03/31，容量 15 人；M2 Fundamental Microbiology 2026/01/27–2026/07/20（容量 16 人）。"
+
+  },
   {
    "id": "musicologie",
    "title": "Musicologie",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/musicologie",
    "titleCn": "音乐学硕士（Musicologie）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "metiers-de-lenseignement-de-leducation-et-de-la-formation-meef-1er-degre",
    "title": "Métiers de l'enseignement, de l'éducation et de la formation (MEEF), 1er degré",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/metiers-de-lenseignement-de-leducation-et-de-la-formation-meef-1er-degre",
    "titleCn": "教学、教育与培训职业硕士（MEEF）·小学阶段",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "metiers-de-lenseignement-de-leducation-et-de-la-formation-meef-2e-degre",
    "title": "Métiers de l'enseignement, de l'éducation et de la formation (MEEF), 2e degré",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/metiers-de-lenseignement-de-leducation-et-de-la-formation-meef-2e-degre",
    "titleCn": "教学、教育与培训职业硕士（MEEF）·中学阶段",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "neurosciences",
    "title": "Neurosciences",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/neurosciences",
    "titleCn": "神经科学硕士（Neurosciences）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "神经科学硕士研究细胞如何在神经系统中相互作用，产生知觉、行动与复杂认知功能，涵盖从细胞到人工智能（神经网络、认知与计算科学）的多个层面，研究正常与病理条件下的脑（官网原文：Systems, Cognitive and Computational Neuroscience… to study the brain in physiological and pathological conditions）。英语路径为 M1 International Track in France（生命科学联合国际轨道，Evry）与 M2 Cognition, Behavior and Mental Disorders、M2 Computational Neurosciences and Neuroengineering、M2 Systems Neuroscience 等国际方向。",
+   "duration": "2年（M1+M2；英语路径含 M1 国际轨道与多个国际 M2）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网：M1 International Track 要求英语达 C1（原文：English proficiency at the C1 level）；M2 Cognition, Behavior and Mental Disorders 官网注明英语水平将在面试中评估（原文：The level in English will be assessed during the interview）。",
+   "gpa": "官网未设 GPA 门槛，以学业表现、动机与面试综合评估。",
+   "background": "官网：M1 面向生命科学学士（Licence 或同等）及健康相关专业，需分子生物学、生物化学与信号传导、细胞生物学与遗传学基础（原文）；M2 Cognition… 面向已获神经科学 M1 或相关领域（至少 2–3 门神经科学课程）的硕士生及医学、药学、工程类学生。",
+   "requirements": "M1 官网必修材料：动机信、高中以来全部成绩单、英语水平证书、续读 M2 选择表（Selection sheet）；M2 另需培训方推荐信。",
+   "applicationOpen": "2026-01-15",
+   "deadline": "2026-03-31",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 International Track（Evry）2026/01/15–2026/03/31，容量 15 人；M2 Cognition, Behavior and Mental Disorders 2026/02/02–2026/04/04（第二批 2026/05/04–06/21，容量 15 人）。"
+
+  },
   {
    "id": "notarial-law",
    "title": "Notarial law",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/notarial-law",
    "titleCn": "公证法硕士（Droit notarial）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "nuclear-energy",
    "title": "Nuclear Energy",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/nuclear-energy",
    "titleCn": "核能硕士（Nuclear Energy / Ingénierie nucléaire）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "核能硕士为国际项目，培养全球学生掌握核工业前沿专长，服务低碳能源转型与气候变化应对（官网原文：equips talented students from around the world with cutting-edge expertise to drive innovation in the nuclear industry…）。M1 设共同核心与两个方向（Physics & Engineering、Chemistry & Chemical Engineering，由奥赛理学院协调），为 M2 的五个专业方向提供基础：核燃料循环（NFC）、退役与废物管理（NDWM）、核电厂设计（NPD）、核电厂运营（NPO）、核反应堆物理与工程（NRPE）（官网原文）。",
+   "duration": "2年（M1+M2；M2 可自 M1 对应方向直入）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网申请材料要求英语水平证书（Certificate of English level，非英语母语者必修）；未标注具体 CEFR 分数。",
+   "gpa": "官网未设 GPA 门槛，以成绩单与动机信综合评估。",
+   "background": "官网：面向物理、化学或力学学士（原文：Bachelor's degree in Physics, Chemistry or Mechanics）；已获 M1 物理/化学/力学者可直入 M2（原文）。",
+   "requirements": "M1 官网必修材料：最后学历证书、护照、动机信、高中以来全部成绩单、英语水平证书（非英语母语者；亦接受 GMAT/GRE，官网原文）、简历；M2 另要求至少申请 2 个方向并在动机信中写明意向（原文：required to apply to at least 2 courses of the M2）。",
+   "applicationOpen": "2026-01-15",
+   "deadline": "2026-03-16",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 Nuclear Engineering 2026/01/15–2026/03/16；M2 Nuclear Engineering 2026/01/21–2026/07/04（容量 100 人）。"
+
+  },
   {
    "id": "nutrition-and-food-science",
    "title": "Nutrition and Food Science",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/nutrition-and-food-science",
    "titleCn": "营养与食品科学硕士",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "营养与食品科学硕士（NSA）面向健康且可持续饮食的挑战：通过设计与生产更环保、健康、安全、受消费者欢迎且可及的食物，并评估暴露组-饮食-健康之间的复杂联系（官网原文）。项目含国家轨道（共同 M1 + 5 个 M2：ARSA 食品安全、微生物学与生物工程、食品工程与产品设计、营养健康、环境毒理学等）与欧盟 Erasmus Mundus 联合硕士 M1/M2 FIPDes（食品创新与产品设计，由 AgroParisTech、都柏林理工大学、那不勒斯费德里科二世大学与隆德大学四校联合，首年在巴黎与都柏林授课，官网原文）。",
+   "duration": "2年（M1+M2；FIPDes 为两年制含强制国际流动的 EMJMD，官网原文：compulsory international mobility）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。 注：FIPDes 为 Erasmus Mundus 联合硕士，官网 Fees and scholarships 指引至 tuition-fees 页并注明金额因项目与个人情况而异；申请日程与学费以联合体官网 fipdes.eu 公布为准（官网原文：The calendar and application process are available here: fipdes.eu）。",
+   "language": "官网（FIPDes M1）：英语须达 CEFR B2（原文：English language proficiency level 'B2 level' according to CEFR, advanced），认可 TOEFL ≥575 / iBT ≥90、IELTS ≥6.5、剑桥 FCE（B2 级）/CAE/CPE，英语母语者可凭护照证明（原文）；国家轨道 M1 官网未列具体英语分数（要求提交英语水平证书）。",
+   "gpa": "官网未设 GPA 门槛；FIPDes 选拔程序由联合体官网公布（官网链接 Selection Procedure），国家轨道以成绩单与动机信评估。",
+   "background": "官网：FIPDes 要求理学学士（BSc）或同等且至少 180 ECTS，专业为食品科学与技术、生物技术、过程工程、生物化学、营养或食品相关领域，并具备化学、生物技术、过程工程、生物化学、数学与统计等先修课程（原文）；国家轨道 M1 面向化学、生命科学、生命与地球科学、健康科学学士，需生物、生物化学、化学、统计和/或食品/营养学基础（原文）。",
+   "requirements": "FIPDes M1 官网必修材料：动机信、高中以来全部成绩单、简历、英语水平证明（B2：TOEFL/IELTS/剑桥证书或母语护照）；国家轨道：学位证明、成绩单、英语证书等（官网 Compulsory supporting documents）。",
+   "applicationOpen": "2025-10-25",
+   "deadline": "2026-01-19",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 FIPDes 2025/10/25–2026/01/19，容量 25 人（官网页面当前展示该窗口；日程细节以 fipdes.eu 为准）；国家轨道 M1（Nutrition et Sciences des Aliments）官网页面未列申请窗口。"
+
+  },
   {
    "id": "pharmaceutical-science",
    "title": "Pharmaceutical Science",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/pharmaceutical-science",
    "titleCn": "药学科学硕士（Pharmaceutical Science）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "药学科学硕士（健康与药物科学研究生院）包含法语路径（M1 Sciences du Médicament et des produits de santé）与英语路径 M1/M2 Development of Drugs and Health Products（D2HP）。官网 D2HP 描述：培养药学领域未来管理者，具备多学科科技专长并面向社会经济界与/或研究实验室；M1 提供药学科学广泛训练，覆盖疾病与主要生理功能失调机制、生物技术/制剂/药物化学工具、药理毒理与分析方法等（官网 Objectives 原文）。",
+   "duration": "2年（M1+M2；M1 含 2 个月实习，M2 含 6 个月实习与论文答辩，官网原文）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网：须提供英语水平证明——TOEFL、IELTS、剑桥认证或同等（原文：proof of English proficiency: TOEFL, IELTS, Cambridge certifications or equivalent）；官网未标注具体分数。",
+   "gpa": "官网未设 GPA 门槛：经联合负责人核验先修知识后，按职业计划与履历逐案评估（原文：after validation of the specific knowledge prerequisites… evaluated on a case-by-case basis according to the professional project and career plan）。",
+   "background": "官网 M1：全球健康方向理学学士（药学、生物学、化学、生物技术或生物化学）、PharmD/MD、健康领域工程师、健康领域在职进修者（原文），均须通过 M1 联合负责人的特定知识先修核验。",
+   "requirements": "官网必修材料：学位证明（最后学历）、护照、身份证件、动机信、高中以来全部成绩单、英语水平证明（TOEFL/IELTS/剑桥或同等）。",
+   "applicationOpen": "2026-01-21",
+   "deadline": "2026-04-10",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 Development of Drugs and Health Products 2026/01/21–2026/04/10，容量 25 人；M2 D2HP 同期窗口（容量 30 人）。"
+
+  },
   {
    "id": "physique-fondamentale-et-applications",
    "title": "Physique fondamentale et applications",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/physique-fondamentale-et-applications",
    "titleCn": "基础物理与应用物理硕士",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "基础物理与应用物理硕士包含多个 M1/M2 方向（官网方向列表）；官网英语路径为 M1 General Physics（物理系硕士第一年：欢迎才华横溢的学士毕业生深化物理知识，面向大学、工业或公立研究机构的研究生涯，官网原文）以及 M2 Fundamental Concepts of Physics、M2 Complex Systems 等（官网。英语方向列表）。",
+   "duration": "2年（M1+M2；英语路径含 M1 General Physics 与多个国际 M2）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网 M1 General Physics 未列英语证书要求（英语授课；官网申请材料未要求英语考试证书），非国际申请者须提供推荐人联系方式（原文）；M2 Fundamental Concepts of Physics 官网注明须精通英语（原文：Proficiency in English）；M2 Complex Systems 未列语言要求。",
+   "gpa": "官网未设 GPA 门槛，以学术成绩与动机信综合评估。",
+   "background": "官网：M1 General Physics 主要面向物理背景，也接受数学与工程学生——但须具备基础物理的扎实背景（量子力学、统计物理、狭义相对论与电动力学）及物理数学工具（原文）；M2 Complex Systems 要求统计物理、量子物理与数学的良好标准（原文）。",
+   "requirements": "M1 官网必修材料：推荐人联系方式（非国际申请者必修，原文 Referring contact information compulsory for non-international applicants）、动机信（须特别说明为何选择本项目，原文）、高中以来全部成绩单、简历。",
+   "applicationOpen": "2026-01-01",
+   "deadline": "2026-07-06",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 General Physics 2026/01/01–2026/07/06，容量 35 人；M2 Fundamental Concepts of Physics 2026/02/17–2026/04/30（容量 50 人）；M2 Complex Systems 2026/03/15–2026/06/28（容量 25 人）。"
+
+  },
   {
    "id": "political-science",
    "title": "Political Science",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/political-science",
    "summary": "官网说明：围绕公共政策多层级治理展开，设 4 个 M1 方向（多层级公共政策、传播政策、当代政治社会学、可持续发展）与 10 个 M2 方向；培养政策分析、公共行动、动员与公共协商等能力，兼顾职业与研究路径。",
    "titleCn": "政治学硕士（Science Politique）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "英法双语（官网部分方向标 English；以官网为准）"
+  },
   {
    "id": "private-law",
    "title": "Private law",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/private-law",
    "titleCn": "私法硕士（Droit privé）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "public-health",
    "title": "Public Health",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/public-health",
    "titleCn": "公共卫生硕士（Santé publique）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "public-law",
    "title": "Public Law",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/public-law",
    "titleCn": "公法硕士（Droit public）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "purchasing-logistics-and-production-management",
    "title": "Purchasing, Logistics and Production Management",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/purchasing-logistics-and-production-management",
    "summary": "官网说明：培养国际采购、供应商关系、质量管理与物流领域的管理者；学徒制职业型硕士，可在采购/供应链部门承担运营与战略管理职责，应对市场全球化下的供应链管理问题。",
    "titleCn": "采购、物流与生产管理硕士（GPLA）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "science-de-la-durabilite",
    "title": "Science de la durabilité",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/science-de-la-durabilite",
    "titleCn": "可持续发展科学硕士（Science de la durabilité）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "sciences-de-la-vision",
    "title": "Sciences de la vision",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/sciences-de-la-vision",
    "titleCn": "视觉科学硕士（Sciences de la vision）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "social-law",
    "title": "Social Law",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/social-law",
    "titleCn": "社会法硕士（Droit social，劳动法方向）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "sociology",
    "title": "Sociology",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/sociology",
    "summary": "官网说明：十个方向共享社科研究方法训练（定性+定量），涵盖工作/就业/培训、公共行动、法的生产与实施、科学技术、数据科学等领域；3 个方向为学徒制（apprentissage），研究、职业与非定向路径并重。",
    "titleCn": "社会学硕士（Sociologie）",
-   "updated": "2026-09"
-   },
+   "updated": "2026-09",
+   "teachingLanguage": "法语授课"
+  },
   {
    "id": "strategic-management",
    "title": "Strategic Management",
    "url": "https://www.universite-paris-saclay.fr/en/education/masters-degree/strategic-management",
    "summary": "官网说明：管理学通识硕士，聚合 ENS Paris-Saclay、UVSQ 与 UEVE 三个成员校的管理与战略研究力量；方向包括国际管理、组织行为、变革管理与创业、体育休闲赛事战略管理等，兼具职业与研究导向，两年制可衔接管理学博士。",
    "titleCn": "战略管理硕士（Management Stratégique）",
-   "updated": "2026-09"
-   }
+   "updated": "2026-09",
+   "teachingLanguage": "英语（全英文授课）",
+   "summary": "战略管理硕士是管理科学领域的通识型硕士，汇聚巴黎萨克雷成员校（ENS Paris-Saclay、凡尔赛大学、埃夫里大学）在管理与战略方面的全部培训与研究力量（官网原文）；聚焦战略管理议题（国际管理、组织行为、变革管理与创业等），另设体育休闲与赛事的战略管理专门方向（官网原文）；兼具职业与研究双导向，官网注明两年学习后最优秀学生可衔接管理科学博士（原文：prepare students… for enrolment in a Doctorate in Management Sciences）。官网英语相关方向：M1/M2 International Business and Sustainability (MIBS)、M1 Master in Management（研究导向）、M2 International Strategy and Management。",
+   "duration": "2年（M1+M2 连续体制；英语方向含 MIBS 两年制、MM 与 ISM）",
+   "tuition": "法国公立大学（国家文凭）：2025-26 学年硕士注册费 €254/年（官网 tuition-fees 页 national fees：学士 €178 / 硕士 €254 / 博士 €397），另须缴纳 CVEC（学生与校园生活贡献金）€105/年（官网 student-registration 页原文：The CVEC fee is €105 for the 2025–2026 academic year）；非欧盟学生（中国学生适用）适用国家差异化收费，官网 tuition-fees 页明确其可获得部分减免、使差异化注册费与本国学生费率一致（原文：non-EU students who are subject to differentiated fees are eligible for a partial exemption, which brings the differentiated registration fees in line with the fees applicable to domestic students；Board of Governors Resolution No. CA-2026-013 of 3 February 2026）。",
+   "language": "官网英语方向按各自页面要求：MIBS 须英语最低 C1（官网原文：A minimum C1 level in English is required, certified by tests such as TOEIC, TOEFL, or IELTS）；M1 Master in Management 须英语证书并附 TOEFL（原文）；M2 International Strategy and Management 须外语水平证明（TOEFL/TOEIC 或教师证明，原文）；部分方向（SMI、MSC 等）以法语为主并另须法语证书。",
+   "gpa": "官网未设 GPA 门槛，以成绩单、研究计划/小论文与动机信综合评估。",
+   "background": "官网：面向管理学、经济学及具备研究能力者（M1 Master in Management 官网材料含评估研究能力的小论文 Mini dissertation 与研究计划 Research project，供参考：原文）；MIBS 优先考虑管理、经济学、国际研究或社会科学背景（官网原文）；战略管理硕士另含学徒制方向。",
+   "requirements": "按方向：动机信、学业与研究材料（小论文/研究计划）、高中以来全部成绩单、英语水平证书、推荐信（部分方向）、法语证书（非法语母语者，部分方向）（官网各方向材料清单）。",
+   "applicationOpen": "2026-01-15",
+   "deadline": "2026-03-16",
+   "deadlineNote": "官方网申平台（Inception Platform）：M1 International Business and Sustainability (MIBS) 2026/01/15–2026/03/16（容量 30 人）；M1 Master in Management 同期窗口（容量 20 人）；M2 International Strategy and Management 2026/05/12–2026/06/16（容量 25 人）。"
+
+  }
  ]
 };
