@@ -1,0 +1,268 @@
+/* ==========================================================
+   留学选校助手 - 黑白极简样式
+   ========================================================== */
+:root {
+  --ink: #111;
+  --paper: #fff;
+  --muted: #555;
+  --faint: #888;
+  --line: #ddd;
+  --line-dark: #111;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px 22px 80px;
+}
+
+/* ---------- 顶部 ---------- */
+header.site {
+  border-bottom: 2px solid var(--line-dark);
+  padding-bottom: 14px;
+  margin-bottom: 22px;
+}
+header.site .brand {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+header.site .brand a { text-decoration: none; }
+header.site .sub {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 4px;
+}
+header.site .sub a { text-decoration: underline; }
+
+h1 { font-size: 26px; margin: 8px 0 4px; }
+h2 { font-size: 20px; margin: 26px 0 10px; }
+
+.page-head {
+  margin-bottom: 18px;
+}
+.page-head .meta { color: var(--muted); font-size: 13px; margin: 6px 0 0; }
+
+/* ---------- 搜索框 ---------- */
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid var(--ink);
+  padding: 10px 14px;
+  margin: 14px 0 20px;
+  background: var(--paper);
+}
+.search-box .icon { font-size: 18px; }
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+  color: var(--ink);
+  font-family: inherit;
+}
+.search-box .count { color: var(--muted); font-size: 13px; white-space: nowrap; }
+
+/* ---------- 按钮 ---------- */
+.btn {
+  display: inline-block;
+  background: var(--ink);
+  color: var(--paper);
+  border: 2px solid var(--ink);
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 6px;
+}
+.btn:hover { background: var(--paper); color: var(--ink); text-decoration: none; }
+.btn.big { font-size: 17px; padding: 12px 26px; width: 100%; text-align: center; }
+
+/* ---------- 首页榜单 ---------- */
+table.rank {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.rank th {
+  text-align: left;
+  font-size: 13px;
+  color: var(--muted);
+  border-bottom: 2px solid var(--line-dark);
+  padding: 8px 10px;
+  letter-spacing: 1px;
+}
+table.rank td {
+  padding: 10px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+table.rank tr.rowlink { cursor: pointer; }
+table.rank tr.rowlink:hover { background: var(--ink); color: var(--paper); }
+table.rank tr.rowlink:hover a { color: var(--paper); }
+table.rank .rankno { width: 68px; font-weight: 700; }
+table.rank .school-cn { font-weight: 700; }
+table.rank .school-en { color: var(--muted); font-size: 13px; }
+table.rank tr.rowlink:hover .school-en { color: #ccc; }
+table.rank .country { width: 110px; text-align: right; font-size: 13px; }
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  margin-top: 4px;
+  padding: 1px 7px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  letter-spacing: 1px;
+}
+.badge-ok { border-color: var(--ink); color: var(--ink); }
+.badge-wait { color: var(--faint); border-color: var(--line); }
+
+/* ---------- 学校页 ---------- */
+.school-head { margin-bottom: 8px; }
+.school-head .eng { color: var(--muted); font-size: 16px; }
+.school-head .meta { margin-top: 6px; color: var(--muted); font-size: 13px; }
+.school-head .meta span { margin-right: 16px; }
+
+.alpha-nav { margin: 6px 0 14px; display: flex; flex-wrap: wrap; gap: 4px; }
+.alpha-nav a {
+  border: 1px solid var(--line);
+  padding: 2px 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.alpha-nav a:hover, .alpha-nav a.active {
+  background: var(--ink); color: var(--paper); text-decoration: none;
+  border-color: var(--ink);
+}
+
+.group-title {
+  font-weight: 700;
+  font-size: 16px;
+  border-bottom: 2px solid var(--line-dark);
+  padding: 6px 2px;
+  margin: 22px 0 4px;
+}
+.course-list { list-style: none; }
+.course-list li { border-bottom: 1px solid var(--line); }
+.course-list li a {
+  display: block;
+  padding: 10px 6px;
+  font-size: 15px;
+}
+.course-list li a:hover { background: var(--ink); color: var(--paper); text-decoration: none; }
+.course-list .tag { font-size: 12px; color: var(--muted); margin-left: 8px; }
+.course-list li a:hover .tag { color: #ccc; }
+
+.notice {
+  border: 2px dashed var(--line-dark);
+  padding: 18px;
+  margin: 18px 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+.emptytip { color: var(--muted); padding: 12px 4px; font-size: 14px; }
+
+/* ---------- 课程页 ---------- */
+
+/* ---------- 课程内容简介 ---------- */
+.summary-block {
+  border: 2px solid var(--line-dark);
+  background: #fff;
+  padding: 16px 18px;
+  margin: 22px 0 0;
+}
+.summary-label { font-weight: 700; font-size: 14px; letter-spacing: 1px; margin-bottom: 6px; }
+.summary-text { font-size: 14.5px; line-height: 1.9; text-align: justify; }
+.summary-pending { border-style: dashed; }
+.summary-pending .summary-label { color: var(--muted); }
+.summary-pending .summary-text { color: var(--muted); }
+
+.crumb { font-size: 13px; color: var(--muted); margin-bottom: 14px; }
+.crumb a { text-decoration: underline; }
+
+.course-title { margin-bottom: 6px; }
+
+.info-cards { margin-top: 22px; }
+.info-card {
+  border: 1px solid var(--line-dark);
+  border-bottom: none;
+  padding: 14px 16px;
+}
+.info-card:last-child { border-bottom: 1px solid var(--line-dark); }
+.info-card .label {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+.info-card .value { font-size: 15px; white-space: pre-line; }
+.info-card-warn { border-width: 3px; background: #f0f0f0; }
+.info-card-warn .label { color: var(--ink); }
+.info-card-warn .value { font-weight: 700; }
+
+
+.note {
+  margin-top: 18px;
+  font-size: 12.5px;
+  color: var(--faint);
+}
+
+
+/* ---------- 跨校搜索结果 ---------- */
+.hit-row { border-bottom: 1px solid var(--line); }
+.hit-row a { display: block; padding: 8px 6px; font-size: 15px; }
+.hit-row a:hover { background: var(--ink); color: var(--paper); text-decoration: none; }
+.hit-row .tag { font-size: 12px; color: var(--muted); margin-left: 8px; }
+.hit-row a:hover .tag { color: #ccc; }
+
+
+/* ---------- 感兴趣按钮 & 待整理 ---------- */
+.interest-zone { text-align: center; padding: 40px 10px; }
+.notice-inline { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+.interest-msg { color: var(--muted); font-size: 13px; margin-top: 12px; }
+.btn-sm { font-size: 13px; padding: 6px 14px; margin-left: 10px; }
+.btn-ghost { background: var(--paper); color: var(--ink); }
+.btn-ghost:hover { background: var(--ink); color: var(--paper); }
+#interest-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 99;
+  border-top: 2px solid var(--ink); background: var(--paper);
+  padding: 10px 16px;
+}
+.interest-bar-inner { max-width: 1080px; margin: 0 auto; font-size: 14px; display: flex; align-items: center; flex-wrap: wrap; gap: 4px; }
+
+/* ---------- 页脚 ---------- */
+footer.site {
+  margin-top: 46px;
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+/* ---------- 移动端 ---------- */
+@media (max-width: 640px) {
+  body { font-size: 15px; }
+  table.rank .school-en { font-size: 12px; }
+  table.rank .country { width: 84px; font-size: 12px; }
+  .container { padding: 14px 14px 60px; }
+  h1 { font-size: 22px; }
+}

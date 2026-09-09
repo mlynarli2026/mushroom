@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>留学选校助手 · QS 2027 世界大学排名前 100</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="index">
+<main class="container">
+
+  <header class="site">
+    <div class="brand"><a href="index.html">留学选校助手</a></div>
+    <div class="sub">QS World University Rankings 2027（2026 年 6 月发布）· 点击学校查看硕士课程</div>
+  </header>
+
+  <h1>2026-2027 申请季 · QS 前 100 大学</h1>
+  <p class="meta" style="color:#555;font-size:13px;">共 <span id="total"></span> 所 · 已收录课程数据 <span id="data-count" style="font-weight:700;">0</span> 所（持续补充中）· 支持按中文名 / 英文名 / 国家筛选</p>
+
+  <div class="search-box">
+    <span class="icon">🔍</span>
+    <input id="filter" type="text" placeholder="输入学校名或国家，例如：香港 / Oxford / 德国"
+           autocomplete="off">
+  </div>
+
+  <table class="rank">
+    <thead>
+      <tr><th>排名</th><th>学校</th><th>国家 / 地区</th></tr>
+    </thead>
+    <tbody id="school-list"><!-- JS 生成 --></tbody>
+  </table>
+
+  <h2>🔍 跨校搜课程</h2>
+  <p class="meta" style="color:#555;font-size:13px;">在全部已收录学校里搜索，例如输入 management / data science / digital marketing，帮助横向比较选校</p>
+  <div class="search-box">
+    <span class="icon">🔍</span>
+    <input id="course-global" type="text"
+           placeholder="跨校搜索课程名（在已收录学校范围内）"
+           autocomplete="off">
+    <span class="count" id="course-global-count"></span>
+  </div>
+  <div id="course-global-results"></div>
+
+  <div id="interest-bar" style="display:none;"></div>
+  <footer class="site">
+    数据来源：QS World University Rankings 2027 · 课程数据由各大学官网整理 ·
+    仅供申请参考，请以学校官方信息为准。
+  </footer>
+
+</main>
+<script src="data/config.js"></script>
+<script src="data/schools.js"></script>
+<script src="data/manifest.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

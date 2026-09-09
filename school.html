@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>学校课程 · 留学选校助手</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="school">
+<main class="container">
+
+  <header class="site">
+    <div class="brand"><a href="index.html">留学选校助手</a></div>
+    <div class="sub"><a href="index.html">← 返回 QS 前 100 榜单</a></div>
+  </header>
+
+  <div class="page-head" id="school-head"><!-- JS 生成 --></div>
+
+  <div class="search-box" id="search-box" style="display:none;">
+    <span class="icon">🔍</span>
+    <input id="course-search" type="text"
+           placeholder="搜索课程名，例如：digital / digital humanities / data science"
+           autocomplete="off">
+    <span class="count" id="course-count"></span>
+  </div>
+
+  <div id="course-wrap"><!-- JS 生成 --></div>
+
+  <footer class="site">
+    ⓘ 课程列表与信息整理自学校官网，仅供申请参考，请以学校官方最新信息为准。
+  </footer>
+
+</main>
+<script src="data/config.js"></script>
+<script src="data/schools.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
